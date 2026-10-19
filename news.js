@@ -72,16 +72,16 @@
       var arts = d.articles || [];
       var accueil = document.getElementById('news-accueil');
       if (accueil) {
-        if (!arts.length) vide(accueil, 'La première édition des news CS2 arrive mercredi à 18 h, avec la vidéo.');
+        if (!arts.length) vide(accueil, 'Les premières news CS2 arrivent très vite.');
         else { accueil.innerHTML = ''; arts.slice(0, 3).forEach(function (a) { accueil.appendChild(carte(a)); }); }
       }
       var liste = document.getElementById('news-liste');
       if (liste) {
         var titre = document.getElementById('semaine');
-        if (titre && d.semaine) titre.textContent = 'News CS2 · semaine du ' + dateFr(d.semaine);
+        if (titre && (d.maj || d.semaine)) titre.textContent = 'News CS2 · mis à jour le ' + dateFr(d.maj || d.semaine);
         var v = document.getElementById('video');
         if (v && sur(d.video)) { v.href = d.video; v.hidden = false; }
-        if (!arts.length) vide(liste, 'La première édition des news CS2 arrive mercredi à 18 h, avec la vidéo.');
+        if (!arts.length) vide(liste, 'Les premières news CS2 arrivent très vite.');
         else { liste.innerHTML = ''; arts.forEach(function (a) { liste.appendChild(carte(a)); }); }
         var btns = document.querySelectorAll('.filters button');
         btns.forEach(function (bt) {
