@@ -1,4 +1,5 @@
 :root{--bg:#1a120c;--bg2:#140d08;--card:#2a1d14;--line:#3a2a1e;--line2:#5a4230;--txt:#fbefd9;--muted:#c9b49a;--ph:#b09a80;--twitch:#7c4dff;--green:#9ed15a;--orange:#f2a541;--violet:#b9a4ff;--red:#d42a3e}
+[hidden]{display:none!important}
 *{box-sizing:border-box;font-synthesis:none}
 html{scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--txt);font:16px/1.5 'Nunito',sans-serif}
