@@ -1,6 +1,143 @@
 {
+  "maj": "2026-10-19",
   "semaine": "",
   "video": "",
-  "articles": [],
-  "matchs": []
+  "articles": [
+    {
+      "titre": "Vitality remporte ESL Pro League Season 24",
+      "resume": "Vitality remporte ESL Pro League Season 24 à Katowice, face à MOUZ en finale. C'est son septième titre de l'année. Pour MOUZ, c'est une deuxième finale perdue d'affilée.",
+      "categorie": "resultats",
+      "tier": "Tier 1",
+      "date": "2026-10-19"
+    },
+    {
+      "titre": "FURIA remporte Thunderpick World Championship 2026",
+      "resume": "FURIA gagne Thunderpick World Championship, contre BetBoom Team. Pour BetBoom Team, c'est une deuxième finale perdue d'affilée.",
+      "categorie": "resultats",
+      "tier": "Tier 1",
+      "date": "2026-10-19"
+    },
+    {
+      "titre": "Ninjas in Pyjamas remporte Stake Pulse Beat III",
+      "resume": "L'édition 3 de Stake Pulse Beat, c'est terminé à Stockholm : Ninjas in Pyjamas s'impose en finale contre MIBR.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "date": "2026-10-19"
+    },
+    {
+      "titre": "LargadosyPelados remporte ESL Challenger League Season 52: South America - Cup #3",
+      "resume": "LargadosyPelados gagne l'édition 3 d'ESL Challenger League Season 52, contre Galorys.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "date": "2026-10-19"
+    },
+    {
+      "titre": "NEXVOID remporte Logitech G Pro Series 2026",
+      "resume": "NEXVOID gagne Logitech G Pro Series, contre FlyQuest.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "date": "2026-10-19"
+    },
+    {
+      "titre": "Mise à jour CS2 du 15 octobre",
+      "resume": "Côté jeu, mise à jour de CS2 le 15 octobre, avec des changements sur l'AUG.",
+      "categorie": "maj",
+      "lien": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1846651706675829",
+      "date": "2026-10-19"
+    },
+    {
+      "titre": "brnz4n quitte MIBR",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 1",
+      "date": "2026-10-19"
+    },
+    {
+      "titre": "cmtry passe de FUT à Astralis",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 1",
+      "date": "2026-10-19"
+    },
+    {
+      "titre": "siuhy rejoint Astralis",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 1",
+      "date": "2026-10-19"
+    },
+    {
+      "titre": "Alkaren passe sur le banc chez CYBERSHOKE",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 1",
+      "date": "2026-10-19"
+    },
+    {
+      "titre": "kyuubii et ScrunK rejoint INFINITE",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2",
+      "date": "2026-10-19"
+    },
+    {
+      "titre": "Maze quitte Nordic Partners",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2",
+      "date": "2026-10-19"
+    },
+    {
+      "titre": "4X1s, Salazar +3 passe de Black Phoenix à ACES",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2",
+      "date": "2026-10-19"
+    },
+    {
+      "titre": "Lucid n'est plus le coach de Marsborne",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2",
+      "date": "2026-10-19"
+    }
+  ],
+  "matchs": [
+    {
+      "groupe": "En cours",
+      "jour": "2026-10-19",
+      "equipes": "1win Private Club #2",
+      "tournoi": "jusqu'au 22 octobre · Belgrade"
+    },
+    {
+      "groupe": "En cours",
+      "jour": "2026-10-19",
+      "equipes": "DraculaN Season 7",
+      "tournoi": "jusqu'au 23 octobre · Bucarest"
+    },
+    {
+      "groupe": "En cours",
+      "jour": "2026-10-14",
+      "equipes": "NODWIN Clutch Series #13",
+      "tournoi": "jusqu'au 27 octobre"
+    },
+    {
+      "groupe": "À venir",
+      "jour": "2026-10-24",
+      "equipes": "PGL Masters Bucharest 2026",
+      "tournoi": "dès le 24 octobre · Bucarest"
+    },
+    {
+      "groupe": "À venir",
+      "jour": "2026-10-27",
+      "equipes": "Stake Ranked Episode 5",
+      "tournoi": "dès le 27 octobre"
+    },
+    {
+      "groupe": "À venir",
+      "jour": "2026-10-29",
+      "equipes": "FiReSPORTS Last Chance 2026",
+      "tournoi": "dès le 29 octobre · Buenos Aires"
+    }
+  ]
 }
