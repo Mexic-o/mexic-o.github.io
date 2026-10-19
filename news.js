@@ -50,10 +50,11 @@
 
   function calendrier(cible, matchs) {
     cible.innerHTML = '';
-    if (!matchs.length) { cible.appendChild(el('p', 'date', 'Le programme des matchs arrive avec la prochaine édition.')); return; }
+    if (!matchs.length) { cible.appendChild(el('p', 'date', 'L\'agenda arrive avec la prochaine édition.')); return; }
     var jour = null;
     matchs.forEach(function (m) {
-      if (m.jour !== jour) { jour = m.jour; cible.appendChild(el('span', 'day', dateFr(m.jour, { weekday: 'long', day: 'numeric', month: 'long' }))); }
+      var cle = m.groupe || m.jour;
+      if (cle !== jour) { jour = cle; cible.appendChild(el('span', 'day', m.groupe || dateFr(m.jour, { weekday: 'long', day: 'numeric', month: 'long' }))); }
       var r = el('div', 'row');
       var g = el('div');
       g.appendChild(el('b', null, m.equipes || ''));
