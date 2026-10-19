@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>News CS2 et calendrier – Mexic Original</title>
+<meta name="description" content="Les infos clés de la semaine en CS2 : résultats, mercato, mises à jour, scène FR et programme des matchs à l'heure de Paris.">
+<meta property="og:title" content="News CS2 de la semaine – Mexic Original">
+<meta property="og:image" content="https://mexic-o.github.io/logo.png">
+<meta name="theme-color" content="#1a120c">
+<link rel="icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<div class="wrap bar">
+<a class="brand" href="./"><img src="logo.png" alt=""><span>Mexic Original</span></a>
+<nav class="main" aria-label="Navigation principale">
+<a href="./">Accueil</a>
+<a href="news.html" aria-current="page">News</a>
+<a href="./#projets">Projets</a>
+<a href="./#boutique">Boutique</a>
+<a class="cta" href="https://www.twitch.tv/mexic_original">Suivre sur Twitch</a>
+</nav>
+</div>
+</header>
+
+<main class="wrap" style="padding-top:52px;padding-bottom:64px">
+<span class="kicker" id="semaine" style="color:var(--green)">News CS2</span>
+<h1 class="display" style="margin:8px 0 10px;font-size:clamp(40px,7vw,60px);line-height:1">La semaine en CS2</h1>
+<p style="margin:0 0 14px;font-size:18px;color:var(--muted);max-width:640px">Les infos clés en petits articles, mises à jour chaque mercredi avec la vidéo.</p>
+<p style="margin:0 0 28px"><a class="btn twitch" id="video" href="#" hidden>Voir la vidéo de la semaine</a></p>
+
+<div class="filters" role="group" aria-label="Filtrer les news">
+<button type="button" data-f="tout" aria-pressed="true">Tout</button>
+<button type="button" data-f="resultats" aria-pressed="false">Résultats</button>
+<button type="button" data-f="mercato" aria-pressed="false">Mercato</button>
+<button type="button" data-f="maj" aria-pressed="false">Mises à jour</button>
+<button type="button" data-f="fr" aria-pressed="false">Scène FR</button>
+</div>
+
+<div class="cols">
+<div class="main-col" id="news-liste"></div>
+<aside aria-label="Calendrier">
+<div class="box">
+<h2>Calendrier des matchs</h2>
+<span class="date" style="margin-top:-8px">Heures de Paris</span>
+<div id="calendrier" style="display:flex;flex-direction:column;gap:6px"></div>
+</div>
+<div class="box">
+<h2>Sur la chaîne</h2>
+<div class="row"><b>News de la semaine</b><span style="color:var(--green)">Mer. 18:00</span></div>
+<div class="row"><b>Best-of + bêtisier</b><span style="color:var(--orange)">Samedi</span></div>
+<div class="row"><b>Montage musical</b><span style="color:var(--violet)">Dimanche</span></div>
+<div class="row"><b>Un Short</b><span>Chaque jour 12:30</span></div>
+</div>
+</aside>
+</div>
+</main>
+
+<footer>
+<div class="wrap">
+<a class="brand" href="./"><img src="logo.png" alt=""><span>Mexic Original</span></a>
+<nav aria-label="Liens du pied de page">
+<a href="https://www.twitch.tv/mexic_original">Twitch</a>
+<a href="https://www.youtube.com/channel/UCFZEpBjo4Y7z1FBI_n8s4Jg">YouTube</a>
+<a href="https://discord.gg/3bke4ABKT4">Discord</a>
+<a href="confidentialite.html">Confidentialité (Mexic Studio)</a>
+</nav>
+</div>
+</footer>
+
+<script src="news.js"></script>
+</body>
+</html>
