@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mexic Lurk sur Chrome et Brave – Mexic Original</title>
+<meta name="description" content="Installer l'extension Mexic Lurk sur Chrome ou Brave en quelques clics : prévenu quand Mexic lance un live, lurk en petit avec le chat.">
+<meta property="og:title" content="Mexic Lurk sur Chrome et Brave">
+<meta property="og:description" content="Le tuto pour installer Mexic Lurk sur Chrome ou Brave.">
+<meta property="og:image" content="https://mexic-o.github.io/logo.png">
+<meta property="og:url" content="https://mexic-o.github.io/lurk-chrome.html">
+<meta name="theme-color" content="#1a120c">
+<link rel="icon" href="logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="style.css">
+<style>
+  .lurk-hero{display:flex;flex-wrap:wrap;align-items:center;gap:28px;padding-top:48px;padding-bottom:12px}
+  .lurk-hero .icon{width:130px;height:130px;border-radius:26px}
+  .lurk-hero .icon img{width:96px;height:96px}
+  .lurk-hero .txt{flex:999 1 420px;min-width:0;display:flex;flex-direction:column;gap:14px}
+  .lurk-hero h1{margin:0;font-size:clamp(36px,6vw,56px);line-height:1.05}
+  .lurk-hero p{margin:0;font-size:18px;color:var(--muted);max-width:640px}
+  .version{font-size:14px;color:var(--muted);font-weight:700}
+  .steps{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:14px;counter-reset:step}
+  .step{counter-increment:step;display:flex;gap:18px;align-items:flex-start;border-radius:16px;background:var(--card);border:1px solid var(--line);padding:22px}
+  .step::before{content:counter(step);flex-shrink:0;width:44px;height:44px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-family:'Lilita One',sans-serif;font-size:24px;background:var(--bg);border:1px solid var(--line2);color:var(--green)}
+  .step .c{flex:1 1 auto;min-width:0;display:flex;flex-direction:column;gap:8px}
+  .step h3{margin:0;font-family:'Lilita One',sans-serif;font-weight:400;font-size:24px;line-height:1.15}
+  .step p{margin:0;font-size:16px;color:var(--muted)}
+  .step p b{color:var(--txt)}
+  .copy{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
+  .copy code{font:800 17px 'Nunito',sans-serif;padding:10px 14px;border-radius:10px;background:var(--bg);border:1px solid var(--line2);color:var(--txt);word-break:break-all}
+  .copy button{min-height:44px;padding:0 16px;border-radius:10px;font:800 14px 'Nunito',sans-serif;cursor:pointer;background:var(--txt);color:var(--bg);border:0}
+  .copy button:hover{opacity:.9}
+  .note{border-radius:16px;background:var(--card);border:1px solid var(--line2);padding:24px;display:flex;flex-direction:column;gap:10px}
+  .note h2{margin:0;font-family:'Lilita One',sans-serif;font-weight:400;font-size:28px}
+  .note ul{margin:0;padding-left:20px;color:var(--muted);display:flex;flex-direction:column;gap:6px}
+  .note li b{color:var(--txt)}
+  details{border-radius:12px;background:var(--bg2,var(--card));border:1px solid var(--line);padding:0 18px}
+  details summary{cursor:pointer;font-weight:800;min-height:52px;display:flex;align-items:center}
+  details p{margin:0 0 16px;color:var(--muted)}
+  .faq{display:flex;flex-direction:column;gap:10px}
+  .other{display:flex;flex-wrap:wrap;gap:12px}
+  button:focus-visible,a:focus-visible{outline:2px solid var(--green);outline-offset:2px}
+</style>
+</head>
+<body>
+
+<header>
+<div class="wrap bar">
+<a class="brand" href="./"><img src="logo.png" alt=""><span>Mexic Original</span></a>
+<nav class="main" aria-label="Navigation principale">
+<a href="./">Accueil</a>
+<a href="news.html">News</a>
+<a href="./#projets">Projets</a>
+<a href="./#boutique">Boutique</a>
+<a class="cta" href="https://www.twitch.tv/mexic_original">Suivre sur Twitch</a>
+</nav>
+</div>
+</header>
+
+<main>
+<div class="wrap lurk-hero">
+<div class="icon"><img src="logo.png" alt="Logo Mexic Lurk"></div>
+<div class="txt">
+<span class="kicker" style="color:var(--green)">Mexic Lurk · Gratuit</span>
+<h1 class="display">Installer sur Chrome ou Brave</h1>
+<p>Prévenu dès que je lance un live, tu rejoins en lurk dans un petit lecteur avec le chat, ou en grand. Sur Chrome et Brave, l'installation se fait à la main : 5 minutes, une seule fois.</p>
+<div class="btns">
+<a class="btn green" href="mexic-lurk-chrome.zip" download>
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><polyline points="7 10 12 15 17 10"/><path d="M5 21h14"/></svg>
+Télécharger Mexic Lurk</a>
+</div>
+<span class="version">Version 1.0.2 · fichier .zip</span>
+</div>
+</div>
+
+<section class="wrap" style="padding-top:32px">
+<div class="head"><div><span class="kicker" style="color:var(--orange)">Le tuto</span><h2 class="display">En 6 étapes</h2></div></div>
+
+<div class="filters" role="group" aria-label="Ton navigateur">
+<button type="button" data-browser="chrome" aria-pressed="true">Chrome</button>
+<button type="button" data-browser="brave" aria-pressed="false">Brave</button>
+</div>
+
+<ol class="steps">
+<li class="step"><div class="c">
+<h3>Télécharge et dézippe</h3>
+<p>Clique sur <b>Télécharger Mexic Lurk</b> plus haut. Dans tes téléchargements, fais un clic droit sur le fichier, puis <b>Extraire tout</b>.</p>
+<p>Range le dossier obtenu dans un endroit fixe, par exemple <b>Documents</b>. <b>Ne le supprime pas</b> : le navigateur lit l'extension directement dedans.</p>
+</div></li>
+
+<li class="step"><div class="c">
+<h3>Ouvre la page des extensions</h3>
+<p>Copie cette adresse et colle-la dans la barre d'adresse de <span class="bname">Chrome</span>, puis appuie sur Entrée :</p>
+<div class="copy"><code id="ext-url">chrome://extensions</code><button type="button" id="copy-btn">Copier</button></div>
+</div></li>
+
+<li class="step"><div class="c">
+<h3>Active le mode développeur</h3>
+<p>En haut à droite de la page, active l'interrupteur <b>Mode développeur</b>. De nouveaux boutons apparaissent.</p>
+</div></li>
+
+<li class="step"><div class="c">
+<h3>Charge l'extension</h3>
+<p>Clique sur <b>Charger l'extension non empaquetée</b>, puis choisis le dossier dézippé à l'étape 1 (celui qui contient le fichier <b>manifest.json</b>).</p>
+<p>La carte « Mexic Lurk » apparaît dans la liste, et la page de réglages s'ouvre toute seule.</p>
+</div></li>
+
+<li class="step"><div class="c">
+<h3>Épingle l'icône</h3>
+<p>Clique sur la pièce de puzzle à droite de la barre d'adresse, puis sur la punaise à côté de <b>Mexic Lurk</b>. L'icône reste visible, avec un badge LIVE quand je suis en direct.</p>
+</div></li>
+
+<li class="step"><div class="c">
+<h3>Connecte ton compte Twitch</h3>
+<p>Dans les réglages, clique sur <b>Connecter Twitch</b>. Une page Twitch s'ouvre avec un code : vérifie que c'est le même que dans les réglages, puis clique sur <b>Activer</b>.</p>
+<p>C'est fini : au prochain live, une petite fenêtre te propose <b>Lurk</b>, <b>Live</b> ou <b>Je passe mon tour</b>.</p>
+</div></li>
+</ol>
+</section>
+
+<section class="wrap" style="padding-top:0">
+<div class="note">
+<h2>Bon à savoir</h2>
+<ul>
+<li><b>Laisse le mode développeur activé</b>, sinon l'extension se met en pause. <span class="bname">Chrome</span> peut parfois afficher un avertissement sur les extensions en mode développeur : tu peux l'ignorer.</li>
+<li><b>Ne déplace pas et ne supprime pas le dossier</b>, sinon l'extension disparaît.</li>
+<li><b>Mises à jour :</b> quand une nouvelle version sort (je l'annonce sur le Discord), retélécharge le zip, remplace le contenu du dossier, puis clique sur la flèche ↻ de la carte Mexic Lurk dans <code>chrome://extensions</code>.</li>
+<li><b>Vie privée :</b> l'extension ne collecte rien. Elle ne parle qu'à Twitch et YouTube, et tes réglages restent dans ton navigateur.</li>
+</ul>
+</div>
+</section>
+
+<section class="wrap" style="padding-top:0">
+<div class="head"><div><span class="kicker" style="color:var(--violet)">Un souci ?</span><h2 class="display">Problèmes fréquents</h2></div></div>
+<div class="faq">
+<details><summary>« Le fichier manifeste est introuvable »</summary>
+<p>Tu as choisi le mauvais dossier. Ouvre le dossier dézippé : s'il contient un autre dossier, choisis celui de l'intérieur, celui où tu vois <b>manifest.json</b>.</p></details>
+<details><summary>Le bouton « Charger l'extension non empaquetée » n'apparaît pas</summary>
+<p>Le mode développeur n'est pas activé : c'est l'interrupteur en haut à droite de la page des extensions.</p></details>
+<details><summary>L'extension a disparu ou est désactivée</summary>
+<p>Le dossier a été déplacé ou supprimé, ou le mode développeur a été désactivé. Remets le dossier en place (ou retélécharge-le) et refais l'étape 4.</p></details>
+<details><summary>La connexion Twitch ne marche pas</summary>
+<p>Le code expire au bout de quelques minutes. Clique à nouveau sur <b>Connecter Twitch</b> et valide plus vite sur la page Twitch, en restant connecté au bon compte.</p></details>
+<details><summary>Rien ne s'ouvre quand je lance un live</summary>
+<p>Vérifie dans les réglages que tu es bien connecté, que l'alerte est sur « Fenêtre » et que tu n'es pas dans tes heures calmes. Il peut y avoir jusqu'à une minute de délai.</p></details>
+</div>
+<p style="color:var(--muted);margin-top:18px">Toujours bloqué ? Passe sur le <a href="https://discord.gg/3bke4ABKT4">Discord</a>, on t'aide.</p>
+</section>
+
+<section class="wrap" style="padding-top:0">
+<div class="note">
+<h2>Tu utilises un autre navigateur ?</h2>
+<div class="other">
+<a class="btn green" href="https://addons.mozilla.org/fr/firefox/addon/mexic-lurk/">Firefox</a>
+<span class="btn soon">Edge : bientôt</span>
+<span class="btn soon">Opera / Opera GX : bientôt</span>
+</div>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="wrap">
+<a class="brand" href="./"><img src="logo.png" alt=""><span>Mexic Original</span></a>
+<nav aria-label="Liens du pied de page">
+<a href="https://www.twitch.tv/mexic_original">Twitch</a>
+<a href="https://www.youtube.com/channel/UCFZEpBjo4Y7z1FBI_n8s4Jg">YouTube</a>
+<a href="https://discord.gg/3bke4ABKT4">Discord</a>
+<a href="confidentialite.html">Confidentialité (Mexic Studio)</a>
+</nav>
+</div>
+</footer>
+
+<script>
+(function () {
+  var names = { chrome: "Chrome", brave: "Brave" };
+  var current = "chrome";
+  try { if (navigator.brave) current = "brave"; } catch (e) {}
+  function apply(b) {
+    current = b;
+    document.getElementById("ext-url").textContent = b + "://extensions";
+    document.querySelectorAll(".bname").forEach(function (el) { el.textContent = names[b]; });
+    document.querySelectorAll(".note code").forEach(function (el) { el.textContent = b + "://extensions"; });
+    document.querySelectorAll("[data-browser]").forEach(function (btn) {
+      btn.setAttribute("aria-pressed", btn.getAttribute("data-browser") === b ? "true" : "false");
+    });
+  }
+  document.querySelectorAll("[data-browser]").forEach(function (btn) {
+    btn.addEventListener("click", function () { apply(btn.getAttribute("data-browser")); });
+  });
+  document.getElementById("copy-btn").addEventListener("click", function () {
+    var btn = this, text = current + "://extensions";
+    function done() { btn.textContent = "Copié !"; setTimeout(function () { btn.textContent = "Copier"; }, 1500); }
+    if (navigator.clipboard) navigator.clipboard.writeText(text).then(done, done); else done();
+  });
+  apply(current);
+})();
+</script>
+</body>
+</html>
