@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "cle": "maj|https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114034398",
+      "titre": "Mise à jour CS2 du 22 octobre",
+      "resume": "Côté jeu, mise à jour de CS2 le 22 octobre, avec 53 changements au total.",
+      "categorie": "maj",
+      "lien": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114034398",
+      "date": "2026-10-23"
+    },
+    {
       "cle": "res|WIBR Cup 2026|MIBR Female",
       "titre": "MIBR Female remporte WIBR Cup 2026",
       "resume": "Côté scène féminine, MIBR Female remporte WIBR Cup, face à YouaremyFrag Female en finale.",
@@ -240,51 +248,22 @@
       "date": "2026-10-19"
     }
   ],
-  "agenda": [
-    {
-      "groupe": "En cours",
-      "jour": "2026-10-19",
-      "equipes": "1win Private Club #2",
-      "tournoi": "jusqu'au 22 octobre · Belgrade"
-    },
-    {
-      "groupe": "En cours",
-      "jour": "2026-10-19",
-      "equipes": "DraculaN Season 7",
-      "tournoi": "jusqu'au 23 octobre · Bucarest"
-    },
-    {
-      "groupe": "En cours",
-      "jour": "2026-10-14",
-      "equipes": "NODWIN Clutch Series #13",
-      "tournoi": "jusqu'au 27 octobre"
-    },
-    {
-      "groupe": "À venir",
-      "jour": "2026-10-24",
-      "equipes": "PGL Masters Bucharest 2026",
-      "tournoi": "dès le 24 octobre · Bucarest"
-    },
-    {
-      "groupe": "À venir",
-      "jour": "2026-10-27",
-      "equipes": "Stake Ranked Episode 5",
-      "tournoi": "dès le 27 octobre"
-    },
-    {
-      "groupe": "À venir",
-      "jour": "2026-10-31",
-      "equipes": "Moscow Cyber Games 2026",
-      "tournoi": "dès le 31 octobre · Moscou"
-    },
-    {
-      "groupe": "À venir",
-      "jour": "2026-10-29",
-      "equipes": "FiReSPORTS Last Chance 2026",
-      "tournoi": "dès le 29 octobre · Buenos Aires"
-    }
-  ],
-  "maj": "2026-10-22",
-  "collecte": "2026-10-22",
-  "envoi_en_attente": false
+  "agenda": [],
+  "maj": "2026-10-23",
+  "collecte": "2026-10-23",
+  "envoi_en_attente": false,
+  "chaine": {
+    "handle": "@Mexic_Original",
+    "id": "UCy5wcMtn9uzq_IUt3VgTgqQ"
+  },
+  "video": "",
+  "erreurs": [
+    "tournois S-Tier : HTTP Error 429: Too Many Requests",
+    "tournois A-Tier : HTTP Error 429: Too Many Requests",
+    "tournois B-Tier : HTTP Error 429: Too Many Requests",
+    "tournois C-Tier : HTTP Error 429: Too Many Requests",
+    "programme des matchs : HTTP Error 429: Too Many Requests",
+    "scène féminine : HTTP Error 429: Too Many Requests",
+    "transferts : HTTP Error 429: Too Many Requests"
+  ]
 }
