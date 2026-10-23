@@ -1,0 +1,62 @@
+# Site Mexic Original : publication + news CS2 du jour, faites par GitHub tout seul.
+# - chaque jour vers 8 h (heure de Paris) : collecte des news, mise à jour de news.json, publication du site ;
+# - à chaque envoi de fichiers (« Upload files ») : publication du site (sans refaire les news) ;
+# - à la main : onglet Actions > « Site Mexic Original » > Run workflow (news refaites tout de suite).
+name: Site Mexic Original
+
+on:
+  schedule:
+    - cron: "17 6 * * *"        # 6 h 17 UTC = 8 h 17 à Paris l'été, 7 h 17 l'hiver
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: site
+  cancel-in-progress: false
+
+jobs:
+  site:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    environment:
+      name: github-pages
+      url: ${{ steps.deploiement.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        if: github.event_name != 'push'
+        with:
+          python-version: "3.12"
+
+      - name: News CS2 du jour
+        if: github.event_name != 'push'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -f outil/maj_news.py ]; then python outil/maj_news.py; else python maj_news.py; fi
+
+      - name: Enregistrer les news dans le dépôt
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add news.json outil/historique.json 2>/dev/null || git add news.json
+          if git diff --cached --quiet; then echo "Rien de nouveau"; else git commit -m "News CS2 du $(date +%d/%m)" && git push; fi
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - id: deploiement
+        uses: actions/deploy-pages@v4
