@@ -4,6 +4,17 @@
   "video": "",
   "articles": [
     {
+      "titre": "Phantom remporte Elisa BreakOut Series #2",
+      "resume": "Phantom gagne l'édition 2 d'Elisa BreakOut, contre HAVU. Victoire 2 à 0, avec Ancient et Nuke pour Phantom.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "cartes": [
+        "Ancient 13-5",
+        "Nuke 13-10"
+      ],
+      "date": "2026-10-23"
+    },
+    {
       "titre": "Mise à jour CS2 du 22 octobre",
       "resume": "Côté jeu, mise à jour de CS2 le 22 octobre, avec 53 changements au total.",
       "categorie": "maj",
@@ -87,7 +98,7 @@
     },
     {
       "titre": "Ninjas in Pyjamas remporte Stake Pulse Beat III",
-      "resume": "Ninjas in Pyjamas remporte l'édition 3 de Stake Pulse Beat à Stockholm, face à MIBR en finale. Victoire 2 à 1, avec Mirage et Ancient pour Ninjas in Pyjamas.",
+      "resume": "On commence par le dernier résultat : Ninjas in Pyjamas gagne l'édition 3 de Stake Pulse Beat à Stockholm, contre MIBR en finale. Victoire 2 à 1, avec Mirage et Ancient pour Ninjas in Pyjamas.",
       "categorie": "resultats",
       "tier": "Tier 2",
       "date": "2026-10-19",
@@ -108,19 +119,44 @@
         "Ancient 3-13",
         "Dust2 13-10"
       ]
-    },
-    {
-      "titre": "NEXVOID remporte Logitech G Pro Series 2026",
-      "resume": "Du côté de Logitech G Pro Series, c'est NEXVOID qui l'emporte face à FlyQuest. Victoire 2 à 1, avec Ancient et Inferno pour NEXVOID.",
-      "categorie": "resultats",
-      "tier": "Tier 2",
-      "date": "2026-10-19",
-      "cartes": [
-        "Ancient 13-7",
-        "Dust2 6-13",
-        "Inferno 13-11"
-      ]
     }
   ],
-  "matchs": []
+  "matchs": [
+    {
+      "groupe": "En cours",
+      "jour": "2026-10-19",
+      "equipes": "DraculaN Season 7",
+      "tournoi": "jusqu'au 23 octobre · Bucarest"
+    },
+    {
+      "groupe": "En cours",
+      "jour": "2026-10-14",
+      "equipes": "NODWIN Clutch Series #13",
+      "tournoi": "jusqu'au 27 octobre"
+    },
+    {
+      "groupe": "En cours",
+      "jour": "2026-10-13",
+      "equipes": "CCT Europe 2026 Series #11",
+      "tournoi": "jusqu'au 25 octobre"
+    },
+    {
+      "groupe": "À venir",
+      "jour": "2026-10-24",
+      "equipes": "PGL Masters Bucharest 2026",
+      "tournoi": "dès le 24 octobre · Bucarest"
+    },
+    {
+      "groupe": "À venir",
+      "jour": "2026-11-02",
+      "equipes": "Intel Extreme Masters Beijing 2026",
+      "tournoi": "dès le 2 novembre · Pékin"
+    },
+    {
+      "groupe": "À venir",
+      "jour": "2026-10-27",
+      "equipes": "Stake Ranked Episode 5",
+      "tournoi": "dès le 27 octobre"
+    }
+  ]
 }
