@@ -56,7 +56,7 @@
 <a href="news.html">News</a>
 <a href="./#projets">Projets</a>
 <a href="./#boutique">Boutique</a>
-<a class="cta" href="https://www.twitch.tv/mexic_original">Suivre sur Twitch</a>
+<a class="cta" data-lien="twitch" href="https://www.twitch.tv/mexic_original">Suivre sur Twitch</a>
 </nav>
 </div>
 </header>
@@ -73,7 +73,7 @@
 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><polyline points="7 10 12 15 17 10"/><path d="M5 21h14"/></svg>
 Télécharger Mexic Lurk</a>
 </div>
-<span class="version">Version 1.0.2 · fichier .zip</span>
+<span class="version" id="lurk-version">Version 1.0.2 · fichier .zip</span>
 </div>
 </div>
 
@@ -148,13 +148,13 @@ Télécharger Mexic Lurk</a>
 <details><summary>Rien ne s'ouvre quand je lance un live</summary>
 <p>Vérifie dans les réglages que tu es bien connecté, que l'alerte est sur « Fenêtre » et que tu n'es pas dans tes heures calmes. Il peut y avoir jusqu'à une minute de délai.</p></details>
 </div>
-<p style="color:var(--muted);margin-top:18px">Toujours bloqué ? Passe sur le <a href="https://discord.gg/3bke4ABKT4">Discord</a>, on t'aide.</p>
+<p style="color:var(--muted);margin-top:18px">Toujours bloqué ? Passe sur le <a data-lien="discord" href="https://discord.gg/3bke4ABKT4">Discord</a>, on t'aide.</p>
 </section>
 
 <section class="wrap" style="padding-top:0">
 <div class="note">
 <h2>Tu utilises un autre navigateur ?</h2>
-<div class="other">
+<div class="other" id="lurk-autres">
 <a class="btn green" href="https://addons.mozilla.org/fr/firefox/addon/mexic-lurk/">Firefox</a>
 <span class="btn soon">Edge : bientôt</span>
 <span class="btn soon">Opera / Opera GX : bientôt</span>
@@ -167,14 +167,15 @@ Télécharger Mexic Lurk</a>
 <div class="wrap">
 <a class="brand" href="./"><img src="logo.png" alt=""><span>Mexic Original</span></a>
 <nav aria-label="Liens du pied de page">
-<a href="https://www.twitch.tv/mexic_original">Twitch</a>
-<a href="https://www.youtube.com/channel/UCFZEpBjo4Y7z1FBI_n8s4Jg">YouTube</a>
-<a href="https://discord.gg/3bke4ABKT4">Discord</a>
+<a data-lien="twitch" href="https://www.twitch.tv/mexic_original">Twitch</a>
+<a data-lien="youtube" href="https://www.youtube.com/channel/UCFZEpBjo4Y7z1FBI_n8s4Jg">YouTube</a>
+<a data-lien="discord" href="https://discord.gg/3bke4ABKT4">Discord</a>
 <a href="confidentialite.html">Confidentialité (Mexic Studio)</a>
 </nav>
 </div>
 </footer>
 
+<script src="site.js"></script>
 <script>
 (function () {
   var names = { chrome: "Chrome", brave: "Brave" };

@@ -1,0 +1,47 @@
+{
+  "_aide": "Fichier de réglages du site. Change seulement le texte ENTRE guillemets, garde les virgules en fin de ligne. Un lien vide \"\" affiche « bientôt ». Si le site affiche les anciens textes après ta modif, c'est qu'il manque une virgule ou un guillemet : corrige ou annule ta modif.",
+
+  "liens": {
+    "twitch": "https://www.twitch.tv/mexic_original",
+    "youtube": "https://www.youtube.com/channel/UCFZEpBjo4Y7z1FBI_n8s4Jg",
+    "discord": "https://discord.gg/3bke4ABKT4"
+  },
+
+  "_aide_planning": "Une case par bloc { }. couleur au choix : vert, orange, violet, rouge ou blanc. Pour enlever une case, supprime le bloc entier et la virgule qui le précède.",
+  "planning": [
+    { "quand": "Mercredi · 18:00", "titre": "News CS2 de la semaine", "detail": "Résultats, mercato, agenda", "couleur": "vert" },
+    { "quand": "Samedi", "titre": "Best-of de la semaine", "detail": "Les meilleurs moments + le bêtisier", "couleur": "orange" },
+    { "quand": "Dimanche", "titre": "Montage musical", "detail": "Les plus belles actions en musique", "couleur": "violet" },
+    { "quand": "Tous les jours · 12:30", "titre": "Un Short", "detail": "Clips, fails et news en format court", "couleur": "blanc" }
+  ],
+
+  "_aide_mexic_lurk": "Colle les liens Edge et Opera ici quand les boutiques ont validé. version = numéro affiché sur la page Chrome/Brave.",
+  "mexic_lurk": {
+    "firefox": "https://addons.mozilla.org/fr/firefox/addon/mexic-lurk/",
+    "chrome_brave": "lurk-chrome.html",
+    "edge": "",
+    "opera": "",
+    "version": "1.0.2"
+  },
+
+  "maillot": {
+    "titre": "Maillot MXO 2026",
+    "etiquette": "En vente",
+    "texte": "Le maillot esport de la team, à mon nom et à mes couleurs. Fabriqué et vendu par Le Maillot Esport.",
+    "bouton": "Voir le maillot",
+    "lien": "https://lemaillotesport.com/produit/maillot-esport-mxo-2026/",
+    "image": "maillot.jpg"
+  },
+
+  "_aide_boutique": "Le jour de l'ouverture : change etiquette (ex. Boutique), les textes, bouton (ex. Voir la boutique) et mets le lien de ta boutique. Lien vide = bouton « bientôt ».",
+  "boutique": {
+    "etiquette": "En réflexion",
+    "titre": "La collection M.x.O",
+    "textes": [
+      "Des t-shirts, sweats et bobs brodés aux couleurs de la chaîne. Team chat, team chien ou team poulpe : rien n'est encore en vente, je regarde d'abord si ça vous plairait.",
+      "Tu en porterais un ? Dis-le sur le Discord, avec ta team préférée et le prix que tu serais prêt à mettre."
+    ],
+    "bouton": "Donner mon avis sur le Discord",
+    "lien": "https://discord.gg/3bke4ABKT4"
+  }
+}

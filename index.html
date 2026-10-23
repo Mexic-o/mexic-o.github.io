@@ -26,7 +26,7 @@
 <a href="news.html">News</a>
 <a href="#projets">Projets</a>
 <a href="#boutique">M.x.O</a>
-<a class="cta" href="https://www.twitch.tv/mexic_original">Suivre sur Twitch</a>
+<a class="cta" data-lien="twitch" href="https://www.twitch.tv/mexic_original">Suivre sur Twitch</a>
 </nav>
 </div>
 </header>
@@ -37,9 +37,9 @@
 <h1 class="display">Salut, c'est Mexic.</h1>
 <p>Streameur CS2 sur Twitch. Ici tu retrouves les lives, les best-of, les news CS2 de la semaine et tout ce que je fabrique à côté.</p>
 <div class="btns">
-<a class="btn twitch" href="https://www.twitch.tv/mexic_original"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="6 4 20 12 6 20 6 4"/></svg>Regarder le live</a>
-<a class="btn" href="https://www.youtube.com/channel/UCFZEpBjo4Y7z1FBI_n8s4Jg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="4"/><polygon points="10 9 15 12 10 15 10 9"/></svg>Chaîne YouTube</a>
-<a class="btn" href="https://discord.gg/3bke4ABKT4"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>Discord</a>
+<a class="btn twitch" data-lien="twitch" href="https://www.twitch.tv/mexic_original"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="6 4 20 12 6 20 6 4"/></svg>Regarder le live</a>
+<a class="btn" data-lien="youtube" href="https://www.youtube.com/channel/UCFZEpBjo4Y7z1FBI_n8s4Jg"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="4"/><polygon points="10 9 15 12 10 15 10 9"/></svg>Chaîne YouTube</a>
+<a class="btn" data-lien="discord" href="https://discord.gg/3bke4ABKT4"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>Discord</a>
 </div>
 </div>
 <div class="player">
@@ -48,7 +48,7 @@
 </div>
 
 <div class="wrap" aria-label="Planning de la semaine">
-<div class="grid">
+<div class="grid" id="planning">
 <div class="slot"><span class="kicker" style="color:var(--green)">Mercredi · 18:00</span><b>News CS2 de la semaine</b><span>Résultats, mercato, agenda</span></div>
 <div class="slot"><span class="kicker" style="color:var(--orange)">Samedi</span><b>Best-of de la semaine</b><span>Les meilleurs moments + le bêtisier</span></div>
 <div class="slot"><span class="kicker" style="color:var(--violet)">Dimanche</span><b>Montage musical</b><span>Les plus belles actions en musique</span></div>
@@ -74,19 +74,19 @@
 <div class="txt">
 <h3>Mexic Lurk <span class="pill">Gratuit</span></h3>
 <p>L'extension qui te prévient quand je lance un live et te permet de lurk en petit, son bas, sans rater le chat.</p>
-<div class="btns">
+<div class="btns" id="lurk-btns">
 <a class="btn green" href="https://addons.mozilla.org/fr/firefox/addon/mexic-lurk/">Installer sur Firefox</a>
 <a class="btn" href="lurk-chrome.html">Chrome et Brave</a>
 <span class="btn soon">Edge, Opera : bientôt</span>
 </div>
 </div>
 </div>
-<div class="project">
-<div class="icon" style="background:#ffffff;overflow:hidden"><img src="maillot.jpg" alt="Maillot MXO 2026" style="width:100%;height:100%;object-fit:cover"></div>
+<div class="project" id="maillot">
+<div class="icon" style="background:#ffffff;overflow:hidden"><img id="maillot-img" src="maillot.jpg" alt="Maillot MXO 2026" style="width:100%;height:100%;object-fit:cover"></div>
 <div class="txt">
-<h3>Maillot MXO 2026 <span class="pill o">En vente</span></h3>
-<p>Le maillot esport de la team, à mon nom et à mes couleurs. Fabriqué et vendu par Le Maillot Esport.</p>
-<div class="btns"><a class="btn orange" href="https://lemaillotesport.com/produit/maillot-esport-mxo-2026/">Voir le maillot</a></div>
+<h3 id="maillot-titre">Maillot MXO 2026 <span class="pill o" id="maillot-etiquette">En vente</span></h3>
+<p id="maillot-texte">Le maillot esport de la team, à mon nom et à mes couleurs. Fabriqué et vendu par Le Maillot Esport.</p>
+<div class="btns"><a class="btn orange" id="maillot-btn" href="https://lemaillotesport.com/produit/maillot-esport-mxo-2026/">Voir le maillot</a></div>
 </div>
 </div>
 </div>
@@ -94,11 +94,11 @@
 
 <section class="wrap" id="boutique" style="padding-top:0">
 <div class="shop">
-<span class="kicker" style="color:var(--violet)">En réflexion</span>
-<h2 class="display">La collection M.x.O</h2>
-<p>Des t-shirts, sweats et bobs brodés aux couleurs de la chaîne. Team chat, team chien ou team poulpe : rien n'est encore en vente, je regarde d'abord si ça vous plairait.</p>
-<p>Tu en porterais un ? Dis-le sur le Discord, avec ta team préférée et le prix que tu serais prêt à mettre.</p>
-<div class="btns"><a class="btn" href="https://discord.gg/3bke4ABKT4"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>Donner mon avis sur le Discord</a></div>
+<span class="kicker" style="color:var(--violet)" id="boutique-etiquette">En réflexion</span>
+<h2 class="display" id="boutique-titre">La collection M.x.O</h2>
+<p class="boutique-txt">Des t-shirts, sweats et bobs brodés aux couleurs de la chaîne. Team chat, team chien ou team poulpe : rien n'est encore en vente, je regarde d'abord si ça vous plairait.</p>
+<p class="boutique-txt">Tu en porterais un ? Dis-le sur le Discord, avec ta team préférée et le prix que tu serais prêt à mettre.</p>
+<div class="btns" id="boutique-btns"><a class="btn" id="boutique-btn" href="https://discord.gg/3bke4ABKT4"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>Donner mon avis sur le Discord</a></div>
 </div>
 </section>
 </main>
@@ -107,14 +107,15 @@
 <div class="wrap">
 <a class="brand" href="./"><img src="logo.png" alt=""><span>Mexic Original</span></a>
 <nav aria-label="Liens du pied de page">
-<a href="https://www.twitch.tv/mexic_original">Twitch</a>
-<a href="https://www.youtube.com/channel/UCFZEpBjo4Y7z1FBI_n8s4Jg">YouTube</a>
-<a href="https://discord.gg/3bke4ABKT4">Discord</a>
+<a data-lien="twitch" href="https://www.twitch.tv/mexic_original">Twitch</a>
+<a data-lien="youtube" href="https://www.youtube.com/channel/UCFZEpBjo4Y7z1FBI_n8s4Jg">YouTube</a>
+<a data-lien="discord" href="https://discord.gg/3bke4ABKT4">Discord</a>
 <a href="confidentialite.html">Confidentialité (Mexic Studio)</a>
 </nav>
 </div>
 </footer>
 
 <script src="news.js"></script>
+<script src="site.js"></script>
 </body>
 </html>
