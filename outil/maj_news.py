@@ -79,6 +79,8 @@ def collecte():
     data["transfers"] = SRC.transfers(errors=errors)
     for e in errors:
         dire(f"  [ATTENTION] {e}")
+        if os.environ.get("GITHUB_ACTIONS"):
+            dire(f"::warning title=Source en panne::{e}")      # visible sur la page du lancement (Annotations)
     return data
 
 
@@ -140,7 +142,11 @@ def main():
         SITE._ecrire(SITE.HISTORIQUE, h)                      # (garde l'identifiant de la chaîne)
     except Exception as e:
         dire(f"  [ATTENTION] vidéo de la semaine non vérifiée : {e} (le bouton ne change pas)")
-    SITE._fusionner(arts, agenda=SITE._agenda("", data), video=video, semaine=semaine or None, jour=jour)
+    agenda = SITE._agenda("", data)
+    if not agenda and data["errors"]:
+        agenda = None                                         # Liquipedia en panne : on garde l'agenda d'avant
+        dire("  agenda vide à cause d'une source en panne : l'ancien agenda est gardé")
+    SITE._fusionner(arts, agenda=agenda, video=video, semaine=semaine or None, jour=jour)
     h = SITE._lire(SITE.HISTORIQUE, {}) or {}
     h["collecte"] = jour
     h["erreurs"] = data["errors"]
