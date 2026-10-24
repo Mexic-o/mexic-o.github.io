@@ -4,6 +4,51 @@
   "video": "",
   "articles": [
     {
+      "titre": "The MongolZ remporte 1win Private Club #2",
+      "resume": "The MongolZ gagne l'édition 2 de 1win Private Club, contre PARIVISION. Victoire 3 à 0, avec Ancient, Mirage et Dust2 pour The MongolZ. Pour PARIVISION, c'est une troisième finale perdue d'affilée.",
+      "categorie": "resultats",
+      "tier": "Tier 1",
+      "cartes": [
+        "Ancient 13-6",
+        "Mirage 13-11",
+        "Dust2 13-4"
+      ],
+      "date": "2026-10-24"
+    },
+    {
+      "titre": "Eternal Fire remporte DraculaN Season 7",
+      "resume": "Eternal Fire gagne DraculaN Season 7, contre SINNERS. Victoire 2 à 1, avec Cache et Ancient pour Eternal Fire.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "cartes": [
+        "Mirage 6-13",
+        "Cache 16-12",
+        "Ancient 16-14"
+      ],
+      "date": "2026-10-24"
+    },
+    {
+      "titre": "nosraC passe sur le banc chez Voca",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2",
+      "date": "2026-10-24"
+    },
+    {
+      "titre": "SHiPZ rejoint Acend",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2",
+      "date": "2026-10-24"
+    },
+    {
+      "titre": "AwaykeN passe d'INFURITY à Acend",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2",
+      "date": "2026-10-24"
+    },
+    {
       "titre": "Phantom remporte Elisa BreakOut Series #2",
       "resume": "Phantom gagne l'édition 2 d'Elisa BreakOut, contre HAVU. Victoire 2 à 0, avec Ancient et Nuke pour Phantom.",
       "categorie": "resultats",
@@ -68,65 +113,14 @@
       "resume": "",
       "categorie": "fr",
       "date": "2026-10-21"
-    },
-    {
-      "titre": "Myzunic quitte 9INE Academy",
-      "resume": "",
-      "categorie": "fr",
-      "date": "2026-10-21"
-    },
-    {
-      "titre": "Vitality remporte ESL Pro League Season 24",
-      "resume": "Vitality remporte ESL Pro League Season 24 à Katowice, face à MOUZ en finale. C'est son septième titre de l'année. Pour MOUZ, c'est une deuxième finale perdue d'affilée.",
-      "categorie": "resultats",
-      "tier": "Tier 1",
-      "date": "2026-10-19"
-    },
-    {
-      "titre": "FURIA remporte Thunderpick World Championship 2026",
-      "resume": "FURIA remporte Thunderpick World Championship à Attard, face à BetBoom Team en finale. Victoire 3 à 2, avec Dust2, Mirage et Cache pour FURIA. Pour BetBoom Team, c'est une deuxième finale perdue d'affilée.",
-      "categorie": "resultats",
-      "tier": "Tier 1",
-      "date": "2026-10-19",
-      "cartes": [
-        "Dust2 13-6",
-        "Ancient 16-19",
-        "Nuke 9-13",
-        "Mirage 13-11",
-        "Cache 13-6"
-      ]
-    },
-    {
-      "titre": "Ninjas in Pyjamas remporte Stake Pulse Beat III",
-      "resume": "On commence par le dernier résultat : Ninjas in Pyjamas gagne l'édition 3 de Stake Pulse Beat à Stockholm, contre MIBR en finale. Victoire 2 à 1, avec Mirage et Ancient pour Ninjas in Pyjamas.",
-      "categorie": "resultats",
-      "tier": "Tier 2",
-      "date": "2026-10-19",
-      "cartes": [
-        "Mirage 13-2",
-        "Cache 17-19",
-        "Ancient 13-9"
-      ]
-    },
-    {
-      "titre": "LargadosyPelados remporte ESL Challenger League Season 52: South America - Cup #3",
-      "resume": "LargadosyPelados gagne l'édition 3 d'ESL Challenger League Season 52, contre Galorys. Victoire 2 à 1, avec Inferno et Dust2 pour LargadosyPelados.",
-      "categorie": "resultats",
-      "tier": "Tier 2",
-      "date": "2026-10-19",
-      "cartes": [
-        "Inferno 13-5",
-        "Ancient 3-13",
-        "Dust2 13-10"
-      ]
     }
   ],
   "matchs": [
     {
       "groupe": "En cours",
-      "jour": "2026-10-19",
-      "equipes": "DraculaN Season 7",
-      "tournoi": "jusqu'au 23 octobre · Bucarest"
+      "jour": "2026-10-24",
+      "equipes": "PGL Masters Bucharest 2026",
+      "tournoi": "jusqu'au 31 octobre · Bucarest"
     },
     {
       "groupe": "En cours",
@@ -142,12 +136,6 @@
     },
     {
       "groupe": "À venir",
-      "jour": "2026-10-24",
-      "equipes": "PGL Masters Bucharest 2026",
-      "tournoi": "dès le 24 octobre · Bucarest"
-    },
-    {
-      "groupe": "À venir",
       "jour": "2026-11-02",
       "equipes": "Intel Extreme Masters Beijing 2026",
       "tournoi": "dès le 2 novembre · Pékin"
@@ -157,6 +145,12 @@
       "jour": "2026-10-27",
       "equipes": "Stake Ranked Episode 5",
       "tournoi": "dès le 27 octobre"
+    },
+    {
+      "groupe": "À venir",
+      "jour": "2026-10-31",
+      "equipes": "Moscow Cyber Games 2026",
+      "tournoi": "dès le 31 octobre · Moscou"
     }
   ]
 }

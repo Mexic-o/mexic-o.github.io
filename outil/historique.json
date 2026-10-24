@@ -1,6 +1,56 @@
 {
   "articles": [
     {
+      "cle": "res|1win Private Club #2|The MongolZ",
+      "titre": "The MongolZ remporte 1win Private Club #2",
+      "resume": "The MongolZ gagne l'édition 2 de 1win Private Club, contre PARIVISION. Victoire 3 à 0, avec Ancient, Mirage et Dust2 pour The MongolZ. Pour PARIVISION, c'est une troisième finale perdue d'affilée.",
+      "categorie": "resultats",
+      "tier": "Tier 1",
+      "cartes": [
+        "Ancient 13-6",
+        "Mirage 13-11",
+        "Dust2 13-4"
+      ],
+      "date": "2026-10-24"
+    },
+    {
+      "cle": "res|DraculaN Season 7|Eternal Fire",
+      "titre": "Eternal Fire remporte DraculaN Season 7",
+      "resume": "Eternal Fire gagne DraculaN Season 7, contre SINNERS. Victoire 2 à 1, avec Cache et Ancient pour Eternal Fire.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "cartes": [
+        "Mirage 6-13",
+        "Cache 16-12",
+        "Ancient 16-14"
+      ],
+      "date": "2026-10-24"
+    },
+    {
+      "cle": "tr|nosraC|Voca|Voca|banc",
+      "titre": "nosraC passe sur le banc chez Voca",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2",
+      "date": "2026-10-24"
+    },
+    {
+      "cle": "tr|SHiPZ||Acend|",
+      "titre": "SHiPZ rejoint Acend",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2",
+      "date": "2026-10-24"
+    },
+    {
+      "cle": "tr|AwaykeN|INFURITY|Acend|",
+      "titre": "AwaykeN passe d'INFURITY à Acend",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2",
+      "date": "2026-10-24"
+    },
+    {
       "cle": "res|Elisa BreakOut Series #2|Phantom",
       "titre": "Phantom remporte Elisa BreakOut Series #2",
       "resume": "Phantom gagne l'édition 2 d'Elisa BreakOut, contre HAVU. Victoire 2 à 0, avec Ancient et Nuke pour Phantom.",
@@ -108,7 +158,7 @@
     {
       "cle": "res|Stake Pulse Beat III|Ninjas in Pyjamas",
       "titre": "Ninjas in Pyjamas remporte Stake Pulse Beat III",
-      "resume": "On commence par le dernier résultat : Ninjas in Pyjamas gagne l'édition 3 de Stake Pulse Beat à Stockholm, contre MIBR en finale. Victoire 2 à 1, avec Mirage et Ancient pour Ninjas in Pyjamas.",
+      "resume": "Ninjas in Pyjamas remporte l'édition 3 de Stake Pulse Beat à Stockholm, face à MIBR en finale. Victoire 2 à 1, avec Mirage et Ancient pour Ninjas in Pyjamas.",
       "categorie": "resultats",
       "tier": "Tier 2",
       "date": "2026-10-19",
@@ -134,7 +184,7 @@
     {
       "cle": "res|Logitech G Pro Series 2026|NEXVOID",
       "titre": "NEXVOID remporte Logitech G Pro Series 2026",
-      "resume": "NEXVOID gagne Logitech G Pro Series, contre FlyQuest. Victoire 2 à 1, avec Ancient et Inferno pour NEXVOID.",
+      "resume": "Du côté de Logitech G Pro Series, c'est NEXVOID qui l'emporte face à FlyQuest. Victoire 2 à 1, avec Ancient et Inferno pour NEXVOID.",
       "categorie": "resultats",
       "tier": "Tier 2",
       "date": "2026-10-19",
@@ -263,9 +313,9 @@
   "agenda": [
     {
       "groupe": "En cours",
-      "jour": "2026-10-19",
-      "equipes": "DraculaN Season 7",
-      "tournoi": "jusqu'au 23 octobre · Bucarest"
+      "jour": "2026-10-24",
+      "equipes": "PGL Masters Bucharest 2026",
+      "tournoi": "jusqu'au 31 octobre · Bucarest"
     },
     {
       "groupe": "En cours",
@@ -278,12 +328,6 @@
       "jour": "2026-10-13",
       "equipes": "CCT Europe 2026 Series #11",
       "tournoi": "jusqu'au 25 octobre"
-    },
-    {
-      "groupe": "À venir",
-      "jour": "2026-10-24",
-      "equipes": "PGL Masters Bucharest 2026",
-      "tournoi": "dès le 24 octobre · Bucarest"
     },
     {
       "groupe": "À venir",
@@ -302,6 +346,12 @@
       "jour": "2026-10-31",
       "equipes": "Moscow Cyber Games 2026",
       "tournoi": "dès le 31 octobre · Moscou"
+    },
+    {
+      "groupe": "À venir",
+      "jour": "2026-10-29",
+      "equipes": "FiReSPORTS Last Chance 2026",
+      "tournoi": "dès le 29 octobre · Buenos Aires"
     }
   ],
   "maj": "2026-10-24",
@@ -312,13 +362,5 @@
     "id": "UCy5wcMtn9uzq_IUt3VgTgqQ"
   },
   "video": "",
-  "erreurs": [
-    "tournois S-Tier : HTTP Error 429: Too Many Requests",
-    "tournois A-Tier : HTTP Error 429: Too Many Requests",
-    "tournois B-Tier : HTTP Error 429: Too Many Requests",
-    "tournois C-Tier : HTTP Error 429: Too Many Requests",
-    "programme des matchs : HTTP Error 429: Too Many Requests",
-    "scène féminine : HTTP Error 429: Too Many Requests",
-    "transferts : HTTP Error 429: Too Many Requests"
-  ]
+  "erreurs": []
 }
