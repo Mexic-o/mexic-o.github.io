@@ -304,13 +304,21 @@
       "tournoi": "dès le 31 octobre · Moscou"
     }
   ],
-  "maj": "2026-10-23",
-  "collecte": "2026-10-23",
+  "maj": "2026-10-24",
+  "collecte": "2026-10-24",
   "envoi_en_attente": false,
   "chaine": {
     "handle": "@Mexic_Original",
     "id": "UCy5wcMtn9uzq_IUt3VgTgqQ"
   },
   "video": "",
-  "erreurs": []
+  "erreurs": [
+    "tournois S-Tier : HTTP Error 429: Too Many Requests",
+    "tournois A-Tier : HTTP Error 429: Too Many Requests",
+    "tournois B-Tier : HTTP Error 429: Too Many Requests",
+    "tournois C-Tier : HTTP Error 429: Too Many Requests",
+    "programme des matchs : HTTP Error 429: Too Many Requests",
+    "scène féminine : HTTP Error 429: Too Many Requests",
+    "transferts : HTTP Error 429: Too Many Requests"
+  ]
 }
