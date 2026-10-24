@@ -2,6 +2,8 @@
 # - chaque jour vers 8 h (heure de Paris) : collecte des news, mise à jour de news.json, publication du site ;
 # - à chaque envoi de fichiers (« Upload files ») : publication du site (sans refaire les news) ;
 # - à la main : onglet Actions > « Site Mexic Original » > Run workflow (news refaites tout de suite).
+# Toujours sur la DERNIÈRE version du site (même en « Re-run ») : pas de vieux fichiers republiés, pas d'envoi refusé.
+# Si une source de news est en panne, le site est quand même publié avec les news d'avant.
 name: Site Mexic Original
 
 on:
@@ -22,7 +24,7 @@ concurrency:
 
 jobs:
   site:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 30
     env:
       PYTHONDONTWRITEBYTECODE: "1"
@@ -30,31 +32,46 @@ jobs:
       name: github-pages
       url: ${{ steps.deploiement.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
+        with:
+          ref: main                # la dernière version, même quand on relance un ancien passage
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         if: github.event_name != 'push'
         with:
           python-version: "3.12"
 
       - name: News CS2 du jour
+        id: news
         if: github.event_name != 'push'
+        continue-on-error: true    # source en panne : on publie quand même le site avec les news d'avant
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           if [ -f outil/maj_news.py ]; then python outil/maj_news.py; else python maj_news.py; fi
 
       - name: Enregistrer les news dans le dépôt
-        if: github.event_name != 'push'
+        if: github.event_name != 'push' && steps.news.outcome == 'success'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
           git add news.json outil/historique.json 2>/dev/null || git add news.json
-          if git diff --cached --quiet; then echo "Rien de nouveau"; else git commit -m "News CS2 du $(date +%d/%m)" && git push; fi
+          if git diff --cached --quiet; then echo "Rien de nouveau"; exit 0; fi
+          git commit -m "News CS2 du $(date +%d/%m)"
+          for essai in 1 2 3; do
+            if git push origin HEAD:main; then exit 0; fi
+            echo "Le site a changé entre-temps : je reprends la dernière version et je réessaie ($essai/3)"
+            git pull --rebase -X theirs origin main || { git rebase --abort; exit 1; }
+          done
+          exit 1
+
+      - name: Signaler une source en panne
+        if: steps.news.outcome == 'failure'
+        run: echo "::warning::News non mises à jour aujourd'hui (source en panne). Le site est publié avec les news d'avant ; nouvel essai demain."
 
       - uses: actions/configure-pages@v5
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v4
         with:
           path: .
 
