@@ -11,6 +11,7 @@ Tourne chaque jour sur les serveurs de GitHub (PC éteint, rien à faire) :
 Lancé par .github/workflows/site.yml. À la main (sur un PC) : python outil/maj_news.py
 """
 import datetime
+import json
 import os
 import re
 import sys
@@ -215,7 +216,13 @@ def copies_pages_tournois():
         if os.path.exists(cible):
             continue
         try:
-            html = _get("https://liquipedia.net/counterstrike/" + chemin)
+            # même voie que le reste de la collecte (API MediaWiki), la page HTML directe peut être refusée
+            rep = json.loads(SRC.fetch(SRC.LIQUI_API, {"action": "parse", "page": chemin, "prop": "text",
+                                                       "format": "json", "formatversion": "2",
+                                                       "disablelimitreport": "1"}))
+            if "error" in rep:
+                raise RuntimeError(rep["error"].get("info", "erreur Liquipedia"))
+            html = rep["parse"]["text"]
             os.makedirs(DEBUG, exist_ok=True)
             with open(cible, "w", encoding="utf-8") as f:
                 f.write(html)
