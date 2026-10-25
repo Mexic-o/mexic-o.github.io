@@ -174,8 +174,10 @@ def articles_debuts(data, aujourdhui=None):
         ville = NS.city(t.get("location"))
         bits = [f"à {ville}" if ville else ("en ligne" if t.get("online") else ""),
                 f"jusqu'au {NS.date_fr(t['end'])}", (_prix(t["prize"]) + " en jeu") if t.get("prize") else ""]
-        out.append(SITE._article(f"debut|{t['name']}", f"{t['name']} a commencé",
-                                 "Le tournoi se joue " + ", ".join(b for b in bits if b) + ".", "resultats", "Tier 1"))
+        art = SITE._article(f"debut|{t['name']}", f"{t['name']} a commencé",
+                            "Le tournoi se joue " + ", ".join(b for b in bits if b) + ".", "resultats", "Tier 1")
+        art["date"] = t["start"]                           # daté du 1er jour : les résultats passent devant
+        out.append(art)
     return out
 
 
@@ -221,6 +223,50 @@ def video_de_la_semaine(h, maintenant=None):
     return "", ""
 
 
+PROG_HEURES = 24                     # programme : les matchs des prochaines 24 h
+
+
+def articles_programme(data, maintenant=None):
+    """Le programme des gros tournois (tier S et A) : un article par tournoi et par jour, chaque affiche avec son heure
+    de Paris (« 13:00 · Vitality vs FaZe »), Vitality et les équipes françaises en premier."""
+    maintenant = maintenant or datetime.datetime.now(datetime.timezone.utc)
+    tours = data.get("tournaments") or {}
+    gros = {}
+    for t in (tours.get("ongoing") or []) + (tours.get("upcoming") or []):
+        if t.get("tier") in ("S", "A"):
+            gros[t.get("page") or t["name"]] = t
+            gros.setdefault(t["name"], t)
+    suivies = [x.strip().lower() for x in (EQUIPES_FR + "," + EQUIPES_SUIVIES).split(",") if x.strip()]
+    est_suivie = lambda m: any(x in (m["t1"] + " " + m["t2"]).lower() for x in suivies)
+    debut, fin = maintenant.timestamp(), maintenant.timestamp() + PROG_HEURES * 3600
+    groupes = {}
+    for m in data.get("matches") or []:
+        if not (debut <= m["ts"] <= fin):
+            continue
+        t = gros.get(m["page"]) or gros.get(m["tournament"])
+        if not t and not est_suivie(m):
+            continue
+        quand = _paris(m["ts"])
+        groupes.setdefault((t["name"] if t else m["tournament"], quand.date().isoformat()), []).append((quand, m))
+    court = lambda m, k: m.get(k + "_court") or m[k]
+    arts = []
+    for (nom, jour), ms in groupes.items():
+        ms.sort(key=lambda x: (not est_suivie(x[1]), x[0]))
+        pastilles = [f"{q:%H:%M} · {court(m, 't1')} vs {court(m, 't2')}" for q, m in ms[:MATCH_MAX]]
+        phrases = [f"{court(m, 't1')} affronte {court(m, 't2')} à {q:%H:%M}" + (f" (Bo{m['bo']})" if m.get("bo") else "") + "."
+                   for q, m in ms if est_suivie(m)][:3]
+        n = len(ms)
+        resume = " ".join(phrases) or f"{n} match{'s' if n > 1 else ''} au programme."
+        if n > len(pastilles):
+            resume += f" Et {n - len(pastilles)} autre{'s' if n - len(pastilles) > 1 else ''} match{'s' if n - len(pastilles) > 1 else ''}."
+        resume += " Heures de Paris."
+        art = SITE._article(f"prog|{nom}|{jour}", f"{nom} : les matchs du {NS.date_fr(jour)}", resume,
+                            "resultats", "Programme", pastilles)
+        art["date"] = jour
+        arts.append(art)
+    return arts
+
+
 def main():
     jour = datetime.date.today().isoformat()
     dire(f"Mise à jour du site : {jour}")
@@ -235,6 +281,15 @@ def main():
     except Exception as e:
         dire(f"  [ATTENTION] résultats des matchs non faits : {e}")
     h = SITE._lire(SITE.HISTORIQUE, {}) or {}
+    if not any(e.startswith("programme des matchs") for e in data["errors"]):
+        try:
+            prog = articles_programme(data)
+            h["articles"] = [a for a in h.get("articles", []) if not str(a.get("cle", "")).startswith("prog|")]
+            SITE._ecrire(SITE.HISTORIQUE, h)              # l'ancien programme s'efface (matchs joués = résultats)
+            arts = prog + arts
+            dire(f"Programme des matchs : {len(prog)} article(s)")
+        except Exception as e:
+            dire(f"  [ATTENTION] programme des matchs non fait : {e}")
     avant = {a.get("cle") for a in h.get("articles", [])}
     video, semaine = None, None
     try:
