@@ -164,12 +164,31 @@ def articles_matchs(data, maintenant=None):
         resume = " ".join(phrases[:3]) or f"{len(ms)} match{'s' if len(ms) > 1 else ''} joué{'s' if len(ms) > 1 else ''}."
         if reste > 0:
             resume += f" Et {reste} autre{'s' if reste > 1 else ''} match{'s' if reste > 1 else ''}."
-        titre = f"{nom}" + (f" · {etape}" if etape else "") + f" : les résultats du {NS.date_fr(jour)}"
+        ph = _phase_principale(ms)
+        titre = " · ".join(x for x in (nom, etape, ph) if x) + f" : les résultats du {NS.date_fr(jour)}"
         art = SITE._article(f"jour|{nom}|{jour}", titre, resume,
                             "resultats", "Tier 1", pastilles)
         art["date"] = jour                                   # daté du jour des matchs, pas du jour de la collecte
         arts.append(art)
     return arts
+
+
+def phase_de(m):
+    """La phase lue dans l'adresse de la page du match : Round 3, groupe B, playoffs. Rien si on ne sait pas."""
+    mt = re.search(r"#(Round|Group|Playoffs)_?([0-9A-Za-z]*)", m.get("page") or "")
+    if not mt:
+        return ""
+    if mt.group(1) == "Round":
+        return f"round {mt.group(2)}"
+    if mt.group(1) == "Group":
+        return f"groupe {mt.group(2)}"
+    return "playoffs"
+
+
+def _phase_principale(ms):
+    from collections import Counter
+    c = Counter(phase_de(m) for m in ms if phase_de(m))
+    return c.most_common(1)[0][0] if c else ""
 
 
 def _prix(txt):
@@ -314,7 +333,8 @@ def articles_programme(data, maintenant=None):
             resume += f" Et {n - len(pastilles)} autre{'s' if n - len(pastilles) > 1 else ''} match{'s' if n - len(pastilles) > 1 else ''}."
         resume += " Heures de Paris."
         etape = _jour_tournoi(infos[nom], jour) if nom in infos else ""
-        titre = f"{nom}" + (f" · {etape}" if etape else "") + f" : les matchs du {NS.date_fr(jour)}"
+        ph = _phase_principale([m for _, m in ms])
+        titre = " · ".join(x for x in (nom, etape, ph) if x) + f" : les matchs du {NS.date_fr(jour)}"
         art = SITE._article(f"prog|{nom}|{jour}", titre, resume,
                             "resultats", "Programme", pastilles)
         art["date"] = jour
