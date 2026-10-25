@@ -1,6 +1,44 @@
 {
   "articles": [
     {
+      "cle": "jour|PGL Masters Bucharest 2026|2026-10-25",
+      "titre": "PGL Masters Bucharest 2026 : les résultats du 25 octobre",
+      "resume": "Vitality bat MongolZ 2-0.",
+      "categorie": "resultats",
+      "tier": "Tier 1",
+      "cartes": [
+        "Vitality 2-0 MongolZ",
+        "FUT 2-0 Liquid",
+        "Spirit 2-0 TYLOO"
+      ],
+      "date": "2026-10-25"
+    },
+    {
+      "cle": "jour|PGL Masters Bucharest 2026|2026-10-24",
+      "titre": "PGL Masters Bucharest 2026 : les résultats du 24 octobre",
+      "resume": "Vitality bat 9z 2-0. Et 1 autre match.",
+      "categorie": "resultats",
+      "tier": "Tier 1",
+      "cartes": [
+        "Vitality 2-0 9z",
+        "FUT 2-0 TYLOO",
+        "Aurora 1-2 MongolZ",
+        "MOUZ 1-2 Liquid",
+        "Spirit 1-2 BB",
+        "Legacy 0-2 Nemiga",
+        "FURIA 2-0 DENDELE"
+      ],
+      "date": "2026-10-25"
+    },
+    {
+      "cle": "debut|PGL Masters Bucharest 2026",
+      "titre": "PGL Masters Bucharest 2026 a commencé",
+      "resume": "Le tournoi se joue à Bucarest, jusqu'au 31 octobre, $1,250,000 en jeu.",
+      "categorie": "resultats",
+      "tier": "Tier 1",
+      "date": "2026-10-25"
+    },
+    {
       "cle": "tr|k1ssly|Butterfly|Butterfly|banc",
       "titre": "k1ssly passe sur le banc chez Butterfly",
       "resume": "",
@@ -370,13 +408,5 @@
     "id": "UCy5wcMtn9uzq_IUt3VgTgqQ"
   },
   "video": "",
-  "erreurs": [
-    "tournois S-Tier : HTTP Error 429: Too Many Requests",
-    "tournois A-Tier : HTTP Error 429: Too Many Requests",
-    "tournois B-Tier : HTTP Error 429: Too Many Requests",
-    "tournois C-Tier : HTTP Error 429: Too Many Requests",
-    "programme des matchs : HTTP Error 429: Too Many Requests",
-    "scène féminine : HTTP Error 429: Too Many Requests",
-    "transferts : HTTP Error 429: Too Many Requests"
-  ]
+  "erreurs": []
 }
