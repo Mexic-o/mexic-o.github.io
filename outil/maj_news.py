@@ -82,6 +82,7 @@ def collecte():
         errors.append(f"mises à jour CS2 : {e}")
     dire("Transferts...")
     data["transfers"] = SRC.transfers(errors=errors)
+    copies_pages_tournois()
     for e in errors:
         dire(f"  [ATTENTION] {e}")
         if os.environ.get("GITHUB_ACTIONS"):
@@ -197,6 +198,31 @@ def articles_debuts(data, aujourdhui=None):
         art["date"] = t["start"]                           # daté du 1er jour : les résultats passent devant
         out.append(art)
     return out
+
+
+# Pages de tournois dont on garde une copie (une seule fois), pour lire bracket, notes d'effectif et casters.
+COPIES_TOURNOIS = [
+    ("PGL_Masters_Bucharest_2026", "PGL/2026/Masters"),
+    ("IEM_Beijing_2026", "Intel_Extreme_Masters/2026/Beijing"),
+]
+
+
+def copies_pages_tournois():
+    """Sauve la page complète de chaque gros tournoi dans outil/debug, une seule fois. Une page par 30 s (règle Liquipedia)."""
+    import time
+    for nom, chemin in COPIES_TOURNOIS:
+        cible = os.path.join(DEBUG, "tournoi_%s.html" % nom)
+        if os.path.exists(cible):
+            continue
+        try:
+            html = _get("https://liquipedia.net/counterstrike/" + chemin)
+            os.makedirs(DEBUG, exist_ok=True)
+            with open(cible, "w", encoding="utf-8") as f:
+                f.write(html)
+            dire("  page du tournoi gardée : outil/debug/tournoi_%s.html" % nom)
+        except Exception as e:
+            dire("  [ATTENTION] page du tournoi %s : %s" % (nom, e))
+        time.sleep(30)
 
 
 def _get(url):
