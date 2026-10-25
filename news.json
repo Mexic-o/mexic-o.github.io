@@ -4,6 +4,13 @@
   "video": "",
   "articles": [
     {
+      "titre": "k1ssly passe sur le banc chez Butterfly",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2",
+      "date": "2026-10-25"
+    },
+    {
       "titre": "The MongolZ remporte 1win Private Club #2",
       "resume": "The MongolZ gagne l'édition 2 de 1win Private Club, contre PARIVISION. Victoire 3 à 0, avec Ancient, Mirage et Dust2 pour The MongolZ. Pour PARIVISION, c'est une troisième finale perdue d'affilée.",
       "categorie": "resultats",
@@ -107,12 +114,6 @@
       "categorie": "mercato",
       "tier": "Tier 2",
       "date": "2026-10-21"
-    },
-    {
-      "titre": "Joker rejoint MASQ",
-      "resume": "",
-      "categorie": "fr",
-      "date": "2026-10-21"
     }
   ],
   "matchs": [
@@ -144,7 +145,7 @@
       "groupe": "À venir",
       "jour": "2026-10-27",
       "equipes": "Stake Ranked Episode 5",
-      "tournoi": "dès le 27 octobre"
+      "tournoi": "dès le 27 octobre · Barcelona"
     },
     {
       "groupe": "À venir",

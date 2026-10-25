@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "cle": "tr|k1ssly|Butterfly|Butterfly|banc",
+      "titre": "k1ssly passe sur le banc chez Butterfly",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2",
+      "date": "2026-10-25"
+    },
+    {
       "cle": "res|1win Private Club #2|The MongolZ",
       "titre": "The MongolZ remporte 1win Private Club #2",
       "resume": "The MongolZ gagne l'édition 2 de 1win Private Club, contre PARIVISION. Victoire 3 à 0, avec Ancient, Mirage et Dust2 pour The MongolZ. Pour PARIVISION, c'est une troisième finale perdue d'affilée.",
@@ -339,7 +347,7 @@
       "groupe": "À venir",
       "jour": "2026-10-27",
       "equipes": "Stake Ranked Episode 5",
-      "tournoi": "dès le 27 octobre"
+      "tournoi": "dès le 27 octobre · Barcelona"
     },
     {
       "groupe": "À venir",
