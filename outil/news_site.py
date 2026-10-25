@@ -248,11 +248,11 @@ def _fusionner(nouveaux, agenda=None, video=None, semaine=None, jour=None):
     connus = {a["cle"]: a for a in h.get("articles", []) if a.get("cle")}
     for a in nouveaux:
         if a["cle"] in connus:
-            date = connus[a["cle"]].get("date", jour)
+            date = a.get("date") or connus[a["cle"]].get("date", jour)     # date propre à l'article, sinon la 1re vue
             connus[a["cle"]].update(a)
             connus[a["cle"]]["date"] = date
         else:
-            connus[a["cle"]] = dict(a, date=jour)
+            connus[a["cle"]] = dict({"date": jour}, **a)          # un article peut porter sa propre date (jour du match)
     limite = (datetime.date.fromisoformat(jour) - datetime.timedelta(days=GARDE_JOURS)).isoformat()
     ordre = {"resultats": 0, "maj": 1, "mercato": 2, "fr": 3}
     garde = sorted([a for a in connus.values() if a.get("date", jour) > limite],

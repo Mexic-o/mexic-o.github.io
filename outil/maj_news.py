@@ -145,9 +145,20 @@ def articles_matchs(data, maintenant=None):
         resume = " ".join(phrases[:3]) or f"{len(ms)} match{'s' if len(ms) > 1 else ''} joué{'s' if len(ms) > 1 else ''}."
         if reste > 0:
             resume += f" Et {reste} autre{'s' if reste > 1 else ''} match{'s' if reste > 1 else ''}."
-        arts.append(SITE._article(f"jour|{nom}|{jour}", f"{nom} : les résultats du {NS.date_fr(jour)}", resume,
-                                  "resultats", "Tier 1", pastilles))
+        art = SITE._article(f"jour|{nom}|{jour}", f"{nom} : les résultats du {NS.date_fr(jour)}", resume,
+                            "resultats", "Tier 1", pastilles)
+        art["date"] = jour                                   # daté du jour des matchs, pas du jour de la collecte
+        arts.append(art)
     return arts
+
+
+def _prix(txt):
+    """« $1,250,000 » -> « 1 250 000 $ » (écriture française)."""
+    m = re.fullmatch(r"\s*([$€£])\s*([\d,.\s]+)\s*", txt or "")
+    if not m:
+        return txt
+    n = re.sub(r"\D", "", m.group(2).split(".")[0])
+    return (f"{int(n):,}".replace(",", "\u202f") + " " + m.group(1)) if n else txt
 
 
 def articles_debuts(data, aujourdhui=None):
@@ -162,7 +173,7 @@ def articles_debuts(data, aujourdhui=None):
             continue
         ville = NS.city(t.get("location"))
         bits = [f"à {ville}" if ville else ("en ligne" if t.get("online") else ""),
-                f"jusqu'au {NS.date_fr(t['end'])}", (t.get("prize") + " en jeu") if t.get("prize") else ""]
+                f"jusqu'au {NS.date_fr(t['end'])}", (_prix(t["prize"]) + " en jeu") if t.get("prize") else ""]
         out.append(SITE._article(f"debut|{t['name']}", f"{t['name']} a commencé",
                                  "Le tournoi se joue " + ", ".join(b for b in bits if b) + ".", "resultats", "Tier 1"))
     return out
