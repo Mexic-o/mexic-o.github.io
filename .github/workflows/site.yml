@@ -55,7 +55,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add news.json outil/historique.json 2>/dev/null || git add news.json
+          git add -A news.json outil/      # news + historique (+ outil/debug si une page n'a pas pu être lue)
           if git diff --cached --quiet; then echo "Rien de nouveau"; exit 0; fi
           git commit -m "News CS2 du $(date +%d/%m)"
           for essai in 1 2 3; do
