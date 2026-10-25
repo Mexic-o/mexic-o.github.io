@@ -9,8 +9,19 @@
       "cartes": [
         "Vitality 2-0 MongolZ",
         "FUT 2-0 Liquid",
-        "Spirit 2-0 TYLOO"
+        "Spirit 2-0 TYLOO",
+        "BB 2-0 Nemiga",
+        "G2 0-2 Aurora",
+        "MOUZ 2-0 9z"
       ],
+      "date": "2026-10-25"
+    },
+    {
+      "cle": "tr|k1ssly|Butterfly|Butterfly|banc",
+      "titre": "k1ssly passe sur le banc chez Butterfly",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2",
       "date": "2026-10-25"
     },
     {
@@ -28,23 +39,15 @@
         "Legacy 0-2 Nemiga",
         "FURIA 2-0 DENDELE"
       ],
-      "date": "2026-10-25"
+      "date": "2026-10-24"
     },
     {
       "cle": "debut|PGL Masters Bucharest 2026",
       "titre": "PGL Masters Bucharest 2026 a commencé",
-      "resume": "Le tournoi se joue à Bucarest, jusqu'au 31 octobre, $1,250,000 en jeu.",
+      "resume": "Le tournoi se joue à Bucarest, jusqu'au 31 octobre, 1 250 000 $ en jeu.",
       "categorie": "resultats",
       "tier": "Tier 1",
-      "date": "2026-10-25"
-    },
-    {
-      "cle": "tr|k1ssly|Butterfly|Butterfly|banc",
-      "titre": "k1ssly passe sur le banc chez Butterfly",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2",
-      "date": "2026-10-25"
+      "date": "2026-10-24"
     },
     {
       "cle": "res|1win Private Club #2|The MongolZ",
