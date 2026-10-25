@@ -1,5 +1,5 @@
 # Site Mexic Original : publication + news CS2 du jour, faites par GitHub tout seul.
-# - chaque jour vers 8 h (heure de Paris) : collecte des news, mise à jour de news.json, publication du site ;
+# - deux fois par jour, vers 7 h et vers 23 h (heure de Paris) : collecte des news, mise à jour de news.json, publication du site ;
 # - à chaque envoi de fichiers (« Upload files ») : publication du site (sans refaire les news) ;
 # - à la main : onglet Actions > « Site Mexic Original » > Run workflow (news refaites tout de suite).
 # Toujours sur la DERNIÈRE version du site (même en « Re-run ») : pas de vieux fichiers republiés, pas d'envoi refusé.
@@ -8,7 +8,8 @@ name: Site Mexic Original
 
 on:
   schedule:
-    - cron: "17 6 * * *"        # 6 h 17 UTC = 8 h 17 à Paris l'été, 7 h 17 l'hiver
+    - cron: "17 6 * * *"        # matin : 6 h 17 UTC = 7 h 17 à Paris l'hiver, 8 h 17 l'été
+    - cron: "13 22 * * *"       # soir : 22 h 13 UTC = 23 h 13 à Paris l'hiver, 0 h 13 l'été (matchs de la soirée)
   workflow_dispatch:
   push:
     branches: [main]
