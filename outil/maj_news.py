@@ -71,6 +71,8 @@ def collecte():
     dire(f"  {len(data['matches'])} match(s) à venir, {len(data['completed'])} match(s) terminé(s) avec score")
     if html_matchs and data["matches"] and not data["completed"]:
         _garder_page(html_matchs)                       # scores illisibles : page gardée pour la corriger
+    elif html_matchs and not os.path.exists(os.path.join(DEBUG, "liquipedia_matches.html")):
+        _garder_page(html_matchs, "copie unique de la page des matchs (pour lire les phases du tournoi)")
     data["female"] = SRC.female_tournaments(errors=errors)
     dire("Mises à jour de CS2 (Steam)...")
     try:
@@ -93,11 +95,11 @@ MATCH_MAX = 7                        # matchs affichés par tournoi et par jour
 EQUIPES_SUIVIES = "Vitality"         # toujours mises en avant, en plus des équipes françaises
 
 
-def _garder_page(html):
+def _garder_page(html, pourquoi="[ATTENTION] scores des matchs non lus"):
     os.makedirs(DEBUG, exist_ok=True)
     with open(os.path.join(DEBUG, "liquipedia_matches.html"), "w", encoding="utf-8") as f:
         f.write(html)
-    dire("  [ATTENTION] scores des matchs non lus : page gardée dans outil/debug pour correction")
+    dire(f"  {pourquoi} : page gardée dans outil/debug")
 
 
 def _paris(ts):
@@ -106,6 +108,18 @@ def _paris(ts):
         return datetime.datetime.fromtimestamp(ts, ZoneInfo("Europe/Paris"))
     except Exception:
         return datetime.datetime.fromtimestamp(ts, datetime.timezone.utc) + datetime.timedelta(hours=1)
+
+
+def _jour_tournoi(t, jour):
+    """« jour 2 » : le numéro du jour dans le tournoi (à partir de sa date de début sur Liquipedia)."""
+    try:
+        n = (datetime.date.fromisoformat(jour) - datetime.date.fromisoformat(t["start"])).days + 1
+        fin = (datetime.date.fromisoformat(t["end"]) - datetime.date.fromisoformat(t["start"])).days + 1
+    except (KeyError, TypeError, ValueError):
+        return ""
+    if not (1 <= n <= fin):
+        return ""
+    return "dernier jour" if n == fin and fin > 1 else f"jour {n}"
 
 
 def articles_matchs(data, maintenant=None):
@@ -121,7 +135,7 @@ def articles_matchs(data, maintenant=None):
     suivies = [x.strip().lower() for x in (EQUIPES_FR + "," + EQUIPES_SUIVIES).split(",") if x.strip()]
     est_suivie = lambda n: any(x in n.lower() for x in suivies)
     limite = maintenant.timestamp() - MATCH_HEURES * 3600
-    groupes = {}
+    groupes, infos = {}, {}
     for m in data.get("completed") or []:
         if m["ts"] < limite or m["ts"] > maintenant.timestamp():
             continue
@@ -130,8 +144,11 @@ def articles_matchs(data, maintenant=None):
             continue
         jour = _paris(m["ts"]).date().isoformat()
         groupes.setdefault((t["name"] if t else m["tournament"], jour), []).append(m)
+        if t:
+            infos[t["name"]] = t
     arts = []
     for (nom, jour), ms in groupes.items():
+        etape = _jour_tournoi(infos[nom], jour) if nom in infos else ""
         ms.sort(key=lambda m: (not (est_suivie(m["t1"]) or est_suivie(m["t2"])), m["ts"]))
         court = lambda m, k: m.get(k + "_court") or m[k]
         pastilles = [f"{court(m, 't1')} {m['s1']}-{m['s2']} {court(m, 't2')}" for m in ms[:MATCH_MAX]]
@@ -145,7 +162,8 @@ def articles_matchs(data, maintenant=None):
         resume = " ".join(phrases[:3]) or f"{len(ms)} match{'s' if len(ms) > 1 else ''} joué{'s' if len(ms) > 1 else ''}."
         if reste > 0:
             resume += f" Et {reste} autre{'s' if reste > 1 else ''} match{'s' if reste > 1 else ''}."
-        art = SITE._article(f"jour|{nom}|{jour}", f"{nom} : les résultats du {NS.date_fr(jour)}", resume,
+        titre = f"{nom}" + (f" · {etape}" if etape else "") + f" : les résultats du {NS.date_fr(jour)}"
+        art = SITE._article(f"jour|{nom}|{jour}", titre, resume,
                             "resultats", "Tier 1", pastilles)
         art["date"] = jour                                   # daté du jour des matchs, pas du jour de la collecte
         arts.append(art)
@@ -239,7 +257,7 @@ def articles_programme(data, maintenant=None):
     suivies = [x.strip().lower() for x in (EQUIPES_FR + "," + EQUIPES_SUIVIES).split(",") if x.strip()]
     est_suivie = lambda m: any(x in (m["t1"] + " " + m["t2"]).lower() for x in suivies)
     debut, fin = maintenant.timestamp(), maintenant.timestamp() + PROG_HEURES * 3600
-    groupes = {}
+    groupes, infos = {}, {}
     for m in data.get("matches") or []:
         if not (debut <= m["ts"] <= fin):
             continue
@@ -248,6 +266,8 @@ def articles_programme(data, maintenant=None):
             continue
         quand = _paris(m["ts"])
         groupes.setdefault((t["name"] if t else m["tournament"], quand.date().isoformat()), []).append((quand, m))
+        if t:
+            infos[t["name"]] = t
     court = lambda m, k: m.get(k + "_court") or m[k]
     arts = []
     for (nom, jour), ms in groupes.items():
@@ -260,7 +280,9 @@ def articles_programme(data, maintenant=None):
         if n > len(pastilles):
             resume += f" Et {n - len(pastilles)} autre{'s' if n - len(pastilles) > 1 else ''} match{'s' if n - len(pastilles) > 1 else ''}."
         resume += " Heures de Paris."
-        art = SITE._article(f"prog|{nom}|{jour}", f"{nom} : les matchs du {NS.date_fr(jour)}", resume,
+        etape = _jour_tournoi(infos[nom], jour) if nom in infos else ""
+        titre = f"{nom}" + (f" · {etape}" if etape else "") + f" : les matchs du {NS.date_fr(jour)}"
+        art = SITE._article(f"prog|{nom}|{jour}", titre, resume,
                             "resultats", "Programme", pastilles)
         art["date"] = jour
         arts.append(art)
