@@ -1,9 +1,26 @@
 {
   "articles": [
     {
+      "date": "2026-10-26",
+      "cle": "prog|PGL Masters Bucharest 2026|2026-10-26",
+      "titre": "PGL Masters Bucharest 2026 · jour 3 : les matchs du 26 octobre",
+      "resume": "Vitality affronte FUT à 12:00 (Bo3). Et 1 autre match. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "12:00 · Vitality vs FUT",
+        "09:00 · MOUZ vs MongolZ",
+        "09:00 · Aurora vs Nemiga",
+        "12:00 · 9z vs TYLOO",
+        "15:00 · Spirit vs FURIA",
+        "15:00 · Liquid vs Legacy",
+        "18:00 · BB vs NAVI"
+      ]
+    },
+    {
       "cle": "jour|PGL Masters Bucharest 2026|2026-10-25",
-      "titre": "PGL Masters Bucharest 2026 : les résultats du 25 octobre",
-      "resume": "Vitality bat MongolZ 2-0.",
+      "titre": "PGL Masters Bucharest 2026 · jour 2 : les résultats du 25 octobre",
+      "resume": "Vitality bat MongolZ 2-0. Et 1 autre match.",
       "categorie": "resultats",
       "tier": "Tier 1",
       "cartes": [
@@ -12,7 +29,8 @@
         "Spirit 2-0 TYLOO",
         "BB 2-0 Nemiga",
         "G2 0-2 Aurora",
-        "MOUZ 2-0 9z"
+        "MOUZ 2-0 9z",
+        "Legacy 2-0 DENDELE"
       ],
       "date": "2026-10-25"
     },
@@ -26,18 +44,17 @@
     },
     {
       "cle": "jour|PGL Masters Bucharest 2026|2026-10-24",
-      "titre": "PGL Masters Bucharest 2026 : les résultats du 24 octobre",
-      "resume": "Vitality bat 9z 2-0. Et 1 autre match.",
+      "titre": "PGL Masters Bucharest 2026 · jour 1 : les résultats du 24 octobre",
+      "resume": "Vitality bat 9z 2-0.",
       "categorie": "resultats",
       "tier": "Tier 1",
       "cartes": [
         "Vitality 2-0 9z",
-        "FUT 2-0 TYLOO",
-        "Aurora 1-2 MongolZ",
         "MOUZ 1-2 Liquid",
         "Spirit 1-2 BB",
         "Legacy 0-2 Nemiga",
-        "FURIA 2-0 DENDELE"
+        "FURIA 2-0 DENDELE",
+        "G2 0-2 NAVI"
       ],
       "date": "2026-10-24"
     },
@@ -411,13 +428,5 @@
     "id": "UCy5wcMtn9uzq_IUt3VgTgqQ"
   },
   "video": "",
-  "erreurs": [
-    "tournois S-Tier : HTTP Error 429: Too Many Requests",
-    "tournois A-Tier : HTTP Error 429: Too Many Requests",
-    "tournois B-Tier : HTTP Error 429: Too Many Requests",
-    "tournois C-Tier : HTTP Error 429: Too Many Requests",
-    "programme des matchs : HTTP Error 429: Too Many Requests",
-    "scène féminine : HTTP Error 429: Too Many Requests",
-    "transferts : HTTP Error 429: Too Many Requests"
-  ]
+  "erreurs": []
 }
