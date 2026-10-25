@@ -465,11 +465,27 @@ def tournaments(today=None, tiers=("S", "A", "B", "C"), errors=None):
 # =====================================================================
 #  Programme des matchs (page Liquipedia:Matches)
 # =====================================================================
+def _scores(chunk):
+    """Le score d'un match terminé (ex. 2 et 1), lu de plusieurs façons selon la mise en page de Liquipedia."""
+    nums = re.findall(r'scoreholder-score[^"]*"[^>]*>\s*(\d+)\s*<', chunk)
+    if len(nums) >= 2:
+        return int(nums[0]), int(nums[1])
+    m = re.search(r'scoreholder-upper[^>]*>(.*?)</span>\s*</span>', chunk, re.S) or \
+        re.search(r'class="[^"]*versus[^"]*"[^>]*>(.*?)</div>', chunk, re.S)
+    if m:
+        m2 = re.search(r"(\d+)\s*[:\-]\s*(\d+)", strip_tags(m.group(1)))
+        if m2:
+            return int(m2.group(1)), int(m2.group(2))
+    return None
+
+
 def parse_matches(html, section="upcoming"):
-    """Matchs à venir (ou terminés) : [{ts, t1, t2, bo, tournament, page}]."""
+    """Matchs à venir (ou terminés, avec leur score) : [{ts, t1, t2, bo, tournament, page, s1, s2}]."""
     html = html.replace("&#95;", "_")
     a = html.find('data-toggle-area-content="1"') if section == "upcoming" else html.find('data-toggle-area-content="2"')
     if a < 0:
+        if section != "upcoming":
+            return []
         a = 0
     b = html.find('data-toggle-area-content="2"', a + 10) if section == "upcoming" else len(html)
     part = html[a:b if b > 0 else len(html)]
@@ -481,13 +497,35 @@ def parse_matches(html, section="upcoming"):
         bo = re.search(r"\(Bo(\d)\)", chunk)
         if not ts or len(names) < 2 or not tour:
             continue
-        team = lambda n: htmllib.unescape(n[0] or n[1]).strip()
+        team = lambda n: htmllib.unescape(n[0] or n[1]).strip()          # nom complet (titre du lien)
+        court = lambda n: htmllib.unescape(n[1] or n[0]).strip()         # nom affiché (souvent plus court)
         t1, t2 = team(names[0]), team(names[1])
         if not t1 or not t2 or "TBD" in (t1.upper(), t2.upper()):
             continue
-        out.append({"ts": int(ts.group(1)), "t1": t1, "t2": t2, "bo": int(bo.group(1)) if bo else 0,
-                    "tournament": htmllib.unescape(tour.group(3)).strip(), "page": htmllib.unescape(tour.group(2))})
+        it = {"ts": int(ts.group(1)), "t1": t1, "t2": t2, "t1_court": court(names[0]), "t2_court": court(names[1]),
+              "bo": int(bo.group(1)) if bo else 0,
+              "tournament": htmllib.unescape(tour.group(3)).strip(), "page": htmllib.unescape(tour.group(2))}
+        if section != "upcoming":
+            sc = _scores(chunk)
+            if not sc:
+                continue
+            it["s1"], it["s2"] = sc
+            need = it["bo"] // 2 + 1 if it["bo"] else 0
+            if sc[0] == sc[1] or (need and max(sc) != need):       # score incohérent (match pas fini) : on ignore
+                continue
+        out.append(it)
     return out
+
+
+def matches_page(errors=None):
+    """Une seule lecture de Liquipedia:Matches : (matchs à venir, matchs terminés avec score)."""
+    try:
+        html = liqui_parse("Liquipedia:Matches")
+    except Exception as e:
+        if errors is not None:
+            errors.append(f"programme des matchs : {e}")
+        return [], [], ""
+    return parse_matches(html), parse_matches(html, "completed"), html
 
 
 def upcoming_matches(errors=None):

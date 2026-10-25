@@ -67,7 +67,10 @@ def collecte():
         if d:
             data["finals"][t["name"]] = d
     dire("Programme des matchs, scène féminine...")
-    data["matches"] = SRC.upcoming_matches(errors=errors)
+    data["matches"], data["completed"], html_matchs = SRC.matches_page(errors=errors)
+    dire(f"  {len(data['matches'])} match(s) à venir, {len(data['completed'])} match(s) terminé(s) avec score")
+    if html_matchs and data["matches"] and not data["completed"]:
+        _garder_page(html_matchs)                       # scores illisibles : page gardée pour la corriger
     data["female"] = SRC.female_tournaments(errors=errors)
     dire("Mises à jour de CS2 (Steam)...")
     try:
@@ -82,6 +85,87 @@ def collecte():
         if os.environ.get("GITHUB_ACTIONS"):
             dire(f"::warning title=Source en panne::{e}")      # visible sur la page du lancement (Annotations)
     return data
+
+
+DEBUG = os.path.join(ICI, "debug")
+MATCH_HEURES = 36                    # résultats des dernières 36 h
+MATCH_MAX = 7                        # matchs affichés par tournoi et par jour
+EQUIPES_SUIVIES = "Vitality"         # toujours mises en avant, en plus des équipes françaises
+
+
+def _garder_page(html):
+    os.makedirs(DEBUG, exist_ok=True)
+    with open(os.path.join(DEBUG, "liquipedia_matches.html"), "w", encoding="utf-8") as f:
+        f.write(html)
+    dire("  [ATTENTION] scores des matchs non lus : page gardée dans outil/debug pour correction")
+
+
+def _paris(ts):
+    try:
+        from zoneinfo import ZoneInfo
+        return datetime.datetime.fromtimestamp(ts, ZoneInfo("Europe/Paris"))
+    except Exception:
+        return datetime.datetime.fromtimestamp(ts, datetime.timezone.utc) + datetime.timedelta(hours=1)
+
+
+def articles_matchs(data, maintenant=None):
+    """Les résultats des matchs des gros tournois en cours (tier S et A) : un article par tournoi et par jour,
+    chaque match dans une pastille (« Vitality 2-1 MOUZ »). Rien d'inventé : seulement les scores lus sur Liquipedia."""
+    maintenant = maintenant or datetime.datetime.now(datetime.timezone.utc)
+    tours = data.get("tournaments") or {}
+    gros = {}
+    for t in (tours.get("ongoing") or []) + (tours.get("finished") or []):
+        if t.get("tier") in ("S", "A"):
+            gros[t.get("page") or t["name"]] = t
+            gros.setdefault(t["name"], t)
+    suivies = [x.strip().lower() for x in (EQUIPES_FR + "," + EQUIPES_SUIVIES).split(",") if x.strip()]
+    est_suivie = lambda n: any(x in n.lower() for x in suivies)
+    limite = maintenant.timestamp() - MATCH_HEURES * 3600
+    groupes = {}
+    for m in data.get("completed") or []:
+        if m["ts"] < limite or m["ts"] > maintenant.timestamp():
+            continue
+        t = gros.get(m["page"]) or gros.get(m["tournament"])
+        if not t and not (est_suivie(m["t1"]) or est_suivie(m["t2"])):
+            continue
+        jour = _paris(m["ts"]).date().isoformat()
+        groupes.setdefault((t["name"] if t else m["tournament"], jour), []).append(m)
+    arts = []
+    for (nom, jour), ms in groupes.items():
+        ms.sort(key=lambda m: (not (est_suivie(m["t1"]) or est_suivie(m["t2"])), m["ts"]))
+        court = lambda m, k: m.get(k + "_court") or m[k]
+        pastilles = [f"{court(m, 't1')} {m['s1']}-{m['s2']} {court(m, 't2')}" for m in ms[:MATCH_MAX]]
+        phrases = []
+        for m in ms:
+            if est_suivie(m["t1"]) or est_suivie(m["t2"]):
+                g, p = (court(m, "t1"), court(m, "t2")) if m["s1"] > m["s2"] else (court(m, "t2"), court(m, "t1"))
+                sc = f"{max(m['s1'], m['s2'])}-{min(m['s1'], m['s2'])}"
+                phrases.append(f"{g} bat {p} {sc}.")
+        reste = len(ms) - len(pastilles)
+        resume = " ".join(phrases[:3]) or f"{len(ms)} match{'s' if len(ms) > 1 else ''} joué{'s' if len(ms) > 1 else ''}."
+        if reste > 0:
+            resume += f" Et {reste} autre{'s' if reste > 1 else ''} match{'s' if reste > 1 else ''}."
+        arts.append(SITE._article(f"jour|{nom}|{jour}", f"{nom} : les résultats du {NS.date_fr(jour)}", resume,
+                                  "resultats", "Tier 1", pastilles))
+    return arts
+
+
+def articles_debuts(data, aujourdhui=None):
+    """Un gros tournoi (tier S) qui vient de commencer : un article, même avant les premiers scores."""
+    aujourdhui = aujourdhui or datetime.date.today()
+    out = []
+    for t in (data.get("tournaments") or {}).get("ongoing") or []:
+        if t.get("tier") != "S":
+            continue
+        debut = datetime.date.fromisoformat(t["start"])
+        if not (0 <= (aujourdhui - debut).days <= 2):
+            continue
+        ville = NS.city(t.get("location"))
+        bits = [f"à {ville}" if ville else ("en ligne" if t.get("online") else ""),
+                f"jusqu'au {NS.date_fr(t['end'])}", (t.get("prize") + " en jeu") if t.get("prize") else ""]
+        out.append(SITE._article(f"debut|{t['name']}", f"{t['name']} a commencé",
+                                 "Le tournoi se joue " + ", ".join(b for b in bits if b) + ".", "resultats", "Tier 1"))
+    return out
 
 
 def _get(url):
@@ -133,6 +217,12 @@ def main():
     script = NS.build(data, "Mexic", fr_teams=EQUIPES_FR.split(","), weekly=True,
                       release=datetime.datetime.now())["SEMAINE"]
     arts = SITE.articles_depuis_script(script)
+    try:
+        jours = articles_matchs(data)
+        arts = jours + articles_debuts(data) + arts
+        dire(f"Résultats des matchs : {len(jours)} article(s)")
+    except Exception as e:
+        dire(f"  [ATTENTION] résultats des matchs non faits : {e}")
     h = SITE._lire(SITE.HISTORIQUE, {}) or {}
     avant = {a.get("cle") for a in h.get("articles", [])}
     video, semaine = None, None
