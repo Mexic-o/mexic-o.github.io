@@ -391,7 +391,7 @@ def main():
     arts = SITE.articles_depuis_script(script)
     try:
         jours = articles_matchs(data)
-        arts = jours + articles_debuts(data) + arts
+        arts = articles_debuts(data) + arts       # les scores des gros tournois sont dans l'article programme du jour
         dire(f"Résultats des matchs : {len(jours)} article(s)")
     except Exception as e:
         dire(f"  [ATTENTION] résultats des matchs non faits : {e}")
@@ -401,7 +401,7 @@ def main():
             memoire = h.get("programmes") or {}
             prog = articles_programme(data, memoire)
             h["programmes"] = memoire                     # le programme de chaque jour reste en mémoire 7 jours
-            h["articles"] = [a for a in h.get("articles", []) if not str(a.get("cle", "")).startswith("prog|")]
+            h["articles"] = [a for a in h.get("articles", []) if not str(a.get("cle", "")).startswith(("prog|", "jour|"))]
             SITE._ecrire(SITE.HISTORIQUE, h)
             arts = prog + arts
             dire(f"Programme des matchs : {len(prog)} article(s)")
