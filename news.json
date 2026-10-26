@@ -1,5 +1,5 @@
 {
-  "maj": "2026-10-25",
+  "maj": "2026-10-26",
   "semaine": "",
   "video": "",
   "articles": [
@@ -17,6 +17,20 @@
         "15:00 · Spirit vs FURIA",
         "15:00 · Liquid vs Legacy",
         "18:00 · BB vs NAVI"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "titre": "Virtus.pro remporte CIS LAN Championship #9",
+      "resume": "Virtus.pro gagne l'édition 9 de CIS LAN Championship, contre Nemesis. Victoire 3 à 2, avec Mirage, Dust2 et Nuke pour Virtus.pro.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "cartes": [
+        "Cache 7-13",
+        "Mirage 13-10",
+        "Ancient 7-13",
+        "Dust2 13-11",
+        "Nuke 13-8"
       ]
     },
     {
@@ -49,7 +63,6 @@
       "tier": "Tier 1",
       "cartes": [
         "Vitality 2-0 9z",
-        "Spirit 1-2 BB",
         "Legacy 0-2 Nemiga",
         "FURIA 2-0 DENDELE",
         "G2 0-2 NAVI"
@@ -65,7 +78,7 @@
     },
     {
       "titre": "The MongolZ remporte 1win Private Club #2",
-      "resume": "The MongolZ gagne l'édition 2 de 1win Private Club, contre PARIVISION. Victoire 3 à 0, avec Ancient, Mirage et Dust2 pour The MongolZ. Pour PARIVISION, c'est une troisième finale perdue d'affilée.",
+      "resume": "Du côté de l'édition 2 de 1win Private Club, c'est The MongolZ qui l'emporte face à PARIVISION. Victoire 3 à 0, avec Ancient, Mirage et Dust2 pour The MongolZ. Pour PARIVISION, c'est une troisième finale perdue d'affilée.",
       "categorie": "resultats",
       "tier": "Tier 1",
       "cartes": [
@@ -77,7 +90,7 @@
     },
     {
       "titre": "Eternal Fire remporte DraculaN Season 7",
-      "resume": "Eternal Fire gagne DraculaN Season 7, contre SINNERS. Victoire 2 à 1, avec Cache et Ancient pour Eternal Fire.",
+      "resume": "On commence par le dernier résultat : Eternal Fire gagne DraculaN Season 7 à Bucarest, contre SINNERS en finale. Victoire 2 à 1, avec Cache et Ancient pour Eternal Fire.",
       "categorie": "resultats",
       "tier": "Tier 2",
       "cartes": [
@@ -132,13 +145,6 @@
       "categorie": "resultats",
       "tier": "Tier 2",
       "date": "2026-10-21"
-    },
-    {
-      "titre": "shalfey rejoint GamerLegion",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2",
-      "date": "2026-10-21"
     }
   ],
   "matchs": [
@@ -156,9 +162,9 @@
     },
     {
       "groupe": "En cours",
-      "jour": "2026-10-13",
-      "equipes": "CCT Europe 2026 Series #11",
-      "tournoi": "jusqu'au 25 octobre"
+      "jour": "2026-10-26",
+      "equipes": "DFRAG Invitational 2026",
+      "tournoi": "jusqu'au 1er novembre · Brisbane"
     },
     {
       "groupe": "À venir",
