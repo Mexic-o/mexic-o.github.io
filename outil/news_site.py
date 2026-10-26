@@ -255,8 +255,16 @@ def _fusionner(nouveaux, agenda=None, video=None, semaine=None, jour=None):
             connus[a["cle"]] = dict({"date": jour}, **a)          # un article peut porter sa propre date (jour du match)
     limite = (datetime.date.fromisoformat(jour) - datetime.timedelta(days=GARDE_JOURS)).isoformat()
     ordre = {"resultats": 0, "maj": 1, "mercato": 2, "fr": 3}
+    def _rang(a):
+        """Les plus importants d'abord, dans un même jour : Tier 1 et programme, puis Tier 2, puis le reste."""
+        t = a.get("tier") or ""
+        if t in ("Tier 1", "Programme"):
+            return 3
+        if t == "Tier 2":
+            return 2
+        return 1 if t else 0
     garde = sorted([a for a in connus.values() if a.get("date", jour) > limite],
-                   key=lambda a: (a.get("date", ""), -ordre.get(a.get("categorie"), 9)), reverse=True)
+                   key=lambda a: (a.get("date", ""), -ordre.get(a.get("categorie"), 9), _rang(a)), reverse=True)
     h["articles"] = garde
     if agenda is not None:
         h["agenda"] = agenda
@@ -265,8 +273,13 @@ def _fusionner(nouveaux, agenda=None, video=None, semaine=None, jour=None):
     if semaine:
         h["semaine"] = semaine
     h["maj"] = jour
+    try:
+        from zoneinfo import ZoneInfo
+        h["maj_heure"] = datetime.datetime.now(ZoneInfo("Europe/Paris")).strftime("%H:%M")
+    except Exception:
+        h["maj_heure"] = (datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(hours=1)).strftime("%H:%M")
     _ecrire(HISTORIQUE, h)
-    donnees = {"maj": jour, "semaine": h.get("semaine", ""), "video": h.get("video", ""),
+    donnees = {"maj": jour, "maj_heure": h.get("maj_heure", ""), "semaine": h.get("semaine", ""), "video": h.get("video", ""),
                "articles": [{k: v for k, v in a.items() if k != "cle"} for a in garde[:MAX_ARTICLES]],
                "matchs": (h.get("agenda") or [])[:MAX_AGENDA]}
     _ecrire(os.path.join(DOSSIER_SITE, "news.json"), donnees)

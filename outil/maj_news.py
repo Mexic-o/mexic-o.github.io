@@ -332,7 +332,10 @@ def articles_programme(data, memoire=None, maintenant=None):
         if joue:
             e["s1"], e["s2"] = m["s1"], m["s2"]
         elif "s1" in ancien:                       # le score déjà connu n'est jamais effacé
-            e["s1"], e["s2"] = ancien["s1"], ancien["s2"]
+            if ancien.get("t1") == m["t1"]:
+                e["s1"], e["s2"] = ancien["s1"], ancien["s2"]
+            else:                                  # équipes dans l'autre ordre : on remet le score du bon côté
+                e["s1"], e["s2"] = ancien["s2"], ancien["s1"]
         bloc["matchs"][ident] = e
         bloc["etape"] = _jour_tournoi(t, jour) if t else ""
 
