@@ -379,6 +379,7 @@ def articles_programme(data, memoire=None, maintenant=None):
         titre = " · ".join(x for x in (nom, bloc.get("etape"), ph) if x) + f" : les matchs du {NS.date_fr(jour)}"
         art = SITE._article(f"prog|{nom}|{jour}", titre, resume, "resultats", "Programme", pastilles)
         art["date"] = jour
+        art["rang"] = 2 if jour == aujourdhui.isoformat() else 0     # tournoi du jour en tête, programme à venir en bas
         arts.append(art)
     return arts
 

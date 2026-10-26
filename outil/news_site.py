@@ -264,7 +264,8 @@ def _fusionner(nouveaux, agenda=None, video=None, semaine=None, jour=None):
             return 2
         return 1 if t else 0
     garde = sorted([a for a in connus.values() if a.get("date", jour) > limite],
-                   key=lambda a: (a.get("date", ""), -ordre.get(a.get("categorie"), 9), _rang(a)), reverse=True)
+                   key=lambda a: (min(a.get("date", jour), jour), a.get("rang", 1), -ordre.get(a.get("categorie"), 9), _rang(a)),
+                   reverse=True)
     h["articles"] = garde
     if agenda is not None:
         h["agenda"] = agenda
