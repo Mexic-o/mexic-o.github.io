@@ -4,14 +4,26 @@
   "video": "",
   "articles": [
     {
+      "date": "2026-11-11",
+      "titre": "BLAST Rivals Fall 2026 - Group A : les matchs du 11 novembre",
+      "resume": "0 match joué, 1 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "06:30 · Vitality vs Falcons"
+      ]
+    },
+    {
       "date": "2026-10-27",
       "titre": "Stake Ranked Episode 5 · jour 1 : les matchs du 27 octobre",
-      "resume": "2 matchs au programme. Heures de Paris.",
+      "resume": "0 match joué, 4 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
         "12:00 · BIG vs magic",
-        "14:30 · IC vs Nemesis"
+        "14:30 · IC vs Nemesis",
+        "17:00 · Astralis vs Fnatic",
+        "19:30 · EF vs MIBR"
       ]
     },
     {
@@ -64,14 +76,17 @@
     {
       "date": "2026-10-26",
       "titre": "PGL Masters Bucharest 2026 · jour 3 : les matchs du 26 octobre",
-      "resume": "4 matchs au programme. Heures de Paris.",
+      "resume": "0 match joué, 8 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
+        "09:00 · MOUZ vs MongolZ",
+        "09:00 · Aurora vs Nemiga",
+        "12:00 · Vitality vs FUT",
+        "12:00 · 9z vs TYLOO",
         "15:00 · Spirit vs FURIA",
         "15:00 · Liquid vs Legacy",
-        "18:00 · BB vs NAVI",
-        "18:00 · G2 vs DENDELE"
+        "18:00 · BB vs NAVI"
       ]
     },
     {
@@ -89,6 +104,22 @@
         "Legacy 2-0 DENDELE"
       ],
       "date": "2026-10-25"
+    },
+    {
+      "date": "2026-10-25",
+      "titre": "PGL Masters Bucharest 2026 · jour 2 : les matchs du 25 octobre",
+      "resume": "Vitality bat MongolZ 2-0. 8 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "FUT 2-0 Liquid",
+        "Spirit 2-0 TYLOO",
+        "Vitality 2-0 MongolZ",
+        "BB 2-0 Nemiga",
+        "G2 0-2 Aurora",
+        "MOUZ 2-0 9z",
+        "Legacy 2-0 DENDELE"
+      ]
     },
     {
       "titre": "k1ssly passe sur le banc chez Butterfly",
@@ -139,20 +170,6 @@
         "Cache 16-12",
         "Ancient 16-14"
       ],
-      "date": "2026-10-24"
-    },
-    {
-      "titre": "nosraC passe sur le banc chez Voca",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2",
-      "date": "2026-10-24"
-    },
-    {
-      "titre": "SHiPZ rejoint Acend",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2",
       "date": "2026-10-24"
     }
   ],
