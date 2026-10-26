@@ -78,7 +78,10 @@
       var liste = document.getElementById('news-liste');
       if (liste) {
         var titre = document.getElementById('semaine');
-        if (titre && (d.maj || d.semaine)) titre.textContent = 'News CS2 · mis à jour le ' + dateFr(d.maj || d.semaine);
+        if (titre && (d.maj || d.semaine)) {
+          var hm = String(d.maj_heure || '').split(':');
+          titre.textContent = 'News CS2 · mis à jour le ' + dateFr(d.maj || d.semaine) + (hm.length === 2 ? ' à ' + hm[0] + ' h ' + hm[1] : '');
+        }
         var v = document.getElementById('video');
         if (v && sur(d.video)) { v.href = d.video; v.hidden = false; }
         if (!arts.length) vide(liste, 'Les premières news CS2 arrivent très vite.');
