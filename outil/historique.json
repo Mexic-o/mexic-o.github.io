@@ -1,20 +1,14 @@
 {
   "articles": [
     {
-      "date": "2026-10-26",
-      "cle": "prog|PGL Masters Bucharest 2026|2026-10-26",
-      "titre": "PGL Masters Bucharest 2026 · jour 3 : les matchs du 26 octobre",
-      "resume": "Vitality affronte FUT à 12:00 (Bo3). Et 1 autre match. Heures de Paris.",
+      "date": "2026-10-27",
+      "cle": "prog|Stake Ranked Episode 5|2026-10-27",
+      "titre": "Stake Ranked Episode 5 · jour 1 : les matchs du 27 octobre",
+      "resume": "1 match au programme. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "12:00 · Vitality vs FUT",
-        "09:00 · MOUZ vs MongolZ",
-        "09:00 · Aurora vs Nemiga",
-        "12:00 · 9z vs TYLOO",
-        "15:00 · Spirit vs FURIA",
-        "15:00 · Liquid vs Legacy",
-        "18:00 · BB vs NAVI"
+        "12:00 · BIG vs magic"
       ]
     },
     {
@@ -30,6 +24,56 @@
         "Ancient 7-13",
         "Dust2 13-11",
         "Nuke 13-8"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "cle": "prog|PGL Masters Bucharest 2026|2026-10-26",
+      "titre": "PGL Masters Bucharest 2026 · jour 3 : les matchs du 26 octobre",
+      "resume": "4 matchs au programme. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "15:00 · Spirit vs FURIA",
+        "15:00 · Liquid vs Legacy",
+        "18:00 · BB vs NAVI",
+        "18:00 · G2 vs DENDELE"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "cle": "res|Thunderpick World Championship 2026|FURIA",
+      "titre": "FURIA remporte Thunderpick World Championship 2026",
+      "resume": "Thunderpick World Championship, c'est terminé à Attard : FURIA s'impose en finale contre BetBoom Team. Victoire 3 à 2, avec Dust2, Mirage et Cache pour FURIA. Pour BetBoom Team, c'est une deuxième finale perdue d'affilée.",
+      "categorie": "resultats",
+      "tier": "Tier 1",
+      "cartes": [
+        "Dust2 13-6",
+        "Ancient 16-19",
+        "Nuke 9-13",
+        "Mirage 13-11",
+        "Cache 13-6"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "cle": "res|CCT Europe 2026 Series #11|ex-Zero Tenacity",
+      "titre": "ex-Zero Tenacity remporte CCT Europe 2026 Series #11",
+      "resume": "Du côté de l'édition 11 de CCT Europe, c'est ex-Zero Tenacity qui l'emporte face à Acend.",
+      "categorie": "resultats",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-10-26",
+      "cle": "res|Logitech G Pro Series 2026|NEXVOID",
+      "titre": "NEXVOID remporte Logitech G Pro Series 2026",
+      "resume": "NEXVOID gagne Logitech G Pro Series, contre FlyQuest. Victoire 2 à 1, avec Ancient et Inferno pour NEXVOID.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "cartes": [
+        "Ancient 13-7",
+        "Dust2 6-13",
+        "Inferno 13-11"
       ]
     },
     {

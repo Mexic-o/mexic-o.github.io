@@ -4,19 +4,13 @@
   "video": "",
   "articles": [
     {
-      "date": "2026-10-26",
-      "titre": "PGL Masters Bucharest 2026 · jour 3 : les matchs du 26 octobre",
-      "resume": "Vitality affronte FUT à 12:00 (Bo3). Et 1 autre match. Heures de Paris.",
+      "date": "2026-10-27",
+      "titre": "Stake Ranked Episode 5 · jour 1 : les matchs du 27 octobre",
+      "resume": "1 match au programme. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "12:00 · Vitality vs FUT",
-        "09:00 · MOUZ vs MongolZ",
-        "09:00 · Aurora vs Nemiga",
-        "12:00 · 9z vs TYLOO",
-        "15:00 · Spirit vs FURIA",
-        "15:00 · Liquid vs Legacy",
-        "18:00 · BB vs NAVI"
+        "12:00 · BIG vs magic"
       ]
     },
     {
@@ -31,6 +25,52 @@
         "Ancient 7-13",
         "Dust2 13-11",
         "Nuke 13-8"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "titre": "PGL Masters Bucharest 2026 · jour 3 : les matchs du 26 octobre",
+      "resume": "4 matchs au programme. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "15:00 · Spirit vs FURIA",
+        "15:00 · Liquid vs Legacy",
+        "18:00 · BB vs NAVI",
+        "18:00 · G2 vs DENDELE"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "titre": "FURIA remporte Thunderpick World Championship 2026",
+      "resume": "Thunderpick World Championship, c'est terminé à Attard : FURIA s'impose en finale contre BetBoom Team. Victoire 3 à 2, avec Dust2, Mirage et Cache pour FURIA. Pour BetBoom Team, c'est une deuxième finale perdue d'affilée.",
+      "categorie": "resultats",
+      "tier": "Tier 1",
+      "cartes": [
+        "Dust2 13-6",
+        "Ancient 16-19",
+        "Nuke 9-13",
+        "Mirage 13-11",
+        "Cache 13-6"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "titre": "ex-Zero Tenacity remporte CCT Europe 2026 Series #11",
+      "resume": "Du côté de l'édition 11 de CCT Europe, c'est ex-Zero Tenacity qui l'emporte face à Acend.",
+      "categorie": "resultats",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-10-26",
+      "titre": "NEXVOID remporte Logitech G Pro Series 2026",
+      "resume": "NEXVOID gagne Logitech G Pro Series, contre FlyQuest. Victoire 2 à 1, avec Ancient et Inferno pour NEXVOID.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "cartes": [
+        "Ancient 13-7",
+        "Dust2 6-13",
+        "Inferno 13-11"
       ]
     },
     {
@@ -113,38 +153,6 @@
       "categorie": "mercato",
       "tier": "Tier 2",
       "date": "2026-10-24"
-    },
-    {
-      "titre": "AwaykeN passe d'INFURITY à Acend",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2",
-      "date": "2026-10-24"
-    },
-    {
-      "titre": "Phantom remporte Elisa BreakOut Series #2",
-      "resume": "Phantom gagne l'édition 2 d'Elisa BreakOut, contre HAVU. Victoire 2 à 0, avec Ancient et Nuke pour Phantom.",
-      "categorie": "resultats",
-      "tier": "Tier 2",
-      "cartes": [
-        "Ancient 13-5",
-        "Nuke 13-10"
-      ],
-      "date": "2026-10-23"
-    },
-    {
-      "titre": "Mise à jour CS2 du 22 octobre",
-      "resume": "Côté jeu, mise à jour de CS2 le 22 octobre, avec 53 changements au total.",
-      "categorie": "maj",
-      "lien": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114034398",
-      "date": "2026-10-23"
-    },
-    {
-      "titre": "MIBR Female remporte WIBR Cup 2026",
-      "resume": "Côté scène féminine, MIBR Female remporte WIBR Cup, face à YouaremyFrag Female en finale.",
-      "categorie": "resultats",
-      "tier": "Tier 2",
-      "date": "2026-10-21"
     }
   ],
   "matchs": [
