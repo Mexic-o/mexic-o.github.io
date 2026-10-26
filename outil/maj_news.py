@@ -319,7 +319,12 @@ def articles_programme(data, memoire=None, maintenant=None):
         jour = _paris(m["ts"]).date().isoformat()
         nom = t["name"] if t else m["tournament"]
         bloc = memoire.setdefault(f"{nom}|{jour}", {"nom": nom, "jour": jour, "matchs": {}})
-        ident = f"{m['t1']}|{m['t2']}"
+        # même match quel que soit l'ordre des équipes (à venir ou joué)
+        ident = "|".join(sorted([m["t1"], m["t2"]]))
+        for k in list(bloc["matchs"]):
+            if k != ident and sorted(k.split("|")) == sorted([m["t1"], m["t2"]]):
+                ancien_doublon = bloc["matchs"].pop(k)
+                bloc["matchs"].setdefault(ident, ancien_doublon)
         ancien = bloc["matchs"].get(ident, {})
         e = {"ts": m["ts"], "t1": m["t1"], "t2": m["t2"],
              "t1_court": m.get("t1_court") or m["t1"], "t2_court": m.get("t2_court") or m["t2"],
