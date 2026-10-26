@@ -76,17 +76,30 @@
     {
       "date": "2026-10-26",
       "titre": "PGL Masters Bucharest 2026 · jour 3 : les matchs du 26 octobre",
-      "resume": "0 match joué, 8 à venir. Heures de Paris.",
+      "resume": "FUT bat Vitality 2-1. 4 matchs joués, 6 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
         "09:00 · MOUZ vs MongolZ",
         "09:00 · Aurora vs Nemiga",
-        "12:00 · Vitality vs FUT",
-        "12:00 · 9z vs TYLOO",
-        "15:00 · Spirit vs FURIA",
-        "15:00 · Liquid vs Legacy",
-        "18:00 · BB vs NAVI"
+        "MongolZ 0-2 MOUZ",
+        "Nemiga 0-2 Aurora",
+        "Vitality 1-2 FUT",
+        "9z 1-2 TYLOO",
+        "14:40 · Spirit vs FURIA"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "titre": "PGL Masters Bucharest 2026 · jour 3 : les résultats du 26 octobre",
+      "resume": "FUT bat Vitality 2-1.",
+      "categorie": "resultats",
+      "tier": "Tier 1",
+      "cartes": [
+        "Vitality 1-2 FUT",
+        "MongolZ 0-2 MOUZ",
+        "Nemiga 0-2 Aurora",
+        "9z 1-2 TYLOO"
       ]
     },
     {
@@ -157,18 +170,6 @@
         "Ancient 13-6",
         "Mirage 13-11",
         "Dust2 13-4"
-      ],
-      "date": "2026-10-24"
-    },
-    {
-      "titre": "Eternal Fire remporte DraculaN Season 7",
-      "resume": "On commence par le dernier résultat : Eternal Fire gagne DraculaN Season 7 à Bucarest, contre SINNERS en finale. Victoire 2 à 1, avec Cache et Ancient pour Eternal Fire.",
-      "categorie": "resultats",
-      "tier": "Tier 2",
-      "cartes": [
-        "Mirage 6-13",
-        "Cache 16-12",
-        "Ancient 16-14"
       ],
       "date": "2026-10-24"
     }

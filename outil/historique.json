@@ -80,17 +80,31 @@
       "date": "2026-10-26",
       "cle": "prog|PGL Masters Bucharest 2026|2026-10-26",
       "titre": "PGL Masters Bucharest 2026 · jour 3 : les matchs du 26 octobre",
-      "resume": "0 match joué, 8 à venir. Heures de Paris.",
+      "resume": "FUT bat Vitality 2-1. 4 matchs joués, 6 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
         "09:00 · MOUZ vs MongolZ",
         "09:00 · Aurora vs Nemiga",
-        "12:00 · Vitality vs FUT",
-        "12:00 · 9z vs TYLOO",
-        "15:00 · Spirit vs FURIA",
-        "15:00 · Liquid vs Legacy",
-        "18:00 · BB vs NAVI"
+        "MongolZ 0-2 MOUZ",
+        "Nemiga 0-2 Aurora",
+        "Vitality 1-2 FUT",
+        "9z 1-2 TYLOO",
+        "14:40 · Spirit vs FURIA"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "cle": "jour|PGL Masters Bucharest 2026|2026-10-26",
+      "titre": "PGL Masters Bucharest 2026 · jour 3 : les résultats du 26 octobre",
+      "resume": "FUT bat Vitality 2-1.",
+      "categorie": "resultats",
+      "tier": "Tier 1",
+      "cartes": [
+        "Vitality 1-2 FUT",
+        "MongolZ 0-2 MOUZ",
+        "Nemiga 0-2 Aurora",
+        "9z 1-2 TYLOO"
       ]
     },
     {
@@ -409,25 +423,29 @@
           "phase": ""
         },
         "Team Vitality|FUT Esports": {
-          "ts": 1793012400,
+          "ts": 1793010000,
           "t1": "Team Vitality",
           "t2": "FUT Esports",
           "t1_court": "Vitality",
           "t2_court": "FUT",
           "bo": 3,
-          "phase": ""
+          "phase": "",
+          "s1": 1,
+          "s2": 2
         },
         "9z Team|TYLOO": {
-          "ts": 1793012400,
+          "ts": 1793012100,
           "t1": "9z Team",
           "t2": "TYLOO",
           "t1_court": "9z",
           "t2_court": "TYLOO",
           "bo": 3,
-          "phase": ""
+          "phase": "",
+          "s1": 1,
+          "s2": 2
         },
         "Team Spirit|FURIA": {
-          "ts": 1793023200,
+          "ts": 1793022000,
           "t1": "Team Spirit",
           "t2": "FURIA",
           "t1_court": "Spirit",
@@ -436,7 +454,7 @@
           "phase": ""
         },
         "Team Liquid|Legacy": {
-          "ts": 1793023200,
+          "ts": 1793022900,
           "t1": "Team Liquid",
           "t2": "Legacy",
           "t1_court": "Liquid",
@@ -461,6 +479,28 @@
           "t2_court": "DENDELE",
           "bo": 3,
           "phase": ""
+        },
+        "The MongolZ|MOUZ": {
+          "ts": 1793001600,
+          "t1": "The MongolZ",
+          "t2": "MOUZ",
+          "t1_court": "MongolZ",
+          "t2_court": "MOUZ",
+          "bo": 3,
+          "phase": "",
+          "s1": 0,
+          "s2": 2
+        },
+        "Nemiga Gaming|Aurora Gaming": {
+          "ts": 1793001600,
+          "t1": "Nemiga Gaming",
+          "t2": "Aurora Gaming",
+          "t1_court": "Nemiga",
+          "t2_court": "Aurora",
+          "bo": 3,
+          "phase": "",
+          "s1": 0,
+          "s2": 2
         }
       },
       "etape": "jour 3"
