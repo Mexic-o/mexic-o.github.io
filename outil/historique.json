@@ -4,11 +4,12 @@
       "date": "2026-10-27",
       "cle": "prog|Stake Ranked Episode 5|2026-10-27",
       "titre": "Stake Ranked Episode 5 · jour 1 : les matchs du 27 octobre",
-      "resume": "1 match au programme. Heures de Paris.",
+      "resume": "2 matchs au programme. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "12:00 · BIG vs magic"
+        "12:00 · BIG vs magic",
+        "14:30 · IC vs Nemesis"
       ]
     },
     {
@@ -24,20 +25,6 @@
         "Ancient 7-13",
         "Dust2 13-11",
         "Nuke 13-8"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "cle": "prog|PGL Masters Bucharest 2026|2026-10-26",
-      "titre": "PGL Masters Bucharest 2026 · jour 3 : les matchs du 26 octobre",
-      "resume": "4 matchs au programme. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "15:00 · Spirit vs FURIA",
-        "15:00 · Liquid vs Legacy",
-        "18:00 · BB vs NAVI",
-        "18:00 · G2 vs DENDELE"
       ]
     },
     {
@@ -74,6 +61,20 @@
         "Ancient 13-7",
         "Dust2 6-13",
         "Inferno 13-11"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "cle": "prog|PGL Masters Bucharest 2026|2026-10-26",
+      "titre": "PGL Masters Bucharest 2026 · jour 3 : les matchs du 26 octobre",
+      "resume": "4 matchs au programme. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "15:00 · Spirit vs FURIA",
+        "15:00 · Liquid vs Legacy",
+        "18:00 · BB vs NAVI",
+        "18:00 · G2 vs DENDELE"
       ]
     },
     {
