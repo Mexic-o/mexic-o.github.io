@@ -8,8 +8,9 @@ name: Site Mexic Original
 
 on:
   schedule:
-    - cron: "17 6 * * *"        # matin : 6 h 17 UTC = 7 h 17 à Paris l'hiver, 8 h 17 l'été
-    - cron: "13 22 * * *"       # soir : 22 h 13 UTC = 23 h 13 à Paris l'hiver, 0 h 13 l'été (matchs de la soirée)
+    - cron: "17 9 * * *"        # matin : 9 h 17 UTC = 10 h 17 à Paris l'hiver, 11 h 17 l'été
+    - cron: "17 0 * * *"        # soir : 0 h 17 UTC = 1 h 17 à Paris l'hiver, 2 h 17 l'été (matchs de la soirée)
+    - cron: "17 14 * * *"       # secours : 14 h 17 UTC = 15 h 17 à Paris l'hiver, 16 h 17 l'été (si un passage a sauté)
   workflow_dispatch:
   push:
     branches: [main]
