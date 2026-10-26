@@ -1,6 +1,6 @@
 {
   "maj": "2026-10-26",
-  "maj_heure": "15:44",
+  "maj_heure": "16:49",
   "semaine": "",
   "video": "",
   "articles": [
@@ -39,19 +39,6 @@
         "Nuke 9-13",
         "Mirage 13-11",
         "Cache 13-6"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "titre": "PGL Masters Bucharest 2026 · jour 3 : les résultats du 26 octobre",
-      "resume": "FUT bat Vitality 2-1.",
-      "categorie": "resultats",
-      "tier": "Tier 1",
-      "cartes": [
-        "Vitality 1-2 FUT",
-        "MongolZ 0-2 MOUZ",
-        "Nemiga 0-2 Aurora",
-        "9z 1-2 TYLOO"
       ]
     },
     {
@@ -104,22 +91,6 @@
       ]
     },
     {
-      "titre": "PGL Masters Bucharest 2026 · jour 2 : les résultats du 25 octobre",
-      "resume": "Vitality bat MongolZ 2-0. Et 1 autre match.",
-      "categorie": "resultats",
-      "tier": "Tier 1",
-      "cartes": [
-        "Vitality 2-0 MongolZ",
-        "FUT 2-0 Liquid",
-        "Spirit 2-0 TYLOO",
-        "BB 2-0 Nemiga",
-        "G2 0-2 Aurora",
-        "MOUZ 2-0 9z",
-        "Legacy 2-0 DENDELE"
-      ],
-      "date": "2026-10-25"
-    },
-    {
       "date": "2026-10-25",
       "titre": "PGL Masters Bucharest 2026 · jour 2 : les matchs du 25 octobre",
       "resume": "Vitality bat MongolZ 2-0. 8 matchs joués, 0 à venir. Heures de Paris.",
@@ -143,19 +114,6 @@
       "date": "2026-10-25"
     },
     {
-      "titre": "PGL Masters Bucharest 2026 · jour 1 : les résultats du 24 octobre",
-      "resume": "Vitality bat 9z 2-0.",
-      "categorie": "resultats",
-      "tier": "Tier 1",
-      "cartes": [
-        "Vitality 2-0 9z",
-        "Legacy 0-2 Nemiga",
-        "FURIA 2-0 DENDELE",
-        "G2 0-2 NAVI"
-      ],
-      "date": "2026-10-24"
-    },
-    {
       "titre": "PGL Masters Bucharest 2026 a commencé",
       "resume": "Le tournoi se joue à Bucarest, jusqu'au 31 octobre, 1 250 000 $ en jeu.",
       "categorie": "resultats",
@@ -172,6 +130,41 @@
         "Mirage 13-11",
         "Dust2 13-4"
       ],
+      "date": "2026-10-24"
+    },
+    {
+      "date": "2026-10-24",
+      "titre": "PGL Masters Bucharest 2026 · jour 1 : les matchs du 24 octobre",
+      "resume": "Vitality bat 9z 2-0. 8 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "FUT 2-0 TYLOO",
+        "Aurora 1-2 MongolZ",
+        "MOUZ 1-2 Liquid",
+        "Spirit 1-2 BB",
+        "Legacy 0-2 Nemiga",
+        "Vitality 2-0 9z",
+        "FURIA 2-0 DENDELE"
+      ]
+    },
+    {
+      "titre": "Eternal Fire remporte DraculaN Season 7",
+      "resume": "On commence par le dernier résultat : Eternal Fire gagne DraculaN Season 7 à Bucarest, contre SINNERS en finale. Victoire 2 à 1, avec Cache et Ancient pour Eternal Fire.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "cartes": [
+        "Mirage 6-13",
+        "Cache 16-12",
+        "Ancient 16-14"
+      ],
+      "date": "2026-10-24"
+    },
+    {
+      "titre": "nosraC passe sur le banc chez Voca",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2",
       "date": "2026-10-24"
     }
   ],

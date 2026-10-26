@@ -42,20 +42,6 @@
     },
     {
       "date": "2026-10-26",
-      "cle": "jour|PGL Masters Bucharest 2026|2026-10-26",
-      "titre": "PGL Masters Bucharest 2026 · jour 3 : les résultats du 26 octobre",
-      "resume": "FUT bat Vitality 2-1.",
-      "categorie": "resultats",
-      "tier": "Tier 1",
-      "cartes": [
-        "Vitality 1-2 FUT",
-        "MongolZ 0-2 MOUZ",
-        "Nemiga 0-2 Aurora",
-        "9z 1-2 TYLOO"
-      ]
-    },
-    {
-      "date": "2026-10-26",
       "cle": "prog|PGL Masters Bucharest 2026|2026-10-26",
       "titre": "PGL Masters Bucharest 2026 · jour 3 : les matchs du 26 octobre",
       "resume": "FUT bat Vitality 2-1. 4 matchs joués, 4 à venir. Heures de Paris.",
@@ -108,23 +94,6 @@
       ]
     },
     {
-      "cle": "jour|PGL Masters Bucharest 2026|2026-10-25",
-      "titre": "PGL Masters Bucharest 2026 · jour 2 : les résultats du 25 octobre",
-      "resume": "Vitality bat MongolZ 2-0. Et 1 autre match.",
-      "categorie": "resultats",
-      "tier": "Tier 1",
-      "cartes": [
-        "Vitality 2-0 MongolZ",
-        "FUT 2-0 Liquid",
-        "Spirit 2-0 TYLOO",
-        "BB 2-0 Nemiga",
-        "G2 0-2 Aurora",
-        "MOUZ 2-0 9z",
-        "Legacy 2-0 DENDELE"
-      ],
-      "date": "2026-10-25"
-    },
-    {
       "date": "2026-10-25",
       "cle": "prog|PGL Masters Bucharest 2026|2026-10-25",
       "titre": "PGL Masters Bucharest 2026 · jour 2 : les matchs du 25 octobre",
@@ -148,20 +117,6 @@
       "categorie": "mercato",
       "tier": "Tier 2",
       "date": "2026-10-25"
-    },
-    {
-      "cle": "jour|PGL Masters Bucharest 2026|2026-10-24",
-      "titre": "PGL Masters Bucharest 2026 · jour 1 : les résultats du 24 octobre",
-      "resume": "Vitality bat 9z 2-0.",
-      "categorie": "resultats",
-      "tier": "Tier 1",
-      "cartes": [
-        "Vitality 2-0 9z",
-        "Legacy 0-2 Nemiga",
-        "FURIA 2-0 DENDELE",
-        "G2 0-2 NAVI"
-      ],
-      "date": "2026-10-24"
     },
     {
       "cle": "debut|PGL Masters Bucharest 2026",
@@ -806,5 +761,5 @@
       "etape": "jour 3"
     }
   },
-  "maj_heure": "15:44"
+  "maj_heure": "16:49"
 }
