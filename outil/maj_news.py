@@ -296,51 +296,80 @@ def video_de_la_semaine(h, maintenant=None):
 PROG_HEURES = 24                     # programme : les matchs des prochaines 24 h
 
 
-def articles_programme(data, maintenant=None):
-    """Le programme des gros tournois (tier S et A) : un article par tournoi et par jour, chaque affiche avec son heure
-    de Paris (« 13:00 · Vitality vs FaZe »), Vitality et les équipes françaises en premier."""
+def articles_programme(data, memoire=None, maintenant=None):
+    """Le programme des gros tournois (tier S et A), jour par jour. Chaque jour garde tous ses matchs :
+    joués (avec le score) et à venir. Le programme est mémorisé (memoire, dans historique.json) pour ne rien perdre
+    quand un match est joué et sort de la liste des matchs à venir."""
     maintenant = maintenant or datetime.datetime.now(datetime.timezone.utc)
+    memoire = memoire if memoire is not None else {}
+    aujourdhui = _paris(maintenant.timestamp()).date()
     tours = data.get("tournaments") or {}
     gros = {}
-    for t in (tours.get("ongoing") or []) + (tours.get("upcoming") or []):
+    for t in (tours.get("ongoing") or []) + (tours.get("upcoming") or []) + (tours.get("finished") or []):
         if t.get("tier") in ("S", "A"):
             gros[t.get("page") or t["name"]] = t
             gros.setdefault(t["name"], t)
     suivies = [x.strip().lower() for x in (EQUIPES_FR + "," + EQUIPES_SUIVIES).split(",") if x.strip()]
     est_suivie = lambda m: any(x in (m["t1"] + " " + m["t2"]).lower() for x in suivies)
-    debut, fin = maintenant.timestamp(), maintenant.timestamp() + PROG_HEURES * 3600
-    groupes, infos = {}, {}
-    for m in data.get("matches") or []:
-        if not (debut <= m["ts"] <= fin):
-            continue
-        t = gros.get(m["page"]) or gros.get(m["tournament"])
+
+    def memoriser(m, joue):
+        t = gros.get((m.get("page") or "").split("#")[0]) or gros.get(m.get("page") or "") or gros.get(m["tournament"])
         if not t and not est_suivie(m):
-            continue
-        quand = _paris(m["ts"])
-        groupes.setdefault((t["name"] if t else m["tournament"], quand.date().isoformat()), []).append((quand, m))
-        if t:
-            infos[t["name"]] = t
-    court = lambda m, k: m.get(k + "_court") or m[k]
+            return
+        jour = _paris(m["ts"]).date().isoformat()
+        nom = t["name"] if t else m["tournament"]
+        bloc = memoire.setdefault(f"{nom}|{jour}", {"nom": nom, "jour": jour, "matchs": {}})
+        ident = f"{m['t1']}|{m['t2']}"
+        ancien = bloc["matchs"].get(ident, {})
+        e = {"ts": m["ts"], "t1": m["t1"], "t2": m["t2"],
+             "t1_court": m.get("t1_court") or m["t1"], "t2_court": m.get("t2_court") or m["t2"],
+             "bo": m.get("bo") or "", "phase": phase_de(m)}
+        if joue:
+            e["s1"], e["s2"] = m["s1"], m["s2"]
+        elif "s1" in ancien:                       # le score déjà connu n'est jamais effacé
+            e["s1"], e["s2"] = ancien["s1"], ancien["s2"]
+        bloc["matchs"][ident] = e
+        bloc["etape"] = _jour_tournoi(t, jour) if t else ""
+
+    for m in data.get("matches") or []:
+        memoriser(m, False)
+    for m in data.get("completed") or []:
+        memoriser(m, True)
+
+    # on garde 7 jours de programmes
+    for cle in list(memoire):
+        if (datetime.date.fromisoformat(memoire[cle]["jour"]) - aujourdhui).days < -7:
+            del memoire[cle]
+
     arts = []
-    for (nom, jour), ms in groupes.items():
-        ms.sort(key=lambda x: (not est_suivie(x[1]), x[0]))
-        pastilles = [f"{q:%H:%M} · {court(m, 't1')} vs {court(m, 't2')}" for q, m in ms[:MATCH_MAX]]
-        phrases = [f"{court(m, 't1')} affronte {court(m, 't2')} à {q:%H:%M}" + (f" (Bo{m['bo']})" if m.get("bo") else "") + "."
-                   for q, m in ms if est_suivie(m)][:3]
-        n = len(ms)
-        resume = " ".join(phrases) or f"{n} match{'s' if n > 1 else ''} au programme."
-        if n > len(pastilles):
-            resume += f" Et {n - len(pastilles)} autre{'s' if n - len(pastilles) > 1 else ''} match{'s' if n - len(pastilles) > 1 else ''}."
-        resume += " Heures de Paris."
-        etape = _jour_tournoi(infos[nom], jour) if nom in infos else ""
-        ph = _phase_principale([m for _, m in ms])
-        titre = " · ".join(x for x in (nom, etape, ph) if x) + f" : les matchs du {NS.date_fr(jour)}"
-        art = SITE._article(f"prog|{nom}|{jour}", titre, resume,
-                            "resultats", "Programme", pastilles)
+    for cle, bloc in sorted(memoire.items(), key=lambda kv: kv[1]["jour"]):
+        ms = sorted(bloc["matchs"].values(), key=lambda e: e["ts"])
+        if not ms:
+            continue
+        court = lambda e, k: e.get(k + "_court") or e[k]
+        pastilles = []
+        for e in ms[:MATCH_MAX * 2]:
+            if "s1" in e:
+                pastilles.append(f"{court(e, 't1')} {e['s1']}-{e['s2']} {court(e, 't2')}")
+            else:
+                pastilles.append(f"{_paris(e['ts']):%H:%M} · {court(e, 't1')} vs {court(e, 't2')}")
+        joues = [e for e in ms if "s1" in e]
+        restants = len(ms) - len(joues)
+        phrases = [f"{court(e, 't1') if e['s1'] > e['s2'] else court(e, 't2')} bat "
+                   f"{court(e, 't2') if e['s1'] > e['s2'] else court(e, 't1')} {max(e['s1'], e['s2'])}-{min(e['s1'], e['s2'])}."
+                   for e in joues if est_suivie(e)]
+        resume = " ".join(phrases[:2])
+        resume += (" " if resume else "") + f"{len(joues)} match{'s' if len(joues) > 1 else ''} joué{'s' if len(joues) > 1 else ''}, "
+        resume += f"{restants} à venir. Heures de Paris."
+        from collections import Counter
+        c = Counter(e["phase"] for e in ms if e.get("phase"))
+        ph = c.most_common(1)[0][0] if c else ""
+        nom, jour = bloc["nom"], bloc["jour"]
+        titre = " · ".join(x for x in (nom, bloc.get("etape"), ph) if x) + f" : les matchs du {NS.date_fr(jour)}"
+        art = SITE._article(f"prog|{nom}|{jour}", titre, resume, "resultats", "Programme", pastilles)
         art["date"] = jour
         arts.append(art)
     return arts
-
 
 def main():
     jour = datetime.date.today().isoformat()
@@ -358,9 +387,11 @@ def main():
     h = SITE._lire(SITE.HISTORIQUE, {}) or {}
     if not any(e.startswith("programme des matchs") for e in data["errors"]):
         try:
-            prog = articles_programme(data)
+            memoire = h.get("programmes") or {}
+            prog = articles_programme(data, memoire)
+            h["programmes"] = memoire                     # le programme de chaque jour reste en mémoire 7 jours
             h["articles"] = [a for a in h.get("articles", []) if not str(a.get("cle", "")).startswith("prog|")]
-            SITE._ecrire(SITE.HISTORIQUE, h)              # l'ancien programme s'efface (matchs joués = résultats)
+            SITE._ecrire(SITE.HISTORIQUE, h)
             arts = prog + arts
             dire(f"Programme des matchs : {len(prog)} article(s)")
         except Exception as e:
