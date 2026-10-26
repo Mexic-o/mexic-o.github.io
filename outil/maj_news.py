@@ -332,6 +332,9 @@ def articles_programme(data, memoire=None, maintenant=None):
         bloc["etape"] = _jour_tournoi(t, jour) if t else ""
 
     for m in data.get("matches") or []:
+        # seulement aujourd'hui et demain : pas les matchs de la semaine suivante
+        if (_paris(m["ts"]).date() - aujourdhui).days > 1:
+            continue
         memoriser(m, False)
     for m in data.get("completed") or []:
         memoriser(m, True)
