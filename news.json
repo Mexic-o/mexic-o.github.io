@@ -1,46 +1,9 @@
 {
   "maj": "2026-10-26",
-  "maj_heure": "16:49",
+  "maj_heure": "17:08",
   "semaine": "",
   "video": "",
   "articles": [
-    {
-      "date": "2026-11-11",
-      "titre": "BLAST Rivals Fall 2026 - Group A : les matchs du 11 novembre",
-      "resume": "0 match joué, 1 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "06:30 · Vitality vs Falcons"
-      ]
-    },
-    {
-      "date": "2026-10-27",
-      "titre": "Stake Ranked Episode 5 · jour 1 : les matchs du 27 octobre",
-      "resume": "0 match joué, 4 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "12:00 · BIG vs magic",
-        "14:30 · IC vs Nemesis",
-        "17:00 · Astralis vs Fnatic",
-        "19:30 · EF vs MIBR"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "titre": "FURIA remporte Thunderpick World Championship 2026",
-      "resume": "Thunderpick World Championship, c'est terminé à Attard : FURIA s'impose en finale contre BetBoom Team. Victoire 3 à 2, avec Dust2, Mirage et Cache pour FURIA. Pour BetBoom Team, c'est une deuxième finale perdue d'affilée.",
-      "categorie": "resultats",
-      "tier": "Tier 1",
-      "cartes": [
-        "Dust2 13-6",
-        "Ancient 16-19",
-        "Nuke 9-13",
-        "Mirage 13-11",
-        "Cache 13-6"
-      ]
-    },
     {
       "date": "2026-10-26",
       "titre": "PGL Masters Bucharest 2026 · jour 3 : les matchs du 26 octobre",
@@ -55,6 +18,21 @@
         "14:40 · Spirit vs FURIA",
         "14:55 · Liquid vs Legacy",
         "18:00 · BB vs NAVI"
+      ],
+      "rang": 2
+    },
+    {
+      "date": "2026-10-26",
+      "titre": "FURIA remporte Thunderpick World Championship 2026",
+      "resume": "Thunderpick World Championship, c'est terminé à Attard : FURIA s'impose en finale contre BetBoom Team. Victoire 3 à 2, avec Dust2, Mirage et Cache pour FURIA. Pour BetBoom Team, c'est une deuxième finale perdue d'affilée.",
+      "categorie": "resultats",
+      "tier": "Tier 1",
+      "cartes": [
+        "Dust2 13-6",
+        "Ancient 16-19",
+        "Nuke 9-13",
+        "Mirage 13-11",
+        "Cache 13-6"
       ]
     },
     {
@@ -91,6 +69,38 @@
       ]
     },
     {
+      "date": "2026-10-27",
+      "titre": "Stake Ranked Episode 5 · jour 1 : les matchs du 27 octobre",
+      "resume": "0 match joué, 4 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "12:00 · BIG vs magic",
+        "14:30 · IC vs Nemesis",
+        "17:00 · Astralis vs Fnatic",
+        "19:30 · EF vs MIBR"
+      ],
+      "rang": 0
+    },
+    {
+      "date": "2026-11-11",
+      "titre": "BLAST Rivals Fall 2026 - Group A : les matchs du 11 novembre",
+      "resume": "0 match joué, 1 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "06:30 · Vitality vs Falcons"
+      ],
+      "rang": 0
+    },
+    {
+      "titre": "k1ssly passe sur le banc chez Butterfly",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2",
+      "date": "2026-10-25"
+    },
+    {
       "date": "2026-10-25",
       "titre": "PGL Masters Bucharest 2026 · jour 2 : les matchs du 25 octobre",
       "resume": "Vitality bat MongolZ 2-0. 8 matchs joués, 0 à venir. Heures de Paris.",
@@ -104,14 +114,8 @@
         "G2 0-2 Aurora",
         "MOUZ 2-0 9z",
         "Legacy 2-0 DENDELE"
-      ]
-    },
-    {
-      "titre": "k1ssly passe sur le banc chez Butterfly",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2",
-      "date": "2026-10-25"
+      ],
+      "rang": 0
     },
     {
       "titre": "PGL Masters Bucharest 2026 a commencé",
@@ -133,22 +137,6 @@
       "date": "2026-10-24"
     },
     {
-      "date": "2026-10-24",
-      "titre": "PGL Masters Bucharest 2026 · jour 1 : les matchs du 24 octobre",
-      "resume": "Vitality bat 9z 2-0. 8 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "FUT 2-0 TYLOO",
-        "Aurora 1-2 MongolZ",
-        "MOUZ 1-2 Liquid",
-        "Spirit 1-2 BB",
-        "Legacy 0-2 Nemiga",
-        "Vitality 2-0 9z",
-        "FURIA 2-0 DENDELE"
-      ]
-    },
-    {
       "titre": "Eternal Fire remporte DraculaN Season 7",
       "resume": "On commence par le dernier résultat : Eternal Fire gagne DraculaN Season 7 à Bucarest, contre SINNERS en finale. Victoire 2 à 1, avec Cache et Ancient pour Eternal Fire.",
       "categorie": "resultats",
@@ -162,6 +150,13 @@
     },
     {
       "titre": "nosraC passe sur le banc chez Voca",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2",
+      "date": "2026-10-24"
+    },
+    {
+      "titre": "SHiPZ rejoint Acend",
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 2",
