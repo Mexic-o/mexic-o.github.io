@@ -1,5 +1,6 @@
 {
   "maj": "2026-10-26",
+  "maj_heure": "15:44",
   "semaine": "",
   "video": "",
   "articles": [
@@ -28,20 +29,6 @@
     },
     {
       "date": "2026-10-26",
-      "titre": "Virtus.pro remporte CIS LAN Championship #9",
-      "resume": "Virtus.pro gagne l'édition 9 de CIS LAN Championship, contre Nemesis. Victoire 3 à 2, avec Mirage, Dust2 et Nuke pour Virtus.pro.",
-      "categorie": "resultats",
-      "tier": "Tier 2",
-      "cartes": [
-        "Cache 7-13",
-        "Mirage 13-10",
-        "Ancient 7-13",
-        "Dust2 13-11",
-        "Nuke 13-8"
-      ]
-    },
-    {
-      "date": "2026-10-26",
       "titre": "FURIA remporte Thunderpick World Championship 2026",
       "resume": "Thunderpick World Championship, c'est terminé à Attard : FURIA s'impose en finale contre BetBoom Team. Victoire 3 à 2, avec Dust2, Mirage et Cache pour FURIA. Pour BetBoom Team, c'est une deuxième finale perdue d'affilée.",
       "categorie": "resultats",
@@ -52,6 +39,49 @@
         "Nuke 9-13",
         "Mirage 13-11",
         "Cache 13-6"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "titre": "PGL Masters Bucharest 2026 · jour 3 : les résultats du 26 octobre",
+      "resume": "FUT bat Vitality 2-1.",
+      "categorie": "resultats",
+      "tier": "Tier 1",
+      "cartes": [
+        "Vitality 1-2 FUT",
+        "MongolZ 0-2 MOUZ",
+        "Nemiga 0-2 Aurora",
+        "9z 1-2 TYLOO"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "titre": "PGL Masters Bucharest 2026 · jour 3 : les matchs du 26 octobre",
+      "resume": "FUT bat Vitality 2-1. 4 matchs joués, 4 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "MongolZ 0-2 MOUZ",
+        "Nemiga 0-2 Aurora",
+        "Vitality 1-2 FUT",
+        "9z 1-2 TYLOO",
+        "14:40 · Spirit vs FURIA",
+        "14:55 · Liquid vs Legacy",
+        "18:00 · BB vs NAVI"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "titre": "Virtus.pro remporte CIS LAN Championship #9",
+      "resume": "Virtus.pro gagne l'édition 9 de CIS LAN Championship, contre Nemesis. Victoire 3 à 2, avec Mirage, Dust2 et Nuke pour Virtus.pro.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "cartes": [
+        "Cache 7-13",
+        "Mirage 13-10",
+        "Ancient 7-13",
+        "Dust2 13-11",
+        "Nuke 13-8"
       ]
     },
     {
@@ -71,35 +101,6 @@
         "Ancient 13-7",
         "Dust2 6-13",
         "Inferno 13-11"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "titre": "PGL Masters Bucharest 2026 · jour 3 : les matchs du 26 octobre",
-      "resume": "FUT bat Vitality 2-1. 4 matchs joués, 6 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "09:00 · MOUZ vs MongolZ",
-        "09:00 · Aurora vs Nemiga",
-        "MongolZ 0-2 MOUZ",
-        "Nemiga 0-2 Aurora",
-        "Vitality 1-2 FUT",
-        "9z 1-2 TYLOO",
-        "14:40 · Spirit vs FURIA"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "titre": "PGL Masters Bucharest 2026 · jour 3 : les résultats du 26 octobre",
-      "resume": "FUT bat Vitality 2-1.",
-      "categorie": "resultats",
-      "tier": "Tier 1",
-      "cartes": [
-        "Vitality 1-2 FUT",
-        "MongolZ 0-2 MOUZ",
-        "Nemiga 0-2 Aurora",
-        "9z 1-2 TYLOO"
       ]
     },
     {

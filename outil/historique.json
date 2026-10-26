@@ -27,21 +27,6 @@
     },
     {
       "date": "2026-10-26",
-      "cle": "res|CIS LAN Championship #9|Virtus.pro",
-      "titre": "Virtus.pro remporte CIS LAN Championship #9",
-      "resume": "Virtus.pro gagne l'édition 9 de CIS LAN Championship, contre Nemesis. Victoire 3 à 2, avec Mirage, Dust2 et Nuke pour Virtus.pro.",
-      "categorie": "resultats",
-      "tier": "Tier 2",
-      "cartes": [
-        "Cache 7-13",
-        "Mirage 13-10",
-        "Ancient 7-13",
-        "Dust2 13-11",
-        "Nuke 13-8"
-      ]
-    },
-    {
-      "date": "2026-10-26",
       "cle": "res|Thunderpick World Championship 2026|FURIA",
       "titre": "FURIA remporte Thunderpick World Championship 2026",
       "resume": "Thunderpick World Championship, c'est terminé à Attard : FURIA s'impose en finale contre BetBoom Team. Victoire 3 à 2, avec Dust2, Mirage et Cache pour FURIA. Pour BetBoom Team, c'est une deuxième finale perdue d'affilée.",
@@ -53,6 +38,52 @@
         "Nuke 9-13",
         "Mirage 13-11",
         "Cache 13-6"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "cle": "jour|PGL Masters Bucharest 2026|2026-10-26",
+      "titre": "PGL Masters Bucharest 2026 · jour 3 : les résultats du 26 octobre",
+      "resume": "FUT bat Vitality 2-1.",
+      "categorie": "resultats",
+      "tier": "Tier 1",
+      "cartes": [
+        "Vitality 1-2 FUT",
+        "MongolZ 0-2 MOUZ",
+        "Nemiga 0-2 Aurora",
+        "9z 1-2 TYLOO"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "cle": "prog|PGL Masters Bucharest 2026|2026-10-26",
+      "titre": "PGL Masters Bucharest 2026 · jour 3 : les matchs du 26 octobre",
+      "resume": "FUT bat Vitality 2-1. 4 matchs joués, 4 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "MongolZ 0-2 MOUZ",
+        "Nemiga 0-2 Aurora",
+        "Vitality 1-2 FUT",
+        "9z 1-2 TYLOO",
+        "14:40 · Spirit vs FURIA",
+        "14:55 · Liquid vs Legacy",
+        "18:00 · BB vs NAVI"
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "cle": "res|CIS LAN Championship #9|Virtus.pro",
+      "titre": "Virtus.pro remporte CIS LAN Championship #9",
+      "resume": "Virtus.pro gagne l'édition 9 de CIS LAN Championship, contre Nemesis. Victoire 3 à 2, avec Mirage, Dust2 et Nuke pour Virtus.pro.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "cartes": [
+        "Cache 7-13",
+        "Mirage 13-10",
+        "Ancient 7-13",
+        "Dust2 13-11",
+        "Nuke 13-8"
       ]
     },
     {
@@ -74,37 +105,6 @@
         "Ancient 13-7",
         "Dust2 6-13",
         "Inferno 13-11"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "cle": "prog|PGL Masters Bucharest 2026|2026-10-26",
-      "titre": "PGL Masters Bucharest 2026 · jour 3 : les matchs du 26 octobre",
-      "resume": "FUT bat Vitality 2-1. 4 matchs joués, 6 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "09:00 · MOUZ vs MongolZ",
-        "09:00 · Aurora vs Nemiga",
-        "MongolZ 0-2 MOUZ",
-        "Nemiga 0-2 Aurora",
-        "Vitality 1-2 FUT",
-        "9z 1-2 TYLOO",
-        "14:40 · Spirit vs FURIA"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "cle": "jour|PGL Masters Bucharest 2026|2026-10-26",
-      "titre": "PGL Masters Bucharest 2026 · jour 3 : les résultats du 26 octobre",
-      "resume": "FUT bat Vitality 2-1.",
-      "categorie": "resultats",
-      "tier": "Tier 1",
-      "cartes": [
-        "Vitality 1-2 FUT",
-        "MongolZ 0-2 MOUZ",
-        "Nemiga 0-2 Aurora",
-        "9z 1-2 TYLOO"
       ]
     },
     {
@@ -185,19 +185,6 @@
       "date": "2026-10-24"
     },
     {
-      "cle": "res|DraculaN Season 7|Eternal Fire",
-      "titre": "Eternal Fire remporte DraculaN Season 7",
-      "resume": "On commence par le dernier résultat : Eternal Fire gagne DraculaN Season 7 à Bucarest, contre SINNERS en finale. Victoire 2 à 1, avec Cache et Ancient pour Eternal Fire.",
-      "categorie": "resultats",
-      "tier": "Tier 2",
-      "cartes": [
-        "Mirage 6-13",
-        "Cache 16-12",
-        "Ancient 16-14"
-      ],
-      "date": "2026-10-24"
-    },
-    {
       "date": "2026-10-24",
       "cle": "prog|PGL Masters Bucharest 2026|2026-10-24",
       "titre": "PGL Masters Bucharest 2026 · jour 1 : les matchs du 24 octobre",
@@ -213,6 +200,19 @@
         "Vitality 2-0 9z",
         "FURIA 2-0 DENDELE"
       ]
+    },
+    {
+      "cle": "res|DraculaN Season 7|Eternal Fire",
+      "titre": "Eternal Fire remporte DraculaN Season 7",
+      "resume": "On commence par le dernier résultat : Eternal Fire gagne DraculaN Season 7 à Bucarest, contre SINNERS en finale. Victoire 2 à 1, avec Cache et Ancient pour Eternal Fire.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "cartes": [
+        "Mirage 6-13",
+        "Cache 16-12",
+        "Ancient 16-14"
+      ],
+      "date": "2026-10-24"
     },
     {
       "cle": "tr|nosraC|Voca|Voca|banc",
@@ -271,14 +271,6 @@
       ]
     },
     {
-      "cle": "res|WIBR Cup 2026|MIBR Female",
-      "titre": "MIBR Female remporte WIBR Cup 2026",
-      "resume": "Côté scène féminine, MIBR Female remporte WIBR Cup, face à YouaremyFrag Female en finale.",
-      "categorie": "resultats",
-      "tier": "Tier 2",
-      "date": "2026-10-21"
-    },
-    {
       "date": "2026-10-21",
       "cle": "prog|1win Private Club #2|2026-10-21",
       "titre": "1win Private Club #2 · jour 3 : les matchs du 21 octobre",
@@ -290,6 +282,14 @@
         "BIG 0-2 PV",
         "PRVT 0-2 MongolZ"
       ]
+    },
+    {
+      "cle": "res|WIBR Cup 2026|MIBR Female",
+      "titre": "MIBR Female remporte WIBR Cup 2026",
+      "resume": "Côté scène féminine, MIBR Female remporte WIBR Cup, face à YouaremyFrag Female en finale.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "date": "2026-10-21"
     },
     {
       "cle": "tr|shalfey||GamerLegion|",
@@ -398,15 +398,7 @@
     "id": "UCy5wcMtn9uzq_IUt3VgTgqQ"
   },
   "video": "",
-  "erreurs": [
-    "tournois S-Tier : HTTP Error 429: Too Many Requests",
-    "tournois A-Tier : HTTP Error 429: Too Many Requests",
-    "tournois B-Tier : HTTP Error 429: Too Many Requests",
-    "tournois C-Tier : HTTP Error 429: Too Many Requests",
-    "programme des matchs : HTTP Error 429: Too Many Requests",
-    "scène féminine : HTTP Error 429: Too Many Requests",
-    "transferts : HTTP Error 429: Too Many Requests"
-  ],
+  "erreurs": [],
   "programmes": {
     "PGL Masters Bucharest 2026|2026-10-26": {
       "nom": "PGL Masters Bucharest 2026",
@@ -414,31 +406,24 @@
       "matchs": {
         "MOUZ|The MongolZ": {
           "ts": 1793001600,
-          "t1": "MOUZ",
-          "t2": "The MongolZ",
-          "t1_court": "MOUZ",
-          "t2_court": "MongolZ",
+          "t1": "The MongolZ",
+          "t2": "MOUZ",
+          "t1_court": "MongolZ",
+          "t2_court": "MOUZ",
           "bo": 3,
-          "phase": ""
+          "phase": "",
+          "s1": 0,
+          "s2": 2
         },
         "Aurora Gaming|Nemiga Gaming": {
           "ts": 1793001600,
-          "t1": "Aurora Gaming",
-          "t2": "Nemiga Gaming",
-          "t1_court": "Aurora",
-          "t2_court": "Nemiga",
-          "bo": 3,
-          "phase": ""
-        },
-        "Team Vitality|FUT Esports": {
-          "ts": 1793010000,
-          "t1": "Team Vitality",
-          "t2": "FUT Esports",
-          "t1_court": "Vitality",
-          "t2_court": "FUT",
+          "t1": "Nemiga Gaming",
+          "t2": "Aurora Gaming",
+          "t1_court": "Nemiga",
+          "t2_court": "Aurora",
           "bo": 3,
           "phase": "",
-          "s1": 1,
+          "s1": 0,
           "s2": 2
         },
         "9z Team|TYLOO": {
@@ -452,24 +437,6 @@
           "s1": 1,
           "s2": 2
         },
-        "Team Spirit|FURIA": {
-          "ts": 1793022000,
-          "t1": "Team Spirit",
-          "t2": "FURIA",
-          "t1_court": "Spirit",
-          "t2_court": "FURIA",
-          "bo": 3,
-          "phase": ""
-        },
-        "Team Liquid|Legacy": {
-          "ts": 1793022900,
-          "t1": "Team Liquid",
-          "t2": "Legacy",
-          "t1_court": "Liquid",
-          "t2_court": "Legacy",
-          "bo": 3,
-          "phase": ""
-        },
         "BetBoom Team|Natus Vincere": {
           "ts": 1793034000,
           "t1": "BetBoom Team",
@@ -479,7 +446,25 @@
           "bo": 3,
           "phase": ""
         },
-        "G2 Esports|DENDELE CS": {
+        "FURIA|Team Spirit": {
+          "ts": 1793022000,
+          "t1": "Team Spirit",
+          "t2": "FURIA",
+          "t1_court": "Spirit",
+          "t2_court": "FURIA",
+          "bo": 3,
+          "phase": ""
+        },
+        "Legacy|Team Liquid": {
+          "ts": 1793022900,
+          "t1": "Team Liquid",
+          "t2": "Legacy",
+          "t1_court": "Liquid",
+          "t2_court": "Legacy",
+          "bo": 3,
+          "phase": ""
+        },
+        "DENDELE CS|G2 Esports": {
           "ts": 1793034000,
           "t1": "G2 Esports",
           "t2": "DENDELE CS",
@@ -488,26 +473,15 @@
           "bo": 3,
           "phase": ""
         },
-        "The MongolZ|MOUZ": {
-          "ts": 1793001600,
-          "t1": "The MongolZ",
-          "t2": "MOUZ",
-          "t1_court": "MongolZ",
-          "t2_court": "MOUZ",
+        "FUT Esports|Team Vitality": {
+          "ts": 1793010000,
+          "t1": "Team Vitality",
+          "t2": "FUT Esports",
+          "t1_court": "Vitality",
+          "t2_court": "FUT",
           "bo": 3,
           "phase": "",
-          "s1": 0,
-          "s2": 2
-        },
-        "Nemiga Gaming|Aurora Gaming": {
-          "ts": 1793001600,
-          "t1": "Nemiga Gaming",
-          "t2": "Aurora Gaming",
-          "t1_court": "Nemiga",
-          "t2_court": "Aurora",
-          "bo": 3,
-          "phase": "",
-          "s1": 0,
+          "s1": 1,
           "s2": 2
         }
       },
@@ -587,39 +561,6 @@
           "s1": 0,
           "s2": 2
         },
-        "Legacy|DENDELE CS": {
-          "ts": 1792939800,
-          "t1": "Legacy",
-          "t2": "DENDELE CS",
-          "t1_court": "Legacy",
-          "t2_court": "DENDELE",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        },
-        "G2 Esports|Aurora Gaming": {
-          "ts": 1792933200,
-          "t1": "G2 Esports",
-          "t2": "Aurora Gaming",
-          "t1_court": "G2",
-          "t2_court": "Aurora",
-          "bo": 3,
-          "phase": "",
-          "s1": 0,
-          "s2": 2
-        },
-        "MOUZ|9z Team": {
-          "ts": 1792933200,
-          "t1": "MOUZ",
-          "t2": "9z Team",
-          "t1_court": "MOUZ",
-          "t2_court": "9z",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        },
         "BetBoom Team|Nemiga Gaming": {
           "ts": 1792922400,
           "t1": "BetBoom Team",
@@ -653,7 +594,40 @@
           "s1": 2,
           "s2": 0
         },
-        "Team Spirit|TYLOO": {
+        "DENDELE CS|Legacy": {
+          "ts": 1792939800,
+          "t1": "Legacy",
+          "t2": "DENDELE CS",
+          "t1_court": "Legacy",
+          "t2_court": "DENDELE",
+          "bo": 3,
+          "phase": "",
+          "s1": 2,
+          "s2": 0
+        },
+        "Aurora Gaming|G2 Esports": {
+          "ts": 1792933200,
+          "t1": "G2 Esports",
+          "t2": "Aurora Gaming",
+          "t1_court": "G2",
+          "t2_court": "Aurora",
+          "bo": 3,
+          "phase": "",
+          "s1": 0,
+          "s2": 2
+        },
+        "9z Team|MOUZ": {
+          "ts": 1792933200,
+          "t1": "MOUZ",
+          "t2": "9z Team",
+          "t1_court": "MOUZ",
+          "t2_court": "9z",
+          "bo": 3,
+          "phase": "",
+          "s1": 2,
+          "s2": 0
+        },
+        "TYLOO|Team Spirit": {
           "ts": 1792915200,
           "t1": "Team Spirit",
           "t2": "TYLOO",
@@ -682,28 +656,6 @@
           "s1": 0,
           "s2": 2
         },
-        "FURIA|DENDELE CS": {
-          "ts": 1792858200,
-          "t1": "FURIA",
-          "t2": "DENDELE CS",
-          "t1_court": "FURIA",
-          "t2_court": "DENDELE",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        },
-        "Team Vitality|9z Team": {
-          "ts": 1792850400,
-          "t1": "Team Vitality",
-          "t2": "9z Team",
-          "t1_court": "Vitality",
-          "t2_court": "9z",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        },
         "Legacy|Nemiga Gaming": {
           "ts": 1792846200,
           "t1": "Legacy",
@@ -713,17 +665,6 @@
           "bo": 3,
           "phase": "",
           "s1": 0,
-          "s2": 2
-        },
-        "Team Spirit|BetBoom Team": {
-          "ts": 1792838100,
-          "t1": "Team Spirit",
-          "t2": "BetBoom Team",
-          "t1_court": "Spirit",
-          "t2_court": "BB",
-          "bo": 3,
-          "phase": "",
-          "s1": 1,
           "s2": 2
         },
         "MOUZ|Team Liquid": {
@@ -754,6 +695,39 @@
           "t2": "The MongolZ",
           "t1_court": "Aurora",
           "t2_court": "MongolZ",
+          "bo": 3,
+          "phase": "",
+          "s1": 1,
+          "s2": 2
+        },
+        "DENDELE CS|FURIA": {
+          "ts": 1792858200,
+          "t1": "FURIA",
+          "t2": "DENDELE CS",
+          "t1_court": "FURIA",
+          "t2_court": "DENDELE",
+          "bo": 3,
+          "phase": "",
+          "s1": 2,
+          "s2": 0
+        },
+        "9z Team|Team Vitality": {
+          "ts": 1792850400,
+          "t1": "Team Vitality",
+          "t2": "9z Team",
+          "t1_court": "Vitality",
+          "t2_court": "9z",
+          "bo": 3,
+          "phase": "",
+          "s1": 2,
+          "s2": 0
+        },
+        "BetBoom Team|Team Spirit": {
+          "ts": 1792838100,
+          "t1": "Team Spirit",
+          "t2": "BetBoom Team",
+          "t1_court": "Spirit",
+          "t2_court": "BB",
           "bo": 3,
           "phase": "",
           "s1": 1,
@@ -831,5 +805,6 @@
       },
       "etape": "jour 3"
     }
-  }
+  },
+  "maj_heure": "15:44"
 }
