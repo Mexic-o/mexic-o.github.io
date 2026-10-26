@@ -4,7 +4,7 @@
       "date": "2026-10-26",
       "cle": "prog|PGL Masters Bucharest 2026|2026-10-26",
       "titre": "PGL Masters Bucharest 2026 · jour 3 : les matchs du 26 octobre",
-      "resume": "FUT bat Vitality 2-1. 4 matchs joués, 4 à venir. Heures de Paris.",
+      "resume": "FUT bat Vitality 2-1. 8 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
@@ -12,9 +12,9 @@
         "Nemiga 0-2 Aurora",
         "Vitality 1-2 FUT",
         "9z 1-2 TYLOO",
-        "14:40 · Spirit vs FURIA",
-        "14:55 · Liquid vs Legacy",
-        "18:00 · BB vs NAVI"
+        "Spirit 2-1 FURIA",
+        "Liquid 2-0 Legacy",
+        "G2 1-2 DENDELE"
       ],
       "rang": 2
     },
@@ -68,6 +68,30 @@
         "Dust2 6-13",
         "Inferno 13-11"
       ]
+    },
+    {
+      "date": "2026-10-26",
+      "cle": "tr|teme, millert +3|ENCE|libre|",
+      "titre": "teme, millert +3 quittent ENCE",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-10-26",
+      "cle": "tr|allu|ENCE||coach parti",
+      "titre": "allu n'est plus le coach d'ENCE",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-10-26",
+      "cle": "tr|lampada|HOTU|libre|",
+      "titre": "lampada quitte HOTU",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
     },
     {
       "date": "2026-10-27",
@@ -406,7 +430,9 @@
           "t1_court": "BB",
           "t2_court": "NAVI",
           "bo": 3,
-          "phase": ""
+          "phase": "",
+          "s1": 2,
+          "s2": 0
         },
         "FURIA|Team Spirit": {
           "ts": 1793022000,
@@ -415,7 +441,9 @@
           "t1_court": "Spirit",
           "t2_court": "FURIA",
           "bo": 3,
-          "phase": ""
+          "phase": "",
+          "s1": 2,
+          "s2": 1
         },
         "Legacy|Team Liquid": {
           "ts": 1793022900,
@@ -424,16 +452,20 @@
           "t1_court": "Liquid",
           "t2_court": "Legacy",
           "bo": 3,
-          "phase": ""
+          "phase": "",
+          "s1": 2,
+          "s2": 0
         },
         "DENDELE CS|G2 Esports": {
-          "ts": 1793034000,
+          "ts": 1793032200,
           "t1": "G2 Esports",
           "t2": "DENDELE CS",
           "t1_court": "G2",
           "t2_court": "DENDELE",
           "bo": 3,
-          "phase": ""
+          "phase": "",
+          "s1": 1,
+          "s2": 2
         },
         "FUT Esports|Team Vitality": {
           "ts": 1793010000,
@@ -768,5 +800,5 @@
       "etape": "jour 3"
     }
   },
-  "maj_heure": "17:08"
+  "maj_heure": "21:05"
 }
