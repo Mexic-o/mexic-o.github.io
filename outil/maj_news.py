@@ -371,7 +371,20 @@ def articles_programme(data, memoire=None, maintenant=None):
         if not t:
             continue
         for r in lignes:
-            if r["s1"] is None or not r["date"]:
+            if not r["date"]:
+                continue
+            if r["s1"] is None:
+                # match pas encore joué : seulement s'il est aujourd'hui ou demain, et sans heure (Liquipedia ne la donne pas ici)
+                jour_r = datetime.date.fromisoformat(r["date"])
+                if not (0 <= (jour_r - aujourdhui).days <= 1):
+                    continue
+                if any(_meme_paire(e["t1"], e["t2"], r["t1"], r["t2"]) for e in memoire.get(f"{t['name']}|{r['date']}", {}).get("matchs", {}).values()):
+                    continue
+                ts = datetime.datetime.fromisoformat(r["date"] + "T12:00:00+01:00").timestamp()
+                bloc = memoire.setdefault(f"{t['name']}|{r['date']}", {"nom": t["name"], "jour": r["date"], "matchs": {}})
+                bloc["matchs"]["|".join(sorted([r["t1"], r["t2"]]))] = {
+                    "ts": ts, "t1": r["t1"], "t2": r["t2"], "t1_court": r["t1"], "t2_court": r["t2"],
+                    "bo": "", "phase": "round %d" % r["round"], "sans_heure": True}
                 continue
             bloc = memoire.setdefault(f"{t['name']}|{r['date']}", {"nom": t["name"], "jour": r["date"], "matchs": {}})
             trouve = next((k for k, e in bloc["matchs"].items()
@@ -404,6 +417,8 @@ def articles_programme(data, memoire=None, maintenant=None):
         for e in ms[:MATCH_MAX * 2]:
             if "s1" in e:
                 pastilles.append(f"{court(e, 't1')} {e['s1']}-{e['s2']} {court(e, 't2')}")
+            elif e.get("sans_heure"):
+                pastilles.append(f"à venir · {court(e, 't1')} vs {court(e, 't2')}")
             else:
                 pastilles.append(f"{_paris(e['ts']):%H:%M} · {court(e, 't1')} vs {court(e, 't2')}")
         joues = [e for e in ms if "s1" in e]
