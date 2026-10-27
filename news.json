@@ -1,23 +1,9 @@
 {
   "maj": "2026-10-27",
-  "maj_heure": "22:46",
+  "maj_heure": "23:11",
   "semaine": "",
   "video": "",
   "articles": [
-    {
-      "date": "2026-10-27",
-      "titre": "Stake Ranked Episode 5 · jour 1 : les matchs du 27 octobre",
-      "resume": "3 matchs joués, 1 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "BIG 2-1 magic",
-        "IC 2-0 Nemesis",
-        "Astralis 0-2 Fnatic",
-        "19:10 · EF vs MIBR"
-      ],
-      "rang": 2
-    },
     {
       "date": "2026-10-27",
       "titre": "PGL Masters Bucharest 2026 · jour 4 : les matchs du 27 octobre",
@@ -32,26 +18,7 @@
         "FURIA 2-0 TYLOO",
         "Vitality 2-0 NAVI"
       ],
-      "rang": 2
-    },
-    {
-      "date": "2026-10-27",
-      "titre": "mowzassa n'est plus le coach de SAW",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-10-28",
-      "titre": "Stake Ranked Episode 5 · jour 2 : les matchs du 28 octobre",
-      "resume": "0 match joué, 2 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "12:00 · Astralis vs magic",
-        "17:00 · Fnatic vs BIG"
-      ],
-      "rang": 0
+      "rang": 3
     },
     {
       "date": "2026-10-28",
@@ -64,18 +31,42 @@
         "15:00 · FURIA vs Liquid",
         "18:00 · Spirit vs NAVI"
       ],
-      "rang": 0
+      "rang": 3
     },
     {
-      "date": "2026-11-11",
-      "titre": "BLAST Rivals Fall 2026 - Group A : les matchs du 11 novembre",
-      "resume": "0 match joué, 1 à venir. Heures de Paris.",
+      "date": "2026-10-27",
+      "titre": "Stake Ranked Episode 5 · jour 1 : les matchs du 27 octobre",
+      "resume": "4 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "06:30 · Vitality vs Falcons"
+        "BIG 2-1 magic",
+        "IC 2-0 Nemesis",
+        "Astralis 0-2 Fnatic",
+        "EF 1-2 MIBR"
       ],
-      "rang": 0
+      "rang": 2
+    },
+    {
+      "date": "2026-10-28",
+      "titre": "Stake Ranked Episode 5 · jour 2 : les matchs du 28 octobre",
+      "resume": "0 match joué, 4 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "12:00 · Astralis vs magic",
+        "14:30 · Nemesis vs EF",
+        "17:00 · Fnatic vs BIG",
+        "19:30 · IC vs MIBR"
+      ],
+      "rang": 2
+    },
+    {
+      "date": "2026-10-27",
+      "titre": "mowzassa n'est plus le coach de SAW",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
     },
     {
       "date": "2026-10-26",
@@ -161,6 +152,13 @@
         "G2 1-2 DENDELE"
       ],
       "rang": 0
+    },
+    {
+      "titre": "k1ssly passe sur le banc chez Butterfly",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2",
+      "date": "2026-10-25"
     }
   ],
   "matchs": [

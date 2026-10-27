@@ -2,21 +2,6 @@
   "articles": [
     {
       "date": "2026-10-27",
-      "cle": "prog|Stake Ranked Episode 5|2026-10-27",
-      "titre": "Stake Ranked Episode 5 · jour 1 : les matchs du 27 octobre",
-      "resume": "3 matchs joués, 1 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "BIG 2-1 magic",
-        "IC 2-0 Nemesis",
-        "Astralis 0-2 Fnatic",
-        "19:10 · EF vs MIBR"
-      ],
-      "rang": 2
-    },
-    {
-      "date": "2026-10-27",
       "cle": "prog|PGL Masters Bucharest 2026|2026-10-27",
       "titre": "PGL Masters Bucharest 2026 · jour 4 : les matchs du 27 octobre",
       "resume": "Vitality bat NAVI 2-0. 6 matchs joués, 0 à venir. Heures de Paris.",
@@ -30,28 +15,7 @@
         "FURIA 2-0 TYLOO",
         "Vitality 2-0 NAVI"
       ],
-      "rang": 2
-    },
-    {
-      "date": "2026-10-27",
-      "cle": "tr|mowzassa|SAW||coach parti",
-      "titre": "mowzassa n'est plus le coach de SAW",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-10-28",
-      "cle": "prog|Stake Ranked Episode 5|2026-10-28",
-      "titre": "Stake Ranked Episode 5 · jour 2 : les matchs du 28 octobre",
-      "resume": "0 match joué, 2 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "12:00 · Astralis vs magic",
-        "17:00 · Fnatic vs BIG"
-      ],
-      "rang": 0
+      "rang": 3
     },
     {
       "date": "2026-10-28",
@@ -65,19 +29,45 @@
         "15:00 · FURIA vs Liquid",
         "18:00 · Spirit vs NAVI"
       ],
-      "rang": 0
+      "rang": 3
     },
     {
-      "date": "2026-11-11",
-      "cle": "prog|BLAST Rivals Fall 2026 - Group A|2026-11-11",
-      "titre": "BLAST Rivals Fall 2026 - Group A : les matchs du 11 novembre",
-      "resume": "0 match joué, 1 à venir. Heures de Paris.",
+      "date": "2026-10-27",
+      "cle": "prog|Stake Ranked Episode 5|2026-10-27",
+      "titre": "Stake Ranked Episode 5 · jour 1 : les matchs du 27 octobre",
+      "resume": "4 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "06:30 · Vitality vs Falcons"
+        "BIG 2-1 magic",
+        "IC 2-0 Nemesis",
+        "Astralis 0-2 Fnatic",
+        "EF 1-2 MIBR"
       ],
-      "rang": 0
+      "rang": 2
+    },
+    {
+      "date": "2026-10-28",
+      "cle": "prog|Stake Ranked Episode 5|2026-10-28",
+      "titre": "Stake Ranked Episode 5 · jour 2 : les matchs du 28 octobre",
+      "resume": "0 match joué, 4 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "12:00 · Astralis vs magic",
+        "14:30 · Nemesis vs EF",
+        "17:00 · Fnatic vs BIG",
+        "19:30 · IC vs MIBR"
+      ],
+      "rang": 2
+    },
+    {
+      "date": "2026-10-27",
+      "cle": "tr|mowzassa|SAW||coach parti",
+      "titre": "mowzassa n'est plus le coach de SAW",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
     },
     {
       "date": "2026-10-26",
@@ -531,7 +521,8 @@
           "s2": 2
         }
       },
-      "etape": "jour 3"
+      "etape": "jour 3",
+      "tier": "S"
     },
     "Stake Ranked Episode 5|2026-10-27": {
       "nom": "Stake Ranked Episode 5",
@@ -577,26 +568,13 @@
           "t1_court": "EF",
           "t2_court": "MIBR",
           "bo": 3,
-          "phase": ""
+          "phase": "",
+          "s1": 1,
+          "s2": 2
         }
       },
-      "etape": "jour 1"
-    },
-    "BLAST Rivals Fall 2026 - Group A|2026-11-11": {
-      "nom": "BLAST Rivals Fall 2026 - Group A",
-      "jour": "2026-11-11",
-      "matchs": {
-        "Team Vitality|Team Falcons": {
-          "ts": 1794375000,
-          "t1": "Team Vitality",
-          "t2": "Team Falcons",
-          "t1_court": "Vitality",
-          "t2_court": "Falcons",
-          "bo": 3,
-          "phase": ""
-        }
-      },
-      "etape": ""
+      "etape": "jour 1",
+      "tier": "A"
     },
     "PGL Masters Bucharest 2026|2026-10-25": {
       "nom": "PGL Masters Bucharest 2026",
@@ -691,7 +669,8 @@
           "s2": 0
         }
       },
-      "etape": "jour 2"
+      "etape": "jour 2",
+      "tier": "S"
     },
     "PGL Masters Bucharest 2026|2026-10-24": {
       "nom": "PGL Masters Bucharest 2026",
@@ -786,7 +765,8 @@
           "s2": 2
         }
       },
-      "etape": "jour 1"
+      "etape": "jour 1",
+      "tier": "S"
     },
     "1win Private Club #2|2026-10-22": {
       "nom": "1win Private Club #2",
@@ -928,7 +908,8 @@
           "s2": 0
         }
       },
-      "etape": "jour 4"
+      "etape": "jour 4",
+      "tier": "S"
     },
     "Stake Ranked Episode 5|2026-10-28": {
       "nom": "Stake Ranked Episode 5",
@@ -951,9 +932,28 @@
           "t2_court": "BIG",
           "bo": 3,
           "phase": ""
+        },
+        "Eternal Fire|Team Nemesis": {
+          "ts": 1793194200,
+          "t1": "Team Nemesis",
+          "t2": "Eternal Fire",
+          "t1_court": "Nemesis",
+          "t2_court": "EF",
+          "bo": 3,
+          "phase": ""
+        },
+        "IC Esports|MIBR": {
+          "ts": 1793212200,
+          "t1": "IC Esports",
+          "t2": "MIBR",
+          "t1_court": "IC",
+          "t2_court": "MIBR",
+          "bo": 3,
+          "phase": ""
         }
       },
-      "etape": "jour 2"
+      "etape": "jour 2",
+      "tier": "A"
     },
     "PGL Masters Bucharest 2026|2026-10-28": {
       "nom": "PGL Masters Bucharest 2026",
@@ -987,8 +987,9 @@
           "phase": ""
         }
       },
-      "etape": "jour 5"
+      "etape": "jour 5",
+      "tier": "S"
     }
   },
-  "maj_heure": "22:46"
+  "maj_heure": "23:11"
 }
