@@ -23,6 +23,7 @@ RACINE = os.environ.get("GITHUB_WORKSPACE") or (os.path.dirname(ICI) if os.path.
 
 import news_script as NS
 import rondes as RONDES      # noqa: E402
+import bracket as BRACKET    # noqa: E402
 import news_site as SITE      # noqa: E402
 import news_sources as SRC    # noqa: E402
 
@@ -225,6 +226,7 @@ def articles_debuts(data, aujourdhui=None):
 COPIES_TOURNOIS = [
     ("PGL_Masters_Bucharest_2026", "PGL/2026/Masters"),
     ("IEM_Beijing_2026", "Intel_Extreme_Masters/2026/Beijing"),
+    ("Stake_Ranked_Episode_5", "Stake_Ranked/Episode_5"),
 ]
 
 
@@ -234,6 +236,7 @@ def copies_pages_tournois(data):
     Range dans data["rondes"] les résultats des tableaux de rondes (scores, date, tour)."""
     import time
     data["rondes"] = {}
+    data["brackets"] = {}
     for nom, chemin in COPIES_TOURNOIS:
         cible = os.path.join(DEBUG, "tournoi_%s.html" % nom)
         html = None
@@ -256,6 +259,7 @@ def copies_pages_tournois(data):
                 dire("  on reprend la dernière copie gardée")
         if html:
             data["rondes"][chemin] = RONDES.parse_rondes(html)
+            data["brackets"][chemin] = BRACKET.parse_bracket(html)
         time.sleep(30)
 
 
@@ -356,6 +360,7 @@ def articles_programme(data, memoire=None, maintenant=None):
                 e["s1"], e["s2"] = ancien["s2"], ancien["s1"]
         bloc["matchs"][ident] = e
         bloc["etape"] = _jour_tournoi(t, jour) if t else ""
+        bloc["tier"] = t.get("tier") if t else ""
 
     for m in data.get("matches") or []:
         # seulement aujourd'hui et demain : pas les matchs de la semaine suivante
@@ -364,6 +369,33 @@ def articles_programme(data, memoire=None, maintenant=None):
         memoriser(m, False)
     for m in data.get("completed") or []:
         memoriser(m, True)
+
+    # matchs des brackets (playoffs, UB/LB) : scores et heures lus sur la page du tournoi
+    for chemin, lignes in (data.get("brackets") or {}).items():
+        t = gros.get(chemin)
+        if not t:
+            continue
+        for r in lignes:
+            if not r.get("ts"):
+                continue
+            jour_r = _paris(r["ts"]).date()
+            if not (-2 <= (jour_r - aujourdhui).days <= 1):
+                continue
+            bloc = memoire.setdefault(f"{t['name']}|{jour_r.isoformat()}", {"nom": t["name"], "jour": jour_r.isoformat(), "matchs": {}})
+            trouve = next((k for k, e in bloc["matchs"].items()
+                           if _meme_paire(e["t1"], e["t2"], r["t1"], r["t2"])), None)
+            if trouve is None:
+                bloc["matchs"]["|".join(sorted([r["t1"], r["t2"]]))] = {
+                    "ts": r["ts"], "t1": r["t1"], "t2": r["t2"], "t1_court": r["t1"], "t2_court": r["t2"],
+                    "bo": "", "phase": "playoffs"}
+                trouve = "|".join(sorted([r["t1"], r["t2"]]))
+            e = bloc["matchs"][trouve]
+            e.setdefault("phase", "playoffs")
+            if r["s1"] is not None:
+                if _cle_equipe(e["t1"]) == _cle_equipe(r["t1"]):
+                    e["s1"], e["s2"] = r["s1"], r["s2"]
+                else:
+                    e["s1"], e["s2"] = r["s2"], r["s1"]
 
     # scores lus dans les tableaux de rondes de la page du tournoi : ils arrivent dès que Liquipedia les saisit
     for chemin, lignes in (data.get("rondes") or {}).items():
@@ -402,11 +434,13 @@ def articles_programme(data, memoire=None, maintenant=None):
                 e["s1"], e["s2"] = r["s2"], r["s1"]
             e.setdefault("phase", "round %d" % r["round"])
 
-    # on garde 7 jours de programmes
+    # on garde 7 jours de programmes, et seulement jusqu'à demain
     for cle in list(memoire):
-        if (datetime.date.fromisoformat(memoire[cle]["jour"]) - aujourdhui).days < -7:
+        ecart = (datetime.date.fromisoformat(memoire[cle]["jour"]) - aujourdhui).days
+        if ecart < -7 or ecart > 1:
             del memoire[cle]
 
+    tier_de = {t["name"]: t.get("tier") for t in gros.values()}
     arts = []
     for cle, bloc in sorted(memoire.items(), key=lambda kv: kv[1]["jour"]):
         ms = sorted(bloc["matchs"].values(), key=lambda e: e["ts"])
@@ -436,7 +470,11 @@ def articles_programme(data, memoire=None, maintenant=None):
         titre = " · ".join(x for x in (nom, bloc.get("etape"), ph) if x) + f" : les matchs du {NS.date_fr(jour)}"
         art = SITE._article(f"prog|{nom}|{jour}", titre, resume, "resultats", "Programme", pastilles)
         art["date"] = jour
-        art["rang"] = 2 if jour == aujourdhui.isoformat() else 0     # tournoi du jour en tête, programme à venir en bas
+        # programme d'aujourd'hui ou de demain : en tête. Tier S d'abord, puis le plus récent (voir _fusionner)
+        if jour >= aujourdhui.isoformat():
+            art["rang"] = 3 if tier_de.get(nom) == "S" else 2
+        else:
+            art["rang"] = 0
         arts.append(art)
     return arts
 
