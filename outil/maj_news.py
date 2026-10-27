@@ -21,7 +21,8 @@ ICI = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, ICI)
 RACINE = os.environ.get("GITHUB_WORKSPACE") or (os.path.dirname(ICI) if os.path.basename(ICI) == "outil" else ICI)
 
-import news_script as NS      # noqa: E402
+import news_script as NS
+import rondes as RONDES      # noqa: E402
 import news_site as SITE      # noqa: E402
 import news_sources as SRC    # noqa: E402
 
@@ -83,7 +84,7 @@ def collecte():
         errors.append(f"mises à jour CS2 : {e}")
     dire("Transferts...")
     data["transfers"] = SRC.transfers(errors=errors)
-    copies_pages_tournois()
+    copies_pages_tournois(data)
     for e in errors:
         dire(f"  [ATTENTION] {e}")
         if os.environ.get("GITHUB_ACTIONS"):
@@ -227,15 +228,16 @@ COPIES_TOURNOIS = [
 ]
 
 
-def copies_pages_tournois():
-    """Sauve la page complète de chaque gros tournoi dans outil/debug, une seule fois. Une page par 30 s (règle Liquipedia)."""
+def copies_pages_tournois(data):
+    """Relit à chaque passage la page de chaque gros tournoi (une page toutes les 30 s : règle Liquipedia).
+    Garde une copie dans outil/debug ; si la lecture échoue, on reprend la dernière copie gardée.
+    Range dans data["rondes"] les résultats des tableaux de rondes (scores, date, tour)."""
     import time
+    data["rondes"] = {}
     for nom, chemin in COPIES_TOURNOIS:
         cible = os.path.join(DEBUG, "tournoi_%s.html" % nom)
-        if os.path.exists(cible):
-            continue
+        html = None
         try:
-            # même voie que le reste de la collecte (API MediaWiki), la page HTML directe peut être refusée
             rep = json.loads(SRC.fetch(SRC.LIQUI_API, {"action": "parse", "page": chemin, "prop": "text",
                                                        "format": "json", "formatversion": "2",
                                                        "disablelimitreport": "1"}))
@@ -245,10 +247,26 @@ def copies_pages_tournois():
             os.makedirs(DEBUG, exist_ok=True)
             with open(cible, "w", encoding="utf-8") as f:
                 f.write(html)
-            dire("  page du tournoi gardée : outil/debug/tournoi_%s.html" % nom)
+            dire("  page du tournoi relue : %s" % nom)
         except Exception as e:
             dire("  [ATTENTION] page du tournoi %s : %s" % (nom, e))
+            if os.path.exists(cible):
+                with open(cible, encoding="utf-8") as f:
+                    html = f.read()
+                dire("  on reprend la dernière copie gardée")
+        if html:
+            data["rondes"][chemin] = RONDES.parse_rondes(html)
         time.sleep(30)
+
+
+def _cle_equipe(nom):
+    """Nom d'équipe normalisé : « Team Vitality », « Vitality », « The MongolZ » et « MongolZ » donnent la même clé."""
+    mots = re.findall(r"[a-z0-9]+", (nom or "").lower())
+    return "".join(m for m in mots if m not in ("team", "the", "esports", "esport", "gaming"))
+
+
+def _meme_paire(a, b, c, d):
+    return sorted([_cle_equipe(a), _cle_equipe(b)]) == sorted([_cle_equipe(c), _cle_equipe(d)])
 
 
 def _get(url):
@@ -322,7 +340,7 @@ def articles_programme(data, memoire=None, maintenant=None):
         # même match quel que soit l'ordre des équipes (à venir ou joué)
         ident = "|".join(sorted([m["t1"], m["t2"]]))
         for k in list(bloc["matchs"]):
-            if k != ident and sorted(k.split("|")) == sorted([m["t1"], m["t2"]]):
+            if k != ident and _meme_paire(*k.split("|"), m["t1"], m["t2"]):
                 ancien_doublon = bloc["matchs"].pop(k)
                 bloc["matchs"].setdefault(ident, ancien_doublon)
         ancien = bloc["matchs"].get(ident, {})
@@ -346,6 +364,30 @@ def articles_programme(data, memoire=None, maintenant=None):
         memoriser(m, False)
     for m in data.get("completed") or []:
         memoriser(m, True)
+
+    # scores lus dans les tableaux de rondes de la page du tournoi : ils arrivent dès que Liquipedia les saisit
+    for chemin, lignes in (data.get("rondes") or {}).items():
+        t = gros.get(chemin)
+        if not t:
+            continue
+        for r in lignes:
+            if r["s1"] is None or not r["date"]:
+                continue
+            bloc = memoire.setdefault(f"{t['name']}|{r['date']}", {"nom": t["name"], "jour": r["date"], "matchs": {}})
+            trouve = next((k for k, e in bloc["matchs"].items()
+                           if _meme_paire(e["t1"], e["t2"], r["t1"], r["t2"])), None)
+            if trouve is None:
+                ts = datetime.datetime.fromisoformat(r["date"] + "T12:00:00+01:00").timestamp()
+                bloc["matchs"]["|".join(sorted([r["t1"], r["t2"]]))] = {
+                    "ts": ts, "t1": r["t1"], "t2": r["t2"], "t1_court": r["t1"], "t2_court": r["t2"],
+                    "bo": "", "phase": "round %d" % r["round"], "s1": r["s1"], "s2": r["s2"]}
+                continue
+            e = bloc["matchs"][trouve]
+            if _cle_equipe(e["t1"]) == _cle_equipe(r["t1"]):
+                e["s1"], e["s2"] = r["s1"], r["s2"]
+            else:
+                e["s1"], e["s2"] = r["s2"], r["s1"]
+            e.setdefault("phase", "round %d" % r["round"])
 
     # on garde 7 jours de programmes
     for cle in list(memoire):
