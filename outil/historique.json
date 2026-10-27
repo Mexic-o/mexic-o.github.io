@@ -4,14 +4,14 @@
       "date": "2026-10-27",
       "cle": "prog|Stake Ranked Episode 5|2026-10-27",
       "titre": "Stake Ranked Episode 5 · jour 1 : les matchs du 27 octobre",
-      "resume": "0 match joué, 4 à venir. Heures de Paris.",
+      "resume": "3 matchs joués, 1 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "12:00 · BIG vs magic",
-        "14:30 · IC vs Nemesis",
-        "17:00 · Astralis vs Fnatic",
-        "19:30 · EF vs MIBR"
+        "BIG 2-1 magic",
+        "IC 2-0 Nemesis",
+        "Astralis 0-2 Fnatic",
+        "19:10 · EF vs MIBR"
       ],
       "rang": 2
     },
@@ -19,16 +19,16 @@
       "date": "2026-10-27",
       "cle": "prog|PGL Masters Bucharest 2026|2026-10-27",
       "titre": "PGL Masters Bucharest 2026 · jour 4 : les matchs du 27 octobre",
-      "resume": "0 match joué, 6 à venir. Heures de Paris.",
+      "resume": "Vitality bat NAVI 2-0. 6 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "12:00 · Nemiga vs DENDELE",
-        "12:00 · Liquid vs Aurora",
-        "15:00 · MongolZ vs Legacy",
-        "15:00 · Spirit vs MOUZ",
-        "18:00 · FURIA vs TYLOO",
-        "18:00 · Vitality vs NAVI"
+        "Nemiga 2-0 DENDELE",
+        "Liquid 1-2 Aurora",
+        "MongolZ 2-0 Legacy",
+        "Spirit 1-2 MOUZ",
+        "FURIA 2-0 TYLOO",
+        "Vitality 2-0 NAVI"
       ],
       "rang": 2
     },
@@ -39,6 +39,33 @@
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 2"
+    },
+    {
+      "date": "2026-10-28",
+      "cle": "prog|Stake Ranked Episode 5|2026-10-28",
+      "titre": "Stake Ranked Episode 5 · jour 2 : les matchs du 28 octobre",
+      "resume": "0 match joué, 2 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "12:00 · Astralis vs magic",
+        "17:00 · Fnatic vs BIG"
+      ],
+      "rang": 0
+    },
+    {
+      "date": "2026-10-28",
+      "cle": "prog|PGL Masters Bucharest 2026|2026-10-28",
+      "titre": "PGL Masters Bucharest 2026 · jour 5 : les matchs du 28 octobre",
+      "resume": "0 match joué, 3 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "12:00 · MongolZ vs Nemiga",
+        "15:00 · FURIA vs Liquid",
+        "18:00 · Spirit vs NAVI"
+      ],
+      "rang": 0
     },
     {
       "date": "2026-11-11",
@@ -517,28 +544,34 @@
           "t1_court": "BIG",
           "t2_court": "magic",
           "bo": 3,
-          "phase": ""
+          "phase": "",
+          "s1": 2,
+          "s2": 1
         },
         "IC Esports|Team Nemesis": {
-          "ts": 1793107800,
+          "ts": 1793111100,
           "t1": "IC Esports",
           "t2": "Team Nemesis",
           "t1_court": "IC",
           "t2_court": "Nemesis",
           "bo": 3,
-          "phase": ""
+          "phase": "",
+          "s1": 2,
+          "s2": 0
         },
         "Astralis|Fnatic": {
-          "ts": 1793116800,
+          "ts": 1793118000,
           "t1": "Astralis",
           "t2": "Fnatic",
           "t1_court": "Astralis",
           "t2_court": "Fnatic",
           "bo": 3,
-          "phase": ""
+          "phase": "",
+          "s1": 0,
+          "s2": 2
         },
         "Eternal Fire|MIBR": {
-          "ts": 1793125800,
+          "ts": 1793124600,
           "t1": "Eternal Fire",
           "t2": "MIBR",
           "t1_court": "EF",
@@ -835,7 +868,9 @@
           "t1_court": "Nemiga",
           "t2_court": "DENDELE",
           "bo": 3,
-          "phase": ""
+          "phase": "",
+          "s1": 2,
+          "s2": 0
         },
         "Aurora Gaming|Team Liquid": {
           "ts": 1793098800,
@@ -844,47 +879,116 @@
           "t1_court": "Liquid",
           "t2_court": "Aurora",
           "bo": 3,
-          "phase": ""
+          "phase": "",
+          "s1": 1,
+          "s2": 2
         },
         "Legacy|The MongolZ": {
-          "ts": 1793109600,
+          "ts": 1793105700,
           "t1": "The MongolZ",
           "t2": "Legacy",
           "t1_court": "MongolZ",
           "t2_court": "Legacy",
           "bo": 3,
-          "phase": ""
+          "phase": "",
+          "s1": 2,
+          "s2": 0
         },
         "MOUZ|Team Spirit": {
-          "ts": 1793109600,
+          "ts": 1793111400,
           "t1": "Team Spirit",
           "t2": "MOUZ",
           "t1_court": "Spirit",
           "t2_court": "MOUZ",
           "bo": 3,
-          "phase": ""
+          "phase": "",
+          "s1": 1,
+          "s2": 2
         },
         "FURIA|TYLOO": {
-          "ts": 1793120400,
+          "ts": 1793117700,
           "t1": "FURIA",
           "t2": "TYLOO",
           "t1_court": "FURIA",
           "t2_court": "TYLOO",
           "bo": 3,
-          "phase": ""
+          "phase": "",
+          "s1": 2,
+          "s2": 0
         },
         "Natus Vincere|Team Vitality": {
-          "ts": 1793120400,
+          "ts": 1793123400,
           "t1": "Team Vitality",
           "t2": "Natus Vincere",
           "t1_court": "Vitality",
           "t2_court": "NAVI",
           "bo": 3,
-          "phase": ""
+          "phase": "",
+          "s1": 2,
+          "s2": 0
         }
       },
       "etape": "jour 4"
+    },
+    "Stake Ranked Episode 5|2026-10-28": {
+      "nom": "Stake Ranked Episode 5",
+      "jour": "2026-10-28",
+      "matchs": {
+        "Astralis|Magic": {
+          "ts": 1793185200,
+          "t1": "Astralis",
+          "t2": "Magic",
+          "t1_court": "Astralis",
+          "t2_court": "magic",
+          "bo": 3,
+          "phase": ""
+        },
+        "BIG|Fnatic": {
+          "ts": 1793203200,
+          "t1": "Fnatic",
+          "t2": "BIG",
+          "t1_court": "Fnatic",
+          "t2_court": "BIG",
+          "bo": 3,
+          "phase": ""
+        }
+      },
+      "etape": "jour 2"
+    },
+    "PGL Masters Bucharest 2026|2026-10-28": {
+      "nom": "PGL Masters Bucharest 2026",
+      "jour": "2026-10-28",
+      "matchs": {
+        "Nemiga Gaming|The MongolZ": {
+          "ts": 1793185200,
+          "t1": "The MongolZ",
+          "t2": "Nemiga Gaming",
+          "t1_court": "MongolZ",
+          "t2_court": "Nemiga",
+          "bo": 3,
+          "phase": ""
+        },
+        "FURIA|Team Liquid": {
+          "ts": 1793196000,
+          "t1": "FURIA",
+          "t2": "Team Liquid",
+          "t1_court": "FURIA",
+          "t2_court": "Liquid",
+          "bo": 3,
+          "phase": ""
+        },
+        "Natus Vincere|Team Spirit": {
+          "ts": 1793206800,
+          "t1": "Team Spirit",
+          "t2": "Natus Vincere",
+          "t1_court": "Spirit",
+          "t2_court": "NAVI",
+          "bo": 3,
+          "phase": ""
+        }
+      },
+      "etape": "jour 5"
     }
   },
-  "maj_heure": "20:35"
+  "maj_heure": "22:33"
 }

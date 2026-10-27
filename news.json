@@ -1,36 +1,36 @@
 {
   "maj": "2026-10-27",
-  "maj_heure": "20:35",
+  "maj_heure": "22:33",
   "semaine": "",
   "video": "",
   "articles": [
     {
       "date": "2026-10-27",
       "titre": "Stake Ranked Episode 5 · jour 1 : les matchs du 27 octobre",
-      "resume": "0 match joué, 4 à venir. Heures de Paris.",
+      "resume": "3 matchs joués, 1 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "12:00 · BIG vs magic",
-        "14:30 · IC vs Nemesis",
-        "17:00 · Astralis vs Fnatic",
-        "19:30 · EF vs MIBR"
+        "BIG 2-1 magic",
+        "IC 2-0 Nemesis",
+        "Astralis 0-2 Fnatic",
+        "19:10 · EF vs MIBR"
       ],
       "rang": 2
     },
     {
       "date": "2026-10-27",
       "titre": "PGL Masters Bucharest 2026 · jour 4 : les matchs du 27 octobre",
-      "resume": "0 match joué, 6 à venir. Heures de Paris.",
+      "resume": "Vitality bat NAVI 2-0. 6 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "12:00 · Nemiga vs DENDELE",
-        "12:00 · Liquid vs Aurora",
-        "15:00 · MongolZ vs Legacy",
-        "15:00 · Spirit vs MOUZ",
-        "18:00 · FURIA vs TYLOO",
-        "18:00 · Vitality vs NAVI"
+        "Nemiga 2-0 DENDELE",
+        "Liquid 1-2 Aurora",
+        "MongolZ 2-0 Legacy",
+        "Spirit 1-2 MOUZ",
+        "FURIA 2-0 TYLOO",
+        "Vitality 2-0 NAVI"
       ],
       "rang": 2
     },
@@ -40,6 +40,31 @@
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 2"
+    },
+    {
+      "date": "2026-10-28",
+      "titre": "Stake Ranked Episode 5 · jour 2 : les matchs du 28 octobre",
+      "resume": "0 match joué, 2 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "12:00 · Astralis vs magic",
+        "17:00 · Fnatic vs BIG"
+      ],
+      "rang": 0
+    },
+    {
+      "date": "2026-10-28",
+      "titre": "PGL Masters Bucharest 2026 · jour 5 : les matchs du 28 octobre",
+      "resume": "0 match joué, 3 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "12:00 · MongolZ vs Nemiga",
+        "15:00 · FURIA vs Liquid",
+        "18:00 · Spirit vs NAVI"
+      ],
+      "rang": 0
     },
     {
       "date": "2026-11-11",
@@ -134,30 +159,6 @@
         "Spirit 2-1 FURIA",
         "Liquid 2-0 Legacy",
         "G2 1-2 DENDELE"
-      ],
-      "rang": 0
-    },
-    {
-      "titre": "k1ssly passe sur le banc chez Butterfly",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2",
-      "date": "2026-10-25"
-    },
-    {
-      "date": "2026-10-25",
-      "titre": "PGL Masters Bucharest 2026 · jour 2 : les matchs du 25 octobre",
-      "resume": "Vitality bat MongolZ 2-0. 8 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "FUT 2-0 Liquid",
-        "Spirit 2-0 TYLOO",
-        "Vitality 2-0 MongolZ",
-        "BB 2-0 Nemiga",
-        "G2 0-2 Aurora",
-        "MOUZ 2-0 9z",
-        "Legacy 2-0 DENDELE"
       ],
       "rang": 0
     }
