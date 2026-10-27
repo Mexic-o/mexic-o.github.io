@@ -1,25 +1,56 @@
 {
-  "maj": "2026-10-26",
-  "maj_heure": "21:05",
+  "maj": "2026-10-27",
+  "maj_heure": "06:22",
   "semaine": "",
   "video": "",
   "articles": [
     {
-      "date": "2026-10-26",
-      "titre": "PGL Masters Bucharest 2026 · jour 3 : les matchs du 26 octobre",
-      "resume": "FUT bat Vitality 2-1. 8 matchs joués, 0 à venir. Heures de Paris.",
+      "date": "2026-10-27",
+      "titre": "Stake Ranked Episode 5 · jour 1 : les matchs du 27 octobre",
+      "resume": "0 match joué, 4 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "MongolZ 0-2 MOUZ",
-        "Nemiga 0-2 Aurora",
-        "Vitality 1-2 FUT",
-        "9z 1-2 TYLOO",
-        "Spirit 2-1 FURIA",
-        "Liquid 2-0 Legacy",
-        "G2 1-2 DENDELE"
+        "12:00 · BIG vs magic",
+        "14:30 · IC vs Nemesis",
+        "17:00 · Astralis vs Fnatic",
+        "19:30 · EF vs MIBR"
       ],
       "rang": 2
+    },
+    {
+      "date": "2026-10-27",
+      "titre": "PGL Masters Bucharest 2026 · jour 4 : les matchs du 27 octobre",
+      "resume": "0 match joué, 6 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "12:00 · Nemiga vs DENDELE",
+        "12:00 · Liquid vs Aurora",
+        "15:00 · MongolZ vs Legacy",
+        "15:00 · Spirit vs MOUZ",
+        "18:00 · FURIA vs TYLOO",
+        "18:00 · Vitality vs NAVI"
+      ],
+      "rang": 2
+    },
+    {
+      "date": "2026-10-27",
+      "titre": "mowzassa n'est plus le coach de SAW",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-11",
+      "titre": "BLAST Rivals Fall 2026 - Group A : les matchs du 11 novembre",
+      "resume": "0 match joué, 1 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "06:30 · Vitality vs Falcons"
+      ],
+      "rang": 0
     },
     {
       "date": "2026-10-26",
@@ -38,7 +69,7 @@
     {
       "date": "2026-10-26",
       "titre": "Virtus.pro remporte CIS LAN Championship #9",
-      "resume": "Virtus.pro gagne l'édition 9 de CIS LAN Championship, contre Nemesis. Victoire 3 à 2, avec Mirage, Dust2 et Nuke pour Virtus.pro.",
+      "resume": "Du côté de l'édition 9 de CIS LAN Championship, c'est Virtus.pro qui l'emporte face à Nemesis. Victoire 3 à 2, avec Mirage, Dust2 et Nuke pour Virtus.pro.",
       "categorie": "resultats",
       "tier": "Tier 2",
       "cartes": [
@@ -52,7 +83,7 @@
     {
       "date": "2026-10-26",
       "titre": "ex-Zero Tenacity remporte CCT Europe 2026 Series #11",
-      "resume": "Du côté de l'édition 11 de CCT Europe, c'est ex-Zero Tenacity qui l'emporte face à Acend.",
+      "resume": "ex-Zero Tenacity gagne l'édition 11 de CCT Europe, contre Acend.",
       "categorie": "resultats",
       "tier": "Tier 2"
     },
@@ -90,27 +121,19 @@
       "tier": "Tier 2"
     },
     {
-      "date": "2026-10-27",
-      "titre": "Stake Ranked Episode 5 · jour 1 : les matchs du 27 octobre",
-      "resume": "0 match joué, 4 à venir. Heures de Paris.",
+      "date": "2026-10-26",
+      "titre": "PGL Masters Bucharest 2026 · jour 3 : les matchs du 26 octobre",
+      "resume": "FUT bat Vitality 2-1. 8 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "12:00 · BIG vs magic",
-        "14:30 · IC vs Nemesis",
-        "17:00 · Astralis vs Fnatic",
-        "19:30 · EF vs MIBR"
-      ],
-      "rang": 0
-    },
-    {
-      "date": "2026-11-11",
-      "titre": "BLAST Rivals Fall 2026 - Group A : les matchs du 11 novembre",
-      "resume": "0 match joué, 1 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "06:30 · Vitality vs Falcons"
+        "MongolZ 0-2 MOUZ",
+        "Nemiga 0-2 Aurora",
+        "Vitality 1-2 FUT",
+        "9z 1-2 TYLOO",
+        "Spirit 2-1 FURIA",
+        "Liquid 2-0 Legacy",
+        "G2 1-2 DENDELE"
       ],
       "rang": 0
     },
@@ -137,25 +160,6 @@
         "Legacy 2-0 DENDELE"
       ],
       "rang": 0
-    },
-    {
-      "titre": "PGL Masters Bucharest 2026 a commencé",
-      "resume": "Le tournoi se joue à Bucarest, jusqu'au 31 octobre, 1 250 000 $ en jeu.",
-      "categorie": "resultats",
-      "tier": "Tier 1",
-      "date": "2026-10-24"
-    },
-    {
-      "titre": "The MongolZ remporte 1win Private Club #2",
-      "resume": "Du côté de l'édition 2 de 1win Private Club, c'est The MongolZ qui l'emporte face à PARIVISION. Victoire 3 à 0, avec Ancient, Mirage et Dust2 pour The MongolZ. Pour PARIVISION, c'est une troisième finale perdue d'affilée.",
-      "categorie": "resultats",
-      "tier": "Tier 1",
-      "cartes": [
-        "Ancient 13-6",
-        "Mirage 13-11",
-        "Dust2 13-4"
-      ],
-      "date": "2026-10-24"
     }
   ],
   "matchs": [
@@ -167,15 +171,15 @@
     },
     {
       "groupe": "En cours",
-      "jour": "2026-10-14",
-      "equipes": "NODWIN Clutch Series #13",
-      "tournoi": "jusqu'au 27 octobre"
+      "jour": "2026-10-27",
+      "equipes": "Stake Ranked Episode 5",
+      "tournoi": "jusqu'au 30 octobre · Barcelona"
     },
     {
       "groupe": "En cours",
-      "jour": "2026-10-26",
-      "equipes": "DFRAG Invitational 2026",
-      "tournoi": "jusqu'au 1er novembre · Brisbane"
+      "jour": "2026-10-27",
+      "equipes": "Tesla Cup 2026",
+      "tournoi": "jusqu'au 29 octobre · Belgrade"
     },
     {
       "groupe": "À venir",
@@ -185,15 +189,15 @@
     },
     {
       "groupe": "À venir",
-      "jour": "2026-10-27",
-      "equipes": "Stake Ranked Episode 5",
-      "tournoi": "dès le 27 octobre · Barcelona"
-    },
-    {
-      "groupe": "À venir",
       "jour": "2026-10-31",
       "equipes": "Moscow Cyber Games 2026",
       "tournoi": "dès le 31 octobre · Moscou"
+    },
+    {
+      "groupe": "À venir",
+      "jour": "2026-10-29",
+      "equipes": "FiReSPORTS Last Chance 2026",
+      "tournoi": "dès le 29 octobre · Buenos Aires"
     }
   ]
 }
