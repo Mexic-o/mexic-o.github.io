@@ -28,19 +28,18 @@ def _paris_date(ts):
 def messages(data, aujourdhui):
     """Renvoie une liste de (clé, texte). La clé sert à ne jamais envoyer deux fois le même message."""
     sortie = []
-    # 1. matchs de Vitality aujourd'hui (une fois par jour)
-    du_jour = []
-    for m in data.get("matches") or []:
-        if _suivie(m.get("t1")) or _suivie(m.get("t2")):
-            if _paris_date(m["ts"]) == aujourdhui:
-                du_jour.append(m)
-    if du_jour:
-        lignes = []
-        for m in sorted(du_jour, key=lambda x: x["ts"]):
-            heure = datetime.datetime.fromtimestamp(m["ts"], datetime.timezone(datetime.timedelta(hours=1))).strftime("%H:%M")
-            lignes.append(f"{heure} · {m['t1']} vs {m['t2']} ({m.get('tournament', '')})")
-        sortie.append((f"jour|{aujourdhui.isoformat()}",
-                       "📅 **Vitality aujourd'hui**\n" + "\n".join(lignes) + "\nHeures de Paris."))
+    # 1. matchs de Vitality aujourd'hui, puis demain (un message par jour, jamais deux fois)
+    fuseau = datetime.timezone(datetime.timedelta(hours=1))
+    for decalage, titre in ((0, "aujourd'hui"), (1, "demain")):
+        jour = aujourdhui + datetime.timedelta(days=decalage)
+        du_jour = sorted((m for m in data.get("matches") or []
+                          if (_suivie(m.get("t1")) or _suivie(m.get("t2"))) and _paris_date(m["ts"]) == jour),
+                         key=lambda x: x["ts"])
+        if du_jour:
+            lignes = [f"{datetime.datetime.fromtimestamp(m['ts'], fuseau):%H:%M} · {m['t1']} vs {m['t2']} "
+                      f"({m.get('tournament', '')})" for m in du_jour]
+            cle = ("jour" if decalage == 0 else "demain") + f"|{jour.isoformat()}"
+            sortie.append((cle, f"📅 **Vitality {titre}**\n" + "\n".join(lignes) + "\nHeures de Paris."))
     # 2. résultats de Vitality (matchs terminés, hier ou aujourd'hui)
     vus = set()
     for m in data.get("completed") or []:
