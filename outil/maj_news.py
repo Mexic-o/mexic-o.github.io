@@ -25,6 +25,7 @@ import news_script as NS
 import rondes as RONDES      # noqa: E402
 import bracket as BRACKET    # noqa: E402
 import swiss as SWISS        # noqa: E402
+import discord_news as DISCORD  # noqa: E402
 import news_site as SITE      # noqa: E402
 import news_sources as SRC    # noqa: E402
 
@@ -541,6 +542,12 @@ def main():
     if not agenda and data["errors"]:
         agenda = None                                         # Liquipedia en panne : on garde l'agenda d'avant
         dire("  agenda vide à cause d'une source en panne : l'ancien agenda est gardé")
+    try:
+        data["noms_pages"] = {t["page"]: t["name"] for t in pages_tournois(data)}
+        DISCORD.envoyer(data, h, dire)                        # infos clés sur Vitality (secret NEWSCS_WEBHOOK)
+        SITE._ecrire(SITE.HISTORIQUE, h)
+    except Exception as e:
+        dire(f"  [ATTENTION] Discord non fait : {e}")
     SITE._fusionner(arts, agenda=agenda, video=video, semaine=semaine or None, jour=jour)
     h = SITE._lire(SITE.HISTORIQUE, {}) or {}
     h["collecte"] = jour
