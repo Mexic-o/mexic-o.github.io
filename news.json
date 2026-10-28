@@ -1,19 +1,85 @@
 {
   "maj": "2026-10-28",
-  "maj_heure": "11:00",
+  "maj_heure": "11:15",
   "semaine": "",
   "video": "",
   "articles": [
     {
       "date": "2026-10-28",
       "titre": "PGL Masters Bucharest 2026 · jour 5 : les matchs du 28 octobre",
-      "resume": "0 match joué, 3 à venir. Heures de Paris. Qualifiées pour les playoffs : FUT Esports, BetBoom Team, Team Vitality, MOUZ, Aurora Gaming. Éliminées : TYLOO, Legacy, DENDELE CS, 9z Team, G2 Esports. Encore en jeu : Team Liquid, The MongolZ, Team Spirit, Natus Vincere, Nemiga Gaming, FURIA.",
+      "resume": "0 match joué, 3 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
         "12:00 · MongolZ vs Nemiga",
         "15:00 · Liquid vs FURIA",
         "18:00 · Spirit vs NAVI"
+      ],
+      "qualifs": [
+        {
+          "nom": "FUT Esports",
+          "k": "ok"
+        },
+        {
+          "nom": "BetBoom Team",
+          "k": "ok"
+        },
+        {
+          "nom": "Team Vitality",
+          "k": "ok"
+        },
+        {
+          "nom": "MOUZ",
+          "k": "ok"
+        },
+        {
+          "nom": "Aurora Gaming",
+          "k": "ok"
+        },
+        {
+          "nom": "TYLOO",
+          "k": "ko"
+        },
+        {
+          "nom": "Legacy",
+          "k": "ko"
+        },
+        {
+          "nom": "DENDELE CS",
+          "k": "ko"
+        },
+        {
+          "nom": "9z Team",
+          "k": "ko"
+        },
+        {
+          "nom": "G2 Esports",
+          "k": "ko"
+        },
+        {
+          "nom": "Team Liquid",
+          "k": "enjeu"
+        },
+        {
+          "nom": "The MongolZ",
+          "k": "enjeu"
+        },
+        {
+          "nom": "Team Spirit",
+          "k": "enjeu"
+        },
+        {
+          "nom": "Natus Vincere",
+          "k": "enjeu"
+        },
+        {
+          "nom": "Nemiga Gaming",
+          "k": "enjeu"
+        },
+        {
+          "nom": "FURIA",
+          "k": "enjeu"
+        }
       ],
       "rang": 3
     },
