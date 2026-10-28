@@ -460,14 +460,9 @@ def articles_programme(data, memoire=None, maintenant=None):
         t = gros.get(chemin)
         if not t or not (sw.get("qualifiees") or sw.get("eliminees")):
             continue
-        morceaux = []
-        if sw["qualifiees"]:
-            morceaux.append("Qualifiées pour les playoffs : " + ", ".join(sw["qualifiees"]) + ".")
-        if sw["eliminees"]:
-            morceaux.append("Éliminées : " + ", ".join(sw["eliminees"]) + ".")
-        if sw.get("en_jeu"):
-            morceaux.append("Encore en jeu : " + ", ".join(sw["en_jeu"]) + ".")
-        quali_de[t["name"]] = " ".join(morceaux)
+        quali_de[t["name"]] = ([{"nom": n, "k": "ok"} for n in sw["qualifiees"]]
+                               + [{"nom": n, "k": "ko"} for n in sw["eliminees"]]
+                               + [{"nom": n, "k": "enjeu"} for n in sw.get("en_jeu", [])])
     for bloc in memoire.values():
         dernier_jour[bloc["nom"]] = max(dernier_jour.get(bloc["nom"], ""), bloc["jour"])
     arts = []
@@ -496,11 +491,11 @@ def articles_programme(data, memoire=None, maintenant=None):
         c = Counter(e["phase"] for e in ms if e.get("phase"))
         ph = c.most_common(1)[0][0] if c else ""
         nom, jour = bloc["nom"], bloc["jour"]
-        if nom in quali_de and jour == dernier_jour.get(nom):
-            resume += " " + quali_de[nom]                   # qualifications du tableau Swiss, sur le dernier programme
         titre = " · ".join(x for x in (nom, bloc.get("etape"), ph) if x) + f" : les matchs du {NS.date_fr(jour)}"
         art = SITE._article(f"prog|{nom}|{jour}", titre, resume, "resultats", "Programme", pastilles)
         art["date"] = jour
+        if nom in quali_de and jour == dernier_jour.get(nom):
+            art["qualifs"] = quali_de[nom]                  # qualifiées en vert, éliminées en rouge, sur le dernier programme
         # programme d'aujourd'hui ou de demain : en tête. Tier S d'abord, puis le plus récent (voir _fusionner)
         if jour >= aujourdhui.isoformat():
             art["rang"] = 3 if tier_de.get(nom) == "S" else 2
