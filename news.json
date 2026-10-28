@@ -1,25 +1,9 @@
 {
-  "maj": "2026-10-27",
-  "maj_heure": "23:11",
+  "maj": "2026-10-28",
+  "maj_heure": "07:02",
   "semaine": "",
   "video": "",
   "articles": [
-    {
-      "date": "2026-10-27",
-      "titre": "PGL Masters Bucharest 2026 · jour 4 : les matchs du 27 octobre",
-      "resume": "Vitality bat NAVI 2-0. 6 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "Nemiga 2-0 DENDELE",
-        "Liquid 1-2 Aurora",
-        "MongolZ 2-0 Legacy",
-        "Spirit 1-2 MOUZ",
-        "FURIA 2-0 TYLOO",
-        "Vitality 2-0 NAVI"
-      ],
-      "rang": 3
-    },
     {
       "date": "2026-10-28",
       "titre": "PGL Masters Bucharest 2026 · jour 5 : les matchs du 28 octobre",
@@ -28,24 +12,10 @@
       "tier": "Programme",
       "cartes": [
         "12:00 · MongolZ vs Nemiga",
-        "15:00 · FURIA vs Liquid",
+        "15:00 · Liquid vs FURIA",
         "18:00 · Spirit vs NAVI"
       ],
       "rang": 3
-    },
-    {
-      "date": "2026-10-27",
-      "titre": "Stake Ranked Episode 5 · jour 1 : les matchs du 27 octobre",
-      "resume": "4 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "BIG 2-1 magic",
-        "IC 2-0 Nemesis",
-        "Astralis 0-2 Fnatic",
-        "EF 1-2 MIBR"
-      ],
-      "rang": 2
     },
     {
       "date": "2026-10-28",
@@ -67,6 +37,36 @@
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 2"
+    },
+    {
+      "date": "2026-10-27",
+      "titre": "Stake Ranked Episode 5 · jour 1 : les matchs du 27 octobre",
+      "resume": "4 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "BIG 2-1 magic",
+        "IC 2-0 Nemesis",
+        "Astralis 0-2 Fnatic",
+        "EF 1-2 MIBR"
+      ],
+      "rang": 0
+    },
+    {
+      "date": "2026-10-27",
+      "titre": "PGL Masters Bucharest 2026 · jour 4 : les matchs du 27 octobre",
+      "resume": "Vitality bat NAVI 2-0. 6 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "Nemiga 2-0 DENDELE",
+        "Liquid 1-2 Aurora",
+        "MongolZ 2-0 Legacy",
+        "Spirit 1-2 MOUZ",
+        "FURIA 2-0 TYLOO",
+        "Vitality 2-0 NAVI"
+      ],
+      "rang": 0
     },
     {
       "date": "2026-10-26",

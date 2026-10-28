@@ -1,23 +1,6 @@
 {
   "articles": [
     {
-      "date": "2026-10-27",
-      "cle": "prog|PGL Masters Bucharest 2026|2026-10-27",
-      "titre": "PGL Masters Bucharest 2026 · jour 4 : les matchs du 27 octobre",
-      "resume": "Vitality bat NAVI 2-0. 6 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "Nemiga 2-0 DENDELE",
-        "Liquid 1-2 Aurora",
-        "MongolZ 2-0 Legacy",
-        "Spirit 1-2 MOUZ",
-        "FURIA 2-0 TYLOO",
-        "Vitality 2-0 NAVI"
-      ],
-      "rang": 3
-    },
-    {
       "date": "2026-10-28",
       "cle": "prog|PGL Masters Bucharest 2026|2026-10-28",
       "titre": "PGL Masters Bucharest 2026 · jour 5 : les matchs du 28 octobre",
@@ -26,25 +9,10 @@
       "tier": "Programme",
       "cartes": [
         "12:00 · MongolZ vs Nemiga",
-        "15:00 · FURIA vs Liquid",
+        "15:00 · Liquid vs FURIA",
         "18:00 · Spirit vs NAVI"
       ],
       "rang": 3
-    },
-    {
-      "date": "2026-10-27",
-      "cle": "prog|Stake Ranked Episode 5|2026-10-27",
-      "titre": "Stake Ranked Episode 5 · jour 1 : les matchs du 27 octobre",
-      "resume": "4 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "BIG 2-1 magic",
-        "IC 2-0 Nemesis",
-        "Astralis 0-2 Fnatic",
-        "EF 1-2 MIBR"
-      ],
-      "rang": 2
     },
     {
       "date": "2026-10-28",
@@ -68,6 +36,38 @@
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 2"
+    },
+    {
+      "date": "2026-10-27",
+      "cle": "prog|Stake Ranked Episode 5|2026-10-27",
+      "titre": "Stake Ranked Episode 5 · jour 1 : les matchs du 27 octobre",
+      "resume": "4 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "BIG 2-1 magic",
+        "IC 2-0 Nemesis",
+        "Astralis 0-2 Fnatic",
+        "EF 1-2 MIBR"
+      ],
+      "rang": 0
+    },
+    {
+      "date": "2026-10-27",
+      "cle": "prog|PGL Masters Bucharest 2026|2026-10-27",
+      "titre": "PGL Masters Bucharest 2026 · jour 4 : les matchs du 27 octobre",
+      "resume": "Vitality bat NAVI 2-0. 6 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "Nemiga 2-0 DENDELE",
+        "Liquid 1-2 Aurora",
+        "MongolZ 2-0 Legacy",
+        "Spirit 1-2 MOUZ",
+        "FURIA 2-0 TYLOO",
+        "Vitality 2-0 NAVI"
+      ],
+      "rang": 0
     },
     {
       "date": "2026-10-26",
@@ -296,82 +296,6 @@
         "PV 0-3 MongolZ"
       ],
       "rang": 0
-    },
-    {
-      "cle": "res|WIBR Cup 2026|MIBR Female",
-      "titre": "MIBR Female remporte WIBR Cup 2026",
-      "resume": "Côté scène féminine, MIBR Female remporte WIBR Cup, face à YouaremyFrag Female en finale.",
-      "categorie": "resultats",
-      "tier": "Tier 2",
-      "date": "2026-10-21"
-    },
-    {
-      "cle": "tr|shalfey||GamerLegion|",
-      "titre": "shalfey rejoint GamerLegion",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2",
-      "date": "2026-10-21"
-    },
-    {
-      "cle": "tr|Snax|GamerLegion|GamerLegion|banc",
-      "titre": "Snax passe sur le banc chez GamerLegion",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2",
-      "date": "2026-10-21"
-    },
-    {
-      "cle": "tr|glowiing|CYBERSHOKE|BAKS|",
-      "titre": "glowiing passe de CYBERSHOKE à BAKS",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2",
-      "date": "2026-10-21"
-    },
-    {
-      "cle": "tr|Qikert||Spirit Academy|coach",
-      "titre": "Qikert devient le coach de Spirit Academy",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2",
-      "date": "2026-10-21"
-    },
-    {
-      "cle": "tr|Flash_1|Spirit Academy|Spirit Academy White|coach",
-      "titre": "Flash_1 devient le coach de Spirit Academy White",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2",
-      "date": "2026-10-21"
-    },
-    {
-      "cle": "tr|Joker||MASQ|",
-      "titre": "Joker rejoint MASQ",
-      "resume": "",
-      "categorie": "fr",
-      "date": "2026-10-21"
-    },
-    {
-      "cle": "tr|Myzunic|9INE Academy|libre|",
-      "titre": "Myzunic quitte 9INE Academy",
-      "resume": "",
-      "categorie": "fr",
-      "date": "2026-10-21"
-    },
-    {
-      "date": "2026-10-21",
-      "cle": "prog|1win Private Club #2|2026-10-21",
-      "titre": "1win Private Club #2 · jour 3 : les matchs du 21 octobre",
-      "resume": "3 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "Fnatic 0-2 PRVT",
-        "BIG 0-2 PV",
-        "PRVT 0-2 MongolZ"
-      ],
-      "rang": 0
     }
   ],
   "agenda": [
@@ -418,8 +342,8 @@
       "tournoi": "dès le 29 octobre · Luoyang"
     }
   ],
-  "maj": "2026-10-27",
-  "collecte": "2026-10-27",
+  "maj": "2026-10-28",
+  "collecte": "2026-10-28",
   "envoi_en_attente": false,
   "chaine": {
     "handle": "@Mexic_Original",
@@ -970,10 +894,10 @@
         },
         "FURIA|Team Liquid": {
           "ts": 1793196000,
-          "t1": "FURIA",
-          "t2": "Team Liquid",
-          "t1_court": "FURIA",
-          "t2_court": "Liquid",
+          "t1": "Team Liquid",
+          "t2": "FURIA",
+          "t1_court": "Liquid",
+          "t2_court": "FURIA",
           "bo": 3,
           "phase": ""
         },
@@ -991,5 +915,5 @@
       "tier": "S"
     }
   },
-  "maj_heure": "23:11"
+  "maj_heure": "07:02"
 }
