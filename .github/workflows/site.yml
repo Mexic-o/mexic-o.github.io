@@ -49,6 +49,7 @@ jobs:
         continue-on-error: true    # source en panne : on publie quand même le site avec les news d'avant
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NEWSCS_WEBHOOK: ${{ secrets.NEWSCS_WEBHOOK }}
         run: |
           if [ -f outil/maj_news.py ]; then python outil/maj_news.py; else python maj_news.py; fi
 
