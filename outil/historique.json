@@ -4,21 +4,21 @@
       "date": "2026-10-28",
       "cle": "prog|PGL Masters Bucharest 2026|2026-10-28",
       "titre": "PGL Masters Bucharest 2026 · jour 5 : les matchs du 28 octobre",
-      "resume": "0 match joué, 3 à venir. Heures de Paris.",
+      "resume": "3 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "12:00 · MongolZ vs Nemiga",
-        "15:00 · Liquid vs FURIA",
-        "18:00 · Spirit vs NAVI"
+        "MongolZ 0-2 Nemiga",
+        "Liquid 0-2 FURIA",
+        "Spirit 0-0 NAVI"
       ],
       "qualifs": [
         {
-          "nom": "FUT Esports",
+          "nom": "BetBoom Team",
           "k": "ok"
         },
         {
-          "nom": "BetBoom Team",
+          "nom": "FUT Esports",
           "k": "ok"
         },
         {
@@ -26,12 +26,28 @@
           "k": "ok"
         },
         {
+          "nom": "Aurora Gaming",
+          "k": "ok"
+        },
+        {
           "nom": "MOUZ",
           "k": "ok"
         },
         {
-          "nom": "Aurora Gaming",
+          "nom": "Nemiga Gaming",
           "k": "ok"
+        },
+        {
+          "nom": "FURIA",
+          "k": "ok"
+        },
+        {
+          "nom": "Team Liquid",
+          "k": "ko"
+        },
+        {
+          "nom": "The MongolZ",
+          "k": "ko"
         },
         {
           "nom": "TYLOO",
@@ -54,27 +70,11 @@
           "k": "ko"
         },
         {
-          "nom": "Team Liquid",
-          "k": "enjeu"
-        },
-        {
-          "nom": "The MongolZ",
-          "k": "enjeu"
-        },
-        {
           "nom": "Team Spirit",
           "k": "enjeu"
         },
         {
           "nom": "Natus Vincere",
-          "k": "enjeu"
-        },
-        {
-          "nom": "Nemiga Gaming",
-          "k": "enjeu"
-        },
-        {
-          "nom": "FURIA",
           "k": "enjeu"
         }
       ],
@@ -84,16 +84,53 @@
       "date": "2026-10-28",
       "cle": "prog|Stake Ranked Episode 5|2026-10-28",
       "titre": "Stake Ranked Episode 5 · jour 2 : les matchs du 28 octobre",
-      "resume": "0 match joué, 4 à venir. Heures de Paris.",
+      "resume": "1 match joué, 3 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "12:00 · Astralis vs magic",
-        "14:30 · Nemesis vs EF",
+        "Astralis 2-1 magic",
+        "15:05 · Nemesis vs EF",
         "17:00 · Fnatic vs BIG",
         "19:30 · IC vs MIBR"
       ],
       "rang": 2
+    },
+    {
+      "date": "2026-10-28",
+      "cle": "res|NODWIN Clutch Series #13|FOKUS",
+      "titre": "FOKUS remporte NODWIN Clutch Series #13",
+      "resume": "FOKUS gagne l'édition 13 de NODWIN Clutch, contre BRUTE. Victoire 2 à 1, avec Mirage et Nuke pour FOKUS.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "cartes": [
+        "Cache 11-13",
+        "Mirage 25-23",
+        "Nuke 13-10"
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "cle": "tr|ksloks||Legacy|remplaçant",
+      "titre": "ksloks dépanne Legacy",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 1"
+    },
+    {
+      "date": "2026-10-28",
+      "cle": "tr|n1ssim|Legacy|Legacy|banc",
+      "titre": "n1ssim passe sur le banc chez Legacy",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 1"
+    },
+    {
+      "date": "2026-10-28",
+      "cle": "tr|waZz|Aimclub|libre|",
+      "titre": "waZz quitte Aimclub",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
     },
     {
       "date": "2026-10-27",
@@ -169,7 +206,7 @@
       "date": "2026-10-26",
       "cle": "res|CCT Europe 2026 Series #11|ex-Zero Tenacity",
       "titre": "ex-Zero Tenacity remporte CCT Europe 2026 Series #11",
-      "resume": "ex-Zero Tenacity gagne l'édition 11 de CCT Europe, contre Acend.",
+      "resume": "Du côté de l'édition 11 de CCT Europe, c'est ex-Zero Tenacity qui l'emporte face à Acend.",
       "categorie": "resultats",
       "tier": "Tier 2"
     },
@@ -912,7 +949,9 @@
           "t1_court": "Astralis",
           "t2_court": "magic",
           "bo": 3,
-          "phase": ""
+          "phase": "",
+          "s1": 2,
+          "s2": 1
         },
         "BIG|Fnatic": {
           "ts": 1793203200,
@@ -924,7 +963,7 @@
           "phase": ""
         },
         "Eternal Fire|Team Nemesis": {
-          "ts": 1793194200,
+          "ts": 1793196300,
           "t1": "Team Nemesis",
           "t2": "Eternal Fire",
           "t1_court": "Nemesis",
@@ -956,16 +995,20 @@
           "t1_court": "MongolZ",
           "t2_court": "Nemiga",
           "bo": 3,
-          "phase": ""
+          "phase": "",
+          "s1": 0,
+          "s2": 2
         },
         "FURIA|Team Liquid": {
-          "ts": 1793196000,
+          "ts": 1793194800,
           "t1": "Team Liquid",
           "t2": "FURIA",
           "t1_court": "Liquid",
           "t2_court": "FURIA",
           "bo": 3,
-          "phase": ""
+          "phase": "",
+          "s1": 0,
+          "s2": 2
         },
         "Natus Vincere|Team Spirit": {
           "ts": 1793206800,
@@ -974,12 +1017,14 @@
           "t1_court": "Spirit",
           "t2_court": "NAVI",
           "bo": 3,
-          "phase": ""
+          "phase": "",
+          "s1": 0,
+          "s2": 0
         }
       },
       "etape": "jour 5",
       "tier": "S"
     }
   },
-  "maj_heure": "11:15"
+  "maj_heure": "17:15"
 }
