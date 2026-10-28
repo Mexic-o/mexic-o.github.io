@@ -24,6 +24,7 @@ RACINE = os.environ.get("GITHUB_WORKSPACE") or (os.path.dirname(ICI) if os.path.
 import news_script as NS
 import rondes as RONDES      # noqa: E402
 import bracket as BRACKET    # noqa: E402
+import swiss as SWISS        # noqa: E402
 import news_site as SITE      # noqa: E402
 import news_sources as SRC    # noqa: E402
 
@@ -237,6 +238,7 @@ def copies_pages_tournois(data):
     import time
     data["rondes"] = {}
     data["brackets"] = {}
+    data["swiss"] = {}
     for nom, chemin in COPIES_TOURNOIS:
         cible = os.path.join(DEBUG, "tournoi_%s.html" % nom)
         html = None
@@ -260,6 +262,7 @@ def copies_pages_tournois(data):
         if html:
             data["rondes"][chemin] = RONDES.parse_rondes(html)
             data["brackets"][chemin] = BRACKET.parse_bracket(html)
+            data["swiss"][chemin] = SWISS.parse_swiss(html)
         time.sleep(30)
 
 
@@ -441,6 +444,22 @@ def articles_programme(data, memoire=None, maintenant=None):
             del memoire[cle]
 
     tier_de = {t["name"]: t.get("tier") for t in gros.values()}
+    # qualifiées (3 victoires) et éliminées (3 défaites) du tableau Swiss, ajoutées au dernier programme du tournoi
+    quali_de, dernier_jour = {}, {}
+    for chemin, sw in (data.get("swiss") or {}).items():
+        t = gros.get(chemin)
+        if not t or not (sw.get("qualifiees") or sw.get("eliminees")):
+            continue
+        morceaux = []
+        if sw["qualifiees"]:
+            morceaux.append("Qualifiées pour les playoffs : " + ", ".join(sw["qualifiees"]) + ".")
+        if sw["eliminees"]:
+            morceaux.append("Éliminées : " + ", ".join(sw["eliminees"]) + ".")
+        if sw.get("en_jeu"):
+            morceaux.append("Encore en jeu : " + ", ".join(sw["en_jeu"]) + ".")
+        quali_de[t["name"]] = " ".join(morceaux)
+    for bloc in memoire.values():
+        dernier_jour[bloc["nom"]] = max(dernier_jour.get(bloc["nom"], ""), bloc["jour"])
     arts = []
     for cle, bloc in sorted(memoire.items(), key=lambda kv: kv[1]["jour"]):
         ms = sorted(bloc["matchs"].values(), key=lambda e: e["ts"])
@@ -467,6 +486,8 @@ def articles_programme(data, memoire=None, maintenant=None):
         c = Counter(e["phase"] for e in ms if e.get("phase"))
         ph = c.most_common(1)[0][0] if c else ""
         nom, jour = bloc["nom"], bloc["jour"]
+        if nom in quali_de and jour == dernier_jour.get(nom):
+            resume += " " + quali_de[nom]                   # qualifications du tableau Swiss, sur le dernier programme
         titre = " · ".join(x for x in (nom, bloc.get("etape"), ph) if x) + f" : les matchs du {NS.date_fr(jour)}"
         art = SITE._article(f"prog|{nom}|{jour}", titre, resume, "resultats", "Programme", pastilles)
         art["date"] = jour
