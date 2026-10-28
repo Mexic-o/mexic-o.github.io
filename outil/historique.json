@@ -8,9 +8,9 @@
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "09:00 · Nemiga vs FUT",
+        "09:00 · FUT vs Nemiga",
         "12:00 · Vitality vs NAVI",
-        "15:00 · MOUZ vs Aurora",
+        "15:00 · Aurora vs MOUZ",
         "18:00 · BB vs FURIA"
       ],
       "qualifs": [
@@ -1062,10 +1062,10 @@
       "matchs": {
         "FUT Esports|Nemiga Gaming": {
           "ts": 1793260800,
-          "t1": "Nemiga Gaming",
-          "t2": "FUT Esports",
-          "t1_court": "Nemiga",
-          "t2_court": "FUT",
+          "t1": "FUT Esports",
+          "t2": "Nemiga Gaming",
+          "t1_court": "FUT",
+          "t2_court": "Nemiga",
           "bo": 3,
           "phase": ""
         },
@@ -1080,10 +1080,10 @@
         },
         "Aurora Gaming|MOUZ": {
           "ts": 1793282400,
-          "t1": "MOUZ",
-          "t2": "Aurora Gaming",
-          "t1_court": "MOUZ",
-          "t2_court": "Aurora",
+          "t1": "Aurora Gaming",
+          "t2": "MOUZ",
+          "t1_court": "Aurora",
+          "t2_court": "MOUZ",
           "bo": 3,
           "phase": ""
         },
@@ -1118,9 +1118,10 @@
       "tier": "A"
     }
   },
-  "maj_heure": "21:12",
+  "maj_heure": "21:24",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
-    "quali|PGL/2026/Masters"
+    "quali|PGL/2026/Masters",
+    "demain|2026-10-29"
   ]
 }
