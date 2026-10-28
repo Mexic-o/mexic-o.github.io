@@ -224,23 +224,33 @@ def articles_debuts(data, aujourdhui=None):
 
 
 # Pages de tournois dont on garde une copie (une seule fois), pour lire bracket, notes d'effectif et casters.
-COPIES_TOURNOIS = [
-    ("PGL_Masters_Bucharest_2026", "PGL/2026/Masters"),
-    ("IEM_Beijing_2026", "Intel_Extreme_Masters/2026/Beijing"),
-    ("Stake_Ranked_Episode_5", "Stake_Ranked/Episode_5"),
-]
+
+
+MAX_PAGES_TOURNOIS = 4                # pages de tournois lues à chaque passage (une toutes les 30 s)
+
+
+def pages_tournois(data):
+    """Les gros tournois (tier S et A) en cours ou qui commencent : leur page Liquipedia est lue. Liste donnée par Liquipedia."""
+    tours = data.get("tournaments") or {}
+    voulus = []
+    for statut, liste in (("ongoing", tours.get("ongoing") or []), ("upcoming", tours.get("upcoming") or [])):
+        for t in liste:
+            if t.get("tier") in ("S", "A") and t.get("page") and t["page"] not in [v["page"] for v in voulus]:
+                voulus.append(dict(t, _statut=statut))
+    # Tier 1 d'abord (le plus suivi), puis les tournois en cours avant ceux qui commencent, puis par nom
+    voulus.sort(key=lambda t: (t.get("tier") != "S", t.get("_statut") != "ongoing", t.get("name", "")))
+    return voulus[:MAX_PAGES_TOURNOIS]
 
 
 def copies_pages_tournois(data):
-    """Relit à chaque passage la page de chaque gros tournoi (une page toutes les 30 s : règle Liquipedia).
+    """Relit à chaque passage la page des gros tournois (liste donnée par Liquipedia, une page toutes les 30 s).
     Garde une copie dans outil/debug ; si la lecture échoue, on reprend la dernière copie gardée.
-    Range dans data["rondes"] les résultats des tableaux de rondes (scores, date, tour)."""
+    Range les résultats (rondes, brackets, classement Swiss) par page de tournoi."""
     import time
-    data["rondes"] = {}
-    data["brackets"] = {}
-    data["swiss"] = {}
-    for nom, chemin in COPIES_TOURNOIS:
-        cible = os.path.join(DEBUG, "tournoi_%s.html" % nom)
+    data["rondes"], data["brackets"], data["swiss"] = {}, {}, {}
+    for t in pages_tournois(data):
+        chemin, nom = t["page"], t["name"]
+        cible = os.path.join(DEBUG, "tournoi_%s.html" % re.sub(r"\W+", "_", chemin).strip("_"))
         html = None
         try:
             rep = json.loads(SRC.fetch(SRC.LIQUI_API, {"action": "parse", "page": chemin, "prop": "text",
