@@ -38,6 +38,11 @@
       a.cartes.forEach(function (x) { m.appendChild(el('span', null, x)); });
       b.appendChild(m);
     }
+    if (a.qualifs && a.qualifs.length) {
+      var q = el('div', 'maps qualifs');
+      a.qualifs.forEach(function (x) { q.appendChild(el('span', 'q-' + x.k, x.nom)); });
+      b.appendChild(q);
+    }
     if (a.resume) b.appendChild(el('p', null, a.resume));
     var lien = sur(a.lien);
     if (lien) { var l = el('a', 'more', 'En savoir plus →'); l.href = lien; b.appendChild(l); }
@@ -78,10 +83,7 @@
       var liste = document.getElementById('news-liste');
       if (liste) {
         var titre = document.getElementById('semaine');
-        if (titre && (d.maj || d.semaine)) {
-          var hm = String(d.maj_heure || '').split(':');
-          titre.textContent = 'News CS2 · mis à jour le ' + dateFr(d.maj || d.semaine) + (hm.length === 2 ? ' à ' + hm[0] + ' h ' + hm[1] : '');
-        }
+        if (titre && (d.maj || d.semaine)) titre.textContent = 'News CS2 · mis à jour le ' + dateFr(d.maj || d.semaine);
         var v = document.getElementById('video');
         if (v && sur(d.video)) { v.href = d.video; v.hidden = false; }
         if (!arts.length) vide(liste, 'Les premières news CS2 arrivent très vite.');

@@ -100,3 +100,8 @@ footer nav{display:flex;flex-wrap:wrap;gap:18px}
 footer .brand img{width:28px;height:28px}
 footer .brand span{font-size:16px}
 @media (max-width:560px){nav.main a.cta{margin-left:0}.shop{padding:24px}.project{padding:20px}}
+
+/* qualifications (tableau Swiss) : vert = qualifiée, rouge = éliminée, neutre = encore en jeu */
+.qualifs span.q-ok{background:#9ed15a;color:#1a120c;border-color:#9ed15a;font-weight:800}
+.qualifs span.q-ko{background:#8f2a20;color:#fbefd9;border-color:#8f2a20;font-weight:800}
+.qualifs span.q-enjeu{background:transparent;color:var(--muted);border-style:dashed}
