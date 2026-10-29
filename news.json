@@ -1,17 +1,18 @@
 {
   "maj": "2026-10-29",
-  "maj_heure": "17:20",
+  "maj_heure": "20:50",
   "semaine": "",
   "video": "",
   "articles": [
     {
       "date": "2026-10-30",
       "titre": "PGL Masters Bucharest 2026 · jour 7 : les matchs du 30 octobre",
-      "resume": "0 match joué, 1 à venir. Heures de Paris.",
+      "resume": "0 match joué, 2 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "13:00 · Vitality vs Nemiga"
+        "13:00 · Vitality vs Nemiga",
+        "16:00 · FURIA vs MOUZ"
       ],
       "qualifs": [
         {
@@ -95,28 +96,28 @@
     {
       "date": "2026-10-29",
       "titre": "PGL Masters Bucharest 2026 · jour 6 : les matchs du 29 octobre",
-      "resume": "Vitality bat NAVI 2-1. 3 matchs joués, 1 à venir. Heures de Paris.",
+      "resume": "Vitality bat NAVI 2-1. 4 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
         "Nemiga 2-0 FUT",
         "Vitality 2-1 NAVI",
         "MOUZ 2-0 Aurora",
-        "16:20 · BB vs FURIA"
+        "BB 0-2 FURIA"
       ],
       "rang": 3
     },
     {
       "date": "2026-10-29",
-      "titre": "Stake Ranked Episode 5 · jour 3 · playoffs : les matchs du 29 octobre",
-      "resume": "2 matchs joués, 2 à venir. Heures de Paris.",
+      "titre": "Stake Ranked Episode 5 · jour 3 : les matchs du 29 octobre",
+      "resume": "3 matchs joués, 1 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
         "BIG 0-2 EF",
         "IC 1-2 Astralis",
-        "17:00 · Fnatic vs MIBR",
-        "19:30 · Astralis vs Eternal Fire"
+        "Fnatic 2-0 MIBR",
+        "19:30 · Astralis vs EF"
       ],
       "rang": 2
     },
