@@ -1,9 +1,20 @@
 {
-  "maj": "2026-10-28",
-  "maj_heure": "21:24",
+  "maj": "2026-10-29",
+  "maj_heure": "07:06",
   "semaine": "",
   "video": "",
   "articles": [
+    {
+      "date": "2026-10-30",
+      "titre": "FiReSPORTS Last Chance '26 - Group D : les matchs du 30 octobre",
+      "resume": "0 match joué, 1 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "20:30 · Wildcard vs Hacha"
+      ],
+      "rang": 2
+    },
     {
       "date": "2026-10-29",
       "titre": "PGL Masters Bucharest 2026 · jour 6 : les matchs du 29 octobre",
@@ -86,41 +97,30 @@
     },
     {
       "date": "2026-10-29",
-      "titre": "Stake Ranked Episode 5 · jour 3 : les matchs du 29 octobre",
-      "resume": "0 match joué, 1 à venir. Heures de Paris.",
+      "titre": "Stake Ranked Episode 5 · jour 3 · playoffs : les matchs du 29 octobre",
+      "resume": "0 match joué, 3 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "12:00 · BIG vs EF"
+        "12:00 · BIG vs EF",
+        "14:30 · IC Esports vs Astralis",
+        "17:00 · Fnatic vs MIBR"
       ],
       "rang": 2
     },
     {
-      "date": "2026-10-28",
-      "titre": "PGL Masters Bucharest 2026 · jour 5 : les matchs du 28 octobre",
-      "resume": "3 matchs joués, 0 à venir. Heures de Paris.",
+      "date": "2026-10-29",
+      "titre": "Vesper remporte Brace For Impact League South Africa Season 1",
+      "resume": "Côté scène féminine, Vesper remporte Brace For Impact League South Africa Season 1, face à Nixuh Female en finale.",
       "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "MongolZ 0-2 Nemiga",
-        "Liquid 0-2 FURIA",
-        "Spirit 1-2 NAVI"
-      ],
-      "rang": 3
+      "tier": "Tier 2"
     },
     {
-      "date": "2026-10-28",
-      "titre": "Stake Ranked Episode 5 · jour 2 : les matchs du 28 octobre",
-      "resume": "3 matchs joués, 1 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "Astralis 2-1 magic",
-        "Nemesis 1-2 EF",
-        "Fnatic 2-0 BIG",
-        "20:15 · IC vs MIBR"
-      ],
-      "rang": 2
+      "date": "2026-10-29",
+      "titre": "Mise à jour CS2 du 28 octobre",
+      "resume": "Côté jeu, Valve a sorti deux mises à jour de CS2 cette semaine, avec 57 changements au total.",
+      "categorie": "maj",
+      "lien": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302232686"
     },
     {
       "date": "2026-10-28",
@@ -154,6 +154,33 @@
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 2"
+    },
+    {
+      "date": "2026-10-28",
+      "titre": "Stake Ranked Episode 5 · jour 2 : les matchs du 28 octobre",
+      "resume": "4 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "Astralis 2-1 magic",
+        "Nemesis 1-2 EF",
+        "Fnatic 2-0 BIG",
+        "IC 0-2 MIBR"
+      ],
+      "rang": 0
+    },
+    {
+      "date": "2026-10-28",
+      "titre": "PGL Masters Bucharest 2026 · jour 5 : les matchs du 28 octobre",
+      "resume": "3 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "MongolZ 0-2 Nemiga",
+        "Liquid 0-2 FURIA",
+        "Spirit 1-2 NAVI"
+      ],
+      "rang": 0
     },
     {
       "date": "2026-10-27",
@@ -191,41 +218,6 @@
         "Vitality 2-0 NAVI"
       ],
       "rang": 0
-    },
-    {
-      "date": "2026-10-26",
-      "titre": "FURIA remporte Thunderpick World Championship 2026",
-      "resume": "Thunderpick World Championship, c'est terminé à Attard : FURIA s'impose en finale contre BetBoom Team. Victoire 3 à 2, avec Dust2, Mirage et Cache pour FURIA. Pour BetBoom Team, c'est une deuxième finale perdue d'affilée.",
-      "categorie": "resultats",
-      "tier": "Tier 1",
-      "cartes": [
-        "Dust2 13-6",
-        "Ancient 16-19",
-        "Nuke 9-13",
-        "Mirage 13-11",
-        "Cache 13-6"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "titre": "Virtus.pro remporte CIS LAN Championship #9",
-      "resume": "Du côté de l'édition 9 de CIS LAN Championship, c'est Virtus.pro qui l'emporte face à Nemesis. Victoire 3 à 2, avec Mirage, Dust2 et Nuke pour Virtus.pro.",
-      "categorie": "resultats",
-      "tier": "Tier 2",
-      "cartes": [
-        "Cache 7-13",
-        "Mirage 13-10",
-        "Ancient 7-13",
-        "Dust2 13-11",
-        "Nuke 13-8"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "titre": "ex-Zero Tenacity remporte CCT Europe 2026 Series #11",
-      "resume": "Du côté de l'édition 11 de CCT Europe, c'est ex-Zero Tenacity qui l'emporte face à Acend.",
-      "categorie": "resultats",
-      "tier": "Tier 2"
     }
   ],
   "matchs": [
@@ -243,9 +235,9 @@
     },
     {
       "groupe": "En cours",
-      "jour": "2026-10-27",
-      "equipes": "Tesla Cup 2026",
-      "tournoi": "jusqu'au 29 octobre · Belgrade"
+      "jour": "2026-10-29",
+      "equipes": "FiReSPORTS Last Chance 2026",
+      "tournoi": "jusqu'au 1er novembre · Buenos Aires"
     },
     {
       "groupe": "À venir",
@@ -261,9 +253,9 @@
     },
     {
       "groupe": "À venir",
-      "jour": "2026-10-29",
-      "equipes": "FiReSPORTS Last Chance 2026",
-      "tournoi": "dès le 29 octobre · Buenos Aires"
+      "jour": "2026-11-04",
+      "equipes": "CCT Europe 2026 Series #13",
+      "tournoi": "dès le 4 novembre"
     }
   ]
 }

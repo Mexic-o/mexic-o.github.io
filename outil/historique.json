@@ -1,6 +1,18 @@
 {
   "articles": [
     {
+      "date": "2026-10-30",
+      "cle": "prog|FiReSPORTS Last Chance '26 - Group D|2026-10-30",
+      "titre": "FiReSPORTS Last Chance '26 - Group D : les matchs du 30 octobre",
+      "resume": "0 match joué, 1 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "20:30 · Wildcard vs Hacha"
+      ],
+      "rang": 2
+    },
+    {
       "date": "2026-10-29",
       "cle": "prog|PGL Masters Bucharest 2026|2026-10-29",
       "titre": "PGL Masters Bucharest 2026 · jour 6 : les matchs du 29 octobre",
@@ -84,43 +96,32 @@
     {
       "date": "2026-10-29",
       "cle": "prog|Stake Ranked Episode 5|2026-10-29",
-      "titre": "Stake Ranked Episode 5 · jour 3 : les matchs du 29 octobre",
-      "resume": "0 match joué, 1 à venir. Heures de Paris.",
+      "titre": "Stake Ranked Episode 5 · jour 3 · playoffs : les matchs du 29 octobre",
+      "resume": "0 match joué, 3 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "12:00 · BIG vs EF"
+        "12:00 · BIG vs EF",
+        "14:30 · IC Esports vs Astralis",
+        "17:00 · Fnatic vs MIBR"
       ],
       "rang": 2
     },
     {
-      "date": "2026-10-28",
-      "cle": "prog|PGL Masters Bucharest 2026|2026-10-28",
-      "titre": "PGL Masters Bucharest 2026 · jour 5 : les matchs du 28 octobre",
-      "resume": "3 matchs joués, 0 à venir. Heures de Paris.",
+      "date": "2026-10-29",
+      "cle": "res|Brace For Impact League South Africa Season 1|Vesper",
+      "titre": "Vesper remporte Brace For Impact League South Africa Season 1",
+      "resume": "Côté scène féminine, Vesper remporte Brace For Impact League South Africa Season 1, face à Nixuh Female en finale.",
       "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "MongolZ 0-2 Nemiga",
-        "Liquid 0-2 FURIA",
-        "Spirit 1-2 NAVI"
-      ],
-      "rang": 3
+      "tier": "Tier 2"
     },
     {
-      "date": "2026-10-28",
-      "cle": "prog|Stake Ranked Episode 5|2026-10-28",
-      "titre": "Stake Ranked Episode 5 · jour 2 : les matchs du 28 octobre",
-      "resume": "3 matchs joués, 1 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "Astralis 2-1 magic",
-        "Nemesis 1-2 EF",
-        "Fnatic 2-0 BIG",
-        "20:15 · IC vs MIBR"
-      ],
-      "rang": 2
+      "date": "2026-10-29",
+      "cle": "maj|https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302232686",
+      "titre": "Mise à jour CS2 du 28 octobre",
+      "resume": "Côté jeu, Valve a sorti deux mises à jour de CS2 cette semaine, avec 57 changements au total.",
+      "categorie": "maj",
+      "lien": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302232686"
     },
     {
       "date": "2026-10-28",
@@ -158,6 +159,35 @@
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 2"
+    },
+    {
+      "date": "2026-10-28",
+      "cle": "prog|Stake Ranked Episode 5|2026-10-28",
+      "titre": "Stake Ranked Episode 5 · jour 2 : les matchs du 28 octobre",
+      "resume": "4 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "Astralis 2-1 magic",
+        "Nemesis 1-2 EF",
+        "Fnatic 2-0 BIG",
+        "IC 0-2 MIBR"
+      ],
+      "rang": 0
+    },
+    {
+      "date": "2026-10-28",
+      "cle": "prog|PGL Masters Bucharest 2026|2026-10-28",
+      "titre": "PGL Masters Bucharest 2026 · jour 5 : les matchs du 28 octobre",
+      "resume": "3 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "MongolZ 0-2 Nemiga",
+        "Liquid 0-2 FURIA",
+        "Spirit 1-2 NAVI"
+      ],
+      "rang": 0
     },
     {
       "date": "2026-10-27",
@@ -413,19 +443,6 @@
       "categorie": "maj",
       "lien": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847286114034398",
       "date": "2026-10-23"
-    },
-    {
-      "date": "2026-10-22",
-      "cle": "prog|1win Private Club #2|2026-10-22",
-      "titre": "1win Private Club #2 · dernier jour : les matchs du 22 octobre",
-      "resume": "2 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "BIG 1-2 MongolZ",
-        "PV 0-3 MongolZ"
-      ],
-      "rang": 0
     }
   ],
   "agenda": [
@@ -443,9 +460,9 @@
     },
     {
       "groupe": "En cours",
-      "jour": "2026-10-27",
-      "equipes": "Tesla Cup 2026",
-      "tournoi": "jusqu'au 29 octobre · Belgrade"
+      "jour": "2026-10-29",
+      "equipes": "FiReSPORTS Last Chance 2026",
+      "tournoi": "jusqu'au 1er novembre · Buenos Aires"
     },
     {
       "groupe": "À venir",
@@ -461,19 +478,19 @@
     },
     {
       "groupe": "À venir",
-      "jour": "2026-10-29",
-      "equipes": "FiReSPORTS Last Chance 2026",
-      "tournoi": "dès le 29 octobre · Buenos Aires"
+      "jour": "2026-11-04",
+      "equipes": "CCT Europe 2026 Series #13",
+      "tournoi": "dès le 4 novembre"
     },
     {
       "groupe": "À venir",
-      "jour": "2026-10-29",
-      "equipes": "XSE Pro League Luoyang 2026",
-      "tournoi": "dès le 29 octobre · Luoyang"
+      "jour": "2026-11-03",
+      "equipes": "CCT South America 2026 Series #8",
+      "tournoi": "dès le 3 novembre"
     }
   ],
-  "maj": "2026-10-28",
-  "collecte": "2026-10-28",
+  "maj": "2026-10-29",
+  "collecte": "2026-10-29",
   "envoi_en_attente": false,
   "chaine": {
     "handle": "@Mexic_Original",
@@ -851,46 +868,6 @@
       },
       "etape": "dernier jour"
     },
-    "1win Private Club #2|2026-10-21": {
-      "nom": "1win Private Club #2",
-      "jour": "2026-10-21",
-      "matchs": {
-        "PRIVATE (page does not exist)|The MongolZ": {
-          "ts": 1792605600,
-          "t1": "PRIVATE (page does not exist)",
-          "t2": "The MongolZ",
-          "t1_court": "PRVT",
-          "t2_court": "MongolZ",
-          "bo": 3,
-          "phase": "",
-          "s1": 0,
-          "s2": 2
-        },
-        "BIG|PARIVISION": {
-          "ts": 1792595100,
-          "t1": "BIG",
-          "t2": "PARIVISION",
-          "t1_court": "BIG",
-          "t2_court": "PV",
-          "bo": 3,
-          "phase": "",
-          "s1": 0,
-          "s2": 2
-        },
-        "Fnatic|PRIVATE (page does not exist)": {
-          "ts": 1792582800,
-          "t1": "Fnatic",
-          "t2": "PRIVATE (page does not exist)",
-          "t1_court": "Fnatic",
-          "t2_court": "PRVT",
-          "bo": 3,
-          "phase": "",
-          "s1": 0,
-          "s2": 2
-        }
-      },
-      "etape": "jour 3"
-    },
     "PGL Masters Bucharest 2026|2026-10-27": {
       "nom": "PGL Masters Bucharest 2026",
       "jour": "2026-10-27",
@@ -1009,7 +986,9 @@
           "t1_court": "IC",
           "t2_court": "MIBR",
           "bo": 3,
-          "phase": ""
+          "phase": "",
+          "s1": 0,
+          "s2": 2
         }
       },
       "etape": "jour 2",
@@ -1112,16 +1091,52 @@
           "t2_court": "EF",
           "bo": 3,
           "phase": ""
+        },
+        "Fnatic|MIBR": {
+          "ts": 1793289600,
+          "t1": "Fnatic",
+          "t2": "MIBR",
+          "t1_court": "Fnatic",
+          "t2_court": "MIBR",
+          "bo": "",
+          "phase": "playoffs"
+        },
+        "Astralis|IC Esports": {
+          "ts": 1793280600,
+          "t1": "IC Esports",
+          "t2": "Astralis",
+          "t1_court": "IC Esports",
+          "t2_court": "Astralis",
+          "bo": "",
+          "phase": "playoffs"
         }
       },
       "etape": "jour 3",
       "tier": "A"
+    },
+    "FiReSPORTS Last Chance '26 - Group D|2026-10-30": {
+      "nom": "FiReSPORTS Last Chance '26 - Group D",
+      "jour": "2026-10-30",
+      "matchs": {
+        "Hacha Esports (page does not exist)|Wildcard": {
+          "ts": 1793388600,
+          "t1": "Wildcard",
+          "t2": "Hacha Esports (page does not exist)",
+          "t1_court": "Wildcard",
+          "t2_court": "Hacha",
+          "bo": 3,
+          "phase": ""
+        }
+      },
+      "etape": "",
+      "tier": ""
     }
   },
-  "maj_heure": "21:24",
+  "maj_heure": "07:06",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
-    "demain|2026-10-29"
+    "demain|2026-10-29",
+    "jour|2026-10-29"
   ]
 }
