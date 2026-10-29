@@ -2,28 +2,13 @@
   "articles": [
     {
       "date": "2026-10-30",
-      "cle": "prog|FiReSPORTS Last Chance '26 - Group D|2026-10-30",
-      "titre": "FiReSPORTS Last Chance '26 - Group D : les matchs du 30 octobre",
+      "cle": "prog|PGL Masters Bucharest 2026|2026-10-30",
+      "titre": "PGL Masters Bucharest 2026 · jour 7 : les matchs du 30 octobre",
       "resume": "0 match joué, 1 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "20:30 · Wildcard vs Hacha"
-      ],
-      "rang": 2
-    },
-    {
-      "date": "2026-10-29",
-      "cle": "prog|PGL Masters Bucharest 2026|2026-10-29",
-      "titre": "PGL Masters Bucharest 2026 · jour 6 : les matchs du 29 octobre",
-      "resume": "0 match joué, 4 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "09:00 · FUT vs Nemiga",
-        "12:00 · Vitality vs NAVI",
-        "15:00 · Aurora vs MOUZ",
-        "18:00 · BB vs FURIA"
+        "13:00 · Vitality vs Nemiga"
       ],
       "qualifs": [
         {
@@ -94,16 +79,44 @@
       "rang": 3
     },
     {
-      "date": "2026-10-29",
-      "cle": "prog|Stake Ranked Episode 5|2026-10-29",
-      "titre": "Stake Ranked Episode 5 · jour 3 · playoffs : les matchs du 29 octobre",
-      "resume": "0 match joué, 3 à venir. Heures de Paris.",
+      "date": "2026-10-30",
+      "cle": "prog|FiReSPORTS Last Chance '26 - Group D|2026-10-30",
+      "titre": "FiReSPORTS Last Chance '26 - Group D : les matchs du 30 octobre",
+      "resume": "0 match joué, 1 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "12:00 · BIG vs EF",
-        "14:30 · IC Esports vs Astralis",
-        "17:00 · Fnatic vs MIBR"
+        "20:30 · Wildcard vs Hacha"
+      ],
+      "rang": 2
+    },
+    {
+      "date": "2026-10-29",
+      "cle": "prog|PGL Masters Bucharest 2026|2026-10-29",
+      "titre": "PGL Masters Bucharest 2026 · jour 6 : les matchs du 29 octobre",
+      "resume": "Vitality bat NAVI 2-1. 3 matchs joués, 1 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "Nemiga 2-0 FUT",
+        "Vitality 2-1 NAVI",
+        "MOUZ 2-0 Aurora",
+        "16:20 · BB vs FURIA"
+      ],
+      "rang": 3
+    },
+    {
+      "date": "2026-10-29",
+      "cle": "prog|Stake Ranked Episode 5|2026-10-29",
+      "titre": "Stake Ranked Episode 5 · jour 3 · playoffs : les matchs du 29 octobre",
+      "resume": "2 matchs joués, 2 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "BIG 0-2 EF",
+        "IC 1-2 Astralis",
+        "17:00 · Fnatic vs MIBR",
+        "19:30 · Astralis vs Eternal Fire"
       ],
       "rang": 2
     },
@@ -1041,33 +1054,39 @@
       "matchs": {
         "FUT Esports|Nemiga Gaming": {
           "ts": 1793260800,
-          "t1": "FUT Esports",
-          "t2": "Nemiga Gaming",
-          "t1_court": "FUT",
-          "t2_court": "Nemiga",
+          "t1": "Nemiga Gaming",
+          "t2": "FUT Esports",
+          "t1_court": "Nemiga",
+          "t2_court": "FUT",
           "bo": 3,
-          "phase": ""
+          "phase": "",
+          "s1": 2,
+          "s2": 0
         },
         "Natus Vincere|Team Vitality": {
-          "ts": 1793271600,
+          "ts": 1793268900,
           "t1": "Team Vitality",
           "t2": "Natus Vincere",
           "t1_court": "Vitality",
           "t2_court": "NAVI",
           "bo": 3,
-          "phase": ""
+          "phase": "",
+          "s1": 2,
+          "s2": 1
         },
         "Aurora Gaming|MOUZ": {
-          "ts": 1793282400,
-          "t1": "Aurora Gaming",
-          "t2": "MOUZ",
-          "t1_court": "Aurora",
-          "t2_court": "MOUZ",
+          "ts": 1793280300,
+          "t1": "MOUZ",
+          "t2": "Aurora Gaming",
+          "t1_court": "MOUZ",
+          "t2_court": "Aurora",
           "bo": 3,
-          "phase": ""
+          "phase": "",
+          "s1": 2,
+          "s2": 0
         },
         "BetBoom Team|FURIA": {
-          "ts": 1793293200,
+          "ts": 1793287200,
           "t1": "BetBoom Team",
           "t2": "FURIA",
           "t1_court": "BB",
@@ -1090,7 +1109,9 @@
           "t1_court": "BIG",
           "t2_court": "EF",
           "bo": 3,
-          "phase": ""
+          "phase": "",
+          "s1": 0,
+          "s2": 2
         },
         "Fnatic|MIBR": {
           "ts": 1793289600,
@@ -1098,15 +1119,26 @@
           "t2": "MIBR",
           "t1_court": "Fnatic",
           "t2_court": "MIBR",
-          "bo": "",
-          "phase": "playoffs"
+          "bo": 3,
+          "phase": ""
         },
         "Astralis|IC Esports": {
-          "ts": 1793280600,
+          "ts": 1793278800,
           "t1": "IC Esports",
           "t2": "Astralis",
-          "t1_court": "IC Esports",
+          "t1_court": "IC",
           "t2_court": "Astralis",
+          "bo": 3,
+          "phase": "",
+          "s1": 1,
+          "s2": 2
+        },
+        "Astralis|Eternal Fire": {
+          "ts": 1793298600,
+          "t1": "Astralis",
+          "t2": "Eternal Fire",
+          "t1_court": "Astralis",
+          "t2_court": "Eternal Fire",
           "bo": "",
           "phase": "playoffs"
         }
@@ -1130,13 +1162,32 @@
       },
       "etape": "",
       "tier": ""
+    },
+    "PGL Masters Bucharest 2026|2026-10-30": {
+      "nom": "PGL Masters Bucharest 2026",
+      "jour": "2026-10-30",
+      "matchs": {
+        "Nemiga Gaming|Team Vitality": {
+          "ts": 1793361600,
+          "t1": "Team Vitality",
+          "t2": "Nemiga Gaming",
+          "t1_court": "Vitality",
+          "t2_court": "Nemiga",
+          "bo": 3,
+          "phase": ""
+        }
+      },
+      "etape": "jour 7",
+      "tier": "S"
     }
   },
-  "maj_heure": "07:06",
+  "maj_heure": "17:20",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
     "demain|2026-10-29",
-    "jour|2026-10-29"
+    "jour|2026-10-29",
+    "demain|2026-10-30",
+    "res|Team Vitality|Natus Vincere|1793268900"
   ]
 }
