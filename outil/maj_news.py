@@ -404,7 +404,8 @@ def articles_programme(data, memoire=None, maintenant=None):
                     "bo": "", "phase": "playoffs"}
                 trouve = "|".join(sorted([r["t1"], r["t2"]]))
             e = bloc["matchs"][trouve]
-            e.setdefault("phase", "playoffs")
+            if not e.get("phase"):                 # le match vient de la liste des matchs : phase inconnue, c'est un bracket
+                e["phase"] = "playoffs"
             if r["s1"] is not None:
                 if _cle_equipe(e["t1"]) == _cle_equipe(r["t1"]):
                     e["s1"], e["s2"] = r["s1"], r["s2"]
