@@ -25,64 +25,111 @@ def _paris_date(ts):
     return datetime.datetime.fromtimestamp(ts, datetime.timezone(datetime.timedelta(hours=1))).date()
 
 
+FUSEAU = datetime.timezone(datetime.timedelta(hours=1))
+
+
+def _paire(a, b):
+    return "|".join(sorted([a or "", b or ""]))
+
+
 def messages(data, aujourdhui):
-    """Renvoie une liste de (clé, texte). La clé sert à ne jamais envoyer deux fois le même message."""
-    sortie = []
-    # 1. matchs de Vitality aujourd'hui, puis demain (un message par jour, jamais deux fois)
-    fuseau = datetime.timezone(datetime.timedelta(hours=1))
-    for decalage, titre in ((0, "aujourd'hui"), (1, "demain")):
-        jour = aujourdhui + datetime.timedelta(days=decalage)
-        du_jour = sorted((m for m in data.get("matches") or []
-                          if (_suivie(m.get("t1")) or _suivie(m.get("t2"))) and _paris_date(m["ts"]) == jour),
-                         key=lambda x: x["ts"])
-        if du_jour:
-            lignes = [f"{datetime.datetime.fromtimestamp(m['ts'], fuseau):%H:%M} · {m['t1']} vs {m['t2']} "
-                      f"({m.get('tournament', '')})" for m in du_jour]
-            cle = ("jour" if decalage == 0 else "demain") + f"|{jour.isoformat()}"
-            sortie.append((cle, f"📅 **Vitality {titre}**\n" + "\n".join(lignes) + "\nHeures de Paris."))
-    # 2. résultats de Vitality (matchs terminés, hier ou aujourd'hui)
+    """Renvoie une liste de (clé, tournoi, catégorie, ligne).
+
+    catégorie : 0 = résultat, 1 = à venir, 2 = information (qualification, élimination).
+    La clé sert à ne jamais annoncer deux fois la même chose.
+    """
+    items = []
+    demain = aujourdhui + datetime.timedelta(days=1)
     vus = set()
+
+    def ajouter(cle, nom, cat, ligne):
+        if cle not in vus:
+            vus.add(cle)
+            items.append((cle, nom, cat, ligne))
+
+    # 1. résultats (hier ou aujourd'hui) : Vitality et les autres matchs des playoffs
     for m in data.get("completed") or []:
-        if (_suivie(m.get("t1")) or _suivie(m.get("t2"))) and m.get("s1") is not None:
-            jour = _paris_date(m["ts"])
-            if (aujourdhui - jour).days in (0, 1):
-                gagne = (m["s1"] > m["s2"]) if _suivie(m["t1"]) else (m["s2"] > m["s1"])
-                adv = m["t2"] if _suivie(m["t1"]) else m["t1"]
-                sc = f"{max(m['s1'], m['s2'])}-{min(m['s1'], m['s2'])}"
-                cle = f"res|{m['t1']}|{m['t2']}|{m['ts']}"
-                if cle not in vus:
-                    vus.add(cle)
-                    if gagne:
-                        sortie.append((cle, f"✅ **Vitality bat {adv} {sc}** · {m.get('tournament', '')}"))
-                    else:
-                        sortie.append((cle, f"❌ **Vitality perd contre {adv} {sc}** · {m.get('tournament', '')}"))
-    # 2 bis. playoffs du tournoi (quarts, demies, finale) : matchs à venir et résultats, sauf ceux de Vitality (déjà annoncés)
+        if m.get("s1") is None:
+            continue
+        jour = _paris_date(m["ts"])
+        if jour != aujourdhui:                 # résultats du jour seulement
+            continue
+        nom = m.get("tournament", "")
+        sc = f"{max(m['s1'], m['s2'])}-{min(m['s1'], m['s2'])}"
+        if _suivie(m.get("t1")) or _suivie(m.get("t2")):
+            gagne = (m["s1"] > m["s2"]) if _suivie(m["t1"]) else (m["s2"] > m["s1"])
+            adv = m["t2"] if _suivie(m["t1"]) else m["t1"]
+            ligne = (f"✅ **Vitality bat {adv} {sc}**" if gagne else f"❌ **Vitality perd contre {adv} {sc}**")
+        else:
+            a, b = (m["t1"], m["t2"]) if m["s1"] > m["s2"] else (m["t2"], m["t1"])
+            ligne = f"{a} bat {b} {sc}"
+        ajouter(f"r|{_paire(m['t1'], m['t2'])}|{m['ts']}", nom, 0, ligne)
     for page, lignes in (data.get("brackets") or {}).items():
         nom = (data.get("noms_pages") or {}).get(page, page)
         for r in lignes:
-            if not r.get("ts") or _suivie(r["t1"]) or _suivie(r["t2"]):
+            if not r.get("ts") or r.get("s1") is None:
+                continue
+            if _paris_date(r["ts"]) != aujourdhui:     # résultats du jour seulement
+                continue
+            if _suivie(r["t1"]) or _suivie(r["t2"]):
+                continue                       # déjà traité au point 1
+            a, b = (r["t1"], r["t2"]) if r["s1"] > r["s2"] else (r["t2"], r["t1"])
+            sc = f"{max(r['s1'], r['s2'])}-{min(r['s1'], r['s2'])}"
+            ajouter(f"r|{_paire(r['t1'], r['t2'])}|{r['ts']}", nom, 0, f"🏆 {a} bat {b} {sc}")
+
+    # 2. matchs à venir (aujourd'hui et demain) : Vitality d'abord, puis les playoffs des autres équipes
+    for m in sorted(data.get("matches") or [], key=lambda x: x["ts"]):
+        if m.get("s1") is not None or _paris_date(m["ts"]) not in (aujourdhui, demain):
+            continue
+        jour = _paris_date(m["ts"])
+        marque = "⭐ " if (_suivie(m.get("t1")) or _suivie(m.get("t2"))) else ""
+        ligne = f"{marque}{datetime.datetime.fromtimestamp(m['ts'], FUSEAU):%H:%M} · {m['t1']} vs {m['t2']}"
+        if jour == demain:
+            ligne += " (demain)"
+        ajouter(f"a|{_paire(m['t1'], m['t2'])}|{jour.isoformat()}", m.get("tournament", ""), 1, ligne)
+    for page, lignes in (data.get("brackets") or {}).items():
+        nom = (data.get("noms_pages") or {}).get(page, page)
+        for r in lignes:
+            if not r.get("ts") or r.get("s1") is not None:
                 continue
             jour = _paris_date(r["ts"])
-            heure = datetime.datetime.fromtimestamp(r["ts"], datetime.timezone(datetime.timedelta(hours=1)))
-            if r["s1"] is None:
-                if jour in (aujourdhui, aujourdhui + datetime.timedelta(days=1)):
-                    sortie.append((f"po|{page}|{r['t1']}|{r['t2']}|{jour.isoformat()}",
-                                   f"🏆 **Playoffs** · {r['t1']} vs {r['t2']} à {heure:%H:%M} · {nom}"))
-            elif (aujourdhui - jour).days in (0, 1):
-                a, b = (r["t1"], r["t2"]) if r["s1"] > r["s2"] else (r["t2"], r["t1"])
-                sc = f"{max(r['s1'], r['s2'])}-{min(r['s1'], r['s2'])}"
-                sortie.append((f"poRes|{page}|{r['t1']}|{r['t2']}|{r['ts']}",
-                               f"🏆 **Playoffs** · {a} bat {b} {sc} · {nom}"))
-    # 3. qualification / élimination dans un tableau Swiss
+            if jour not in (aujourdhui, demain):
+                continue
+            marque = "⭐ " if (_suivie(r["t1"]) or _suivie(r["t2"])) else ""
+            ligne = f"🏆 {marque}{datetime.datetime.fromtimestamp(r['ts'], FUSEAU):%H:%M} · {r['t1']} vs {r['t2']}"
+            if jour == demain:
+                ligne += " (demain)"
+            ajouter(f"a|{_paire(r['t1'], r['t2'])}|{jour.isoformat()}", nom, 1, ligne)
+
+    # 3. qualification / élimination de Vitality dans un tableau Swiss
     for page, sw in (data.get("swiss") or {}).items():
         nom = (data.get("noms_pages") or {}).get(page, page)
         for quali in sw.get("qualifiees") or []:
             if _suivie(quali):
-                sortie.append((f"quali|{page}", f"🟢 **Vitality est qualifiée pour les playoffs** · {nom}"))
+                ajouter(f"quali|{page}", nom, 2, "🟢 **Vitality est qualifiée pour les playoffs**")
         for elim in sw.get("eliminees") or []:
             if _suivie(elim):
-                sortie.append((f"elim|{page}", f"🔴 **Vitality est éliminée** · {nom}"))
-    return sortie
+                ajouter(f"elim|{page}", nom, 2, "🔴 **Vitality est éliminée**")
+
+    # 4. regroupement par tournoi (les lignes gardent leur clé)
+    groupes = {}
+    for cle, nom, cat, ligne in items:
+        groupes.setdefault(nom or "Autres", []).append((cle, cat, ligne))
+    return list(groupes.items())
+
+
+def _rendre(nom, lignes):
+    """Un message par tournoi : résultats d'abord, puis matchs à venir, puis informations."""
+    lignes = sorted(lignes, key=lambda x: x[1])
+    blocs = [f"**━━ {nom} ━━**"]
+    for cat, titre in ((0, "Résultats du jour"), (1, "À venir")):
+        sous = [l for _, c, l in lignes if c == cat]
+        if sous:
+            blocs.append(f"__{titre}__\n" + "\n".join(sous))
+    infos = [l for _, c, l in lignes if c == 2]
+    if infos:
+        blocs.append("\n".join(infos))
+    return "\n\n".join(blocs)
 
 
 def _poster(webhook, texte):
@@ -94,19 +141,25 @@ def _poster(webhook, texte):
 
 
 def envoyer(data, h, dire=print):
-    """Envoie les nouveaux messages Vitality. h = historique (on y garde la liste des clés envoyées)."""
+    """Envoie les nouveaux messages Discord. h = historique (on y garde les clés déjà envoyées)."""
     webhook = os.environ.get("NEWSCS_WEBHOOK", "").strip()
     if not webhook:
         dire("Discord : pas de webhook (secret NEWSCS_WEBHOOK absent) : rien envoyé.")
         return
     envoyes = list(h.get("discord") or [])
-    aujourdhui = datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=1))).date()
-    nouveaux = [(k, t) for k, t in messages(data, aujourdhui) if k not in envoyes]
-    for k, t in nouveaux[:MAX_PAR_PASSAGE]:
+    aujourdhui = datetime.datetime.now(FUSEAU).date()
+    nb = 0
+    for nom, lignes in messages(data, aujourdhui):
+        nouvelles = [l for l in lignes if l[0] not in envoyes]
+        if not nouvelles:
+            continue
+        if nb >= MAX_PAR_PASSAGE:
+            break
         try:
-            if _poster(webhook, t):
-                envoyes.append(k)
-                dire(f"  Discord : message envoyé ({k.split('|')[0]})")
+            if _poster(webhook, _rendre(nom, nouvelles)):
+                envoyes.extend(c for c, _, _ in nouvelles)
+                nb += 1
+                dire(f"  Discord : message envoyé ({nom})")
         except Exception as e:
             dire(f"  [ATTENTION] Discord : message non envoyé : {e}")
             break
