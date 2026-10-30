@@ -38,6 +38,20 @@
       "rang": 2
     },
     {
+      "date": "2026-10-30",
+      "cle": "tr|NeLix, Ziivio +3||HDC LAB|",
+      "titre": "NeLix, Ziivio +3 rejoignent HDC LAB",
+      "resume": "",
+      "categorie": "fr"
+    },
+    {
+      "date": "2026-10-30",
+      "cle": "tr|flex0r||HDC LAB|coach",
+      "titre": "flex0r devient le coach de HDC LAB",
+      "resume": "",
+      "categorie": "fr"
+    },
+    {
       "date": "2026-10-29",
       "cle": "res|Brace For Impact League South Africa Season 1|Vesper",
       "titre": "Vesper remporte Brace For Impact League South Africa Season 1",
@@ -1109,7 +1123,7 @@
       }
     }
   },
-  "maj_heure": "10:55",
+  "maj_heure": "11:20",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
@@ -1122,6 +1136,12 @@
     "poRes|PGL/2026/Masters|MOUZ|Aurora Gaming|1793280300",
     "po|PGL/2026/Masters|FURIA|MOUZ|2026-10-30",
     "poRes|PGL/2026/Masters|Nemiga Gaming|FUT Esports|1793260800",
-    "poRes|Stake Ranked/Episode 5|Fnatic|MIBR|1793291400"
+    "poRes|Stake Ranked/Episode 5|Fnatic|MIBR|1793291400",
+    "a|FlyQuest|NEXVOID|2026-10-30",
+    "a|Nemiga Gaming|Team Vitality|2026-10-30",
+    "a|FURIA|MOUZ|2026-10-30",
+    "a|Hacha Esports (page does not exist)|Wildcard|2026-10-30",
+    "a|Imperial Esports|PaiN Gaming|2026-10-30",
+    "a|HOTU|The Huns Esports|2026-10-31"
   ]
 }

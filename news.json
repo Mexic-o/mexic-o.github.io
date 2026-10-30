@@ -1,6 +1,6 @@
 {
   "maj": "2026-10-30",
-  "maj_heure": "10:55",
+  "maj_heure": "11:20",
   "semaine": "",
   "video": "",
   "articles": [
@@ -37,6 +37,18 @@
         "14:00 · MIBR vs Eternal Fire"
       ],
       "rang": 2
+    },
+    {
+      "date": "2026-10-30",
+      "titre": "NeLix, Ziivio +3 rejoignent HDC LAB",
+      "resume": "",
+      "categorie": "fr"
+    },
+    {
+      "date": "2026-10-30",
+      "titre": "flex0r devient le coach de HDC LAB",
+      "resume": "",
+      "categorie": "fr"
     },
     {
       "date": "2026-10-29",
@@ -126,26 +138,6 @@
         "IC 0-2 MIBR"
       ],
       "rang": 0
-    },
-    {
-      "date": "2026-10-28",
-      "titre": "PGL Masters Bucharest 2026 · jour 5 : les matchs du 28 octobre",
-      "resume": "3 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "MongolZ 0-2 Nemiga",
-        "Liquid 0-2 FURIA",
-        "Spirit 1-2 NAVI"
-      ],
-      "rang": 0
-    },
-    {
-      "date": "2026-10-27",
-      "titre": "mowzassa n'est plus le coach de SAW",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
     }
   ],
   "matchs": [
