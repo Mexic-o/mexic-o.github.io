@@ -1,6 +1,6 @@
 {
   "maj": "2026-10-30",
-  "maj_heure": "15:38",
+  "maj_heure": "17:06",
   "semaine": "",
   "video": "",
   "articles": [
@@ -30,11 +30,12 @@
     {
       "date": "2026-10-30",
       "titre": "Stake Ranked Episode 5 · playoffs : les matchs du 30 octobre",
-      "resume": "0 match joué, 1 à venir. Heures de Paris.",
+      "resume": "1 match joué, 1 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "14:00 · MIBR vs Eternal Fire"
+        "MIBR 0-2 Eternal Fire",
+        "17:00 · Fnatic vs Eternal Fire"
       ],
       "rang": 2
     },

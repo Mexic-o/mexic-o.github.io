@@ -29,11 +29,12 @@
       "date": "2026-10-30",
       "cle": "prog|Stake Ranked Episode 5|2026-10-30",
       "titre": "Stake Ranked Episode 5 · playoffs : les matchs du 30 octobre",
-      "resume": "0 match joué, 1 à venir. Heures de Paris.",
+      "resume": "1 match joué, 1 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "14:00 · MIBR vs Eternal Fire"
+        "MIBR 0-2 Eternal Fire",
+        "17:00 · Fnatic vs Eternal Fire"
       ],
       "rang": 2
     },
@@ -1132,12 +1133,23 @@
           "t1_court": "MIBR",
           "t2_court": "Eternal Fire",
           "bo": "",
+          "phase": "playoffs",
+          "s1": 0,
+          "s2": 2
+        },
+        "Eternal Fire|Fnatic": {
+          "ts": 1793376000,
+          "t1": "Fnatic",
+          "t2": "Eternal Fire",
+          "t1_court": "Fnatic",
+          "t2_court": "Eternal Fire",
+          "bo": "",
           "phase": "playoffs"
         }
       }
     }
   },
-  "maj_heure": "15:38",
+  "maj_heure": "17:06",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
@@ -1157,6 +1169,8 @@
     "a|Hacha Esports (page does not exist)|Wildcard|2026-10-30",
     "a|Imperial Esports|PaiN Gaming|2026-10-30",
     "a|HOTU|The Huns Esports|2026-10-31",
-    "a|Eternal Fire|MIBR|2026-10-30"
+    "a|Eternal Fire|MIBR|2026-10-30",
+    "r|Eternal Fire|MIBR|1793365200",
+    "a|Eternal Fire|Fnatic|2026-10-30"
   ]
 }
