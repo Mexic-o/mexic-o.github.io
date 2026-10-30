@@ -1,6 +1,6 @@
 {
-  "maj": "2026-10-29",
-  "maj_heure": "20:50",
+  "maj": "2026-10-30",
+  "maj_heure": "07:07",
   "semaine": "",
   "video": "",
   "articles": [
@@ -13,72 +13,6 @@
       "cartes": [
         "13:00 · Vitality vs Nemiga",
         "16:00 · FURIA vs MOUZ"
-      ],
-      "qualifs": [
-        {
-          "nom": "BetBoom Team",
-          "k": "ok"
-        },
-        {
-          "nom": "FUT Esports",
-          "k": "ok"
-        },
-        {
-          "nom": "Team Vitality",
-          "k": "ok"
-        },
-        {
-          "nom": "Aurora Gaming",
-          "k": "ok"
-        },
-        {
-          "nom": "MOUZ",
-          "k": "ok"
-        },
-        {
-          "nom": "Natus Vincere",
-          "k": "ok"
-        },
-        {
-          "nom": "Nemiga Gaming",
-          "k": "ok"
-        },
-        {
-          "nom": "FURIA",
-          "k": "ok"
-        },
-        {
-          "nom": "Team Liquid",
-          "k": "ko"
-        },
-        {
-          "nom": "Team Spirit",
-          "k": "ko"
-        },
-        {
-          "nom": "The MongolZ",
-          "k": "ko"
-        },
-        {
-          "nom": "TYLOO",
-          "k": "ko"
-        },
-        {
-          "nom": "Legacy",
-          "k": "ko"
-        },
-        {
-          "nom": "DENDELE CS",
-          "k": "ko"
-        },
-        {
-          "nom": "9z Team",
-          "k": "ko"
-        },
-        {
-          "nom": "G2 Esports",
-          "k": "ko"
-        }
       ],
       "rang": 3
     },
@@ -94,30 +28,13 @@
       "rang": 2
     },
     {
-      "date": "2026-10-29",
-      "titre": "PGL Masters Bucharest 2026 · jour 6 : les matchs du 29 octobre",
-      "resume": "Vitality bat NAVI 2-1. 4 matchs joués, 0 à venir. Heures de Paris.",
+      "date": "2026-10-30",
+      "titre": "Stake Ranked Episode 5 · playoffs : les matchs du 30 octobre",
+      "resume": "0 match joué, 1 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "Nemiga 2-0 FUT",
-        "Vitality 2-1 NAVI",
-        "MOUZ 2-0 Aurora",
-        "BB 0-2 FURIA"
-      ],
-      "rang": 3
-    },
-    {
-      "date": "2026-10-29",
-      "titre": "Stake Ranked Episode 5 · jour 3 : les matchs du 29 octobre",
-      "resume": "3 matchs joués, 1 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "BIG 0-2 EF",
-        "IC 1-2 Astralis",
-        "Fnatic 2-0 MIBR",
-        "19:30 · Astralis vs EF"
+        "14:00 · MIBR vs Eternal Fire"
       ],
       "rang": 2
     },
@@ -134,6 +51,34 @@
       "resume": "Côté jeu, Valve a sorti deux mises à jour de CS2 cette semaine, avec 57 changements au total.",
       "categorie": "maj",
       "lien": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302232686"
+    },
+    {
+      "date": "2026-10-29",
+      "titre": "PGL Masters Bucharest 2026 · jour 6 : les matchs du 29 octobre",
+      "resume": "Vitality bat NAVI 2-1. 4 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "Nemiga 2-0 FUT",
+        "Vitality 2-1 NAVI",
+        "MOUZ 2-0 Aurora",
+        "BB 0-2 FURIA"
+      ],
+      "rang": 0
+    },
+    {
+      "date": "2026-10-29",
+      "titre": "Stake Ranked Episode 5 · jour 3 : les matchs du 29 octobre",
+      "resume": "4 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "BIG 0-2 EF",
+        "IC 1-2 Astralis",
+        "Fnatic 2-0 MIBR",
+        "Astralis 1-2 EF"
+      ],
+      "rang": 0
     },
     {
       "date": "2026-10-28",
@@ -201,20 +146,6 @@
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 2"
-    },
-    {
-      "date": "2026-10-27",
-      "titre": "Stake Ranked Episode 5 · jour 1 : les matchs du 27 octobre",
-      "resume": "4 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "BIG 2-1 magic",
-        "IC 2-0 Nemesis",
-        "Astralis 0-2 Fnatic",
-        "EF 1-2 MIBR"
-      ],
-      "rang": 0
     }
   ],
   "matchs": [
