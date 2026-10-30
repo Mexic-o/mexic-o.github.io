@@ -33,7 +33,7 @@ def parse_rondes(html):
         d = _DATE.search(bloc)
         jour = _date(d.group(1)) if d else ""
         for ligne in _LIGNE.findall(bloc):
-            eq = _EQUIPE.findall(ligne)
+            eq = [e.replace(" (page does not exist)", "").strip() for e in _EQUIPE.findall(ligne)]
             sc = _SCORE.findall(ligne)
             if len(eq) < 2 or "TBD" in eq[:2]:
                 continue

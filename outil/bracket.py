@@ -23,7 +23,7 @@ def parse_bracket(html):
             if not nom:
                 continue
             sc = _SCORE.search(m)
-            entrees.append((nom.group(1), sc.group(1) if sc else ""))
+            entrees.append((nom.group(1).replace(" (page does not exist)", "").strip(), sc.group(1) if sc else ""))
         if len(entrees) < 2 or "TBD" in (entrees[0][0], entrees[1][0]):
             continue
         (a, sa), (b, sb) = entrees[0], entrees[1]

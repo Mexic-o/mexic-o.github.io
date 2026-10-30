@@ -129,7 +129,8 @@ def _rendre(nom, lignes):
     infos = [l for _, c, l in lignes if c == 2]
     if infos:
         blocs.append("\n".join(infos))
-    return "\n\n".join(blocs)
+    # un espace invisible en tête : Discord garde la ligne vide entre deux messages
+    return "\u200b\n" + "\n\n".join(blocs)
 
 
 def _poster(webhook, texte):
