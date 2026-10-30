@@ -3,7 +3,7 @@
     {
       "date": "2026-10-30",
       "cle": "prog|PGL Masters Bucharest 2026|2026-10-30",
-      "titre": "PGL Masters Bucharest 2026 · jour 7 : les matchs du 30 octobre",
+      "titre": "PGL Masters Bucharest 2026 · jour 7 · playoffs : les matchs du 30 octobre",
       "resume": "0 match joué, 2 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
@@ -56,7 +56,7 @@
     {
       "date": "2026-10-29",
       "cle": "prog|PGL Masters Bucharest 2026|2026-10-29",
-      "titre": "PGL Masters Bucharest 2026 · jour 6 : les matchs du 29 octobre",
+      "titre": "PGL Masters Bucharest 2026 · jour 6 · playoffs : les matchs du 29 octobre",
       "resume": "Vitality bat NAVI 2-1. 4 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
@@ -71,7 +71,7 @@
     {
       "date": "2026-10-29",
       "cle": "prog|Stake Ranked Episode 5|2026-10-29",
-      "titre": "Stake Ranked Episode 5 · jour 3 : les matchs du 29 octobre",
+      "titre": "Stake Ranked Episode 5 · jour 3 · playoffs : les matchs du 29 octobre",
       "resume": "4 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
@@ -123,7 +123,7 @@
     {
       "date": "2026-10-28",
       "cle": "prog|Stake Ranked Episode 5|2026-10-28",
-      "titre": "Stake Ranked Episode 5 · jour 2 : les matchs du 28 octobre",
+      "titre": "Stake Ranked Episode 5 · jour 2 · playoffs : les matchs du 28 octobre",
       "resume": "4 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
@@ -864,7 +864,7 @@
           "t1_court": "Astralis",
           "t2_court": "magic",
           "bo": 3,
-          "phase": "",
+          "phase": "playoffs",
           "s1": 2,
           "s2": 1
         },
@@ -875,7 +875,7 @@
           "t1_court": "Fnatic",
           "t2_court": "BIG",
           "bo": 3,
-          "phase": "",
+          "phase": "playoffs",
           "s1": 2,
           "s2": 0
         },
@@ -886,7 +886,7 @@
           "t1_court": "Nemesis",
           "t2_court": "EF",
           "bo": 3,
-          "phase": "",
+          "phase": "playoffs",
           "s1": 1,
           "s2": 2
         },
@@ -897,7 +897,7 @@
           "t1_court": "IC",
           "t2_court": "MIBR",
           "bo": 3,
-          "phase": "",
+          "phase": "playoffs",
           "s1": 0,
           "s2": 2
         }
@@ -957,7 +957,7 @@
           "t1_court": "Nemiga",
           "t2_court": "FUT",
           "bo": 3,
-          "phase": "",
+          "phase": "playoffs",
           "s1": 2,
           "s2": 0
         },
@@ -968,7 +968,7 @@
           "t1_court": "Vitality",
           "t2_court": "NAVI",
           "bo": 3,
-          "phase": "",
+          "phase": "playoffs",
           "s1": 2,
           "s2": 1
         },
@@ -979,7 +979,7 @@
           "t1_court": "MOUZ",
           "t2_court": "Aurora",
           "bo": 3,
-          "phase": "",
+          "phase": "playoffs",
           "s1": 2,
           "s2": 0
         },
@@ -990,7 +990,7 @@
           "t1_court": "BB",
           "t2_court": "FURIA",
           "bo": 3,
-          "phase": "",
+          "phase": "playoffs",
           "s1": 0,
           "s2": 2
         }
@@ -1009,7 +1009,7 @@
           "t1_court": "BIG",
           "t2_court": "EF",
           "bo": 3,
-          "phase": "",
+          "phase": "playoffs",
           "s1": 0,
           "s2": 2
         },
@@ -1020,7 +1020,7 @@
           "t1_court": "Fnatic",
           "t2_court": "MIBR",
           "bo": 3,
-          "phase": "",
+          "phase": "playoffs",
           "s1": 2,
           "s2": 0
         },
@@ -1031,7 +1031,7 @@
           "t1_court": "IC",
           "t2_court": "Astralis",
           "bo": 3,
-          "phase": "",
+          "phase": "playoffs",
           "s1": 1,
           "s2": 2
         },
@@ -1042,7 +1042,7 @@
           "t1_court": "Astralis",
           "t2_court": "EF",
           "bo": 3,
-          "phase": "",
+          "phase": "playoffs",
           "s1": 1,
           "s2": 2
         }
@@ -1078,7 +1078,7 @@
           "t1_court": "Vitality",
           "t2_court": "Nemiga",
           "bo": 3,
-          "phase": ""
+          "phase": "playoffs"
         },
         "FURIA|MOUZ": {
           "ts": 1793372400,
@@ -1087,7 +1087,7 @@
           "t1_court": "FURIA",
           "t2_court": "MOUZ",
           "bo": 3,
-          "phase": ""
+          "phase": "playoffs"
         }
       },
       "etape": "jour 7",
@@ -1109,7 +1109,7 @@
       }
     }
   },
-  "maj_heure": "07:07",
+  "maj_heure": "10:55",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
@@ -1117,6 +1117,11 @@
     "jour|2026-10-29",
     "demain|2026-10-30",
     "res|Team Vitality|Natus Vincere|1793268900",
-    "jour|2026-10-30"
+    "jour|2026-10-30",
+    "poRes|PGL/2026/Masters|BetBoom Team|FURIA|1793287200",
+    "poRes|PGL/2026/Masters|MOUZ|Aurora Gaming|1793280300",
+    "po|PGL/2026/Masters|FURIA|MOUZ|2026-10-30",
+    "poRes|PGL/2026/Masters|Nemiga Gaming|FUT Esports|1793260800",
+    "poRes|Stake Ranked/Episode 5|Fnatic|MIBR|1793291400"
   ]
 }
