@@ -56,6 +56,23 @@ def messages(data, aujourdhui):
                         sortie.append((cle, f"✅ **Vitality bat {adv} {sc}** · {m.get('tournament', '')}"))
                     else:
                         sortie.append((cle, f"❌ **Vitality perd contre {adv} {sc}** · {m.get('tournament', '')}"))
+    # 2 bis. playoffs du tournoi (quarts, demies, finale) : matchs à venir et résultats, sauf ceux de Vitality (déjà annoncés)
+    for page, lignes in (data.get("brackets") or {}).items():
+        nom = (data.get("noms_pages") or {}).get(page, page)
+        for r in lignes:
+            if not r.get("ts") or _suivie(r["t1"]) or _suivie(r["t2"]):
+                continue
+            jour = _paris_date(r["ts"])
+            heure = datetime.datetime.fromtimestamp(r["ts"], datetime.timezone(datetime.timedelta(hours=1)))
+            if r["s1"] is None:
+                if jour in (aujourdhui, aujourdhui + datetime.timedelta(days=1)):
+                    sortie.append((f"po|{page}|{r['t1']}|{r['t2']}|{jour.isoformat()}",
+                                   f"🏆 **Playoffs** · {r['t1']} vs {r['t2']} à {heure:%H:%M} · {nom}"))
+            elif (aujourdhui - jour).days in (0, 1):
+                a, b = (r["t1"], r["t2"]) if r["s1"] > r["s2"] else (r["t2"], r["t1"])
+                sc = f"{max(r['s1'], r['s2'])}-{min(r['s1'], r['s2'])}"
+                sortie.append((f"poRes|{page}|{r['t1']}|{r['t2']}|{r['ts']}",
+                               f"🏆 **Playoffs** · {a} bat {b} {sc} · {nom}"))
     # 3. qualification / élimination dans un tableau Swiss
     for page, sw in (data.get("swiss") or {}).items():
         nom = (data.get("noms_pages") or {}).get(page, page)
