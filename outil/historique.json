@@ -4,11 +4,11 @@
       "date": "2026-10-30",
       "cle": "prog|PGL Masters Bucharest 2026|2026-10-30",
       "titre": "PGL Masters Bucharest 2026 · jour 7 · playoffs : les matchs du 30 octobre",
-      "resume": "0 match joué, 2 à venir. Heures de Paris.",
+      "resume": "Nemiga bat Vitality 2-0. 1 match joué, 1 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "13:00 · Vitality vs Nemiga",
+        "Vitality 0-2 Nemiga",
         "16:00 · FURIA vs MOUZ"
       ],
       "rang": 3
@@ -1104,7 +1104,9 @@
           "t1_court": "Vitality",
           "t2_court": "Nemiga",
           "bo": 3,
-          "phase": "playoffs"
+          "phase": "playoffs",
+          "s1": 0,
+          "s2": 2
         },
         "FURIA|MOUZ": {
           "ts": 1793372400,
@@ -1135,7 +1137,7 @@
       }
     }
   },
-  "maj_heure": "11:41",
+  "maj_heure": "15:38",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
