@@ -1,6 +1,6 @@
 {
   "maj": "2026-10-30",
-  "maj_heure": "11:20",
+  "maj_heure": "11:41",
   "semaine": "",
   "video": "",
   "articles": [
@@ -37,6 +37,17 @@
         "14:00 · MIBR vs Eternal Fire"
       ],
       "rang": 2
+    },
+    {
+      "date": "2026-10-30",
+      "titre": "HOTU remporte Tesla Cup 2026",
+      "resume": "Tesla Cup, c'est terminé à Belgrade : HOTU s'impose en finale contre GamerLegion. Victoire 2 à 0, avec Dust2 et Nuke pour HOTU.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "cartes": [
+        "Dust2 13-6",
+        "Nuke 13-9"
+      ]
     },
     {
       "date": "2026-10-30",
@@ -95,7 +106,7 @@
     {
       "date": "2026-10-28",
       "titre": "FOKUS remporte NODWIN Clutch Series #13",
-      "resume": "FOKUS gagne l'édition 13 de NODWIN Clutch, contre BRUTE. Victoire 2 à 1, avec Mirage et Nuke pour FOKUS.",
+      "resume": "Du côté de l'édition 13 de NODWIN Clutch, c'est FOKUS qui l'emporte face à BRUTE. Victoire 2 à 1, avec Mirage et Nuke pour FOKUS.",
       "categorie": "resultats",
       "tier": "Tier 2",
       "cartes": [
@@ -124,20 +135,6 @@
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 2"
-    },
-    {
-      "date": "2026-10-28",
-      "titre": "Stake Ranked Episode 5 · jour 2 · playoffs : les matchs du 28 octobre",
-      "resume": "4 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "Astralis 2-1 magic",
-        "Nemesis 1-2 EF",
-        "Fnatic 2-0 BIG",
-        "IC 0-2 MIBR"
-      ],
-      "rang": 0
     }
   ],
   "matchs": [

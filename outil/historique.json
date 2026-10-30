@@ -39,6 +39,18 @@
     },
     {
       "date": "2026-10-30",
+      "cle": "res|Tesla Cup 2026|HOTU",
+      "titre": "HOTU remporte Tesla Cup 2026",
+      "resume": "Tesla Cup, c'est terminé à Belgrade : HOTU s'impose en finale contre GamerLegion. Victoire 2 à 0, avec Dust2 et Nuke pour HOTU.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "cartes": [
+        "Dust2 13-6",
+        "Nuke 13-9"
+      ]
+    },
+    {
+      "date": "2026-10-30",
       "cle": "tr|NeLix, Ziivio +3||HDC LAB|",
       "titre": "NeLix, Ziivio +3 rejoignent HDC LAB",
       "resume": "",
@@ -101,7 +113,7 @@
       "date": "2026-10-28",
       "cle": "res|NODWIN Clutch Series #13|FOKUS",
       "titre": "FOKUS remporte NODWIN Clutch Series #13",
-      "resume": "FOKUS gagne l'édition 13 de NODWIN Clutch, contre BRUTE. Victoire 2 à 1, avec Mirage et Nuke pour FOKUS.",
+      "resume": "Du côté de l'édition 13 de NODWIN Clutch, c'est FOKUS qui l'emporte face à BRUTE. Victoire 2 à 1, avec Mirage et Nuke pour FOKUS.",
       "categorie": "resultats",
       "tier": "Tier 2",
       "cartes": [
@@ -346,7 +358,7 @@
     {
       "cle": "res|DraculaN Season 7|Eternal Fire",
       "titre": "Eternal Fire remporte DraculaN Season 7",
-      "resume": "DraculaN Season 7, c'est terminé à Bucarest : Eternal Fire s'impose en finale contre SINNERS. Victoire 2 à 1, avec Cache et Ancient pour Eternal Fire.",
+      "resume": "Eternal Fire gagne DraculaN Season 7, contre SINNERS. Victoire 2 à 1, avec Cache et Ancient pour Eternal Fire.",
       "categorie": "resultats",
       "tier": "Tier 2",
       "cartes": [
@@ -1123,7 +1135,7 @@
       }
     }
   },
-  "maj_heure": "11:20",
+  "maj_heure": "11:41",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
@@ -1142,6 +1154,7 @@
     "a|FURIA|MOUZ|2026-10-30",
     "a|Hacha Esports (page does not exist)|Wildcard|2026-10-30",
     "a|Imperial Esports|PaiN Gaming|2026-10-30",
-    "a|HOTU|The Huns Esports|2026-10-31"
+    "a|HOTU|The Huns Esports|2026-10-31",
+    "a|Eternal Fire|MIBR|2026-10-30"
   ]
 }
