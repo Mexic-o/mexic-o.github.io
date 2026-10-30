@@ -61,9 +61,10 @@ jobs:
           git add -A news.json outil/      # news + historique (+ outil/debug si une page n'a pas pu être lue)
           if git diff --cached --quiet; then echo "Rien de nouveau"; exit 0; fi
           git commit -m "News CS2 du $(date +%d/%m)"
-          for essai in 1 2 3; do
+          for essai in 1 2 3 4 5; do
             if git push origin HEAD:main; then exit 0; fi
-            echo "Le site a changé entre-temps : je reprends la dernière version et je réessaie ($essai/3)"
+            echo "Envoi refusé (souvent une erreur passagère de GitHub) : nouvel essai dans 30 s ($essai/5)"
+            sleep 30
             git pull --rebase -X theirs origin main || { git rebase --abort; exit 1; }
           done
           exit 1
