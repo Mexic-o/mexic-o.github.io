@@ -1,29 +1,40 @@
 {
   "maj": "2026-10-31",
-  "maj_heure": "16:29",
+  "maj_heure": "19:45",
   "semaine": "",
   "video": "",
   "articles": [
     {
       "date": "2026-10-31",
       "titre": "PGL Masters Bucharest 2026 · dernier jour · playoffs : les matchs du 31 octobre",
-      "resume": "MOUZ bat Vitality 2-0. 1 match joué, 1 à venir. Heures de Paris.",
+      "resume": "MOUZ bat Vitality 2-0. 2 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
         "MOUZ 2-0 Vitality",
-        "12:00 · FURIA vs Nemiga"
+        "FURIA 3-2 Nemiga"
       ],
       "rang": 3
     },
     {
       "date": "2026-10-31",
       "titre": "FiReSPORTS Last Chance '26 - Group D : les matchs du 31 octobre",
+      "resume": "Wildcard bat Hacha 2-0. 1 match joué, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "Wildcard 2-0 Hacha"
+      ],
+      "rang": 2
+    },
+    {
+      "date": "2026-10-31",
+      "titre": "FiReSPORTS Last Chance '26 - Playoffs : les matchs du 31 octobre",
       "resume": "0 match joué, 1 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "17:15 · Wildcard vs Hacha"
+        "23:15 · NRG vs Wildcard"
       ],
       "rang": 2
     },
@@ -125,18 +136,6 @@
       "cartes": [
         "Vitality 0-2 Nemiga",
         "FURIA 2-1 MOUZ"
-      ],
-      "rang": 0
-    },
-    {
-      "date": "2026-10-30",
-      "titre": "Stake Ranked Episode 5 · dernier jour : les matchs du 30 octobre",
-      "resume": "2 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "MIBR 0-2 EF",
-        "Fnatic 2-3 EF"
       ],
       "rang": 0
     }

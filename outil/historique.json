@@ -4,12 +4,12 @@
       "date": "2026-10-31",
       "cle": "prog|PGL Masters Bucharest 2026|2026-10-31",
       "titre": "PGL Masters Bucharest 2026 · dernier jour · playoffs : les matchs du 31 octobre",
-      "resume": "MOUZ bat Vitality 2-0. 1 match joué, 1 à venir. Heures de Paris.",
+      "resume": "MOUZ bat Vitality 2-0. 2 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
         "MOUZ 2-0 Vitality",
-        "12:00 · FURIA vs Nemiga"
+        "FURIA 3-2 Nemiga"
       ],
       "rang": 3
     },
@@ -17,11 +17,23 @@
       "date": "2026-10-31",
       "cle": "prog|FiReSPORTS Last Chance '26 - Group D|2026-10-31",
       "titre": "FiReSPORTS Last Chance '26 - Group D : les matchs du 31 octobre",
+      "resume": "Wildcard bat Hacha 2-0. 1 match joué, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "Wildcard 2-0 Hacha"
+      ],
+      "rang": 2
+    },
+    {
+      "date": "2026-10-31",
+      "cle": "prog|FiReSPORTS Last Chance '26 - Playoffs|2026-10-31",
+      "titre": "FiReSPORTS Last Chance '26 - Playoffs : les matchs du 31 octobre",
       "resume": "0 match joué, 1 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "17:15 · Wildcard vs Hacha"
+        "23:15 · NRG vs Wildcard"
       ],
       "rang": 2
     },
@@ -1199,7 +1211,9 @@
           "t1_court": "FURIA",
           "t2_court": "Nemiga",
           "bo": 5,
-          "phase": "playoffs"
+          "phase": "playoffs",
+          "s1": 3,
+          "s2": 2
         }
       },
       "etape": "dernier jour",
@@ -1210,11 +1224,30 @@
       "jour": "2026-10-31",
       "matchs": {
         "Hacha Esports (page does not exist)|Wildcard": {
-          "ts": 1793463300,
+          "ts": 1793464800,
           "t1": "Wildcard",
           "t2": "Hacha Esports (page does not exist)",
           "t1_court": "Wildcard",
           "t2_court": "Hacha",
+          "bo": 3,
+          "phase": "",
+          "s1": 2,
+          "s2": 0
+        }
+      },
+      "etape": "",
+      "tier": ""
+    },
+    "FiReSPORTS Last Chance '26 - Playoffs|2026-10-31": {
+      "nom": "FiReSPORTS Last Chance '26 - Playoffs",
+      "jour": "2026-10-31",
+      "matchs": {
+        "NRG|Wildcard": {
+          "ts": 1793484900,
+          "t1": "NRG",
+          "t2": "Wildcard",
+          "t1_court": "NRG",
+          "t2_court": "Wildcard",
           "bo": 3,
           "phase": ""
         }
@@ -1223,7 +1256,7 @@
       "tier": ""
     }
   },
-  "maj_heure": "16:29",
+  "maj_heure": "19:45",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
@@ -1254,6 +1287,10 @@
     "a|1w Team|HOTU|2026-11-01",
     "r|MOUZ|Team Vitality|1793433600",
     "a|Hacha Esports (page does not exist)|Wildcard|2026-10-31",
-    "a|DENDELE CS|Naocopulas (page does not exist)|2026-10-31"
+    "a|DENDELE CS|Naocopulas (page does not exist)|2026-10-31",
+    "r|Hacha Esports (page does not exist)|Wildcard|1793464800",
+    "r|FURIA|Nemiga Gaming|1793444400",
+    "a|NRG|Wildcard|2026-10-31",
+    "a|Alter Ego|FlyQuest|2026-11-01"
   ]
 }
