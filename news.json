@@ -1,43 +1,20 @@
 {
-  "maj": "2026-10-30",
-  "maj_heure": "20:30",
+  "maj": "2026-10-31",
+  "maj_heure": "07:03",
   "semaine": "",
   "video": "",
   "articles": [
     {
-      "date": "2026-10-30",
-      "titre": "PGL Masters Bucharest 2026 · jour 7 · playoffs : les matchs du 30 octobre",
-      "resume": "Nemiga bat Vitality 2-0. 1 match joué, 1 à venir. Heures de Paris.",
+      "date": "2026-10-31",
+      "titre": "PGL Masters Bucharest 2026 · dernier jour · playoffs : les matchs du 31 octobre",
+      "resume": "0 match joué, 2 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "Vitality 0-2 Nemiga",
-        "16:00 · FURIA vs MOUZ"
+        "09:00 · MOUZ vs Vitality",
+        "12:00 · FURIA vs Nemiga"
       ],
       "rang": 3
-    },
-    {
-      "date": "2026-10-30",
-      "titre": "FiReSPORTS Last Chance '26 - Group D : les matchs du 30 octobre",
-      "resume": "0 match joué, 1 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "20:30 · Wildcard vs Hacha"
-      ],
-      "rang": 2
-    },
-    {
-      "date": "2026-10-30",
-      "titre": "Stake Ranked Episode 5 · playoffs : les matchs du 30 octobre",
-      "resume": "1 match joué, 1 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "MIBR 0-2 Eternal Fire",
-        "17:00 · Fnatic vs Eternal Fire"
-      ],
-      "rang": 2
     },
     {
       "date": "2026-10-30",
@@ -63,6 +40,41 @@
       "categorie": "fr"
     },
     {
+      "date": "2026-10-30",
+      "titre": "FiReSPORTS Last Chance '26 - Group D : les matchs du 30 octobre",
+      "resume": "0 match joué, 1 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "19:15 · Wildcard vs Hacha"
+      ],
+      "rang": 0
+    },
+    {
+      "date": "2026-10-30",
+      "titre": "PGL Masters Bucharest 2026 · jour 7 · playoffs : les matchs du 30 octobre",
+      "resume": "Nemiga bat Vitality 2-0. 2 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "Vitality 0-2 Nemiga",
+        "FURIA 2-1 MOUZ"
+      ],
+      "rang": 0
+    },
+    {
+      "date": "2026-10-30",
+      "titre": "Stake Ranked Episode 5 · playoffs : les matchs du 30 octobre",
+      "resume": "1 match joué, 1 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "MIBR 0-2 Eternal Fire",
+        "17:00 · Fnatic vs Eternal Fire"
+      ],
+      "rang": 0
+    },
+    {
       "date": "2026-10-29",
       "titre": "Vesper remporte Brace For Impact League South Africa Season 1",
       "resume": "Côté scène féminine, Vesper remporte Brace For Impact League South Africa Season 1, face à Nixuh Female en finale.",
@@ -72,7 +84,7 @@
     {
       "date": "2026-10-29",
       "titre": "Mise à jour CS2 du 28 octobre",
-      "resume": "Côté jeu, Valve a sorti deux mises à jour de CS2 cette semaine, avec 57 changements au total.",
+      "resume": "Côté jeu, mise à jour de CS2 le 28 octobre, avec 4 changements au total.",
       "categorie": "maj",
       "lien": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302232686"
     },
@@ -129,13 +141,6 @@
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 1"
-    },
-    {
-      "date": "2026-10-28",
-      "titre": "waZz quitte Aimclub",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
     }
   ],
   "matchs": [
@@ -147,9 +152,9 @@
     },
     {
       "groupe": "En cours",
-      "jour": "2026-10-27",
-      "equipes": "Stake Ranked Episode 5",
-      "tournoi": "jusqu'au 30 octobre · Barcelona"
+      "jour": "2026-10-31",
+      "equipes": "Moscow Cyber Games 2026",
+      "tournoi": "jusqu'au 1er novembre · Moscou"
     },
     {
       "groupe": "En cours",
@@ -165,9 +170,9 @@
     },
     {
       "groupe": "À venir",
-      "jour": "2026-10-31",
-      "equipes": "Moscow Cyber Games 2026",
-      "tournoi": "dès le 31 octobre · Moscou"
+      "jour": "2026-11-10",
+      "equipes": "NODWIN Clutch Series #14",
+      "tournoi": "dès le 10 novembre"
     },
     {
       "groupe": "À venir",

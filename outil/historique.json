@@ -1,42 +1,17 @@
 {
   "articles": [
     {
-      "date": "2026-10-30",
-      "cle": "prog|PGL Masters Bucharest 2026|2026-10-30",
-      "titre": "PGL Masters Bucharest 2026 · jour 7 · playoffs : les matchs du 30 octobre",
-      "resume": "Nemiga bat Vitality 2-0. 1 match joué, 1 à venir. Heures de Paris.",
+      "date": "2026-10-31",
+      "cle": "prog|PGL Masters Bucharest 2026|2026-10-31",
+      "titre": "PGL Masters Bucharest 2026 · dernier jour · playoffs : les matchs du 31 octobre",
+      "resume": "0 match joué, 2 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "Vitality 0-2 Nemiga",
-        "16:00 · FURIA vs MOUZ"
+        "09:00 · MOUZ vs Vitality",
+        "12:00 · FURIA vs Nemiga"
       ],
       "rang": 3
-    },
-    {
-      "date": "2026-10-30",
-      "cle": "prog|FiReSPORTS Last Chance '26 - Group D|2026-10-30",
-      "titre": "FiReSPORTS Last Chance '26 - Group D : les matchs du 30 octobre",
-      "resume": "0 match joué, 1 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "20:30 · Wildcard vs Hacha"
-      ],
-      "rang": 2
-    },
-    {
-      "date": "2026-10-30",
-      "cle": "prog|Stake Ranked Episode 5|2026-10-30",
-      "titre": "Stake Ranked Episode 5 · playoffs : les matchs du 30 octobre",
-      "resume": "1 match joué, 1 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "MIBR 0-2 Eternal Fire",
-        "17:00 · Fnatic vs Eternal Fire"
-      ],
-      "rang": 2
     },
     {
       "date": "2026-10-30",
@@ -65,6 +40,44 @@
       "categorie": "fr"
     },
     {
+      "date": "2026-10-30",
+      "cle": "prog|FiReSPORTS Last Chance '26 - Group D|2026-10-30",
+      "titre": "FiReSPORTS Last Chance '26 - Group D : les matchs du 30 octobre",
+      "resume": "0 match joué, 1 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "19:15 · Wildcard vs Hacha"
+      ],
+      "rang": 0
+    },
+    {
+      "date": "2026-10-30",
+      "cle": "prog|PGL Masters Bucharest 2026|2026-10-30",
+      "titre": "PGL Masters Bucharest 2026 · jour 7 · playoffs : les matchs du 30 octobre",
+      "resume": "Nemiga bat Vitality 2-0. 2 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "Vitality 0-2 Nemiga",
+        "FURIA 2-1 MOUZ"
+      ],
+      "rang": 0
+    },
+    {
+      "date": "2026-10-30",
+      "cle": "prog|Stake Ranked Episode 5|2026-10-30",
+      "titre": "Stake Ranked Episode 5 · playoffs : les matchs du 30 octobre",
+      "resume": "1 match joué, 1 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "MIBR 0-2 Eternal Fire",
+        "17:00 · Fnatic vs Eternal Fire"
+      ],
+      "rang": 0
+    },
+    {
       "date": "2026-10-29",
       "cle": "res|Brace For Impact League South Africa Season 1|Vesper",
       "titre": "Vesper remporte Brace For Impact League South Africa Season 1",
@@ -76,7 +89,7 @@
       "date": "2026-10-29",
       "cle": "maj|https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302232686",
       "titre": "Mise à jour CS2 du 28 octobre",
-      "resume": "Côté jeu, Valve a sorti deux mises à jour de CS2 cette semaine, avec 57 changements au total.",
+      "resume": "Côté jeu, mise à jour de CS2 le 28 octobre, avec 4 changements au total.",
       "categorie": "maj",
       "lien": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302232686"
     },
@@ -334,82 +347,6 @@
         "Legacy 2-0 DENDELE"
       ],
       "rang": 0
-    },
-    {
-      "cle": "debut|PGL Masters Bucharest 2026",
-      "titre": "PGL Masters Bucharest 2026 a commencé",
-      "resume": "Le tournoi se joue à Bucarest, jusqu'au 31 octobre, 1 250 000 $ en jeu.",
-      "categorie": "resultats",
-      "tier": "Tier 1",
-      "date": "2026-10-24"
-    },
-    {
-      "cle": "res|1win Private Club #2|The MongolZ",
-      "titre": "The MongolZ remporte 1win Private Club #2",
-      "resume": "L'édition 2 de 1win Private Club, c'est terminé à Belgrade : The MongolZ s'impose en finale contre PARIVISION. Victoire 3 à 0, avec Ancient, Mirage et Dust2 pour The MongolZ. Pour PARIVISION, c'est une troisième finale perdue d'affilée.",
-      "categorie": "resultats",
-      "tier": "Tier 1",
-      "cartes": [
-        "Ancient 13-6",
-        "Mirage 13-11",
-        "Dust2 13-4"
-      ],
-      "date": "2026-10-24"
-    },
-    {
-      "cle": "res|DraculaN Season 7|Eternal Fire",
-      "titre": "Eternal Fire remporte DraculaN Season 7",
-      "resume": "Eternal Fire gagne DraculaN Season 7, contre SINNERS. Victoire 2 à 1, avec Cache et Ancient pour Eternal Fire.",
-      "categorie": "resultats",
-      "tier": "Tier 2",
-      "cartes": [
-        "Mirage 6-13",
-        "Cache 16-12",
-        "Ancient 16-14"
-      ],
-      "date": "2026-10-24"
-    },
-    {
-      "cle": "tr|nosraC|Voca|Voca|banc",
-      "titre": "nosraC passe sur le banc chez Voca",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2",
-      "date": "2026-10-24"
-    },
-    {
-      "cle": "tr|SHiPZ||Acend|",
-      "titre": "SHiPZ rejoint Acend",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2",
-      "date": "2026-10-24"
-    },
-    {
-      "cle": "tr|AwaykeN|INFURITY|Acend|",
-      "titre": "AwaykeN passe d'INFURITY à Acend",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2",
-      "date": "2026-10-24"
-    },
-    {
-      "date": "2026-10-24",
-      "cle": "prog|PGL Masters Bucharest 2026|2026-10-24",
-      "titre": "PGL Masters Bucharest 2026 · jour 1 : les matchs du 24 octobre",
-      "resume": "Vitality bat 9z 2-0. 8 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "FUT 2-0 TYLOO",
-        "Aurora 1-2 MongolZ",
-        "MOUZ 1-2 Liquid",
-        "Spirit 1-2 BB",
-        "Legacy 0-2 Nemiga",
-        "Vitality 2-0 9z",
-        "FURIA 2-0 DENDELE"
-      ],
-      "rang": 0
     }
   ],
   "agenda": [
@@ -421,9 +358,9 @@
     },
     {
       "groupe": "En cours",
-      "jour": "2026-10-27",
-      "equipes": "Stake Ranked Episode 5",
-      "tournoi": "jusqu'au 30 octobre · Barcelona"
+      "jour": "2026-10-31",
+      "equipes": "Moscow Cyber Games 2026",
+      "tournoi": "jusqu'au 1er novembre · Moscou"
     },
     {
       "groupe": "En cours",
@@ -439,9 +376,9 @@
     },
     {
       "groupe": "À venir",
-      "jour": "2026-10-31",
-      "equipes": "Moscow Cyber Games 2026",
-      "tournoi": "dès le 31 octobre · Moscou"
+      "jour": "2026-11-10",
+      "equipes": "NODWIN Clutch Series #14",
+      "tournoi": "dès le 10 novembre"
     },
     {
       "groupe": "À venir",
@@ -451,28 +388,20 @@
     },
     {
       "groupe": "À venir",
-      "jour": "2026-11-03",
-      "equipes": "CCT South America 2026 Series #8",
-      "tournoi": "dès le 3 novembre"
+      "jour": "2026-11-10",
+      "equipes": "CCT Europe 2026 Series #14",
+      "tournoi": "dès le 10 novembre"
     }
   ],
-  "maj": "2026-10-30",
-  "collecte": "2026-10-30",
+  "maj": "2026-10-31",
+  "collecte": "2026-10-31",
   "envoi_en_attente": false,
   "chaine": {
     "handle": "@Mexic_Original",
     "id": "UCy5wcMtn9uzq_IUt3VgTgqQ"
   },
   "video": "",
-  "erreurs": [
-    "tournois S-Tier : HTTP Error 429: Too Many Requests",
-    "tournois A-Tier : HTTP Error 429: Too Many Requests",
-    "tournois B-Tier : HTTP Error 429: Too Many Requests",
-    "tournois C-Tier : HTTP Error 429: Too Many Requests",
-    "programme des matchs : HTTP Error 429: Too Many Requests",
-    "scène féminine : HTTP Error 429: Too Many Requests",
-    "transferts : HTTP Error 429: Too Many Requests"
-  ],
+  "erreurs": [],
   "programmes": {
     "PGL Masters Bucharest 2026|2026-10-26": {
       "nom": "PGL Masters Bucharest 2026",
@@ -1090,7 +1019,7 @@
       "jour": "2026-10-30",
       "matchs": {
         "Hacha Esports (page does not exist)|Wildcard": {
-          "ts": 1793388600,
+          "ts": 1793384100,
           "t1": "Wildcard",
           "t2": "Hacha Esports (page does not exist)",
           "t1_court": "Wildcard",
@@ -1124,7 +1053,9 @@
           "t1_court": "FURIA",
           "t2_court": "MOUZ",
           "bo": 3,
-          "phase": "playoffs"
+          "phase": "playoffs",
+          "s1": 2,
+          "s2": 1
         }
       },
       "etape": "jour 7",
@@ -1155,9 +1086,35 @@
           "phase": "playoffs"
         }
       }
+    },
+    "PGL Masters Bucharest 2026|2026-10-31": {
+      "nom": "PGL Masters Bucharest 2026",
+      "jour": "2026-10-31",
+      "matchs": {
+        "MOUZ|Team Vitality": {
+          "ts": 1793433600,
+          "t1": "MOUZ",
+          "t2": "Team Vitality",
+          "t1_court": "MOUZ",
+          "t2_court": "Vitality",
+          "bo": 3,
+          "phase": "playoffs"
+        },
+        "FURIA|Nemiga Gaming": {
+          "ts": 1793444400,
+          "t1": "FURIA",
+          "t2": "Nemiga Gaming",
+          "t1_court": "FURIA",
+          "t2_court": "Nemiga",
+          "bo": 5,
+          "phase": "playoffs"
+        }
+      },
+      "etape": "dernier jour",
+      "tier": "S"
     }
   },
-  "maj_heure": "20:30",
+  "maj_heure": "07:03",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
@@ -1179,6 +1136,9 @@
     "a|HOTU|The Huns Esports|2026-10-31",
     "a|Eternal Fire|MIBR|2026-10-30",
     "r|Eternal Fire|MIBR|1793365200",
-    "a|Eternal Fire|Fnatic|2026-10-30"
+    "a|Eternal Fire|Fnatic|2026-10-30",
+    "a|DENDELE CS|Turma do Pagode|2026-10-31",
+    "a|MOUZ|Team Vitality|2026-10-31",
+    "a|FURIA|Nemiga Gaming|2026-10-31"
   ]
 }
