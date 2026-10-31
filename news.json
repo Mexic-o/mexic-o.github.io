@@ -1,20 +1,85 @@
 {
   "maj": "2026-10-31",
-  "maj_heure": "07:03",
+  "maj_heure": "16:29",
   "semaine": "",
   "video": "",
   "articles": [
     {
       "date": "2026-10-31",
       "titre": "PGL Masters Bucharest 2026 · dernier jour · playoffs : les matchs du 31 octobre",
-      "resume": "0 match joué, 2 à venir. Heures de Paris.",
+      "resume": "MOUZ bat Vitality 2-0. 1 match joué, 1 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "09:00 · MOUZ vs Vitality",
+        "MOUZ 2-0 Vitality",
         "12:00 · FURIA vs Nemiga"
       ],
       "rang": 3
+    },
+    {
+      "date": "2026-10-31",
+      "titre": "FiReSPORTS Last Chance '26 - Group D : les matchs du 31 octobre",
+      "resume": "0 match joué, 1 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "17:15 · Wildcard vs Hacha"
+      ],
+      "rang": 2
+    },
+    {
+      "date": "2026-10-31",
+      "titre": "Eternal Fire remporte Stake Ranked Episode 5",
+      "resume": "Stake Ranked Episode 5, c'est terminé à Barcelona : Eternal Fire s'impose en finale contre Fnatic. Victoire 3 à 2, avec Cache, Dust2 et Mirage pour Eternal Fire.",
+      "categorie": "resultats",
+      "tier": "Tier 1",
+      "cartes": [
+        "Anubis 8-13",
+        "Ancient 2-13",
+        "Cache 13-9",
+        "Dust2 13-11",
+        "Mirage 13-8"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "titre": "Eternal Fire remporte DraculaN Season 7",
+      "resume": "Eternal Fire gagne DraculaN Season 7, contre SINNERS. Victoire 2 à 1, avec Cache et Ancient pour Eternal Fire.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "cartes": [
+        "Mirage 6-13",
+        "Cache 16-12",
+        "Ancient 16-14"
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "titre": "tasman passe de NOVAQ à Rune Eaters",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-10-31",
+      "titre": "AdrieN passe de los kogutos à Nordic Partners",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-10-31",
+      "titre": "nota dépanne Rune Eaters",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-10-31",
+      "titre": "buster et SNk quittent DEPO",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
     },
     {
       "date": "2026-10-30",
@@ -42,11 +107,12 @@
     {
       "date": "2026-10-30",
       "titre": "FiReSPORTS Last Chance '26 - Group D : les matchs du 30 octobre",
-      "resume": "0 match joué, 1 à venir. Heures de Paris.",
+      "resume": "Wildcard bat Hacha 2-0. BESTIA bat Wildcard 2-1. 2 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "19:15 · Wildcard vs Hacha"
+        "Wildcard 2-0 Hacha",
+        "Wildcard 1-2 BESTIA"
       ],
       "rang": 0
     },
@@ -64,83 +130,15 @@
     },
     {
       "date": "2026-10-30",
-      "titre": "Stake Ranked Episode 5 · playoffs : les matchs du 30 octobre",
-      "resume": "1 match joué, 1 à venir. Heures de Paris.",
+      "titre": "Stake Ranked Episode 5 · dernier jour : les matchs du 30 octobre",
+      "resume": "2 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "MIBR 0-2 Eternal Fire",
-        "17:00 · Fnatic vs Eternal Fire"
+        "MIBR 0-2 EF",
+        "Fnatic 2-3 EF"
       ],
       "rang": 0
-    },
-    {
-      "date": "2026-10-29",
-      "titre": "Vesper remporte Brace For Impact League South Africa Season 1",
-      "resume": "Côté scène féminine, Vesper remporte Brace For Impact League South Africa Season 1, face à Nixuh Female en finale.",
-      "categorie": "resultats",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-10-29",
-      "titre": "Mise à jour CS2 du 28 octobre",
-      "resume": "Côté jeu, mise à jour de CS2 le 28 octobre, avec 4 changements au total.",
-      "categorie": "maj",
-      "lien": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302232686"
-    },
-    {
-      "date": "2026-10-29",
-      "titre": "PGL Masters Bucharest 2026 · jour 6 · playoffs : les matchs du 29 octobre",
-      "resume": "Vitality bat NAVI 2-1. 4 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "Nemiga 2-0 FUT",
-        "Vitality 2-1 NAVI",
-        "MOUZ 2-0 Aurora",
-        "BB 0-2 FURIA"
-      ],
-      "rang": 0
-    },
-    {
-      "date": "2026-10-29",
-      "titre": "Stake Ranked Episode 5 · jour 3 · playoffs : les matchs du 29 octobre",
-      "resume": "4 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "BIG 0-2 EF",
-        "IC 1-2 Astralis",
-        "Fnatic 2-0 MIBR",
-        "Astralis 1-2 EF"
-      ],
-      "rang": 0
-    },
-    {
-      "date": "2026-10-28",
-      "titre": "FOKUS remporte NODWIN Clutch Series #13",
-      "resume": "Du côté de l'édition 13 de NODWIN Clutch, c'est FOKUS qui l'emporte face à BRUTE. Victoire 2 à 1, avec Mirage et Nuke pour FOKUS.",
-      "categorie": "resultats",
-      "tier": "Tier 2",
-      "cartes": [
-        "Cache 11-13",
-        "Mirage 25-23",
-        "Nuke 13-10"
-      ]
-    },
-    {
-      "date": "2026-10-28",
-      "titre": "ksloks dépanne Legacy",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 1"
-    },
-    {
-      "date": "2026-10-28",
-      "titre": "n1ssim passe sur le banc chez Legacy",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 1"
     }
   ],
   "matchs": [
