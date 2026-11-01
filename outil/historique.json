@@ -1,39 +1,32 @@
 {
   "articles": [
     {
-      "date": "2026-10-31",
-      "cle": "prog|PGL Masters Bucharest 2026|2026-10-31",
-      "titre": "PGL Masters Bucharest 2026 · dernier jour · playoffs : les matchs du 31 octobre",
-      "resume": "MOUZ bat Vitality 2-0. 2 matchs joués, 0 à venir. Heures de Paris.",
+      "date": "2026-11-02",
+      "cle": "prog|Intel Extreme Masters Beijing 2026|2026-11-02",
+      "titre": "Intel Extreme Masters Beijing 2026 · jour 1 · playoffs : les matchs du 2 novembre",
+      "resume": "0 match joué, 8 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "MOUZ 2-0 Vitality",
-        "FURIA 3-2 Nemiga"
+        "03:00 · Legacy vs MongolZ",
+        "03:00 · HEROIC vs B8",
+        "05:30 · Aurora vs Liquid",
+        "05:30 · PV vs G2",
+        "08:00 · FURIA vs FaZe",
+        "08:00 · 9z vs BB",
+        "10:30 · NAVI vs Falcons"
       ],
       "rang": 3
     },
     {
-      "date": "2026-10-31",
-      "cle": "prog|FiReSPORTS Last Chance '26 - Group D|2026-10-31",
-      "titre": "FiReSPORTS Last Chance '26 - Group D : les matchs du 31 octobre",
-      "resume": "Wildcard bat Hacha 2-0. 1 match joué, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "Wildcard 2-0 Hacha"
-      ],
-      "rang": 2
-    },
-    {
-      "date": "2026-10-31",
-      "cle": "prog|FiReSPORTS Last Chance '26 - Playoffs|2026-10-31",
-      "titre": "FiReSPORTS Last Chance '26 - Playoffs : les matchs du 31 octobre",
+      "date": "2026-11-01",
+      "cle": "prog|FiReSPORTS Last Chance '26 - Playoffs|2026-11-01",
+      "titre": "FiReSPORTS Last Chance '26 - Playoffs : les matchs du 1er novembre",
       "resume": "0 match joué, 1 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "23:15 · NRG vs Wildcard"
+        "18:00 · Wildcard vs BARCA"
       ],
       "rang": 2
     },
@@ -98,10 +91,59 @@
       "tier": "Tier 2"
     },
     {
+      "date": "2026-10-31",
+      "cle": "prog|PGL Masters Bucharest 2026|2026-10-31",
+      "titre": "PGL Masters Bucharest 2026 · dernier jour · playoffs : les matchs du 31 octobre",
+      "resume": "MOUZ bat Vitality 2-0. 2 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "MOUZ 2-0 Vitality",
+        "FURIA 3-2 Nemiga"
+      ],
+      "rang": 0
+    },
+    {
+      "date": "2026-10-31",
+      "cle": "prog|FiReSPORTS Last Chance '26 - Group D|2026-10-31",
+      "titre": "FiReSPORTS Last Chance '26 - Group D : les matchs du 31 octobre",
+      "resume": "Wildcard bat Hacha 2-0. 1 match joué, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "Wildcard 2-0 Hacha"
+      ],
+      "rang": 0
+    },
+    {
+      "date": "2026-10-31",
+      "cle": "prog|FiReSPORTS Last Chance '26 - Playoffs|2026-10-31",
+      "titre": "FiReSPORTS Last Chance '26 - Playoffs : les matchs du 31 octobre",
+      "resume": "Wildcard bat NRG 2-1. 1 match joué, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "NRG 1-2 Wildcard"
+      ],
+      "rang": 0
+    },
+    {
+      "date": "2026-10-31",
+      "cle": "prog|PGL Masters Bucharest 2026 - Playoffs|2026-10-31",
+      "titre": "PGL Masters Bucharest 2026 - Playoffs : les matchs du 31 octobre",
+      "resume": "MOUZ bat Vitality 2-0. 1 match joué, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "MOUZ 2-0 Vitality"
+      ],
+      "rang": 0
+    },
+    {
       "date": "2026-10-30",
       "cle": "res|Tesla Cup 2026|HOTU",
       "titre": "HOTU remporte Tesla Cup 2026",
-      "resume": "Tesla Cup, c'est terminé à Belgrade : HOTU s'impose en finale contre GamerLegion. Victoire 2 à 0, avec Dust2 et Nuke pour HOTU.",
+      "resume": "On commence par le dernier résultat : HOTU gagne Tesla Cup à Belgrade, contre GamerLegion en finale. Victoire 2 à 0, avec Dust2 et Nuke pour HOTU.",
       "categorie": "resultats",
       "tier": "Tier 2",
       "cartes": [
@@ -163,6 +205,18 @@
       "rang": 0
     },
     {
+      "date": "2026-10-30",
+      "cle": "prog|PGL Masters Bucharest 2026 - Playoffs|2026-10-30",
+      "titre": "PGL Masters Bucharest 2026 - Playoffs : les matchs du 30 octobre",
+      "resume": "Nemiga bat Vitality 2-0. 1 match joué, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "Vitality 0-2 Nemiga"
+      ],
+      "rang": 0
+    },
+    {
       "date": "2026-10-29",
       "cle": "res|Brace For Impact League South Africa Season 1|Vesper",
       "titre": "Vesper remporte Brace For Impact League South Africa Season 1",
@@ -209,10 +263,22 @@
       "rang": 0
     },
     {
+      "date": "2026-10-29",
+      "cle": "prog|PGL Masters Bucharest 2026 - Playoffs|2026-10-29",
+      "titre": "PGL Masters Bucharest 2026 - Playoffs : les matchs du 29 octobre",
+      "resume": "Vitality bat NAVI 2-1. 1 match joué, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "Vitality 2-1 NAVI"
+      ],
+      "rang": 0
+    },
+    {
       "date": "2026-10-28",
       "cle": "res|NODWIN Clutch Series #13|FOKUS",
       "titre": "FOKUS remporte NODWIN Clutch Series #13",
-      "resume": "Du côté de l'édition 13 de NODWIN Clutch, c'est FOKUS qui l'emporte face à BRUTE. Victoire 2 à 1, avec Mirage et Nuke pour FOKUS.",
+      "resume": "FOKUS gagne l'édition 13 de NODWIN Clutch, contre BRUTE. Victoire 2 à 1, avec Mirage et Nuke pour FOKUS.",
       "categorie": "resultats",
       "tier": "Tier 2",
       "cartes": [
@@ -406,41 +472,9 @@
         "G2 1-2 DENDELE"
       ],
       "rang": 0
-    },
-    {
-      "cle": "tr|k1ssly|Butterfly|Butterfly|banc",
-      "titre": "k1ssly passe sur le banc chez Butterfly",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2",
-      "date": "2026-10-25"
-    },
-    {
-      "date": "2026-10-25",
-      "cle": "prog|PGL Masters Bucharest 2026|2026-10-25",
-      "titre": "PGL Masters Bucharest 2026 · jour 2 : les matchs du 25 octobre",
-      "resume": "Vitality bat MongolZ 2-0. 8 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "FUT 2-0 Liquid",
-        "Spirit 2-0 TYLOO",
-        "Vitality 2-0 MongolZ",
-        "BB 2-0 Nemiga",
-        "G2 0-2 Aurora",
-        "MOUZ 2-0 9z",
-        "Legacy 2-0 DENDELE"
-      ],
-      "rang": 0
     }
   ],
   "agenda": [
-    {
-      "groupe": "En cours",
-      "jour": "2026-10-24",
-      "equipes": "PGL Masters Bucharest 2026",
-      "tournoi": "jusqu'au 31 octobre · Bucarest"
-    },
     {
       "groupe": "En cours",
       "jour": "2026-10-31",
@@ -454,10 +488,22 @@
       "tournoi": "jusqu'au 1er novembre · Buenos Aires"
     },
     {
+      "groupe": "En cours",
+      "jour": "2026-10-29",
+      "equipes": "XSE Pro League Luoyang 2026",
+      "tournoi": "jusqu'au 1er novembre · Luoyang"
+    },
+    {
       "groupe": "À venir",
       "jour": "2026-11-02",
       "equipes": "Intel Extreme Masters Beijing 2026",
       "tournoi": "dès le 2 novembre · Pékin"
+    },
+    {
+      "groupe": "À venir",
+      "jour": "2026-11-11",
+      "equipes": "BLAST Rivals Fall 2026",
+      "tournoi": "dès le 11 novembre · Chek Lap Kok"
     },
     {
       "groupe": "À venir",
@@ -470,16 +516,10 @@
       "jour": "2026-11-04",
       "equipes": "CCT Europe 2026 Series #13",
       "tournoi": "dès le 4 novembre"
-    },
-    {
-      "groupe": "À venir",
-      "jour": "2026-11-10",
-      "equipes": "CCT Europe 2026 Series #14",
-      "tournoi": "dès le 10 novembre"
     }
   ],
-  "maj": "2026-10-31",
-  "collecte": "2026-10-31",
+  "maj": "2026-11-01",
+  "collecte": "2026-11-01",
   "envoi_en_attente": false,
   "chaine": {
     "handle": "@Mexic_Original",
@@ -730,102 +770,6 @@
         }
       },
       "etape": "jour 2",
-      "tier": "S"
-    },
-    "PGL Masters Bucharest 2026|2026-10-24": {
-      "nom": "PGL Masters Bucharest 2026",
-      "jour": "2026-10-24",
-      "matchs": {
-        "G2 Esports|Natus Vincere": {
-          "ts": 1792858500,
-          "t1": "G2 Esports",
-          "t2": "Natus Vincere",
-          "t1_court": "G2",
-          "t2_court": "NAVI",
-          "bo": 3,
-          "phase": "",
-          "s1": 0,
-          "s2": 2
-        },
-        "Legacy|Nemiga Gaming": {
-          "ts": 1792846200,
-          "t1": "Legacy",
-          "t2": "Nemiga Gaming",
-          "t1_court": "Legacy",
-          "t2_court": "Nemiga",
-          "bo": 3,
-          "phase": "",
-          "s1": 0,
-          "s2": 2
-        },
-        "MOUZ|Team Liquid": {
-          "ts": 1792833300,
-          "t1": "MOUZ",
-          "t2": "Team Liquid",
-          "t1_court": "MOUZ",
-          "t2_court": "Liquid",
-          "bo": 3,
-          "phase": "",
-          "s1": 1,
-          "s2": 2
-        },
-        "FUT Esports|TYLOO": {
-          "ts": 1792825200,
-          "t1": "FUT Esports",
-          "t2": "TYLOO",
-          "t1_court": "FUT",
-          "t2_court": "TYLOO",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        },
-        "Aurora Gaming|The MongolZ": {
-          "ts": 1792825200,
-          "t1": "Aurora Gaming",
-          "t2": "The MongolZ",
-          "t1_court": "Aurora",
-          "t2_court": "MongolZ",
-          "bo": 3,
-          "phase": "",
-          "s1": 1,
-          "s2": 2
-        },
-        "DENDELE CS|FURIA": {
-          "ts": 1792858200,
-          "t1": "FURIA",
-          "t2": "DENDELE CS",
-          "t1_court": "FURIA",
-          "t2_court": "DENDELE",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        },
-        "9z Team|Team Vitality": {
-          "ts": 1792850400,
-          "t1": "Team Vitality",
-          "t2": "9z Team",
-          "t1_court": "Vitality",
-          "t2_court": "9z",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        },
-        "BetBoom Team|Team Spirit": {
-          "ts": 1792838100,
-          "t1": "Team Spirit",
-          "t2": "BetBoom Team",
-          "t1_court": "Spirit",
-          "t2_court": "BB",
-          "bo": 3,
-          "phase": "",
-          "s1": 1,
-          "s2": 2
-        }
-      },
-      "etape": "jour 1",
       "tier": "S"
     },
     "PGL Masters Bucharest 2026|2026-10-27": {
@@ -1249,14 +1193,170 @@
           "t1_court": "NRG",
           "t2_court": "Wildcard",
           "bo": 3,
+          "phase": "",
+          "s1": 1,
+          "s2": 2
+        }
+      },
+      "etape": "",
+      "tier": ""
+    },
+    "FiReSPORTS Last Chance '26 - Playoffs|2026-11-01": {
+      "nom": "FiReSPORTS Last Chance '26 - Playoffs",
+      "jour": "2026-11-01",
+      "matchs": {
+        "BARCA esports (page does not exist)|Wildcard": {
+          "ts": 1793552400,
+          "t1": "Wildcard",
+          "t2": "BARCA esports (page does not exist)",
+          "t1_court": "Wildcard",
+          "t2_court": "BARCA",
+          "bo": 3,
           "phase": ""
+        }
+      },
+      "etape": "",
+      "tier": ""
+    },
+    "Intel Extreme Masters Beijing 2026|2026-11-02": {
+      "nom": "Intel Extreme Masters Beijing 2026",
+      "jour": "2026-11-02",
+      "matchs": {
+        "Legacy|The MongolZ": {
+          "ts": 1793584800,
+          "t1": "Legacy",
+          "t2": "The MongolZ",
+          "t1_court": "Legacy",
+          "t2_court": "MongolZ",
+          "bo": 3,
+          "phase": "playoffs"
+        },
+        "B8|HEROIC": {
+          "ts": 1793584800,
+          "t1": "HEROIC",
+          "t2": "B8",
+          "t1_court": "HEROIC",
+          "t2_court": "B8",
+          "bo": 3,
+          "phase": "playoffs"
+        },
+        "Aurora Gaming|Team Liquid": {
+          "ts": 1793593800,
+          "t1": "Aurora Gaming",
+          "t2": "Team Liquid",
+          "t1_court": "Aurora",
+          "t2_court": "Liquid",
+          "bo": 3,
+          "phase": "playoffs"
+        },
+        "G2 Esports|PARIVISION": {
+          "ts": 1793593800,
+          "t1": "PARIVISION",
+          "t2": "G2 Esports",
+          "t1_court": "PV",
+          "t2_court": "G2",
+          "bo": 3,
+          "phase": "playoffs"
+        },
+        "FURIA|FaZe Clan": {
+          "ts": 1793602800,
+          "t1": "FURIA",
+          "t2": "FaZe Clan",
+          "t1_court": "FURIA",
+          "t2_court": "FaZe",
+          "bo": 3,
+          "phase": "playoffs"
+        },
+        "9z Team|BetBoom Team": {
+          "ts": 1793602800,
+          "t1": "9z Team",
+          "t2": "BetBoom Team",
+          "t1_court": "9z",
+          "t2_court": "BB",
+          "bo": 3,
+          "phase": "playoffs"
+        },
+        "Natus Vincere|Team Falcons": {
+          "ts": 1793611800,
+          "t1": "Natus Vincere",
+          "t2": "Team Falcons",
+          "t1_court": "NAVI",
+          "t2_court": "Falcons",
+          "bo": 3,
+          "phase": "playoffs"
+        },
+        "MOUZ|TYLOO": {
+          "ts": 1793611800,
+          "t1": "MOUZ",
+          "t2": "TYLOO",
+          "t1_court": "MOUZ",
+          "t2_court": "TYLOO",
+          "bo": 3,
+          "phase": "playoffs"
+        }
+      },
+      "etape": "jour 1",
+      "tier": "S"
+    },
+    "PGL Masters Bucharest 2026 - Playoffs|2026-10-31": {
+      "nom": "PGL Masters Bucharest 2026 - Playoffs",
+      "jour": "2026-10-31",
+      "matchs": {
+        "MOUZ|Team Vitality": {
+          "ts": 1793433600,
+          "t1": "MOUZ",
+          "t2": "Team Vitality",
+          "t1_court": "MOUZ",
+          "t2_court": "Vitality",
+          "bo": 3,
+          "phase": "",
+          "s1": 2,
+          "s2": 0
+        }
+      },
+      "etape": "",
+      "tier": ""
+    },
+    "PGL Masters Bucharest 2026 - Playoffs|2026-10-30": {
+      "nom": "PGL Masters Bucharest 2026 - Playoffs",
+      "jour": "2026-10-30",
+      "matchs": {
+        "Nemiga Gaming|Team Vitality": {
+          "ts": 1793361600,
+          "t1": "Team Vitality",
+          "t2": "Nemiga Gaming",
+          "t1_court": "Vitality",
+          "t2_court": "Nemiga",
+          "bo": 3,
+          "phase": "",
+          "s1": 0,
+          "s2": 2
+        }
+      },
+      "etape": "",
+      "tier": ""
+    },
+    "PGL Masters Bucharest 2026 - Playoffs|2026-10-29": {
+      "nom": "PGL Masters Bucharest 2026 - Playoffs",
+      "jour": "2026-10-29",
+      "matchs": {
+        "Natus Vincere|Team Vitality": {
+          "ts": 1793268900,
+          "t1": "Team Vitality",
+          "t2": "Natus Vincere",
+          "t1_court": "Vitality",
+          "t2_court": "NAVI",
+          "bo": 3,
+          "phase": "",
+          "s1": 2,
+          "s2": 1
         }
       },
       "etape": "",
       "tier": ""
     }
   },
-  "maj_heure": "19:45",
+  "maj_heure": "07:30",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
@@ -1291,6 +1391,17 @@
     "r|Hacha Esports (page does not exist)|Wildcard|1793464800",
     "r|FURIA|Nemiga Gaming|1793444400",
     "a|NRG|Wildcard|2026-10-31",
-    "a|Alter Ego|FlyQuest|2026-11-01"
+    "a|Alter Ego|FlyQuest|2026-11-01",
+    "r|Imperial Esports|Low Cortisol (page does not exist)|1793487600",
+    "a|DENDELE CS|Imperial Esports|2026-11-01",
+    "a|BARCA esports (page does not exist)|Wildcard|2026-11-01",
+    "a|Legacy|The MongolZ|2026-11-02",
+    "a|B8|HEROIC|2026-11-02",
+    "a|FURIA|FaZe Clan|2026-11-02",
+    "a|Natus Vincere|Team Falcons|2026-11-02",
+    "a|Aurora Gaming|Team Liquid|2026-11-02",
+    "a|G2 Esports|PARIVISION|2026-11-02",
+    "a|9z Team|BetBoom Team|2026-11-02",
+    "a|MOUZ|TYLOO|2026-11-02"
   ]
 }
