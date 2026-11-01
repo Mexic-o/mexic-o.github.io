@@ -129,6 +129,8 @@ def _rendre(nom, lignes):
     infos = [l for _, c, l in lignes if c == 2]
     if infos:
         blocs.append("\n".join(infos))
+    # les équipes sans page Liquipedia gardent ce suffixe dans la source : on le retire
+    blocs = [b.replace(" (page does not exist)", "") for b in blocs]
     # un espace invisible en tête : Discord garde la ligne vide entre deux messages
     return "\u200b\n" + "\n\n".join(blocs)
 
