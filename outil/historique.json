@@ -22,11 +22,12 @@
       "date": "2026-11-01",
       "cle": "prog|FiReSPORTS Last Chance '26 - Playoffs|2026-11-01",
       "titre": "FiReSPORTS Last Chance '26 - Playoffs : les matchs du 1er novembre",
-      "resume": "0 match joué, 1 à venir. Heures de Paris.",
+      "resume": "Wildcard bat BARCA 2-0. 1 match joué, 1 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "18:00 · Wildcard vs BARCA"
+        "Wildcard 2-0 BARCA",
+        "21:30 · 100T vs Wildcard"
       ],
       "rang": 2
     },
@@ -1221,11 +1222,22 @@
       "jour": "2026-11-01",
       "matchs": {
         "BARCA esports (page does not exist)|Wildcard": {
-          "ts": 1793552400,
+          "ts": 1793550900,
           "t1": "Wildcard",
           "t2": "BARCA esports (page does not exist)",
           "t1_court": "Wildcard",
           "t2_court": "BARCA",
+          "bo": 3,
+          "phase": "",
+          "s1": 2,
+          "s2": 0
+        },
+        "100 Thieves|Wildcard": {
+          "ts": 1793565000,
+          "t1": "100 Thieves",
+          "t2": "Wildcard",
+          "t1_court": "100T",
+          "t2_court": "Wildcard",
           "bo": 3,
           "phase": ""
         }
@@ -1371,7 +1383,7 @@
       "tier": ""
     }
   },
-  "maj_heure": "17:12",
+  "maj_heure": "20:06",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
@@ -1419,6 +1431,8 @@
     "a|9z Team|BetBoom Team|2026-11-02",
     "a|MOUZ|TYLOO|2026-11-02",
     "r|1w Team|HOTU|1793538000",
-    "r|Alter Ego|FlyQuest|1793502000"
+    "r|Alter Ego|FlyQuest|1793502000",
+    "r|BARCA esports (page does not exist)|Wildcard|1793550900",
+    "a|100 Thieves|Wildcard|2026-11-01"
   ]
 }

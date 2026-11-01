@@ -1,6 +1,6 @@
 {
   "maj": "2026-11-01",
-  "maj_heure": "17:12",
+  "maj_heure": "20:06",
   "semaine": "",
   "video": "",
   "articles": [
@@ -24,11 +24,12 @@
     {
       "date": "2026-11-01",
       "titre": "FiReSPORTS Last Chance '26 - Playoffs : les matchs du 1er novembre",
-      "resume": "0 match joué, 1 à venir. Heures de Paris.",
+      "resume": "Wildcard bat BARCA 2-0. 1 match joué, 1 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "18:00 · Wildcard vs BARCA"
+        "Wildcard 2-0 BARCA",
+        "21:30 · 100T vs Wildcard"
       ],
       "rang": 2
     },
