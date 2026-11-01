@@ -1,6 +1,6 @@
 {
   "maj": "2026-11-01",
-  "maj_heure": "07:30",
+  "maj_heure": "17:12",
   "semaine": "",
   "video": "",
   "articles": [
@@ -33,9 +33,23 @@
       "rang": 2
     },
     {
+      "date": "2026-11-01",
+      "titre": "FURIA remporte PGL Masters Bucharest 2026",
+      "resume": "PGL Masters Bucharest, c'est terminé à Bucarest : FURIA s'impose en finale contre Nemiga. Victoire 3 à 2, avec Dust2, Cache et Nuke pour FURIA. C'est son deuxième titre de l'année. Pour Nemiga, c'est une deuxième finale perdue d'affilée.",
+      "categorie": "resultats",
+      "tier": "Tier 1",
+      "cartes": [
+        "Ancient 2-13",
+        "Dust2 13-5",
+        "Cache 13-2",
+        "Mirage 11-13",
+        "Nuke 13-6"
+      ]
+    },
+    {
       "date": "2026-10-31",
       "titre": "Eternal Fire remporte Stake Ranked Episode 5",
-      "resume": "Stake Ranked Episode 5, c'est terminé à Barcelona : Eternal Fire s'impose en finale contre Fnatic. Victoire 3 à 2, avec Cache, Dust2 et Mirage pour Eternal Fire.",
+      "resume": "Du côté de Stake Ranked Episode 5, c'est Eternal Fire qui l'emporte face à Fnatic. Victoire 3 à 2, avec Cache, Dust2 et Mirage pour Eternal Fire.",
       "categorie": "resultats",
       "tier": "Tier 1",
       "cartes": [
@@ -88,7 +102,7 @@
     },
     {
       "date": "2026-10-31",
-      "titre": "PGL Masters Bucharest 2026 · dernier jour · playoffs : les matchs du 31 octobre",
+      "titre": "PGL Masters Bucharest 2026 · dernier jour : les matchs du 31 octobre",
       "resume": "MOUZ bat Vitality 2-0. 2 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
@@ -141,12 +155,6 @@
         "Dust2 13-6",
         "Nuke 13-9"
       ]
-    },
-    {
-      "date": "2026-10-30",
-      "titre": "NeLix, Ziivio +3 rejoignent HDC LAB",
-      "resume": "",
-      "categorie": "fr"
     }
   ],
   "matchs": [

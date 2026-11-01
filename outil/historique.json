@@ -31,10 +31,25 @@
       "rang": 2
     },
     {
+      "date": "2026-11-01",
+      "cle": "res|PGL Masters Bucharest 2026|FURIA",
+      "titre": "FURIA remporte PGL Masters Bucharest 2026",
+      "resume": "PGL Masters Bucharest, c'est terminé à Bucarest : FURIA s'impose en finale contre Nemiga. Victoire 3 à 2, avec Dust2, Cache et Nuke pour FURIA. C'est son deuxième titre de l'année. Pour Nemiga, c'est une deuxième finale perdue d'affilée.",
+      "categorie": "resultats",
+      "tier": "Tier 1",
+      "cartes": [
+        "Ancient 2-13",
+        "Dust2 13-5",
+        "Cache 13-2",
+        "Mirage 11-13",
+        "Nuke 13-6"
+      ]
+    },
+    {
       "date": "2026-10-31",
       "cle": "res|Stake Ranked Episode 5|Eternal Fire",
       "titre": "Eternal Fire remporte Stake Ranked Episode 5",
-      "resume": "Stake Ranked Episode 5, c'est terminé à Barcelona : Eternal Fire s'impose en finale contre Fnatic. Victoire 3 à 2, avec Cache, Dust2 et Mirage pour Eternal Fire.",
+      "resume": "Du côté de Stake Ranked Episode 5, c'est Eternal Fire qui l'emporte face à Fnatic. Victoire 3 à 2, avec Cache, Dust2 et Mirage pour Eternal Fire.",
       "categorie": "resultats",
       "tier": "Tier 1",
       "cartes": [
@@ -93,7 +108,7 @@
     {
       "date": "2026-10-31",
       "cle": "prog|PGL Masters Bucharest 2026|2026-10-31",
-      "titre": "PGL Masters Bucharest 2026 · dernier jour · playoffs : les matchs du 31 octobre",
+      "titre": "PGL Masters Bucharest 2026 · dernier jour : les matchs du 31 octobre",
       "resume": "MOUZ bat Vitality 2-0. 2 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
@@ -181,7 +196,7 @@
     {
       "date": "2026-10-30",
       "cle": "prog|PGL Masters Bucharest 2026|2026-10-30",
-      "titre": "PGL Masters Bucharest 2026 · jour 7 · playoffs : les matchs du 30 octobre",
+      "titre": "PGL Masters Bucharest 2026 · jour 7 : les matchs du 30 octobre",
       "resume": "Nemiga bat Vitality 2-0. 2 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
@@ -235,7 +250,7 @@
     {
       "date": "2026-10-29",
       "cle": "prog|PGL Masters Bucharest 2026|2026-10-29",
-      "titre": "PGL Masters Bucharest 2026 · jour 6 · playoffs : les matchs du 29 octobre",
+      "titre": "PGL Masters Bucharest 2026 · jour 6 : les matchs du 29 octobre",
       "resume": "Vitality bat NAVI 2-1. 4 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
@@ -278,7 +293,7 @@
       "date": "2026-10-28",
       "cle": "res|NODWIN Clutch Series #13|FOKUS",
       "titre": "FOKUS remporte NODWIN Clutch Series #13",
-      "resume": "FOKUS gagne l'édition 13 de NODWIN Clutch, contre BRUTE. Victoire 2 à 1, avec Mirage et Nuke pour FOKUS.",
+      "resume": "Du côté de l'édition 13 de NODWIN Clutch, c'est FOKUS qui l'emporte face à BRUTE. Victoire 2 à 1, avec Mirage et Nuke pour FOKUS.",
       "categorie": "resultats",
       "tier": "Tier 2",
       "cartes": [
@@ -414,7 +429,7 @@
       "date": "2026-10-26",
       "cle": "res|CCT Europe 2026 Series #11|ex-Zero Tenacity",
       "titre": "ex-Zero Tenacity remporte CCT Europe 2026 Series #11",
-      "resume": "Du côté de l'édition 11 de CCT Europe, c'est ex-Zero Tenacity qui l'emporte face à Acend.",
+      "resume": "ex-Zero Tenacity gagne l'édition 11 de CCT Europe, contre Acend.",
       "categorie": "resultats",
       "tier": "Tier 2"
     },
@@ -950,7 +965,7 @@
           "t1_court": "Nemiga",
           "t2_court": "FUT",
           "bo": 3,
-          "phase": "playoffs",
+          "phase": "",
           "s1": 2,
           "s2": 0
         },
@@ -961,7 +976,7 @@
           "t1_court": "Vitality",
           "t2_court": "NAVI",
           "bo": 3,
-          "phase": "playoffs",
+          "phase": "",
           "s1": 2,
           "s2": 1
         },
@@ -972,7 +987,7 @@
           "t1_court": "MOUZ",
           "t2_court": "Aurora",
           "bo": 3,
-          "phase": "playoffs",
+          "phase": "",
           "s1": 2,
           "s2": 0
         },
@@ -983,7 +998,7 @@
           "t1_court": "BB",
           "t2_court": "FURIA",
           "bo": 3,
-          "phase": "playoffs",
+          "phase": "",
           "s1": 0,
           "s2": 2
         }
@@ -1084,7 +1099,7 @@
           "t1_court": "Vitality",
           "t2_court": "Nemiga",
           "bo": 3,
-          "phase": "playoffs",
+          "phase": "",
           "s1": 0,
           "s2": 2
         },
@@ -1095,7 +1110,7 @@
           "t1_court": "FURIA",
           "t2_court": "MOUZ",
           "bo": 3,
-          "phase": "playoffs",
+          "phase": "",
           "s1": 2,
           "s2": 1
         }
@@ -1144,7 +1159,7 @@
           "t1_court": "MOUZ",
           "t2_court": "Vitality",
           "bo": 3,
-          "phase": "playoffs",
+          "phase": "",
           "s1": 2,
           "s2": 0
         },
@@ -1155,7 +1170,7 @@
           "t1_court": "FURIA",
           "t2_court": "Nemiga",
           "bo": 5,
-          "phase": "playoffs",
+          "phase": "",
           "s1": 3,
           "s2": 2
         }
@@ -1356,7 +1371,7 @@
       "tier": ""
     }
   },
-  "maj_heure": "07:30",
+  "maj_heure": "17:12",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
@@ -1402,6 +1417,8 @@
     "a|Aurora Gaming|Team Liquid|2026-11-02",
     "a|G2 Esports|PARIVISION|2026-11-02",
     "a|9z Team|BetBoom Team|2026-11-02",
-    "a|MOUZ|TYLOO|2026-11-02"
+    "a|MOUZ|TYLOO|2026-11-02",
+    "r|1w Team|HOTU|1793538000",
+    "r|Alter Ego|FlyQuest|1793502000"
   ]
 }
