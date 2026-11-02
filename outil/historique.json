@@ -19,23 +19,26 @@
       "rang": 3
     },
     {
-      "date": "2026-11-01",
-      "cle": "prog|FiReSPORTS Last Chance '26 - Playoffs|2026-11-01",
-      "titre": "FiReSPORTS Last Chance '26 - Playoffs : les matchs du 1er novembre",
-      "resume": "Wildcard bat BARCA 2-0. 1 match joué, 1 à venir. Heures de Paris.",
+      "date": "2026-11-02",
+      "cle": "debut|Intel Extreme Masters Beijing 2026",
+      "titre": "Intel Extreme Masters Beijing 2026 a commencé",
+      "resume": "Le tournoi se joue à Pékin, jusqu'au 8 novembre, 1 250 000 $ en jeu.",
       "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "Wildcard 2-0 BARCA",
-        "21:30 · 100T vs Wildcard"
-      ],
-      "rang": 2
+      "tier": "Tier 1"
+    },
+    {
+      "date": "2026-11-02",
+      "cle": "res|Moscow Cyber Games 2026|1w Team",
+      "titre": "1w Team remporte Moscow Cyber Games 2026",
+      "resume": "On commence par le dernier résultat : 1w Team gagne Moscow Cyber Games à Moscou, contre HOTU en finale.",
+      "categorie": "resultats",
+      "tier": "Tier 2"
     },
     {
       "date": "2026-11-01",
       "cle": "res|PGL Masters Bucharest 2026|FURIA",
       "titre": "FURIA remporte PGL Masters Bucharest 2026",
-      "resume": "PGL Masters Bucharest, c'est terminé à Bucarest : FURIA s'impose en finale contre Nemiga. Victoire 3 à 2, avec Dust2, Cache et Nuke pour FURIA. C'est son deuxième titre de l'année. Pour Nemiga, c'est une deuxième finale perdue d'affilée.",
+      "resume": "FURIA remporte PGL Masters Bucharest à Bucarest, face à Nemiga en finale. Victoire 3 à 2, avec Dust2, Cache et Nuke pour FURIA. C'est son deuxième titre de l'année. Pour Nemiga, c'est une deuxième finale perdue d'affilée.",
       "categorie": "resultats",
       "tier": "Tier 1",
       "cartes": [
@@ -47,10 +50,23 @@
       ]
     },
     {
+      "date": "2026-11-01",
+      "cle": "prog|FiReSPORTS Last Chance '26 - Playoffs|2026-11-01",
+      "titre": "FiReSPORTS Last Chance '26 - Playoffs : les matchs du 1er novembre",
+      "resume": "Wildcard bat BARCA 2-0. 100T bat Wildcard 2-0. 2 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "Wildcard 2-0 BARCA",
+        "100T 2-0 Wildcard"
+      ],
+      "rang": 0
+    },
+    {
       "date": "2026-10-31",
       "cle": "res|Stake Ranked Episode 5|Eternal Fire",
       "titre": "Eternal Fire remporte Stake Ranked Episode 5",
-      "resume": "Du côté de Stake Ranked Episode 5, c'est Eternal Fire qui l'emporte face à Fnatic. Victoire 3 à 2, avec Cache, Dust2 et Mirage pour Eternal Fire.",
+      "resume": "Eternal Fire gagne Stake Ranked Episode 5, contre Fnatic. Victoire 3 à 2, avec Cache, Dust2 et Mirage pour Eternal Fire.",
       "categorie": "resultats",
       "tier": "Tier 1",
       "cartes": [
@@ -159,7 +175,7 @@
       "date": "2026-10-30",
       "cle": "res|Tesla Cup 2026|HOTU",
       "titre": "HOTU remporte Tesla Cup 2026",
-      "resume": "On commence par le dernier résultat : HOTU gagne Tesla Cup à Belgrade, contre GamerLegion en finale. Victoire 2 à 0, avec Dust2 et Nuke pour HOTU.",
+      "resume": "Du côté de Tesla Cup, c'est HOTU qui l'emporte face à GamerLegion. Victoire 2 à 0, avec Dust2 et Nuke pour HOTU.",
       "categorie": "resultats",
       "tier": "Tier 2",
       "cartes": [
@@ -395,125 +411,14 @@
         "Vitality 2-0 NAVI"
       ],
       "rang": 0
-    },
-    {
-      "date": "2026-10-26",
-      "cle": "res|Thunderpick World Championship 2026|FURIA",
-      "titre": "FURIA remporte Thunderpick World Championship 2026",
-      "resume": "Thunderpick World Championship, c'est terminé à Attard : FURIA s'impose en finale contre BetBoom Team. Victoire 3 à 2, avec Dust2, Mirage et Cache pour FURIA. Pour BetBoom Team, c'est une deuxième finale perdue d'affilée.",
-      "categorie": "resultats",
-      "tier": "Tier 1",
-      "cartes": [
-        "Dust2 13-6",
-        "Ancient 16-19",
-        "Nuke 9-13",
-        "Mirage 13-11",
-        "Cache 13-6"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "cle": "res|CIS LAN Championship #9|Virtus.pro",
-      "titre": "Virtus.pro remporte CIS LAN Championship #9",
-      "resume": "Du côté de l'édition 9 de CIS LAN Championship, c'est Virtus.pro qui l'emporte face à Nemesis. Victoire 3 à 2, avec Mirage, Dust2 et Nuke pour Virtus.pro.",
-      "categorie": "resultats",
-      "tier": "Tier 2",
-      "cartes": [
-        "Cache 7-13",
-        "Mirage 13-10",
-        "Ancient 7-13",
-        "Dust2 13-11",
-        "Nuke 13-8"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "cle": "res|CCT Europe 2026 Series #11|ex-Zero Tenacity",
-      "titre": "ex-Zero Tenacity remporte CCT Europe 2026 Series #11",
-      "resume": "ex-Zero Tenacity gagne l'édition 11 de CCT Europe, contre Acend.",
-      "categorie": "resultats",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-10-26",
-      "cle": "res|Logitech G Pro Series 2026|NEXVOID",
-      "titre": "NEXVOID remporte Logitech G Pro Series 2026",
-      "resume": "NEXVOID gagne Logitech G Pro Series, contre FlyQuest. Victoire 2 à 1, avec Ancient et Inferno pour NEXVOID.",
-      "categorie": "resultats",
-      "tier": "Tier 2",
-      "cartes": [
-        "Ancient 13-7",
-        "Dust2 6-13",
-        "Inferno 13-11"
-      ]
-    },
-    {
-      "date": "2026-10-26",
-      "cle": "tr|teme, millert +3|ENCE|libre|",
-      "titre": "teme, millert +3 quittent ENCE",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-10-26",
-      "cle": "tr|allu|ENCE||coach parti",
-      "titre": "allu n'est plus le coach d'ENCE",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-10-26",
-      "cle": "tr|lampada|HOTU|libre|",
-      "titre": "lampada quitte HOTU",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-10-26",
-      "cle": "prog|PGL Masters Bucharest 2026|2026-10-26",
-      "titre": "PGL Masters Bucharest 2026 · jour 3 : les matchs du 26 octobre",
-      "resume": "FUT bat Vitality 2-1. 8 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "MongolZ 0-2 MOUZ",
-        "Nemiga 0-2 Aurora",
-        "Vitality 1-2 FUT",
-        "9z 1-2 TYLOO",
-        "Spirit 2-1 FURIA",
-        "Liquid 2-0 Legacy",
-        "G2 1-2 DENDELE"
-      ],
-      "rang": 0
     }
   ],
   "agenda": [
     {
       "groupe": "En cours",
-      "jour": "2026-10-31",
-      "equipes": "Moscow Cyber Games 2026",
-      "tournoi": "jusqu'au 1er novembre · Moscou"
-    },
-    {
-      "groupe": "En cours",
-      "jour": "2026-10-29",
-      "equipes": "FiReSPORTS Last Chance 2026",
-      "tournoi": "jusqu'au 1er novembre · Buenos Aires"
-    },
-    {
-      "groupe": "En cours",
-      "jour": "2026-10-29",
-      "equipes": "XSE Pro League Luoyang 2026",
-      "tournoi": "jusqu'au 1er novembre · Luoyang"
-    },
-    {
-      "groupe": "À venir",
       "jour": "2026-11-02",
       "equipes": "Intel Extreme Masters Beijing 2026",
-      "tournoi": "dès le 2 novembre · Pékin"
+      "tournoi": "jusqu'au 8 novembre · Pékin"
     },
     {
       "groupe": "À venir",
@@ -532,10 +437,16 @@
       "jour": "2026-11-04",
       "equipes": "CCT Europe 2026 Series #13",
       "tournoi": "dès le 4 novembre"
+    },
+    {
+      "groupe": "À venir",
+      "jour": "2026-11-10",
+      "equipes": "CCT Europe 2026 Series #14",
+      "tournoi": "dès le 10 novembre"
     }
   ],
-  "maj": "2026-11-01",
-  "collecte": "2026-11-01",
+  "maj": "2026-11-02",
+  "collecte": "2026-11-02",
   "envoi_en_attente": false,
   "chaine": {
     "handle": "@Mexic_Original",
@@ -691,102 +602,6 @@
       },
       "etape": "jour 1",
       "tier": "A"
-    },
-    "PGL Masters Bucharest 2026|2026-10-25": {
-      "nom": "PGL Masters Bucharest 2026",
-      "jour": "2026-10-25",
-      "matchs": {
-        "FURIA|Natus Vincere": {
-          "ts": 1792943100,
-          "t1": "FURIA",
-          "t2": "Natus Vincere",
-          "t1_court": "FURIA",
-          "t2_court": "NAVI",
-          "bo": 3,
-          "phase": "",
-          "s1": 0,
-          "s2": 2
-        },
-        "BetBoom Team|Nemiga Gaming": {
-          "ts": 1792922400,
-          "t1": "BetBoom Team",
-          "t2": "Nemiga Gaming",
-          "t1_court": "BB",
-          "t2_court": "Nemiga",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        },
-        "Team Vitality|The MongolZ": {
-          "ts": 1792921200,
-          "t1": "Team Vitality",
-          "t2": "The MongolZ",
-          "t1_court": "Vitality",
-          "t2_court": "MongolZ",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        },
-        "FUT Esports|Team Liquid": {
-          "ts": 1792915200,
-          "t1": "FUT Esports",
-          "t2": "Team Liquid",
-          "t1_court": "FUT",
-          "t2_court": "Liquid",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        },
-        "DENDELE CS|Legacy": {
-          "ts": 1792939800,
-          "t1": "Legacy",
-          "t2": "DENDELE CS",
-          "t1_court": "Legacy",
-          "t2_court": "DENDELE",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        },
-        "Aurora Gaming|G2 Esports": {
-          "ts": 1792933200,
-          "t1": "G2 Esports",
-          "t2": "Aurora Gaming",
-          "t1_court": "G2",
-          "t2_court": "Aurora",
-          "bo": 3,
-          "phase": "",
-          "s1": 0,
-          "s2": 2
-        },
-        "9z Team|MOUZ": {
-          "ts": 1792933200,
-          "t1": "MOUZ",
-          "t2": "9z Team",
-          "t1_court": "MOUZ",
-          "t2_court": "9z",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        },
-        "TYLOO|Team Spirit": {
-          "ts": 1792915200,
-          "t1": "Team Spirit",
-          "t2": "TYLOO",
-          "t1_court": "Spirit",
-          "t2_court": "TYLOO",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        }
-      },
-      "etape": "jour 2",
-      "tier": "S"
     },
     "PGL Masters Bucharest 2026|2026-10-27": {
       "nom": "PGL Masters Bucharest 2026",
@@ -1239,7 +1054,9 @@
           "t1_court": "100T",
           "t2_court": "Wildcard",
           "bo": 3,
-          "phase": ""
+          "phase": "",
+          "s1": 2,
+          "s2": 0
         }
       },
       "etape": "",
@@ -1383,7 +1200,7 @@
       "tier": ""
     }
   },
-  "maj_heure": "20:06",
+  "maj_heure": "07:32",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",

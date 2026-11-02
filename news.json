@@ -1,6 +1,6 @@
 {
-  "maj": "2026-11-01",
-  "maj_heure": "20:06",
+  "maj": "2026-11-02",
+  "maj_heure": "07:32",
   "semaine": "",
   "video": "",
   "articles": [
@@ -22,21 +22,23 @@
       "rang": 3
     },
     {
-      "date": "2026-11-01",
-      "titre": "FiReSPORTS Last Chance '26 - Playoffs : les matchs du 1er novembre",
-      "resume": "Wildcard bat BARCA 2-0. 1 match joué, 1 à venir. Heures de Paris.",
+      "date": "2026-11-02",
+      "titre": "Intel Extreme Masters Beijing 2026 a commencé",
+      "resume": "Le tournoi se joue à Pékin, jusqu'au 8 novembre, 1 250 000 $ en jeu.",
       "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "Wildcard 2-0 BARCA",
-        "21:30 · 100T vs Wildcard"
-      ],
-      "rang": 2
+      "tier": "Tier 1"
+    },
+    {
+      "date": "2026-11-02",
+      "titre": "1w Team remporte Moscow Cyber Games 2026",
+      "resume": "On commence par le dernier résultat : 1w Team gagne Moscow Cyber Games à Moscou, contre HOTU en finale.",
+      "categorie": "resultats",
+      "tier": "Tier 2"
     },
     {
       "date": "2026-11-01",
       "titre": "FURIA remporte PGL Masters Bucharest 2026",
-      "resume": "PGL Masters Bucharest, c'est terminé à Bucarest : FURIA s'impose en finale contre Nemiga. Victoire 3 à 2, avec Dust2, Cache et Nuke pour FURIA. C'est son deuxième titre de l'année. Pour Nemiga, c'est une deuxième finale perdue d'affilée.",
+      "resume": "FURIA remporte PGL Masters Bucharest à Bucarest, face à Nemiga en finale. Victoire 3 à 2, avec Dust2, Cache et Nuke pour FURIA. C'est son deuxième titre de l'année. Pour Nemiga, c'est une deuxième finale perdue d'affilée.",
       "categorie": "resultats",
       "tier": "Tier 1",
       "cartes": [
@@ -48,9 +50,21 @@
       ]
     },
     {
+      "date": "2026-11-01",
+      "titre": "FiReSPORTS Last Chance '26 - Playoffs : les matchs du 1er novembre",
+      "resume": "Wildcard bat BARCA 2-0. 100T bat Wildcard 2-0. 2 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "Wildcard 2-0 BARCA",
+        "100T 2-0 Wildcard"
+      ],
+      "rang": 0
+    },
+    {
       "date": "2026-10-31",
       "titre": "Eternal Fire remporte Stake Ranked Episode 5",
-      "resume": "Du côté de Stake Ranked Episode 5, c'est Eternal Fire qui l'emporte face à Fnatic. Victoire 3 à 2, avec Cache, Dust2 et Mirage pour Eternal Fire.",
+      "resume": "Eternal Fire gagne Stake Ranked Episode 5, contre Fnatic. Victoire 3 à 2, avec Cache, Dust2 et Mirage pour Eternal Fire.",
       "categorie": "resultats",
       "tier": "Tier 1",
       "cartes": [
@@ -134,54 +148,14 @@
         "NRG 1-2 Wildcard"
       ],
       "rang": 0
-    },
-    {
-      "date": "2026-10-31",
-      "titre": "PGL Masters Bucharest 2026 - Playoffs : les matchs du 31 octobre",
-      "resume": "MOUZ bat Vitality 2-0. 1 match joué, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "MOUZ 2-0 Vitality"
-      ],
-      "rang": 0
-    },
-    {
-      "date": "2026-10-30",
-      "titre": "HOTU remporte Tesla Cup 2026",
-      "resume": "On commence par le dernier résultat : HOTU gagne Tesla Cup à Belgrade, contre GamerLegion en finale. Victoire 2 à 0, avec Dust2 et Nuke pour HOTU.",
-      "categorie": "resultats",
-      "tier": "Tier 2",
-      "cartes": [
-        "Dust2 13-6",
-        "Nuke 13-9"
-      ]
     }
   ],
   "matchs": [
     {
       "groupe": "En cours",
-      "jour": "2026-10-31",
-      "equipes": "Moscow Cyber Games 2026",
-      "tournoi": "jusqu'au 1er novembre · Moscou"
-    },
-    {
-      "groupe": "En cours",
-      "jour": "2026-10-29",
-      "equipes": "FiReSPORTS Last Chance 2026",
-      "tournoi": "jusqu'au 1er novembre · Buenos Aires"
-    },
-    {
-      "groupe": "En cours",
-      "jour": "2026-10-29",
-      "equipes": "XSE Pro League Luoyang 2026",
-      "tournoi": "jusqu'au 1er novembre · Luoyang"
-    },
-    {
-      "groupe": "À venir",
       "jour": "2026-11-02",
       "equipes": "Intel Extreme Masters Beijing 2026",
-      "tournoi": "dès le 2 novembre · Pékin"
+      "tournoi": "jusqu'au 8 novembre · Pékin"
     },
     {
       "groupe": "À venir",
@@ -193,6 +167,18 @@
       "groupe": "À venir",
       "jour": "2026-11-10",
       "equipes": "NODWIN Clutch Series #14",
+      "tournoi": "dès le 10 novembre"
+    },
+    {
+      "groupe": "À venir",
+      "jour": "2026-11-04",
+      "equipes": "CCT Europe 2026 Series #13",
+      "tournoi": "dès le 4 novembre"
+    },
+    {
+      "groupe": "À venir",
+      "jour": "2026-11-10",
+      "equipes": "CCT Europe 2026 Series #14",
       "tournoi": "dès le 10 novembre"
     }
   ]
