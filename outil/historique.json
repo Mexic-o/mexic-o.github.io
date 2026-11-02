@@ -54,6 +54,18 @@
     },
     {
       "date": "2026-11-02",
+      "cle": "res|FiReSPORTS Last Chance 2026|100 Thieves",
+      "titre": "100 Thieves remporte FiReSPORTS Last Chance 2026",
+      "resume": "Du côté de FiReSPORTS Last Chance, c'est 100 Thieves qui l'emporte face à Wildcard. Victoire 2 à 0, avec Cache et Dust2 pour 100 Thieves.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "cartes": [
+        "Cache 19-16",
+        "Dust2 13-4"
+      ]
+    },
+    {
+      "date": "2026-11-02",
       "cle": "vrs|Nouveau classement du 2 novembre",
       "titre": "Classement Valve : MOUZ numéro 1",
       "resume": "Nouveau classement mondial officiel de Valve, publié le 2 novembre : MOUZ devient numéro 1, devant Vitality et FURIA. Grosse montée pour The MongolZ, qui passe de la 49e à la 17e place.",
@@ -1336,7 +1348,7 @@
       }
     }
   },
-  "maj_heure": "20:40",
+  "maj_heure": "23:56",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",

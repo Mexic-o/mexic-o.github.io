@@ -1,6 +1,6 @@
 {
   "maj": "2026-11-02",
-  "maj_heure": "20:40",
+  "maj_heure": "23:56",
   "semaine": "",
   "video": "",
   "articles": [
@@ -51,6 +51,17 @@
       "resume": "On commence par le dernier résultat : 1w Team gagne Moscow Cyber Games à Moscou, contre HOTU en finale.",
       "categorie": "resultats",
       "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-02",
+      "titre": "100 Thieves remporte FiReSPORTS Last Chance 2026",
+      "resume": "Du côté de FiReSPORTS Last Chance, c'est 100 Thieves qui l'emporte face à Wildcard. Victoire 2 à 0, avec Cache et Dust2 pour 100 Thieves.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "cartes": [
+        "Cache 19-16",
+        "Dust2 13-4"
+      ]
     },
     {
       "date": "2026-11-02",
@@ -135,13 +146,6 @@
     {
       "date": "2026-10-31",
       "titre": "tasman passe de NOVAQ à Rune Eaters",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-10-31",
-      "titre": "AdrieN passe de los kogutos à Nordic Partners",
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 2"
