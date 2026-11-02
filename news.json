@@ -1,23 +1,40 @@
 {
   "maj": "2026-11-02",
-  "maj_heure": "07:32",
+  "maj_heure": "20:40",
   "semaine": "",
   "video": "",
   "articles": [
     {
-      "date": "2026-11-02",
-      "titre": "Intel Extreme Masters Beijing 2026 · jour 1 · playoffs : les matchs du 2 novembre",
+      "date": "2026-11-03",
+      "titre": "Intel Extreme Masters Beijing 2026 · playoffs : les matchs du 3 novembre",
       "resume": "0 match joué, 8 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "03:00 · Legacy vs MongolZ",
-        "03:00 · HEROIC vs B8",
-        "05:30 · Aurora vs Liquid",
-        "05:30 · PV vs G2",
-        "08:00 · FURIA vs FaZe",
-        "08:00 · 9z vs BB",
-        "10:30 · NAVI vs Falcons"
+        "03:00 · Team Liquid vs PARIVISION",
+        "03:00 · Aurora Gaming vs G2 Esports",
+        "05:30 · MOUZ vs BetBoom Team",
+        "05:30 · TYLOO vs 9z Team",
+        "08:00 · The MongolZ vs HEROIC",
+        "08:00 · FaZe Clan vs Team Falcons",
+        "10:30 · FURIA vs Natus Vincere"
+      ],
+      "rang": 3
+    },
+    {
+      "date": "2026-11-02",
+      "titre": "Intel Extreme Masters Beijing 2026 · jour 1 · playoffs : les matchs du 2 novembre",
+      "resume": "8 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "Legacy 1-2 MongolZ",
+        "HEROIC 2-0 B8",
+        "Aurora 0-2 Liquid",
+        "PV 2-1 G2",
+        "FURIA 2-1 FaZe",
+        "9z 1-2 BB",
+        "NAVI 2-0 Falcons"
       ],
       "rang": 3
     },
@@ -33,6 +50,27 @@
       "titre": "1w Team remporte Moscow Cyber Games 2026",
       "resume": "On commence par le dernier résultat : 1w Team gagne Moscow Cyber Games à Moscou, contre HOTU en finale.",
       "categorie": "resultats",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-02",
+      "titre": "Classement Valve : MOUZ numéro 1",
+      "resume": "Nouveau classement mondial officiel de Valve, publié le 2 novembre : MOUZ devient numéro 1, devant Vitality et FURIA. Grosse montée pour The MongolZ, qui passe de la 49e à la 17e place.",
+      "categorie": "resultats",
+      "tier": "Classement"
+    },
+    {
+      "date": "2026-11-02",
+      "titre": "1NVISIBLEE, xm1nd +1 passent de lavked à Lunacy Team",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-02",
+      "titre": "mwlky rejoint PURE",
+      "resume": "",
+      "categorie": "mercato",
       "tier": "Tier 2"
     },
     {
@@ -89,6 +127,13 @@
     },
     {
       "date": "2026-10-31",
+      "titre": "nota dépanne Rune Eaters",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 1"
+    },
+    {
+      "date": "2026-10-31",
       "titre": "tasman passe de NOVAQ à Rune Eaters",
       "resume": "",
       "categorie": "mercato",
@@ -100,54 +145,6 @@
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 2"
-    },
-    {
-      "date": "2026-10-31",
-      "titre": "nota dépanne Rune Eaters",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-10-31",
-      "titre": "buster et SNk quittent DEPO",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-10-31",
-      "titre": "PGL Masters Bucharest 2026 · dernier jour : les matchs du 31 octobre",
-      "resume": "MOUZ bat Vitality 2-0. 2 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "MOUZ 2-0 Vitality",
-        "FURIA 3-2 Nemiga"
-      ],
-      "rang": 0
-    },
-    {
-      "date": "2026-10-31",
-      "titre": "FiReSPORTS Last Chance '26 - Group D : les matchs du 31 octobre",
-      "resume": "Wildcard bat Hacha 2-0. 1 match joué, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "Wildcard 2-0 Hacha"
-      ],
-      "rang": 0
-    },
-    {
-      "date": "2026-10-31",
-      "titre": "FiReSPORTS Last Chance '26 - Playoffs : les matchs du 31 octobre",
-      "resume": "Wildcard bat NRG 2-1. 1 match joué, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "NRG 1-2 Wildcard"
-      ],
-      "rang": 0
     }
   ],
   "matchs": [

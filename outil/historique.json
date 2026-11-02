@@ -1,20 +1,38 @@
 {
   "articles": [
     {
-      "date": "2026-11-02",
-      "cle": "prog|Intel Extreme Masters Beijing 2026|2026-11-02",
-      "titre": "Intel Extreme Masters Beijing 2026 · jour 1 · playoffs : les matchs du 2 novembre",
+      "date": "2026-11-03",
+      "cle": "prog|Intel Extreme Masters Beijing 2026|2026-11-03",
+      "titre": "Intel Extreme Masters Beijing 2026 · playoffs : les matchs du 3 novembre",
       "resume": "0 match joué, 8 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "03:00 · Legacy vs MongolZ",
-        "03:00 · HEROIC vs B8",
-        "05:30 · Aurora vs Liquid",
-        "05:30 · PV vs G2",
-        "08:00 · FURIA vs FaZe",
-        "08:00 · 9z vs BB",
-        "10:30 · NAVI vs Falcons"
+        "03:00 · Team Liquid vs PARIVISION",
+        "03:00 · Aurora Gaming vs G2 Esports",
+        "05:30 · MOUZ vs BetBoom Team",
+        "05:30 · TYLOO vs 9z Team",
+        "08:00 · The MongolZ vs HEROIC",
+        "08:00 · FaZe Clan vs Team Falcons",
+        "10:30 · FURIA vs Natus Vincere"
+      ],
+      "rang": 3
+    },
+    {
+      "date": "2026-11-02",
+      "cle": "prog|Intel Extreme Masters Beijing 2026|2026-11-02",
+      "titre": "Intel Extreme Masters Beijing 2026 · jour 1 · playoffs : les matchs du 2 novembre",
+      "resume": "8 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "Legacy 1-2 MongolZ",
+        "HEROIC 2-0 B8",
+        "Aurora 0-2 Liquid",
+        "PV 2-1 G2",
+        "FURIA 2-1 FaZe",
+        "9z 1-2 BB",
+        "NAVI 2-0 Falcons"
       ],
       "rang": 3
     },
@@ -32,6 +50,30 @@
       "titre": "1w Team remporte Moscow Cyber Games 2026",
       "resume": "On commence par le dernier résultat : 1w Team gagne Moscow Cyber Games à Moscou, contre HOTU en finale.",
       "categorie": "resultats",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-02",
+      "cle": "vrs|Nouveau classement du 2 novembre",
+      "titre": "Classement Valve : MOUZ numéro 1",
+      "resume": "Nouveau classement mondial officiel de Valve, publié le 2 novembre : MOUZ devient numéro 1, devant Vitality et FURIA. Grosse montée pour The MongolZ, qui passe de la 49e à la 17e place.",
+      "categorie": "resultats",
+      "tier": "Classement"
+    },
+    {
+      "date": "2026-11-02",
+      "cle": "tr|1NVISIBLEE, xm1nd +1|lavked|Lunacy Team|",
+      "titre": "1NVISIBLEE, xm1nd +1 passent de lavked à Lunacy Team",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-02",
+      "cle": "tr|mwlky||PURE|",
+      "titre": "mwlky rejoint PURE",
+      "resume": "",
+      "categorie": "mercato",
       "tier": "Tier 2"
     },
     {
@@ -92,6 +134,14 @@
     },
     {
       "date": "2026-10-31",
+      "cle": "tr|nota|PARIVISION|Rune Eaters|prêt",
+      "titre": "nota dépanne Rune Eaters",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 1"
+    },
+    {
+      "date": "2026-10-31",
       "cle": "tr|tasman|NOVAQ|Rune Eaters|",
       "titre": "tasman passe de NOVAQ à Rune Eaters",
       "resume": "",
@@ -102,14 +152,6 @@
       "date": "2026-10-31",
       "cle": "tr|AdrieN|los kogutos|Nordic Partners|",
       "titre": "AdrieN passe de los kogutos à Nordic Partners",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-10-31",
-      "cle": "tr|nota|PARIVISION|Rune Eaters|prêt",
-      "titre": "nota dépanne Rune Eaters",
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 2"
@@ -1073,7 +1115,9 @@
           "t1_court": "Legacy",
           "t2_court": "MongolZ",
           "bo": 3,
-          "phase": "playoffs"
+          "phase": "playoffs",
+          "s1": 1,
+          "s2": 2
         },
         "B8|HEROIC": {
           "ts": 1793584800,
@@ -1082,7 +1126,9 @@
           "t1_court": "HEROIC",
           "t2_court": "B8",
           "bo": 3,
-          "phase": "playoffs"
+          "phase": "playoffs",
+          "s1": 2,
+          "s2": 0
         },
         "Aurora Gaming|Team Liquid": {
           "ts": 1793593800,
@@ -1091,7 +1137,9 @@
           "t1_court": "Aurora",
           "t2_court": "Liquid",
           "bo": 3,
-          "phase": "playoffs"
+          "phase": "playoffs",
+          "s1": 0,
+          "s2": 2
         },
         "G2 Esports|PARIVISION": {
           "ts": 1793593800,
@@ -1100,7 +1148,9 @@
           "t1_court": "PV",
           "t2_court": "G2",
           "bo": 3,
-          "phase": "playoffs"
+          "phase": "playoffs",
+          "s1": 2,
+          "s2": 1
         },
         "FURIA|FaZe Clan": {
           "ts": 1793602800,
@@ -1109,7 +1159,9 @@
           "t1_court": "FURIA",
           "t2_court": "FaZe",
           "bo": 3,
-          "phase": "playoffs"
+          "phase": "playoffs",
+          "s1": 2,
+          "s2": 1
         },
         "9z Team|BetBoom Team": {
           "ts": 1793602800,
@@ -1118,7 +1170,9 @@
           "t1_court": "9z",
           "t2_court": "BB",
           "bo": 3,
-          "phase": "playoffs"
+          "phase": "playoffs",
+          "s1": 1,
+          "s2": 2
         },
         "Natus Vincere|Team Falcons": {
           "ts": 1793611800,
@@ -1127,7 +1181,9 @@
           "t1_court": "NAVI",
           "t2_court": "Falcons",
           "bo": 3,
-          "phase": "playoffs"
+          "phase": "playoffs",
+          "s1": 2,
+          "s2": 0
         },
         "MOUZ|TYLOO": {
           "ts": 1793611800,
@@ -1136,7 +1192,9 @@
           "t1_court": "MOUZ",
           "t2_court": "TYLOO",
           "bo": 3,
-          "phase": "playoffs"
+          "phase": "playoffs",
+          "s1": 2,
+          "s2": 0
         }
       },
       "etape": "jour 1",
@@ -1198,9 +1256,87 @@
       },
       "etape": "",
       "tier": ""
+    },
+    "Intel Extreme Masters Beijing 2026|2026-11-03": {
+      "nom": "Intel Extreme Masters Beijing 2026",
+      "jour": "2026-11-03",
+      "matchs": {
+        "HEROIC|The MongolZ": {
+          "ts": 1793689200,
+          "t1": "The MongolZ",
+          "t2": "HEROIC",
+          "t1_court": "The MongolZ",
+          "t2_court": "HEROIC",
+          "bo": "",
+          "phase": "playoffs"
+        },
+        "FURIA|Natus Vincere": {
+          "ts": 1793698200,
+          "t1": "FURIA",
+          "t2": "Natus Vincere",
+          "t1_court": "FURIA",
+          "t2_court": "Natus Vincere",
+          "bo": "",
+          "phase": "playoffs"
+        },
+        "B8|Legacy": {
+          "ts": 1793698200,
+          "t1": "Legacy",
+          "t2": "B8",
+          "t1_court": "Legacy",
+          "t2_court": "B8",
+          "bo": "",
+          "phase": "playoffs"
+        },
+        "FaZe Clan|Team Falcons": {
+          "ts": 1793689200,
+          "t1": "FaZe Clan",
+          "t2": "Team Falcons",
+          "t1_court": "FaZe Clan",
+          "t2_court": "Team Falcons",
+          "bo": "",
+          "phase": "playoffs"
+        },
+        "BetBoom Team|MOUZ": {
+          "ts": 1793680200,
+          "t1": "MOUZ",
+          "t2": "BetBoom Team",
+          "t1_court": "MOUZ",
+          "t2_court": "BetBoom Team",
+          "bo": "",
+          "phase": "playoffs"
+        },
+        "PARIVISION|Team Liquid": {
+          "ts": 1793671200,
+          "t1": "Team Liquid",
+          "t2": "PARIVISION",
+          "t1_court": "Team Liquid",
+          "t2_court": "PARIVISION",
+          "bo": "",
+          "phase": "playoffs"
+        },
+        "9z Team|TYLOO": {
+          "ts": 1793680200,
+          "t1": "TYLOO",
+          "t2": "9z Team",
+          "t1_court": "TYLOO",
+          "t2_court": "9z Team",
+          "bo": "",
+          "phase": "playoffs"
+        },
+        "Aurora Gaming|G2 Esports": {
+          "ts": 1793671200,
+          "t1": "Aurora Gaming",
+          "t2": "G2 Esports",
+          "t1_court": "Aurora Gaming",
+          "t2_court": "G2 Esports",
+          "bo": "",
+          "phase": "playoffs"
+        }
+      }
     }
   },
-  "maj_heure": "07:32",
+  "maj_heure": "20:40",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
@@ -1250,6 +1386,22 @@
     "r|1w Team|HOTU|1793538000",
     "r|Alter Ego|FlyQuest|1793502000",
     "r|BARCA esports (page does not exist)|Wildcard|1793550900",
-    "a|100 Thieves|Wildcard|2026-11-01"
+    "a|100 Thieves|Wildcard|2026-11-01",
+    "r|Legacy|The MongolZ|1793584800",
+    "r|B8|HEROIC|1793584800",
+    "r|FURIA|FaZe Clan|1793609400",
+    "r|Natus Vincere|Team Falcons|1793619900",
+    "r|MOUZ|TYLOO|1793614500",
+    "r|9z Team|BetBoom Team|1793602800",
+    "r|Aurora Gaming|Team Liquid|1793593800",
+    "r|G2 Esports|PARIVISION|1793597400",
+    "a|HEROIC|The MongolZ|2026-11-03",
+    "a|FURIA|Natus Vincere|2026-11-03",
+    "a|B8|Legacy|2026-11-03",
+    "a|FaZe Clan|Team Falcons|2026-11-03",
+    "a|BetBoom Team|MOUZ|2026-11-03",
+    "a|PARIVISION|Team Liquid|2026-11-03",
+    "a|9z Team|TYLOO|2026-11-03",
+    "a|Aurora Gaming|G2 Esports|2026-11-03"
   ]
 }
