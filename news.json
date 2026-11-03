@@ -1,40 +1,39 @@
 {
   "maj": "2026-11-03",
-  "maj_heure": "08:01",
+  "maj_heure": "18:14",
   "semaine": "",
   "video": "",
   "articles": [
     {
-      "date": "2026-11-03",
-      "titre": "Intel Extreme Masters Beijing 2026 · playoffs : les matchs du 3 novembre",
-      "resume": "0 match joué, 8 à venir. Heures de Paris.",
+      "date": "2026-11-04",
+      "titre": "Intel Extreme Masters Beijing 2026 · jour 3 · playoffs : les matchs du 4 novembre",
+      "resume": "0 match joué, 6 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "03:00 · Team Liquid vs PARIVISION",
-        "03:00 · Aurora Gaming vs G2 Esports",
-        "05:30 · MOUZ vs BetBoom Team",
-        "05:30 · TYLOO vs 9z Team",
-        "08:00 · The MongolZ vs HEROIC",
-        "08:00 · FaZe Clan vs Team Falcons",
-        "10:30 · FURIA vs Natus Vincere"
+        "03:00 · Liquid vs TYLOO",
+        "03:00 · BB vs Aurora",
+        "05:30 · NAVI vs B8",
+        "05:30 · HEROIC vs Falcons",
+        "08:00 · MOUZ vs PV",
+        "10:30 · MongolZ vs FURIA"
       ],
       "rang": 3
     },
     {
-      "date": "2026-11-02",
-      "titre": "Intel Extreme Masters Beijing 2026 · jour 1 · playoffs : les matchs du 2 novembre",
+      "date": "2026-11-03",
+      "titre": "Intel Extreme Masters Beijing 2026 · jour 2 · playoffs : les matchs du 3 novembre",
       "resume": "8 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "Legacy 1-2 MongolZ",
-        "HEROIC 2-0 B8",
-        "Aurora 0-2 Liquid",
-        "PV 2-1 G2",
-        "FURIA 2-1 FaZe",
-        "9z 1-2 BB",
-        "NAVI 2-0 Falcons"
+        "Liquid 0-2 PV",
+        "Aurora 2-1 G2",
+        "TYLOO 2-0 9z",
+        "MOUZ 2-0 BB",
+        "FaZe 1-2 Falcons",
+        "MongolZ 2-0 HEROIC",
+        "FURIA 2-1 NAVI"
       ],
       "rang": 3
     },
@@ -83,6 +82,23 @@
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-02",
+      "titre": "Intel Extreme Masters Beijing 2026 · jour 1 · playoffs : les matchs du 2 novembre",
+      "resume": "8 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "Legacy 1-2 MongolZ",
+        "HEROIC 2-0 B8",
+        "Aurora 0-2 Liquid",
+        "PV 2-1 G2",
+        "9z 1-2 BB",
+        "FURIA 2-1 FaZe",
+        "MOUZ 2-0 TYLOO"
+      ],
+      "rang": 0
     },
     {
       "date": "2026-11-01",
@@ -142,13 +158,6 @@
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 1"
-    },
-    {
-      "date": "2026-10-31",
-      "titre": "tasman passe de NOVAQ à Rune Eaters",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
     }
   ],
   "matchs": [
@@ -157,6 +166,12 @@
       "jour": "2026-11-02",
       "equipes": "Intel Extreme Masters Beijing 2026",
       "tournoi": "jusqu'au 8 novembre · Pékin"
+    },
+    {
+      "groupe": "En cours",
+      "jour": "2026-11-03",
+      "equipes": "CCT South America 2026 Series #8",
+      "tournoi": "jusqu'au 15 novembre"
     },
     {
       "groupe": "À venir",
@@ -172,15 +187,15 @@
     },
     {
       "groupe": "À venir",
-      "jour": "2026-11-04",
-      "equipes": "CCT Europe 2026 Series #13",
-      "tournoi": "dès le 4 novembre"
+      "jour": "2026-11-13",
+      "equipes": "Austin LAN 2026",
+      "tournoi": "dès le 13 novembre · Lisle"
     },
     {
       "groupe": "À venir",
-      "jour": "2026-11-10",
-      "equipes": "CCT Europe 2026 Series #14",
-      "tournoi": "dès le 10 novembre"
+      "jour": "2026-11-04",
+      "equipes": "CCT Europe 2026 Series #13",
+      "tournoi": "dès le 4 novembre"
     }
   ]
 }
