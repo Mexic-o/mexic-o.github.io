@@ -425,46 +425,6 @@
         "Spirit 1-2 NAVI"
       ],
       "rang": 0
-    },
-    {
-      "date": "2026-10-27",
-      "cle": "tr|mowzassa|SAW||coach parti",
-      "titre": "mowzassa n'est plus le coach de SAW",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-10-27",
-      "cle": "prog|Stake Ranked Episode 5|2026-10-27",
-      "titre": "Stake Ranked Episode 5 · jour 1 : les matchs du 27 octobre",
-      "resume": "4 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "BIG 2-1 magic",
-        "IC 2-0 Nemesis",
-        "Astralis 0-2 Fnatic",
-        "EF 1-2 MIBR"
-      ],
-      "rang": 0
-    },
-    {
-      "date": "2026-10-27",
-      "cle": "prog|PGL Masters Bucharest 2026|2026-10-27",
-      "titre": "PGL Masters Bucharest 2026 · jour 4 : les matchs du 27 octobre",
-      "resume": "Vitality bat NAVI 2-0. 6 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "Nemiga 2-0 DENDELE",
-        "Liquid 1-2 Aurora",
-        "MongolZ 2-0 Legacy",
-        "Spirit 1-2 MOUZ",
-        "FURIA 2-0 TYLOO",
-        "Vitality 2-0 NAVI"
-      ],
-      "rang": 0
     }
   ],
   "agenda": [
@@ -499,15 +459,23 @@
       "tournoi": "dès le 10 novembre"
     }
   ],
-  "maj": "2026-11-02",
-  "collecte": "2026-11-02",
+  "maj": "2026-11-03",
+  "collecte": "2026-11-03",
   "envoi_en_attente": false,
   "chaine": {
     "handle": "@Mexic_Original",
     "id": "UCy5wcMtn9uzq_IUt3VgTgqQ"
   },
   "video": "",
-  "erreurs": [],
+  "erreurs": [
+    "tournois S-Tier : HTTP Error 429: Too Many Requests",
+    "tournois A-Tier : HTTP Error 429: Too Many Requests",
+    "tournois B-Tier : HTTP Error 429: Too Many Requests",
+    "tournois C-Tier : HTTP Error 429: Too Many Requests",
+    "programme des matchs : HTTP Error 429: Too Many Requests",
+    "scène féminine : HTTP Error 429: Too Many Requests",
+    "transferts : HTTP Error 429: Too Many Requests"
+  ],
   "programmes": {
     "PGL Masters Bucharest 2026|2026-10-26": {
       "nom": "PGL Masters Bucharest 2026",
@@ -1348,7 +1316,7 @@
       }
     }
   },
-  "maj_heure": "23:56",
+  "maj_heure": "08:01",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
