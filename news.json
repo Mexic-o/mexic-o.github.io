@@ -1,21 +1,22 @@
 {
-  "maj": "2026-11-03",
-  "maj_heure": "21:39",
+  "maj": "2026-11-04",
+  "maj_heure": "07:48",
   "semaine": "",
   "video": "",
   "articles": [
     {
       "date": "2026-11-04",
       "titre": "Intel Extreme Masters Beijing 2026 · jour 3 · playoffs : les matchs du 4 novembre",
-      "resume": "0 match joué, 6 à venir. Heures de Paris.",
+      "resume": "4 matchs joués, 4 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "03:00 · Liquid vs TYLOO",
-        "03:00 · BB vs Aurora",
-        "05:30 · NAVI vs B8",
-        "05:30 · HEROIC vs Falcons",
+        "Liquid 2-0 TYLOO",
+        "BB 2-0 Aurora",
+        "NAVI 2-0 B8",
+        "HEROIC 0-2 Falcons",
         "08:00 · MOUZ vs PV",
+        "08:00 · Liquid vs BB",
         "10:30 · MongolZ vs FURIA"
       ],
       "rang": 3
@@ -35,7 +36,7 @@
         "MongolZ 2-0 HEROIC",
         "FURIA 2-1 NAVI"
       ],
-      "rang": 3
+      "rang": 0
     },
     {
       "date": "2026-11-02",
@@ -169,6 +170,12 @@
     },
     {
       "groupe": "En cours",
+      "jour": "2026-11-04",
+      "equipes": "CCT Europe 2026 Series #13",
+      "tournoi": "jusqu'au 16 novembre"
+    },
+    {
+      "groupe": "En cours",
       "jour": "2026-11-03",
       "equipes": "CCT South America 2026 Series #8",
       "tournoi": "jusqu'au 15 novembre"
@@ -190,12 +197,6 @@
       "jour": "2026-11-13",
       "equipes": "Austin LAN 2026",
       "tournoi": "dès le 13 novembre · Lisle"
-    },
-    {
-      "groupe": "À venir",
-      "jour": "2026-11-04",
-      "equipes": "CCT Europe 2026 Series #13",
-      "tournoi": "dès le 4 novembre"
     }
   ]
 }

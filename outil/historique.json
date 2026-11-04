@@ -4,15 +4,16 @@
       "date": "2026-11-04",
       "cle": "prog|Intel Extreme Masters Beijing 2026|2026-11-04",
       "titre": "Intel Extreme Masters Beijing 2026 · jour 3 · playoffs : les matchs du 4 novembre",
-      "resume": "0 match joué, 6 à venir. Heures de Paris.",
+      "resume": "4 matchs joués, 4 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "03:00 · Liquid vs TYLOO",
-        "03:00 · BB vs Aurora",
-        "05:30 · NAVI vs B8",
-        "05:30 · HEROIC vs Falcons",
+        "Liquid 2-0 TYLOO",
+        "BB 2-0 Aurora",
+        "NAVI 2-0 B8",
+        "HEROIC 0-2 Falcons",
         "08:00 · MOUZ vs PV",
+        "08:00 · Liquid vs BB",
         "10:30 · MongolZ vs FURIA"
       ],
       "rang": 3
@@ -33,7 +34,7 @@
         "MongolZ 2-0 HEROIC",
         "FURIA 2-1 NAVI"
       ],
-      "rang": 3
+      "rang": 0
     },
     {
       "date": "2026-11-02",
@@ -376,72 +377,6 @@
         "Vitality 2-1 NAVI"
       ],
       "rang": 0
-    },
-    {
-      "date": "2026-10-28",
-      "cle": "res|NODWIN Clutch Series #13|FOKUS",
-      "titre": "FOKUS remporte NODWIN Clutch Series #13",
-      "resume": "Du côté de l'édition 13 de NODWIN Clutch, c'est FOKUS qui l'emporte face à BRUTE. Victoire 2 à 1, avec Mirage et Nuke pour FOKUS.",
-      "categorie": "resultats",
-      "tier": "Tier 2",
-      "cartes": [
-        "Cache 11-13",
-        "Mirage 25-23",
-        "Nuke 13-10"
-      ]
-    },
-    {
-      "date": "2026-10-28",
-      "cle": "tr|ksloks||Legacy|remplaçant",
-      "titre": "ksloks dépanne Legacy",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 1"
-    },
-    {
-      "date": "2026-10-28",
-      "cle": "tr|n1ssim|Legacy|Legacy|banc",
-      "titre": "n1ssim passe sur le banc chez Legacy",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 1"
-    },
-    {
-      "date": "2026-10-28",
-      "cle": "tr|waZz|Aimclub|libre|",
-      "titre": "waZz quitte Aimclub",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-10-28",
-      "cle": "prog|Stake Ranked Episode 5|2026-10-28",
-      "titre": "Stake Ranked Episode 5 · jour 2 : les matchs du 28 octobre",
-      "resume": "4 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "Astralis 2-1 magic",
-        "Nemesis 1-2 EF",
-        "Fnatic 2-0 BIG",
-        "IC 0-2 MIBR"
-      ],
-      "rang": 0
-    },
-    {
-      "date": "2026-10-28",
-      "cle": "prog|PGL Masters Bucharest 2026|2026-10-28",
-      "titre": "PGL Masters Bucharest 2026 · jour 5 : les matchs du 28 octobre",
-      "resume": "3 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "MongolZ 0-2 Nemiga",
-        "Liquid 0-2 FURIA",
-        "Spirit 1-2 NAVI"
-      ],
-      "rang": 0
     }
   ],
   "agenda": [
@@ -450,6 +385,12 @@
       "jour": "2026-11-02",
       "equipes": "Intel Extreme Masters Beijing 2026",
       "tournoi": "jusqu'au 8 novembre · Pékin"
+    },
+    {
+      "groupe": "En cours",
+      "jour": "2026-11-04",
+      "equipes": "CCT Europe 2026 Series #13",
+      "tournoi": "jusqu'au 16 novembre"
     },
     {
       "groupe": "En cours",
@@ -477,13 +418,13 @@
     },
     {
       "groupe": "À venir",
-      "jour": "2026-11-04",
-      "equipes": "CCT Europe 2026 Series #13",
-      "tournoi": "dès le 4 novembre"
+      "jour": "2026-11-10",
+      "equipes": "CCT Europe 2026 Series #14",
+      "tournoi": "dès le 10 novembre"
     }
   ],
-  "maj": "2026-11-03",
-  "collecte": "2026-11-03",
+  "maj": "2026-11-04",
+  "collecte": "2026-11-04",
   "envoi_en_attente": false,
   "chaine": {
     "handle": "@Mexic_Original",
@@ -492,132 +433,6 @@
   "video": "",
   "erreurs": [],
   "programmes": {
-    "Stake Ranked Episode 5|2026-10-27": {
-      "nom": "Stake Ranked Episode 5",
-      "jour": "2026-10-27",
-      "matchs": {
-        "BIG|Magic": {
-          "ts": 1793098800,
-          "t1": "BIG",
-          "t2": "Magic",
-          "t1_court": "BIG",
-          "t2_court": "magic",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 1
-        },
-        "IC Esports|Team Nemesis": {
-          "ts": 1793111100,
-          "t1": "IC Esports",
-          "t2": "Team Nemesis",
-          "t1_court": "IC",
-          "t2_court": "Nemesis",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        },
-        "Astralis|Fnatic": {
-          "ts": 1793118000,
-          "t1": "Astralis",
-          "t2": "Fnatic",
-          "t1_court": "Astralis",
-          "t2_court": "Fnatic",
-          "bo": 3,
-          "phase": "",
-          "s1": 0,
-          "s2": 2
-        },
-        "Eternal Fire|MIBR": {
-          "ts": 1793124600,
-          "t1": "Eternal Fire",
-          "t2": "MIBR",
-          "t1_court": "EF",
-          "t2_court": "MIBR",
-          "bo": 3,
-          "phase": "",
-          "s1": 1,
-          "s2": 2
-        }
-      },
-      "etape": "jour 1",
-      "tier": "A"
-    },
-    "PGL Masters Bucharest 2026|2026-10-27": {
-      "nom": "PGL Masters Bucharest 2026",
-      "jour": "2026-10-27",
-      "matchs": {
-        "DENDELE CS|Nemiga Gaming": {
-          "ts": 1793098800,
-          "t1": "Nemiga Gaming",
-          "t2": "DENDELE CS",
-          "t1_court": "Nemiga",
-          "t2_court": "DENDELE",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        },
-        "Aurora Gaming|Team Liquid": {
-          "ts": 1793098800,
-          "t1": "Team Liquid",
-          "t2": "Aurora Gaming",
-          "t1_court": "Liquid",
-          "t2_court": "Aurora",
-          "bo": 3,
-          "phase": "",
-          "s1": 1,
-          "s2": 2
-        },
-        "Legacy|The MongolZ": {
-          "ts": 1793105700,
-          "t1": "The MongolZ",
-          "t2": "Legacy",
-          "t1_court": "MongolZ",
-          "t2_court": "Legacy",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        },
-        "MOUZ|Team Spirit": {
-          "ts": 1793111400,
-          "t1": "Team Spirit",
-          "t2": "MOUZ",
-          "t1_court": "Spirit",
-          "t2_court": "MOUZ",
-          "bo": 3,
-          "phase": "",
-          "s1": 1,
-          "s2": 2
-        },
-        "FURIA|TYLOO": {
-          "ts": 1793117700,
-          "t1": "FURIA",
-          "t2": "TYLOO",
-          "t1_court": "FURIA",
-          "t2_court": "TYLOO",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        },
-        "Natus Vincere|Team Vitality": {
-          "ts": 1793123400,
-          "t1": "Team Vitality",
-          "t2": "Natus Vincere",
-          "t1_court": "Vitality",
-          "t2_court": "NAVI",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        }
-      },
-      "etape": "jour 4",
-      "tier": "S"
-    },
     "Stake Ranked Episode 5|2026-10-28": {
       "nom": "Stake Ranked Episode 5",
       "jour": "2026-10-28",
@@ -1263,7 +1078,9 @@
           "t1_court": "Liquid",
           "t2_court": "TYLOO",
           "bo": 3,
-          "phase": "playoffs"
+          "phase": "playoffs",
+          "s1": 2,
+          "s2": 0
         },
         "Aurora Gaming|BetBoom Team": {
           "ts": 1793757600,
@@ -1272,25 +1089,31 @@
           "t1_court": "BB",
           "t2_court": "Aurora",
           "bo": 3,
-          "phase": "playoffs"
+          "phase": "playoffs",
+          "s1": 2,
+          "s2": 0
         },
         "B8|Natus Vincere": {
-          "ts": 1793766600,
+          "ts": 1793766900,
           "t1": "Natus Vincere",
           "t2": "B8",
           "t1_court": "NAVI",
           "t2_court": "B8",
           "bo": 3,
-          "phase": "playoffs"
+          "phase": "playoffs",
+          "s1": 2,
+          "s2": 0
         },
         "HEROIC|Team Falcons": {
-          "ts": 1793766600,
+          "ts": 1793766900,
           "t1": "HEROIC",
           "t2": "Team Falcons",
           "t1_court": "HEROIC",
           "t2_court": "Falcons",
           "bo": 3,
-          "phase": "playoffs"
+          "phase": "playoffs",
+          "s1": 0,
+          "s2": 2
         },
         "MOUZ|PARIVISION": {
           "ts": 1793775600,
@@ -1309,13 +1132,31 @@
           "t2_court": "FURIA",
           "bo": 3,
           "phase": "playoffs"
+        },
+        "BetBoom Team|Team Liquid": {
+          "ts": 1793775600,
+          "t1": "Team Liquid",
+          "t2": "BetBoom Team",
+          "t1_court": "Liquid",
+          "t2_court": "BB",
+          "bo": 3,
+          "phase": "playoffs"
+        },
+        "Natus Vincere|Team Falcons": {
+          "ts": 1793784600,
+          "t1": "Natus Vincere",
+          "t2": "Team Falcons",
+          "t1_court": "Natus Vincere",
+          "t2_court": "Team Falcons",
+          "bo": "",
+          "phase": "playoffs"
         }
       },
       "etape": "jour 3",
       "tier": "S"
     }
   },
-  "maj_heure": "21:39",
+  "maj_heure": "07:48",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
@@ -1396,6 +1237,13 @@
     "a|TYLOO|Team Liquid|2026-11-04",
     "a|Aurora Gaming|BetBoom Team|2026-11-04",
     "a|MOUZ|PARIVISION|2026-11-04",
-    "a|EYEBALLERS|Esport Academy Copenhagen|2026-11-04"
+    "a|EYEBALLERS|Esport Academy Copenhagen|2026-11-04",
+    "r|TYLOO|Team Liquid|1793757600",
+    "r|Aurora Gaming|BetBoom Team|1793757600",
+    "a|BetBoom Team|Team Liquid|2026-11-04",
+    "r|B8|Natus Vincere|1793766900",
+    "r|HEROIC|Team Falcons|1793766900",
+    "a|Natus Vincere|Team Falcons|2026-11-04",
+    "a|Natus Vincere Junior|WOPA Esport|2026-11-05"
   ]
 }
