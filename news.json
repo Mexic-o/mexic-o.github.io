@@ -1,13 +1,13 @@
 {
   "maj": "2026-11-04",
-  "maj_heure": "07:48",
+  "maj_heure": "18:26",
   "semaine": "",
   "video": "",
   "articles": [
     {
       "date": "2026-11-04",
       "titre": "Intel Extreme Masters Beijing 2026 · jour 3 · playoffs : les matchs du 4 novembre",
-      "resume": "4 matchs joués, 4 à venir. Heures de Paris.",
+      "resume": "8 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
@@ -15,11 +15,60 @@
         "BB 2-0 Aurora",
         "NAVI 2-0 B8",
         "HEROIC 0-2 Falcons",
-        "08:00 · MOUZ vs PV",
-        "08:00 · Liquid vs BB",
-        "10:30 · MongolZ vs FURIA"
+        "MOUZ 2-0 PV",
+        "Liquid 1-2 BB",
+        "MongolZ 2-1 FURIA"
       ],
       "rang": 3
+    },
+    {
+      "date": "2026-11-04",
+      "titre": "ksloks dépanne Legacy",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 1"
+    },
+    {
+      "date": "2026-11-04",
+      "titre": "n1ssim passe sur le banc chez Legacy",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 1"
+    },
+    {
+      "date": "2026-11-04",
+      "titre": "Ciocardau, d1maje +1 quittent HYPERSPIRIT",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-04",
+      "titre": "ADRON et XELLOW rejoignent Aimclub",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-04",
+      "titre": "VENO, grecu +3 passent sur le banc chez Falcons Force",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-04",
+      "titre": "NaToSaphiX passe sur le banc chez Falcons Force",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-04",
+      "titre": "zune quitte Abyssal",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
     },
     {
       "date": "2026-11-03",
@@ -76,89 +125,6 @@
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-02",
-      "titre": "mwlky rejoint PURE",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-02",
-      "titre": "Intel Extreme Masters Beijing 2026 · jour 1 · playoffs : les matchs du 2 novembre",
-      "resume": "8 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "Legacy 1-2 MongolZ",
-        "HEROIC 2-0 B8",
-        "Aurora 0-2 Liquid",
-        "PV 2-1 G2",
-        "9z 1-2 BB",
-        "FURIA 2-1 FaZe",
-        "MOUZ 2-0 TYLOO"
-      ],
-      "rang": 0
-    },
-    {
-      "date": "2026-11-01",
-      "titre": "FURIA remporte PGL Masters Bucharest 2026",
-      "resume": "FURIA remporte PGL Masters Bucharest à Bucarest, face à Nemiga en finale. Victoire 3 à 2, avec Dust2, Cache et Nuke pour FURIA. C'est son deuxième titre de l'année. Pour Nemiga, c'est une deuxième finale perdue d'affilée.",
-      "categorie": "resultats",
-      "tier": "Tier 1",
-      "cartes": [
-        "Ancient 2-13",
-        "Dust2 13-5",
-        "Cache 13-2",
-        "Mirage 11-13",
-        "Nuke 13-6"
-      ]
-    },
-    {
-      "date": "2026-11-01",
-      "titre": "FiReSPORTS Last Chance '26 - Playoffs : les matchs du 1er novembre",
-      "resume": "Wildcard bat BARCA 2-0. 100T bat Wildcard 2-0. 2 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "Wildcard 2-0 BARCA",
-        "100T 2-0 Wildcard"
-      ],
-      "rang": 0
-    },
-    {
-      "date": "2026-10-31",
-      "titre": "Eternal Fire remporte Stake Ranked Episode 5",
-      "resume": "Eternal Fire gagne Stake Ranked Episode 5, contre Fnatic. Victoire 3 à 2, avec Cache, Dust2 et Mirage pour Eternal Fire.",
-      "categorie": "resultats",
-      "tier": "Tier 1",
-      "cartes": [
-        "Anubis 8-13",
-        "Ancient 2-13",
-        "Cache 13-9",
-        "Dust2 13-11",
-        "Mirage 13-8"
-      ]
-    },
-    {
-      "date": "2026-10-31",
-      "titre": "Eternal Fire remporte DraculaN Season 7",
-      "resume": "Eternal Fire gagne DraculaN Season 7, contre SINNERS. Victoire 2 à 1, avec Cache et Ancient pour Eternal Fire.",
-      "categorie": "resultats",
-      "tier": "Tier 2",
-      "cartes": [
-        "Mirage 6-13",
-        "Cache 16-12",
-        "Ancient 16-14"
-      ]
-    },
-    {
-      "date": "2026-10-31",
-      "titre": "nota dépanne Rune Eaters",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 1"
     }
   ],
   "matchs": [

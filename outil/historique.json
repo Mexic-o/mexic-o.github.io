@@ -4,7 +4,7 @@
       "date": "2026-11-04",
       "cle": "prog|Intel Extreme Masters Beijing 2026|2026-11-04",
       "titre": "Intel Extreme Masters Beijing 2026 · jour 3 · playoffs : les matchs du 4 novembre",
-      "resume": "4 matchs joués, 4 à venir. Heures de Paris.",
+      "resume": "8 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
@@ -12,11 +12,67 @@
         "BB 2-0 Aurora",
         "NAVI 2-0 B8",
         "HEROIC 0-2 Falcons",
-        "08:00 · MOUZ vs PV",
-        "08:00 · Liquid vs BB",
-        "10:30 · MongolZ vs FURIA"
+        "MOUZ 2-0 PV",
+        "Liquid 1-2 BB",
+        "MongolZ 2-1 FURIA"
       ],
       "rang": 3
+    },
+    {
+      "date": "2026-11-04",
+      "cle": "tr|ksloks||Legacy|remplaçant",
+      "titre": "ksloks dépanne Legacy",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 1"
+    },
+    {
+      "date": "2026-11-04",
+      "cle": "tr|n1ssim|Legacy|Legacy|banc",
+      "titre": "n1ssim passe sur le banc chez Legacy",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 1"
+    },
+    {
+      "date": "2026-11-04",
+      "cle": "tr|Ciocardau, d1maje +1|HYPERSPIRIT|libre|",
+      "titre": "Ciocardau, d1maje +1 quittent HYPERSPIRIT",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-04",
+      "cle": "tr|ADRON et XELLOW||Aimclub|",
+      "titre": "ADRON et XELLOW rejoignent Aimclub",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-04",
+      "cle": "tr|VENO, grecu +3|Falcons Force|Falcons Force|banc",
+      "titre": "VENO, grecu +3 passent sur le banc chez Falcons Force",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-04",
+      "cle": "tr|NaToSaphiX|Falcons Force|Falcons Force|banc",
+      "titre": "NaToSaphiX passe sur le banc chez Falcons Force",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-04",
+      "cle": "tr|zune|Abyssal|libre|",
+      "titre": "zune quitte Abyssal",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
     },
     {
       "date": "2026-11-03",
@@ -1122,7 +1178,9 @@
           "t1_court": "MOUZ",
           "t2_court": "PV",
           "bo": 3,
-          "phase": "playoffs"
+          "phase": "playoffs",
+          "s1": 2,
+          "s2": 0
         },
         "FURIA|The MongolZ": {
           "ts": 1793784600,
@@ -1131,7 +1189,9 @@
           "t1_court": "MongolZ",
           "t2_court": "FURIA",
           "bo": 3,
-          "phase": "playoffs"
+          "phase": "playoffs",
+          "s1": 2,
+          "s2": 1
         },
         "BetBoom Team|Team Liquid": {
           "ts": 1793775600,
@@ -1140,23 +1200,27 @@
           "t1_court": "Liquid",
           "t2_court": "BB",
           "bo": 3,
-          "phase": "playoffs"
+          "phase": "playoffs",
+          "s1": 1,
+          "s2": 2
         },
         "Natus Vincere|Team Falcons": {
-          "ts": 1793784600,
+          "ts": 1793787600,
           "t1": "Natus Vincere",
           "t2": "Team Falcons",
-          "t1_court": "Natus Vincere",
-          "t2_court": "Team Falcons",
-          "bo": "",
-          "phase": "playoffs"
+          "t1_court": "NAVI",
+          "t2_court": "Falcons",
+          "bo": 3,
+          "phase": "playoffs",
+          "s1": 2,
+          "s2": 1
         }
       },
       "etape": "jour 3",
       "tier": "S"
     }
   },
-  "maj_heure": "07:48",
+  "maj_heure": "18:26",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
@@ -1244,6 +1308,11 @@
     "r|B8|Natus Vincere|1793766900",
     "r|HEROIC|Team Falcons|1793766900",
     "a|Natus Vincere|Team Falcons|2026-11-04",
-    "a|Natus Vincere Junior|WOPA Esport|2026-11-05"
+    "a|Natus Vincere Junior|WOPA Esport|2026-11-05",
+    "r|Natus Vincere|Team Falcons|1793787600",
+    "r|FURIA|The MongolZ|1793784600",
+    "r|EYEBALLERS|Esport Academy Copenhagen|1793782800",
+    "r|MOUZ|PARIVISION|1793775600",
+    "r|BetBoom Team|Team Liquid|1793775600"
   ]
 }
