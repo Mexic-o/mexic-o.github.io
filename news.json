@@ -1,25 +1,27 @@
 {
-  "maj": "2026-11-04",
-  "maj_heure": "21:58",
+  "maj": "2026-11-05",
+  "maj_heure": "08:08",
   "semaine": "",
   "video": "",
   "articles": [
     {
-      "date": "2026-11-04",
-      "titre": "Intel Extreme Masters Beijing 2026 · jour 3 · playoffs : les matchs du 4 novembre",
-      "resume": "8 matchs joués, 0 à venir. Heures de Paris.",
+      "date": "2026-11-06",
+      "titre": "Intel Extreme Masters Beijing 2026 · jour 5 · playoffs : les matchs du 6 novembre",
+      "resume": "0 match joué, 2 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "Liquid 2-0 TYLOO",
-        "BB 2-0 Aurora",
-        "NAVI 2-0 B8",
-        "HEROIC 0-2 Falcons",
-        "MOUZ 2-0 PV",
-        "Liquid 1-2 BB",
-        "MongolZ 2-1 FURIA"
+        "07:30 · PV vs NAVI",
+        "10:45 · FURIA vs BB"
       ],
       "rang": 3
+    },
+    {
+      "date": "2026-11-05",
+      "titre": "Mise à jour CS2 du 5 novembre",
+      "resume": "Côté jeu, Valve a sorti deux mises à jour de CS2 cette semaine, avec 25 changements au total.",
+      "categorie": "maj",
+      "lien": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848557880481353"
     },
     {
       "date": "2026-11-04",
@@ -71,6 +73,23 @@
       "tier": "Tier 2"
     },
     {
+      "date": "2026-11-04",
+      "titre": "Intel Extreme Masters Beijing 2026 · jour 3 · playoffs : les matchs du 4 novembre",
+      "resume": "8 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "Liquid 2-0 TYLOO",
+        "BB 2-0 Aurora",
+        "NAVI 2-0 B8",
+        "HEROIC 0-2 Falcons",
+        "MOUZ 2-0 PV",
+        "Liquid 1-2 BB",
+        "MongolZ 2-1 FURIA"
+      ],
+      "rang": 0
+    },
+    {
       "date": "2026-11-03",
       "titre": "Intel Extreme Masters Beijing 2026 · jour 2 · playoffs : les matchs du 3 novembre",
       "resume": "8 matchs joués, 0 à venir. Heures de Paris.",
@@ -111,20 +130,6 @@
         "Cache 19-16",
         "Dust2 13-4"
       ]
-    },
-    {
-      "date": "2026-11-02",
-      "titre": "Classement Valve : MOUZ numéro 1",
-      "resume": "Nouveau classement mondial officiel de Valve, publié le 2 novembre : MOUZ devient numéro 1, devant Vitality et FURIA. Grosse montée pour The MongolZ, qui passe de la 49e à la 17e place.",
-      "categorie": "resultats",
-      "tier": "Classement"
-    },
-    {
-      "date": "2026-11-02",
-      "titre": "1NVISIBLEE, xm1nd +1 passent de lavked à Lunacy Team",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
     }
   ],
   "matchs": [
