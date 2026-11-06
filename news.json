@@ -1,20 +1,62 @@
 {
   "maj": "2026-11-06",
-  "maj_heure": "08:07",
+  "maj_heure": "17:57",
   "semaine": "",
   "video": "",
   "articles": [
     {
-      "date": "2026-11-06",
-      "titre": "Intel Extreme Masters Beijing 2026 · jour 5 · playoffs : les matchs du 6 novembre",
+      "date": "2026-11-07",
+      "titre": "Intel Extreme Masters Beijing 2026 · playoffs : les matchs du 7 novembre",
       "resume": "0 match joué, 2 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "07:30 · PV vs NAVI",
-        "10:45 · FURIA vs BB"
+        "07:30 · The MongolZ vs Natus Vincere",
+        "10:45 · MOUZ vs BetBoom Team"
       ],
       "rang": 3
+    },
+    {
+      "date": "2026-11-06",
+      "titre": "Intel Extreme Masters Beijing 2026 · jour 5 · playoffs : les matchs du 6 novembre",
+      "resume": "2 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "PV 1-2 NAVI",
+        "FURIA 1-2 BB"
+      ],
+      "rang": 3
+    },
+    {
+      "date": "2026-11-06",
+      "titre": "HOTU remporte Tesla Cup 2026",
+      "resume": "Du côté de Tesla Cup, c'est HOTU qui l'emporte face à GamerLegion. Victoire 2 à 0, avec Dust2 et Nuke pour HOTU.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "cartes": [
+        "Dust2 13-6",
+        "Nuke 13-9"
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "titre": "grecu quitte Falcons Force",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-06",
+      "titre": "NeLix, Ziivio +3 rejoignent HDC LAB",
+      "resume": "",
+      "categorie": "fr"
+    },
+    {
+      "date": "2026-11-06",
+      "titre": "flex0r devient le coach de HDC LAB",
+      "resume": "",
+      "categorie": "fr"
     },
     {
       "date": "2026-11-05",
@@ -71,65 +113,6 @@
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-04",
-      "titre": "Intel Extreme Masters Beijing 2026 · jour 3 · playoffs : les matchs du 4 novembre",
-      "resume": "8 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "Liquid 2-0 TYLOO",
-        "BB 2-0 Aurora",
-        "NAVI 2-0 B8",
-        "HEROIC 0-2 Falcons",
-        "MOUZ 2-0 PV",
-        "Liquid 1-2 BB",
-        "MongolZ 2-1 FURIA"
-      ],
-      "rang": 0
-    },
-    {
-      "date": "2026-11-03",
-      "titre": "Intel Extreme Masters Beijing 2026 · jour 2 : les matchs du 3 novembre",
-      "resume": "8 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "Liquid 0-2 PV",
-        "Aurora 2-1 G2",
-        "TYLOO 2-0 9z",
-        "MOUZ 2-0 BB",
-        "FaZe 1-2 Falcons",
-        "MongolZ 2-0 HEROIC",
-        "FURIA 2-1 NAVI"
-      ],
-      "rang": 0
-    },
-    {
-      "date": "2026-11-02",
-      "titre": "Intel Extreme Masters Beijing 2026 a commencé",
-      "resume": "Le tournoi se joue à Pékin, jusqu'au 8 novembre, 1 250 000 $ en jeu.",
-      "categorie": "resultats",
-      "tier": "Tier 1"
-    },
-    {
-      "date": "2026-11-02",
-      "titre": "1w Team remporte Moscow Cyber Games 2026",
-      "resume": "On commence par le dernier résultat : 1w Team gagne Moscow Cyber Games à Moscou, contre HOTU en finale.",
-      "categorie": "resultats",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-02",
-      "titre": "100 Thieves remporte FiReSPORTS Last Chance 2026",
-      "resume": "Du côté de FiReSPORTS Last Chance, c'est 100 Thieves qui l'emporte face à Wildcard. Victoire 2 à 0, avec Cache et Dust2 pour 100 Thieves.",
-      "categorie": "resultats",
-      "tier": "Tier 2",
-      "cartes": [
-        "Cache 19-16",
-        "Dust2 13-4"
-      ]
     }
   ],
   "matchs": [
