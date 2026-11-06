@@ -1,6 +1,6 @@
 {
-  "maj": "2026-11-05",
-  "maj_heure": "22:15",
+  "maj": "2026-11-06",
+  "maj_heure": "08:07",
   "semaine": "",
   "video": "",
   "articles": [
@@ -19,7 +19,7 @@
     {
       "date": "2026-11-05",
       "titre": "Mise à jour CS2 du 5 novembre",
-      "resume": "Côté jeu, Valve a sorti deux mises à jour de CS2 cette semaine, avec 25 changements au total.",
+      "resume": "Côté jeu, mise à jour de CS2 le 5 novembre, avec 21 changements au total.",
       "categorie": "maj",
       "lien": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848557880481353"
     },
@@ -91,7 +91,7 @@
     },
     {
       "date": "2026-11-03",
-      "titre": "Intel Extreme Masters Beijing 2026 · jour 2 · playoffs : les matchs du 3 novembre",
+      "titre": "Intel Extreme Masters Beijing 2026 · jour 2 : les matchs du 3 novembre",
       "resume": "8 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
@@ -159,15 +159,15 @@
     },
     {
       "groupe": "À venir",
-      "jour": "2026-11-10",
-      "equipes": "NODWIN Clutch Series #14",
-      "tournoi": "dès le 10 novembre"
+      "jour": "2026-11-16",
+      "equipes": "YaLLa Compass UAE 2026",
+      "tournoi": "dès le 16 novembre · United Arab Emirates"
     },
     {
       "groupe": "À venir",
-      "jour": "2026-11-13",
-      "equipes": "Austin LAN 2026",
-      "tournoi": "dès le 13 novembre · Lisle"
+      "jour": "2026-11-10",
+      "equipes": "NODWIN Clutch Series #14",
+      "tournoi": "dès le 10 novembre"
     }
   ]
 }
