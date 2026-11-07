@@ -1,17 +1,45 @@
 {
   "articles": [
     {
-      "date": "2026-11-07",
-      "cle": "prog|Intel Extreme Masters Beijing 2026|2026-11-07",
-      "titre": "Intel Extreme Masters Beijing 2026 · jour 6 · playoffs : les matchs du 7 novembre",
+      "date": "2026-11-08",
+      "cle": "prog|Intel Extreme Masters Beijing 2026|2026-11-08",
+      "titre": "Intel Extreme Masters Beijing 2026 · dernier jour · playoffs : les matchs du 8 novembre",
       "resume": "0 match joué, 2 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "07:30 · MongolZ vs NAVI",
-        "10:45 · MOUZ vs BB"
+        "05:00 · NAVI vs BB",
+        "08:30 · MongolZ vs MOUZ"
       ],
       "rang": 3
+    },
+    {
+      "date": "2026-11-07",
+      "cle": "prog|Intel Extreme Masters Beijing 2026|2026-11-07",
+      "titre": "Intel Extreme Masters Beijing 2026 · jour 6 · playoffs : les matchs du 7 novembre",
+      "resume": "2 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "MongolZ 2-0 NAVI",
+        "MOUZ 2-0 BB"
+      ],
+      "rang": 3
+    },
+    {
+      "date": "2026-11-07",
+      "cle": "res|Stake Ranked Episode 5|Eternal Fire",
+      "titre": "Eternal Fire remporte Stake Ranked Episode 5",
+      "resume": "Eternal Fire gagne Stake Ranked Episode 5, contre Fnatic. Victoire 3 à 2, avec Cache, Dust2 et Mirage pour Eternal Fire.",
+      "categorie": "resultats",
+      "tier": "Tier 1",
+      "cartes": [
+        "Anubis 8-13",
+        "Ancient 2-13",
+        "Cache 13-9",
+        "Dust2 13-11",
+        "Mirage 13-8"
+      ]
     },
     {
       "date": "2026-11-07",
@@ -19,6 +47,46 @@
       "titre": "FlyQuest remporte DFRAG Invitational 2026",
       "resume": "Du côté de DFRAG Invitational, c'est FlyQuest qui l'emporte face à Alter Ego.",
       "categorie": "resultats",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-07",
+      "cle": "tr|chopper|Spirit|libre|",
+      "titre": "chopper quitte Spirit",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 1"
+    },
+    {
+      "date": "2026-11-07",
+      "cle": "tr|nota|PARIVISION|Rune Eaters|prêt",
+      "titre": "nota dépanne Rune Eaters",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 1"
+    },
+    {
+      "date": "2026-11-07",
+      "cle": "tr|ben1337|Marsborne|Marsborne|coach",
+      "titre": "ben1337 devient le coach de Marsborne",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-07",
+      "cle": "tr|Dave||K27|coach",
+      "titre": "Dave devient le coach de K27",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-07",
+      "cle": "tr|noni|Rune Eaters|Rune Eaters|",
+      "titre": "noni passe de Rune Eaters à Rune Eaters",
+      "resume": "",
+      "categorie": "mercato",
       "tier": "Tier 2"
     },
     {
@@ -180,7 +248,7 @@
       "date": "2026-11-02",
       "cle": "res|Moscow Cyber Games 2026|1w Team",
       "titre": "1w Team remporte Moscow Cyber Games 2026",
-      "resume": "On commence par le dernier résultat : 1w Team gagne Moscow Cyber Games à Moscou, contre HOTU en finale.",
+      "resume": "Moscow Cyber Games, c'est terminé à Moscou : 1w Team s'impose en finale contre HOTU.",
       "categorie": "resultats",
       "tier": "Tier 2"
     },
@@ -767,7 +835,9 @@
           "t1_court": "MongolZ",
           "t2_court": "NAVI",
           "bo": 3,
-          "phase": "playoffs"
+          "phase": "playoffs",
+          "s1": 2,
+          "s2": 0
         },
         "BetBoom Team|MOUZ": {
           "ts": 1794044700,
@@ -776,14 +846,42 @@
           "t1_court": "MOUZ",
           "t2_court": "BB",
           "bo": 3,
-          "phase": "playoffs"
+          "phase": "playoffs",
+          "s1": 2,
+          "s2": 0
         }
       },
       "etape": "jour 6",
       "tier": "S"
+    },
+    "Intel Extreme Masters Beijing 2026|2026-11-08": {
+      "nom": "Intel Extreme Masters Beijing 2026",
+      "jour": "2026-11-08",
+      "matchs": {
+        "BetBoom Team|Natus Vincere": {
+          "ts": 1794110400,
+          "t1": "Natus Vincere",
+          "t2": "BetBoom Team",
+          "t1_court": "NAVI",
+          "t2_court": "BB",
+          "bo": 3,
+          "phase": "playoffs"
+        },
+        "MOUZ|The MongolZ": {
+          "ts": 1794123000,
+          "t1": "The MongolZ",
+          "t2": "MOUZ",
+          "t1_court": "MongolZ",
+          "t2_court": "MOUZ",
+          "bo": 5,
+          "phase": "playoffs"
+        }
+      },
+      "etape": "dernier jour",
+      "tier": "S"
     }
   },
-  "maj_heure": "07:21",
+  "maj_heure": "16:51",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
@@ -887,6 +985,10 @@
     "a|BetBoom Team|MOUZ|2026-11-07",
     "r|FORZE Reload|Natus Vincere Junior|1793955600",
     "a|Alliance|MAYBE (Ukrainian team) (page does not exist)|2026-11-07",
-    "a|EYEBALLERS|IC Prospect (page does not exist)|2026-11-08"
+    "a|EYEBALLERS|IC Prospect (page does not exist)|2026-11-08",
+    "r|BetBoom Team|MOUZ|1794044700",
+    "r|Natus Vincere|The MongolZ|1794033000",
+    "a|BetBoom Team|Natus Vincere|2026-11-08",
+    "a|MOUZ|The MongolZ|2026-11-08"
   ]
 }
