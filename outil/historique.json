@@ -14,17 +14,12 @@
       "rang": 3
     },
     {
-      "date": "2026-11-06",
-      "cle": "prog|Intel Extreme Masters Beijing 2026|2026-11-06",
-      "titre": "Intel Extreme Masters Beijing 2026 · jour 5 · playoffs : les matchs du 6 novembre",
-      "resume": "2 matchs joués, 0 à venir. Heures de Paris.",
+      "date": "2026-11-07",
+      "cle": "res|DFRAG Invitational 2026|FlyQuest",
+      "titre": "FlyQuest remporte DFRAG Invitational 2026",
+      "resume": "Du côté de DFRAG Invitational, c'est FlyQuest qui l'emporte face à Alter Ego.",
       "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "PV 1-2 NAVI",
-        "FURIA 1-2 BB"
-      ],
-      "rang": 3
+      "tier": "Tier 2"
     },
     {
       "date": "2026-11-06",
@@ -59,6 +54,19 @@
       "titre": "flex0r devient le coach de HDC LAB",
       "resume": "",
       "categorie": "fr"
+    },
+    {
+      "date": "2026-11-06",
+      "cle": "prog|Intel Extreme Masters Beijing 2026|2026-11-06",
+      "titre": "Intel Extreme Masters Beijing 2026 · jour 5 · playoffs : les matchs du 6 novembre",
+      "resume": "2 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "PV 1-2 NAVI",
+        "FURIA 1-2 BB"
+      ],
+      "rang": 0
     },
     {
       "date": "2026-11-05",
@@ -127,7 +135,7 @@
     {
       "date": "2026-11-04",
       "cle": "prog|Intel Extreme Masters Beijing 2026|2026-11-04",
-      "titre": "Intel Extreme Masters Beijing 2026 · jour 3 · playoffs : les matchs du 4 novembre",
+      "titre": "Intel Extreme Masters Beijing 2026 · jour 3 : les matchs du 4 novembre",
       "resume": "8 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
@@ -257,115 +265,6 @@
         "100T 2-0 Wildcard"
       ],
       "rang": 0
-    },
-    {
-      "date": "2026-10-31",
-      "cle": "res|Stake Ranked Episode 5|Eternal Fire",
-      "titre": "Eternal Fire remporte Stake Ranked Episode 5",
-      "resume": "Eternal Fire gagne Stake Ranked Episode 5, contre Fnatic. Victoire 3 à 2, avec Cache, Dust2 et Mirage pour Eternal Fire.",
-      "categorie": "resultats",
-      "tier": "Tier 1",
-      "cartes": [
-        "Anubis 8-13",
-        "Ancient 2-13",
-        "Cache 13-9",
-        "Dust2 13-11",
-        "Mirage 13-8"
-      ]
-    },
-    {
-      "date": "2026-10-31",
-      "cle": "res|DraculaN Season 7|Eternal Fire",
-      "titre": "Eternal Fire remporte DraculaN Season 7",
-      "resume": "Eternal Fire gagne DraculaN Season 7, contre SINNERS. Victoire 2 à 1, avec Cache et Ancient pour Eternal Fire.",
-      "categorie": "resultats",
-      "tier": "Tier 2",
-      "cartes": [
-        "Mirage 6-13",
-        "Cache 16-12",
-        "Ancient 16-14"
-      ]
-    },
-    {
-      "date": "2026-10-31",
-      "cle": "tr|nota|PARIVISION|Rune Eaters|prêt",
-      "titre": "nota dépanne Rune Eaters",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 1"
-    },
-    {
-      "date": "2026-10-31",
-      "cle": "tr|tasman|NOVAQ|Rune Eaters|",
-      "titre": "tasman passe de NOVAQ à Rune Eaters",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-10-31",
-      "cle": "tr|AdrieN|los kogutos|Nordic Partners|",
-      "titre": "AdrieN passe de los kogutos à Nordic Partners",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-10-31",
-      "cle": "tr|buster et SNk|DEPO|libre|",
-      "titre": "buster et SNk quittent DEPO",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-10-31",
-      "cle": "prog|PGL Masters Bucharest 2026|2026-10-31",
-      "titre": "PGL Masters Bucharest 2026 · dernier jour : les matchs du 31 octobre",
-      "resume": "MOUZ bat Vitality 2-0. 2 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "MOUZ 2-0 Vitality",
-        "FURIA 3-2 Nemiga"
-      ],
-      "rang": 0
-    },
-    {
-      "date": "2026-10-31",
-      "cle": "prog|FiReSPORTS Last Chance '26 - Group D|2026-10-31",
-      "titre": "FiReSPORTS Last Chance '26 - Group D : les matchs du 31 octobre",
-      "resume": "Wildcard bat Hacha 2-0. 1 match joué, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "Wildcard 2-0 Hacha"
-      ],
-      "rang": 0
-    },
-    {
-      "date": "2026-10-31",
-      "cle": "prog|FiReSPORTS Last Chance '26 - Playoffs|2026-10-31",
-      "titre": "FiReSPORTS Last Chance '26 - Playoffs : les matchs du 31 octobre",
-      "resume": "Wildcard bat NRG 2-1. 1 match joué, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "NRG 1-2 Wildcard"
-      ],
-      "rang": 0
-    },
-    {
-      "date": "2026-10-31",
-      "cle": "prog|PGL Masters Bucharest 2026 - Playoffs|2026-10-31",
-      "titre": "PGL Masters Bucharest 2026 - Playoffs : les matchs du 31 octobre",
-      "resume": "MOUZ bat Vitality 2-0. 1 match joué, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "MOUZ 2-0 Vitality"
-      ],
-      "rang": 0
     }
   ],
   "agenda": [
@@ -401,19 +300,19 @@
     },
     {
       "groupe": "À venir",
-      "jour": "2026-11-10",
-      "equipes": "NODWIN Clutch Series #14",
-      "tournoi": "dès le 10 novembre"
+      "jour": "2026-11-17",
+      "equipes": "Stake Ranked Episode 6",
+      "tournoi": "dès le 17 novembre · Barcelona"
     },
     {
       "groupe": "À venir",
-      "jour": "2026-11-13",
-      "equipes": "Austin LAN 2026",
-      "tournoi": "dès le 13 novembre · Lisle"
+      "jour": "2026-11-17",
+      "equipes": "RUSH:Brno 2026",
+      "tournoi": "dès le 17 novembre · Prague Brno"
     }
   ],
-  "maj": "2026-11-06",
-  "collecte": "2026-11-06",
+  "maj": "2026-11-07",
+  "collecte": "2026-11-07",
   "envoi_en_attente": false,
   "chaine": {
     "handle": "@Mexic_Original",
@@ -422,96 +321,6 @@
   "video": "",
   "erreurs": [],
   "programmes": {
-    "FiReSPORTS Last Chance '26 - Group D|2026-10-30": {
-      "nom": "FiReSPORTS Last Chance '26 - Group D",
-      "jour": "2026-10-30",
-      "matchs": {
-        "Hacha Esports (page does not exist)|Wildcard": {
-          "ts": 1793384100,
-          "t1": "Wildcard",
-          "t2": "Hacha Esports (page does not exist)",
-          "t1_court": "Wildcard",
-          "t2_court": "Hacha",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        },
-        "BESTIA|Wildcard": {
-          "ts": 1793395500,
-          "t1": "Wildcard",
-          "t2": "BESTIA",
-          "t1_court": "Wildcard",
-          "t2_court": "BESTIA",
-          "bo": 3,
-          "phase": "",
-          "s1": 1,
-          "s2": 2
-        }
-      },
-      "etape": "",
-      "tier": ""
-    },
-    "PGL Masters Bucharest 2026|2026-10-30": {
-      "nom": "PGL Masters Bucharest 2026",
-      "jour": "2026-10-30",
-      "matchs": {
-        "Nemiga Gaming|Team Vitality": {
-          "ts": 1793361600,
-          "t1": "Team Vitality",
-          "t2": "Nemiga Gaming",
-          "t1_court": "Vitality",
-          "t2_court": "Nemiga",
-          "bo": 3,
-          "phase": "",
-          "s1": 0,
-          "s2": 2
-        },
-        "FURIA|MOUZ": {
-          "ts": 1793372400,
-          "t1": "FURIA",
-          "t2": "MOUZ",
-          "t1_court": "FURIA",
-          "t2_court": "MOUZ",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 1
-        }
-      },
-      "etape": "jour 7",
-      "tier": "S"
-    },
-    "Stake Ranked Episode 5|2026-10-30": {
-      "nom": "Stake Ranked Episode 5",
-      "jour": "2026-10-30",
-      "matchs": {
-        "Eternal Fire|MIBR": {
-          "ts": 1793365200,
-          "t1": "MIBR",
-          "t2": "Eternal Fire",
-          "t1_court": "MIBR",
-          "t2_court": "EF",
-          "bo": 3,
-          "phase": "",
-          "s1": 0,
-          "s2": 2
-        },
-        "Eternal Fire|Fnatic": {
-          "ts": 1793376000,
-          "t1": "Fnatic",
-          "t2": "Eternal Fire",
-          "t1_court": "Fnatic",
-          "t2_court": "EF",
-          "bo": 5,
-          "phase": "",
-          "s1": 2,
-          "s2": 3
-        }
-      },
-      "etape": "dernier jour",
-      "tier": "A"
-    },
     "PGL Masters Bucharest 2026|2026-10-31": {
       "nom": "PGL Masters Bucharest 2026",
       "jour": "2026-10-31",
@@ -725,25 +534,6 @@
       "etape": "",
       "tier": ""
     },
-    "PGL Masters Bucharest 2026 - Playoffs|2026-10-30": {
-      "nom": "PGL Masters Bucharest 2026 - Playoffs",
-      "jour": "2026-10-30",
-      "matchs": {
-        "Nemiga Gaming|Team Vitality": {
-          "ts": 1793361600,
-          "t1": "Team Vitality",
-          "t2": "Nemiga Gaming",
-          "t1_court": "Vitality",
-          "t2_court": "Nemiga",
-          "bo": 3,
-          "phase": "",
-          "s1": 0,
-          "s2": 2
-        }
-      },
-      "etape": "",
-      "tier": ""
-    },
     "Intel Extreme Masters Beijing 2026|2026-11-03": {
       "nom": "Intel Extreme Masters Beijing 2026",
       "jour": "2026-11-03",
@@ -851,7 +641,7 @@
           "t1_court": "Liquid",
           "t2_court": "TYLOO",
           "bo": 3,
-          "phase": "playoffs",
+          "phase": "",
           "s1": 2,
           "s2": 0
         },
@@ -862,7 +652,7 @@
           "t1_court": "BB",
           "t2_court": "Aurora",
           "bo": 3,
-          "phase": "playoffs",
+          "phase": "",
           "s1": 2,
           "s2": 0
         },
@@ -873,7 +663,7 @@
           "t1_court": "NAVI",
           "t2_court": "B8",
           "bo": 3,
-          "phase": "playoffs",
+          "phase": "",
           "s1": 2,
           "s2": 0
         },
@@ -884,7 +674,7 @@
           "t1_court": "HEROIC",
           "t2_court": "Falcons",
           "bo": 3,
-          "phase": "playoffs",
+          "phase": "",
           "s1": 0,
           "s2": 2
         },
@@ -895,7 +685,7 @@
           "t1_court": "MOUZ",
           "t2_court": "PV",
           "bo": 3,
-          "phase": "playoffs",
+          "phase": "",
           "s1": 2,
           "s2": 0
         },
@@ -906,7 +696,7 @@
           "t1_court": "MongolZ",
           "t2_court": "FURIA",
           "bo": 3,
-          "phase": "playoffs",
+          "phase": "",
           "s1": 2,
           "s2": 1
         },
@@ -917,7 +707,7 @@
           "t1_court": "Liquid",
           "t2_court": "BB",
           "bo": 3,
-          "phase": "playoffs",
+          "phase": "",
           "s1": 1,
           "s2": 2
         },
@@ -928,7 +718,7 @@
           "t1_court": "NAVI",
           "t2_court": "Falcons",
           "bo": 3,
-          "phase": "playoffs",
+          "phase": "",
           "s1": 2,
           "s2": 1
         }
@@ -993,7 +783,7 @@
       "tier": "S"
     }
   },
-  "maj_heure": "21:37",
+  "maj_heure": "07:21",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
@@ -1096,6 +886,7 @@
     "a|Natus Vincere|The MongolZ|2026-11-07",
     "a|BetBoom Team|MOUZ|2026-11-07",
     "r|FORZE Reload|Natus Vincere Junior|1793955600",
-    "a|Alliance|MAYBE (Ukrainian team) (page does not exist)|2026-11-07"
+    "a|Alliance|MAYBE (Ukrainian team) (page does not exist)|2026-11-07",
+    "a|EYEBALLERS|IC Prospect (page does not exist)|2026-11-08"
   ]
 }
