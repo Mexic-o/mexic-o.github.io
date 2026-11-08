@@ -305,34 +305,6 @@
         "MOUZ 2-0 TYLOO"
       ],
       "rang": 0
-    },
-    {
-      "date": "2026-11-01",
-      "cle": "res|PGL Masters Bucharest 2026|FURIA",
-      "titre": "FURIA remporte PGL Masters Bucharest 2026",
-      "resume": "FURIA remporte PGL Masters Bucharest à Bucarest, face à Nemiga en finale. Victoire 3 à 2, avec Dust2, Cache et Nuke pour FURIA. C'est son deuxième titre de l'année. Pour Nemiga, c'est une deuxième finale perdue d'affilée.",
-      "categorie": "resultats",
-      "tier": "Tier 1",
-      "cartes": [
-        "Ancient 2-13",
-        "Dust2 13-5",
-        "Cache 13-2",
-        "Mirage 11-13",
-        "Nuke 13-6"
-      ]
-    },
-    {
-      "date": "2026-11-01",
-      "cle": "prog|FiReSPORTS Last Chance '26 - Playoffs|2026-11-01",
-      "titre": "FiReSPORTS Last Chance '26 - Playoffs : les matchs du 1er novembre",
-      "resume": "Wildcard bat BARCA 2-0. 100T bat Wildcard 2-0. 2 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "Wildcard 2-0 BARCA",
-        "100T 2-0 Wildcard"
-      ],
-      "rang": 0
     }
   ],
   "agenda": [
@@ -379,15 +351,23 @@
       "tournoi": "dès le 17 novembre · Prague Brno"
     }
   ],
-  "maj": "2026-11-07",
-  "collecte": "2026-11-07",
+  "maj": "2026-11-08",
+  "collecte": "2026-11-08",
   "envoi_en_attente": false,
   "chaine": {
     "handle": "@Mexic_Original",
     "id": "UCy5wcMtn9uzq_IUt3VgTgqQ"
   },
   "video": "",
-  "erreurs": [],
+  "erreurs": [
+    "tournois S-Tier : HTTP Error 429: Too Many Requests",
+    "tournois A-Tier : HTTP Error 429: Too Many Requests",
+    "tournois B-Tier : HTTP Error 429: Too Many Requests",
+    "tournois C-Tier : HTTP Error 429: Too Many Requests",
+    "programme des matchs : HTTP Error 429: Too Many Requests",
+    "scène féminine : HTTP Error 429: Too Many Requests",
+    "transferts : HTTP Error 429: Too Many Requests"
+  ],
   "programmes": {
     "PGL Masters Bucharest 2026|2026-10-31": {
       "nom": "PGL Masters Bucharest 2026",
@@ -881,7 +861,7 @@
       "tier": "S"
     }
   },
-  "maj_heure": "19:59",
+  "maj_heure": "07:20",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
