@@ -3,28 +3,58 @@
     {
       "date": "2026-11-08",
       "cle": "prog|Intel Extreme Masters Beijing 2026|2026-11-08",
-      "titre": "Intel Extreme Masters Beijing 2026 · dernier jour · playoffs : les matchs du 8 novembre",
-      "resume": "0 match joué, 2 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "05:00 · NAVI vs BB",
-        "08:30 · MongolZ vs MOUZ"
-      ],
-      "rang": 3
-    },
-    {
-      "date": "2026-11-07",
-      "cle": "prog|Intel Extreme Masters Beijing 2026|2026-11-07",
-      "titre": "Intel Extreme Masters Beijing 2026 · jour 6 · playoffs : les matchs du 7 novembre",
+      "titre": "Intel Extreme Masters Beijing 2026 · dernier jour : les matchs du 8 novembre",
       "resume": "2 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "MongolZ 2-0 NAVI",
-        "MOUZ 2-0 BB"
+        "NAVI 2-0 BB",
+        "MongolZ 0-3 MOUZ"
       ],
       "rang": 3
+    },
+    {
+      "date": "2026-11-08",
+      "cle": "res|PGL Masters Bucharest 2026|FURIA",
+      "titre": "FURIA remporte PGL Masters Bucharest 2026",
+      "resume": "FURIA remporte PGL Masters Bucharest à Bucarest, face à Nemiga en finale. Victoire 3 à 2, avec Dust2, Cache et Nuke pour FURIA. C'est son deuxième titre de l'année. Pour Nemiga, c'est une deuxième finale perdue d'affilée.",
+      "categorie": "resultats",
+      "tier": "Tier 1",
+      "cartes": [
+        "Ancient 2-13",
+        "Dust2 13-5",
+        "Cache 13-2",
+        "Mirage 11-13",
+        "Nuke 13-6"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "cle": "res|Intel Extreme Masters Beijing 2026|MOUZ",
+      "titre": "MOUZ remporte Intel Extreme Masters Beijing 2026",
+      "resume": "MOUZ gagne Intel Extreme Masters Beijing, contre The MongolZ. Victoire 3 à 0, avec Mirage, Dust2 et Inferno pour MOUZ. C'est son deuxième titre de l'année.",
+      "categorie": "resultats",
+      "tier": "Tier 1",
+      "cartes": [
+        "Mirage 13-5",
+        "Dust2 13-6",
+        "Inferno 13-4"
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "cle": "tr|cau|1w Team|HOTU|coach",
+      "titre": "cau devient le coach de HOTU",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-08",
+      "cle": "tr|NBK-||Phantom|coach",
+      "titre": "NBK- devient le coach de Phantom",
+      "resume": "",
+      "categorie": "fr"
     },
     {
       "date": "2026-11-07",
@@ -90,6 +120,19 @@
       "tier": "Tier 2"
     },
     {
+      "date": "2026-11-07",
+      "cle": "prog|Intel Extreme Masters Beijing 2026|2026-11-07",
+      "titre": "Intel Extreme Masters Beijing 2026 · jour 6 : les matchs du 7 novembre",
+      "resume": "2 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "MongolZ 2-0 NAVI",
+        "MOUZ 2-0 BB"
+      ],
+      "rang": 0
+    },
+    {
       "date": "2026-11-06",
       "cle": "res|Tesla Cup 2026|HOTU",
       "titre": "HOTU remporte Tesla Cup 2026",
@@ -126,7 +169,7 @@
     {
       "date": "2026-11-06",
       "cle": "prog|Intel Extreme Masters Beijing 2026|2026-11-06",
-      "titre": "Intel Extreme Masters Beijing 2026 · jour 5 · playoffs : les matchs du 6 novembre",
+      "titre": "Intel Extreme Masters Beijing 2026 · jour 5 : les matchs du 6 novembre",
       "resume": "2 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
@@ -310,12 +353,6 @@
   "agenda": [
     {
       "groupe": "En cours",
-      "jour": "2026-11-02",
-      "equipes": "Intel Extreme Masters Beijing 2026",
-      "tournoi": "jusqu'au 8 novembre · Pékin"
-    },
-    {
-      "groupe": "En cours",
       "jour": "2026-11-04",
       "equipes": "CCT Europe 2026 Series #13",
       "tournoi": "jusqu'au 16 novembre"
@@ -359,84 +396,8 @@
     "id": "UCy5wcMtn9uzq_IUt3VgTgqQ"
   },
   "video": "",
-  "erreurs": [
-    "tournois S-Tier : HTTP Error 429: Too Many Requests",
-    "tournois A-Tier : HTTP Error 429: Too Many Requests",
-    "tournois B-Tier : HTTP Error 429: Too Many Requests",
-    "tournois C-Tier : HTTP Error 429: Too Many Requests",
-    "programme des matchs : HTTP Error 429: Too Many Requests",
-    "scène féminine : HTTP Error 429: Too Many Requests",
-    "transferts : HTTP Error 429: Too Many Requests"
-  ],
+  "erreurs": [],
   "programmes": {
-    "PGL Masters Bucharest 2026|2026-10-31": {
-      "nom": "PGL Masters Bucharest 2026",
-      "jour": "2026-10-31",
-      "matchs": {
-        "MOUZ|Team Vitality": {
-          "ts": 1793433600,
-          "t1": "MOUZ",
-          "t2": "Team Vitality",
-          "t1_court": "MOUZ",
-          "t2_court": "Vitality",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        },
-        "FURIA|Nemiga Gaming": {
-          "ts": 1793444400,
-          "t1": "FURIA",
-          "t2": "Nemiga Gaming",
-          "t1_court": "FURIA",
-          "t2_court": "Nemiga",
-          "bo": 5,
-          "phase": "",
-          "s1": 3,
-          "s2": 2
-        }
-      },
-      "etape": "dernier jour",
-      "tier": "S"
-    },
-    "FiReSPORTS Last Chance '26 - Group D|2026-10-31": {
-      "nom": "FiReSPORTS Last Chance '26 - Group D",
-      "jour": "2026-10-31",
-      "matchs": {
-        "Hacha Esports (page does not exist)|Wildcard": {
-          "ts": 1793464800,
-          "t1": "Wildcard",
-          "t2": "Hacha Esports (page does not exist)",
-          "t1_court": "Wildcard",
-          "t2_court": "Hacha",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        }
-      },
-      "etape": "",
-      "tier": ""
-    },
-    "FiReSPORTS Last Chance '26 - Playoffs|2026-10-31": {
-      "nom": "FiReSPORTS Last Chance '26 - Playoffs",
-      "jour": "2026-10-31",
-      "matchs": {
-        "NRG|Wildcard": {
-          "ts": 1793484900,
-          "t1": "NRG",
-          "t2": "Wildcard",
-          "t1_court": "NRG",
-          "t2_court": "Wildcard",
-          "bo": 3,
-          "phase": "",
-          "s1": 1,
-          "s2": 2
-        }
-      },
-      "etape": "",
-      "tier": ""
-    },
     "FiReSPORTS Last Chance '26 - Playoffs|2026-11-01": {
       "nom": "FiReSPORTS Last Chance '26 - Playoffs",
       "jour": "2026-11-01",
@@ -562,25 +523,6 @@
       },
       "etape": "jour 1",
       "tier": "S"
-    },
-    "PGL Masters Bucharest 2026 - Playoffs|2026-10-31": {
-      "nom": "PGL Masters Bucharest 2026 - Playoffs",
-      "jour": "2026-10-31",
-      "matchs": {
-        "MOUZ|Team Vitality": {
-          "ts": 1793433600,
-          "t1": "MOUZ",
-          "t2": "Team Vitality",
-          "t1_court": "MOUZ",
-          "t2_court": "Vitality",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        }
-      },
-      "etape": "",
-      "tier": ""
     },
     "Intel Extreme Masters Beijing 2026|2026-11-03": {
       "nom": "Intel Extreme Masters Beijing 2026",
@@ -785,7 +727,7 @@
           "t1_court": "PV",
           "t2_court": "NAVI",
           "bo": 3,
-          "phase": "playoffs",
+          "phase": "",
           "s1": 1,
           "s2": 2
         },
@@ -796,7 +738,7 @@
           "t1_court": "FURIA",
           "t2_court": "BB",
           "bo": 3,
-          "phase": "playoffs",
+          "phase": "",
           "s1": 1,
           "s2": 2
         }
@@ -815,7 +757,7 @@
           "t1_court": "MongolZ",
           "t2_court": "NAVI",
           "bo": 3,
-          "phase": "playoffs",
+          "phase": "",
           "s1": 2,
           "s2": 0
         },
@@ -826,7 +768,7 @@
           "t1_court": "MOUZ",
           "t2_court": "BB",
           "bo": 3,
-          "phase": "playoffs",
+          "phase": "",
           "s1": 2,
           "s2": 0
         }
@@ -845,7 +787,9 @@
           "t1_court": "NAVI",
           "t2_court": "BB",
           "bo": 3,
-          "phase": "playoffs"
+          "phase": "",
+          "s1": 2,
+          "s2": 0
         },
         "MOUZ|The MongolZ": {
           "ts": 1794123000,
@@ -854,14 +798,16 @@
           "t1_court": "MongolZ",
           "t2_court": "MOUZ",
           "bo": 5,
-          "phase": "playoffs"
+          "phase": "",
+          "s1": 0,
+          "s2": 3
         }
       },
       "etape": "dernier jour",
       "tier": "S"
     }
   },
-  "maj_heure": "07:20",
+  "maj_heure": "17:09",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
@@ -971,6 +917,10 @@
     "a|BetBoom Team|Natus Vincere|2026-11-08",
     "a|MOUZ|The MongolZ|2026-11-08",
     "r|Alliance|MAYBE (Ukrainian team) (page does not exist)|1794060000",
-    "a|9INE|Alliance|2026-11-07"
+    "a|9INE|Alliance|2026-11-07",
+    "r|EYEBALLERS|IC Prospect (page does not exist)|1794137400",
+    "r|MOUZ|The MongolZ|1794123000",
+    "r|BetBoom Team|Natus Vincere|1794110400",
+    "a|Natus Vincere Junior|SANCTUM (page does not exist)|2026-11-09"
   ]
 }
