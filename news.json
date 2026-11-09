@@ -1,9 +1,23 @@
 {
   "maj": "2026-11-09",
-  "maj_heure": "21:01",
+  "maj_heure": "00:36",
   "semaine": "",
   "video": "",
   "articles": [
+    {
+      "date": "2026-11-11",
+      "titre": "BLAST Rivals Fall 2026 · jour 1 : les matchs du 11 novembre",
+      "resume": "0 match joué, 4 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "03:00 · Legacy vs FURIA",
+        "05:30 · Vitality vs Falcons",
+        "08:00 · Spirit vs FUT",
+        "10:30 · MOUZ vs G2"
+      ],
+      "rang": 3
+    },
     {
       "date": "2026-11-09",
       "titre": "1w Team remporte Moscow Cyber Games 2026",
@@ -121,13 +135,6 @@
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 1"
-    },
-    {
-      "date": "2026-11-07",
-      "titre": "ben1337 devient le coach de Marsborne",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
     }
   ],
   "matchs": [

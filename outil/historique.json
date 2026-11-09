@@ -1,6 +1,21 @@
 {
   "articles": [
     {
+      "date": "2026-11-11",
+      "cle": "prog|BLAST Rivals Fall 2026|2026-11-11",
+      "titre": "BLAST Rivals Fall 2026 · jour 1 : les matchs du 11 novembre",
+      "resume": "0 match joué, 4 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "03:00 · Legacy vs FURIA",
+        "05:30 · Vitality vs Falcons",
+        "08:00 · Spirit vs FUT",
+        "10:30 · MOUZ vs G2"
+      ],
+      "rang": 3
+    },
+    {
       "date": "2026-11-09",
       "cle": "res|Moscow Cyber Games 2026|1w Team",
       "titre": "1w Team remporte Moscow Cyber Games 2026",
@@ -364,102 +379,6 @@
   "video": "",
   "erreurs": [],
   "programmes": {
-    "Intel Extreme Masters Beijing 2026|2026-11-02": {
-      "nom": "Intel Extreme Masters Beijing 2026",
-      "jour": "2026-11-02",
-      "matchs": {
-        "Legacy|The MongolZ": {
-          "ts": 1793584800,
-          "t1": "Legacy",
-          "t2": "The MongolZ",
-          "t1_court": "Legacy",
-          "t2_court": "MongolZ",
-          "bo": 3,
-          "phase": "",
-          "s1": 1,
-          "s2": 2
-        },
-        "B8|HEROIC": {
-          "ts": 1793584800,
-          "t1": "HEROIC",
-          "t2": "B8",
-          "t1_court": "HEROIC",
-          "t2_court": "B8",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        },
-        "Aurora Gaming|Team Liquid": {
-          "ts": 1793593800,
-          "t1": "Aurora Gaming",
-          "t2": "Team Liquid",
-          "t1_court": "Aurora",
-          "t2_court": "Liquid",
-          "bo": 3,
-          "phase": "",
-          "s1": 0,
-          "s2": 2
-        },
-        "G2 Esports|PARIVISION": {
-          "ts": 1793597400,
-          "t1": "PARIVISION",
-          "t2": "G2 Esports",
-          "t1_court": "PV",
-          "t2_court": "G2",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 1
-        },
-        "FURIA|FaZe Clan": {
-          "ts": 1793609400,
-          "t1": "FURIA",
-          "t2": "FaZe Clan",
-          "t1_court": "FURIA",
-          "t2_court": "FaZe",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 1
-        },
-        "9z Team|BetBoom Team": {
-          "ts": 1793602800,
-          "t1": "9z Team",
-          "t2": "BetBoom Team",
-          "t1_court": "9z",
-          "t2_court": "BB",
-          "bo": 3,
-          "phase": "",
-          "s1": 1,
-          "s2": 2
-        },
-        "Natus Vincere|Team Falcons": {
-          "ts": 1793619900,
-          "t1": "Natus Vincere",
-          "t2": "Team Falcons",
-          "t1_court": "NAVI",
-          "t2_court": "Falcons",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        },
-        "MOUZ|TYLOO": {
-          "ts": 1793614500,
-          "t1": "MOUZ",
-          "t2": "TYLOO",
-          "t1_court": "MOUZ",
-          "t2_court": "TYLOO",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        }
-      },
-      "etape": "jour 1",
-      "tier": "S"
-    },
     "Intel Extreme Masters Beijing 2026|2026-11-03": {
       "nom": "Intel Extreme Masters Beijing 2026",
       "jour": "2026-11-03",
@@ -741,9 +660,53 @@
       },
       "etape": "dernier jour",
       "tier": "S"
+    },
+    "BLAST Rivals Fall 2026|2026-11-11": {
+      "nom": "BLAST Rivals Fall 2026",
+      "jour": "2026-11-11",
+      "matchs": {
+        "FURIA|Legacy": {
+          "ts": 1794362400,
+          "t1": "Legacy",
+          "t2": "FURIA",
+          "t1_court": "Legacy",
+          "t2_court": "FURIA",
+          "bo": 3,
+          "phase": ""
+        },
+        "Team Falcons|Team Vitality": {
+          "ts": 1794371400,
+          "t1": "Team Vitality",
+          "t2": "Team Falcons",
+          "t1_court": "Vitality",
+          "t2_court": "Falcons",
+          "bo": 3,
+          "phase": ""
+        },
+        "FUT Esports|Team Spirit": {
+          "ts": 1794380400,
+          "t1": "Team Spirit",
+          "t2": "FUT Esports",
+          "t1_court": "Spirit",
+          "t2_court": "FUT",
+          "bo": 3,
+          "phase": ""
+        },
+        "G2 Esports|MOUZ": {
+          "ts": 1794389400,
+          "t1": "MOUZ",
+          "t2": "G2 Esports",
+          "t1_court": "MOUZ",
+          "t2_court": "G2",
+          "bo": 3,
+          "phase": ""
+        }
+      },
+      "etape": "jour 1",
+      "tier": "S"
     }
   },
-  "maj_heure": "21:01",
+  "maj_heure": "00:36",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
@@ -863,6 +826,11 @@
     "a|Natus Vincere Junior|SANCTUM (page does not exist)|2026-11-10",
     "r|Alliance|FOKUS|1794232800",
     "a|Aimclub (Romanian team) (page does not exist)|Alliance|2026-11-09",
-    "a|Natus Vincere Junior|Sökerorg (page does not exist)|2026-11-10"
+    "a|Natus Vincere Junior|Sökerorg (page does not exist)|2026-11-10",
+    "a|FURIA|Legacy|2026-11-11",
+    "a|Team Falcons|Team Vitality|2026-11-11",
+    "a|FUT Esports|Team Spirit|2026-11-11",
+    "a|G2 Esports|MOUZ|2026-11-11",
+    "a|EYEBALLERS|Esport Academy Copenhagen|2026-11-11"
   ]
 }
