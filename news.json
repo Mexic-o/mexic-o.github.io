@@ -1,20 +1,15 @@
 {
-  "maj": "2026-11-08",
-  "maj_heure": "20:01",
+  "maj": "2026-11-09",
+  "maj_heure": "07:58",
   "semaine": "",
   "video": "",
   "articles": [
     {
-      "date": "2026-11-08",
-      "titre": "Intel Extreme Masters Beijing 2026 · dernier jour : les matchs du 8 novembre",
-      "resume": "2 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "NAVI 2-0 BB",
-        "MongolZ 0-3 MOUZ"
-      ],
-      "rang": 3
+      "date": "2026-11-09",
+      "titre": "dex passe sur le banc chez EYEBALLERS",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
     },
     {
       "date": "2026-11-08",
@@ -33,7 +28,7 @@
     {
       "date": "2026-11-08",
       "titre": "MOUZ remporte Intel Extreme Masters Beijing 2026",
-      "resume": "MOUZ gagne Intel Extreme Masters Beijing, contre The MongolZ. Victoire 3 à 0, avec Mirage, Dust2 et Inferno pour MOUZ. C'est son deuxième titre de l'année.",
+      "resume": "On commence par le dernier résultat : MOUZ gagne Intel Extreme Masters Beijing à Pékin, contre The MongolZ en finale. Victoire 3 à 0, avec Mirage, Dust2 et Inferno pour MOUZ. C'est son deuxième titre de l'année.",
       "categorie": "resultats",
       "tier": "Tier 1",
       "cartes": [
@@ -56,6 +51,18 @@
       "categorie": "fr"
     },
     {
+      "date": "2026-11-08",
+      "titre": "Intel Extreme Masters Beijing 2026 · dernier jour : les matchs du 8 novembre",
+      "resume": "2 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "NAVI 2-0 BB",
+        "MongolZ 0-3 MOUZ"
+      ],
+      "rang": 0
+    },
+    {
       "date": "2026-11-07",
       "titre": "Eternal Fire remporte Stake Ranked Episode 5",
       "resume": "Eternal Fire gagne Stake Ranked Episode 5, contre Fnatic. Victoire 3 à 2, avec Cache, Dust2 et Mirage pour Eternal Fire.",
@@ -72,7 +79,7 @@
     {
       "date": "2026-11-07",
       "titre": "FlyQuest remporte DFRAG Invitational 2026",
-      "resume": "Du côté de DFRAG Invitational, c'est FlyQuest qui l'emporte face à Alter Ego.",
+      "resume": "FlyQuest gagne DFRAG Invitational, contre Alter Ego.",
       "categorie": "resultats",
       "tier": "Tier 2"
     },
@@ -122,17 +129,6 @@
         "MOUZ 2-0 BB"
       ],
       "rang": 0
-    },
-    {
-      "date": "2026-11-06",
-      "titre": "HOTU remporte Tesla Cup 2026",
-      "resume": "Du côté de Tesla Cup, c'est HOTU qui l'emporte face à GamerLegion. Victoire 2 à 0, avec Dust2 et Nuke pour HOTU.",
-      "categorie": "resultats",
-      "tier": "Tier 2",
-      "cartes": [
-        "Dust2 13-6",
-        "Nuke 13-9"
-      ]
     }
   ],
   "matchs": [

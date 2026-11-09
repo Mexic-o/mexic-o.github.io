@@ -1,17 +1,12 @@
 {
   "articles": [
     {
-      "date": "2026-11-08",
-      "cle": "prog|Intel Extreme Masters Beijing 2026|2026-11-08",
-      "titre": "Intel Extreme Masters Beijing 2026 · dernier jour : les matchs du 8 novembre",
-      "resume": "2 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "NAVI 2-0 BB",
-        "MongolZ 0-3 MOUZ"
-      ],
-      "rang": 3
+      "date": "2026-11-09",
+      "cle": "tr|dex|EYEBALLERS|EYEBALLERS|banc",
+      "titre": "dex passe sur le banc chez EYEBALLERS",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
     },
     {
       "date": "2026-11-08",
@@ -32,7 +27,7 @@
       "date": "2026-11-08",
       "cle": "res|Intel Extreme Masters Beijing 2026|MOUZ",
       "titre": "MOUZ remporte Intel Extreme Masters Beijing 2026",
-      "resume": "MOUZ gagne Intel Extreme Masters Beijing, contre The MongolZ. Victoire 3 à 0, avec Mirage, Dust2 et Inferno pour MOUZ. C'est son deuxième titre de l'année.",
+      "resume": "On commence par le dernier résultat : MOUZ gagne Intel Extreme Masters Beijing à Pékin, contre The MongolZ en finale. Victoire 3 à 0, avec Mirage, Dust2 et Inferno pour MOUZ. C'est son deuxième titre de l'année.",
       "categorie": "resultats",
       "tier": "Tier 1",
       "cartes": [
@@ -57,6 +52,19 @@
       "categorie": "fr"
     },
     {
+      "date": "2026-11-08",
+      "cle": "prog|Intel Extreme Masters Beijing 2026|2026-11-08",
+      "titre": "Intel Extreme Masters Beijing 2026 · dernier jour : les matchs du 8 novembre",
+      "resume": "2 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "NAVI 2-0 BB",
+        "MongolZ 0-3 MOUZ"
+      ],
+      "rang": 0
+    },
+    {
       "date": "2026-11-07",
       "cle": "res|Stake Ranked Episode 5|Eternal Fire",
       "titre": "Eternal Fire remporte Stake Ranked Episode 5",
@@ -75,7 +83,7 @@
       "date": "2026-11-07",
       "cle": "res|DFRAG Invitational 2026|FlyQuest",
       "titre": "FlyQuest remporte DFRAG Invitational 2026",
-      "resume": "Du côté de DFRAG Invitational, c'est FlyQuest qui l'emporte face à Alter Ego.",
+      "resume": "FlyQuest gagne DFRAG Invitational, contre Alter Ego.",
       "categorie": "resultats",
       "tier": "Tier 2"
     },
@@ -278,76 +286,6 @@
         "FURIA 2-1 NAVI"
       ],
       "rang": 0
-    },
-    {
-      "date": "2026-11-02",
-      "cle": "debut|Intel Extreme Masters Beijing 2026",
-      "titre": "Intel Extreme Masters Beijing 2026 a commencé",
-      "resume": "Le tournoi se joue à Pékin, jusqu'au 8 novembre, 1 250 000 $ en jeu.",
-      "categorie": "resultats",
-      "tier": "Tier 1"
-    },
-    {
-      "date": "2026-11-02",
-      "cle": "res|Moscow Cyber Games 2026|1w Team",
-      "titre": "1w Team remporte Moscow Cyber Games 2026",
-      "resume": "Moscow Cyber Games, c'est terminé à Moscou : 1w Team s'impose en finale contre HOTU.",
-      "categorie": "resultats",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-02",
-      "cle": "res|FiReSPORTS Last Chance 2026|100 Thieves",
-      "titre": "100 Thieves remporte FiReSPORTS Last Chance 2026",
-      "resume": "Du côté de FiReSPORTS Last Chance, c'est 100 Thieves qui l'emporte face à Wildcard. Victoire 2 à 0, avec Cache et Dust2 pour 100 Thieves.",
-      "categorie": "resultats",
-      "tier": "Tier 2",
-      "cartes": [
-        "Cache 19-16",
-        "Dust2 13-4"
-      ]
-    },
-    {
-      "date": "2026-11-02",
-      "cle": "vrs|Nouveau classement du 2 novembre",
-      "titre": "Classement Valve : MOUZ numéro 1",
-      "resume": "Nouveau classement mondial officiel de Valve, publié le 2 novembre : MOUZ devient numéro 1, devant Vitality et FURIA. Grosse montée pour The MongolZ, qui passe de la 49e à la 17e place.",
-      "categorie": "resultats",
-      "tier": "Classement"
-    },
-    {
-      "date": "2026-11-02",
-      "cle": "tr|1NVISIBLEE, xm1nd +1|lavked|Lunacy Team|",
-      "titre": "1NVISIBLEE, xm1nd +1 passent de lavked à Lunacy Team",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-02",
-      "cle": "tr|mwlky||PURE|",
-      "titre": "mwlky rejoint PURE",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-02",
-      "cle": "prog|Intel Extreme Masters Beijing 2026|2026-11-02",
-      "titre": "Intel Extreme Masters Beijing 2026 · jour 1 : les matchs du 2 novembre",
-      "resume": "8 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "Legacy 1-2 MongolZ",
-        "HEROIC 2-0 B8",
-        "Aurora 0-2 Liquid",
-        "PV 2-1 G2",
-        "9z 1-2 BB",
-        "FURIA 2-1 FaZe",
-        "MOUZ 2-0 TYLOO"
-      ],
-      "rang": 0
     }
   ],
   "agenda": [
@@ -388,8 +326,8 @@
       "tournoi": "dès le 17 novembre · Prague Brno"
     }
   ],
-  "maj": "2026-11-08",
-  "collecte": "2026-11-08",
+  "maj": "2026-11-09",
+  "collecte": "2026-11-09",
   "envoi_en_attente": false,
   "chaine": {
     "handle": "@Mexic_Original",
@@ -398,36 +336,6 @@
   "video": "",
   "erreurs": [],
   "programmes": {
-    "FiReSPORTS Last Chance '26 - Playoffs|2026-11-01": {
-      "nom": "FiReSPORTS Last Chance '26 - Playoffs",
-      "jour": "2026-11-01",
-      "matchs": {
-        "BARCA esports (page does not exist)|Wildcard": {
-          "ts": 1793550900,
-          "t1": "Wildcard",
-          "t2": "BARCA esports (page does not exist)",
-          "t1_court": "Wildcard",
-          "t2_court": "BARCA",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        },
-        "100 Thieves|Wildcard": {
-          "ts": 1793565000,
-          "t1": "100 Thieves",
-          "t2": "Wildcard",
-          "t1_court": "100T",
-          "t2_court": "Wildcard",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        }
-      },
-      "etape": "",
-      "tier": ""
-    },
     "Intel Extreme Masters Beijing 2026|2026-11-02": {
       "nom": "Intel Extreme Masters Beijing 2026",
       "jour": "2026-11-02",
@@ -807,7 +715,7 @@
       "tier": "S"
     }
   },
-  "maj_heure": "20:01",
+  "maj_heure": "07:58",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
@@ -922,6 +830,8 @@
     "r|MOUZ|The MongolZ|1794123000",
     "r|BetBoom Team|Natus Vincere|1794110400",
     "a|Natus Vincere Junior|SANCTUM (page does not exist)|2026-11-09",
-    "a|Alliance|PRIVATE (page does not exist)|2026-11-08"
+    "a|Alliance|PRIVATE (page does not exist)|2026-11-08",
+    "a|Alliance|FOKUS|2026-11-09",
+    "a|Natus Vincere Junior|SANCTUM (page does not exist)|2026-11-10"
   ]
 }
