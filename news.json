@@ -1,9 +1,34 @@
 {
   "maj": "2026-11-09",
-  "maj_heure": "07:58",
+  "maj_heure": "21:01",
   "semaine": "",
   "video": "",
   "articles": [
+    {
+      "date": "2026-11-09",
+      "titre": "1w Team remporte Moscow Cyber Games 2026",
+      "resume": "1w Team remporte Moscow Cyber Games à Moscou, face à HOTU en finale.",
+      "categorie": "resultats",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-09",
+      "titre": "100 Thieves remporte FiReSPORTS Last Chance 2026",
+      "resume": "Du côté de FiReSPORTS Last Chance, c'est 100 Thieves qui l'emporte face à Wildcard. Victoire 2 à 0, avec Cache et Dust2 pour 100 Thieves.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "cartes": [
+        "Cache 19-16",
+        "Dust2 13-4"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "titre": "Classement Valve : MOUZ numéro 1",
+      "resume": "Nouveau classement mondial officiel de Valve, publié le 2 novembre : MOUZ devient numéro 1, devant Vitality et FURIA. Grosse montée pour The MongolZ, qui passe de la 49e à la 17e place.",
+      "categorie": "resultats",
+      "tier": "Classement"
+    },
     {
       "date": "2026-11-09",
       "titre": "dex passe sur le banc chez EYEBALLERS",
@@ -103,32 +128,6 @@
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-07",
-      "titre": "Dave devient le coach de K27",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-07",
-      "titre": "noni passe de Rune Eaters à Rune Eaters",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-07",
-      "titre": "Intel Extreme Masters Beijing 2026 · jour 6 : les matchs du 7 novembre",
-      "resume": "2 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "MongolZ 2-0 NAVI",
-        "MOUZ 2-0 BB"
-      ],
-      "rang": 0
     }
   ],
   "matchs": [

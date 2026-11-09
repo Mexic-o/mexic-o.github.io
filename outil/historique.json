@@ -2,6 +2,34 @@
   "articles": [
     {
       "date": "2026-11-09",
+      "cle": "res|Moscow Cyber Games 2026|1w Team",
+      "titre": "1w Team remporte Moscow Cyber Games 2026",
+      "resume": "1w Team remporte Moscow Cyber Games à Moscou, face à HOTU en finale.",
+      "categorie": "resultats",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-09",
+      "cle": "res|FiReSPORTS Last Chance 2026|100 Thieves",
+      "titre": "100 Thieves remporte FiReSPORTS Last Chance 2026",
+      "resume": "Du côté de FiReSPORTS Last Chance, c'est 100 Thieves qui l'emporte face à Wildcard. Victoire 2 à 0, avec Cache et Dust2 pour 100 Thieves.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "cartes": [
+        "Cache 19-16",
+        "Dust2 13-4"
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "cle": "vrs|Nouveau classement du 2 novembre",
+      "titre": "Classement Valve : MOUZ numéro 1",
+      "resume": "Nouveau classement mondial officiel de Valve, publié le 2 novembre : MOUZ devient numéro 1, devant Vitality et FURIA. Grosse montée pour The MongolZ, qui passe de la 49e à la 17e place.",
+      "categorie": "resultats",
+      "tier": "Classement"
+    },
+    {
+      "date": "2026-11-09",
       "cle": "tr|dex|EYEBALLERS|EYEBALLERS|banc",
       "titre": "dex passe sur le banc chez EYEBALLERS",
       "resume": "",
@@ -715,7 +743,7 @@
       "tier": "S"
     }
   },
-  "maj_heure": "07:58",
+  "maj_heure": "21:01",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
@@ -832,6 +860,9 @@
     "a|Natus Vincere Junior|SANCTUM (page does not exist)|2026-11-09",
     "a|Alliance|PRIVATE (page does not exist)|2026-11-08",
     "a|Alliance|FOKUS|2026-11-09",
-    "a|Natus Vincere Junior|SANCTUM (page does not exist)|2026-11-10"
+    "a|Natus Vincere Junior|SANCTUM (page does not exist)|2026-11-10",
+    "r|Alliance|FOKUS|1794232800",
+    "a|Aimclub (Romanian team) (page does not exist)|Alliance|2026-11-09",
+    "a|Natus Vincere Junior|Sökerorg (page does not exist)|2026-11-10"
   ]
 }
