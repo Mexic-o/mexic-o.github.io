@@ -16,6 +16,44 @@
       "rang": 3
     },
     {
+      "date": "2026-11-10",
+      "cle": "res|Fiesta Series 3|QUAZAR",
+      "titre": "QUAZAR remporte Fiesta Series 3",
+      "resume": "QUAZAR remporte Fiesta Series 3, face à Honvéd Esport en finale. Victoire 2 à 0, avec Anubis et Mirage pour QUAZAR.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "cartes": [
+        "Anubis 13-5",
+        "Mirage 13-8"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "cle": "res|ESL Challenger League Season 52: Europe - Cup #10|RBLS",
+      "titre": "RBLS remporte ESL Challenger League Season 52: Europe - Cup #10",
+      "resume": "Du côté de l'édition 10 d'ESL Challenger League Season 52, c'est RBLS qui l'emporte face à WRAITH PCIFIC. Victoire 2 à 1, avec Dust2 et Inferno pour RBLS.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "cartes": [
+        "Dust2 13-4",
+        "Nuke 10-13",
+        "Inferno 13-10"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "cle": "res|ESL Challenger League Season 52: Europe - Cup #11|9INE",
+      "titre": "9INE remporte ESL Challenger League Season 52: Europe - Cup #11",
+      "resume": "9INE gagne l'édition 11 d'ESL Challenger League Season 52, contre FOKUS. Victoire 2 à 1, avec Dust2 et Cache pour 9INE.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "cartes": [
+        "Ancient 7-13",
+        "Dust2 13-7",
+        "Cache 13-2"
+      ]
+    },
+    {
       "date": "2026-11-09",
       "cle": "res|Moscow Cyber Games 2026|1w Team",
       "titre": "1w Team remporte Moscow Cyber Games 2026",
@@ -311,27 +349,15 @@
         "MongolZ 2-1 FURIA"
       ],
       "rang": 0
-    },
-    {
-      "date": "2026-11-03",
-      "cle": "prog|Intel Extreme Masters Beijing 2026|2026-11-03",
-      "titre": "Intel Extreme Masters Beijing 2026 · jour 2 : les matchs du 3 novembre",
-      "resume": "8 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "Liquid 0-2 PV",
-        "Aurora 2-1 G2",
-        "TYLOO 2-0 9z",
-        "MOUZ 2-0 BB",
-        "FaZe 1-2 Falcons",
-        "MongolZ 2-0 HEROIC",
-        "FURIA 2-1 NAVI"
-      ],
-      "rang": 0
     }
   ],
   "agenda": [
+    {
+      "groupe": "En cours",
+      "jour": "2026-11-10",
+      "equipes": "NODWIN Clutch Series #14",
+      "tournoi": "jusqu'au 23 novembre"
+    },
     {
       "groupe": "En cours",
       "jour": "2026-11-04",
@@ -340,9 +366,9 @@
     },
     {
       "groupe": "En cours",
-      "jour": "2026-11-03",
-      "equipes": "CCT South America 2026 Series #8",
-      "tournoi": "jusqu'au 15 novembre"
+      "jour": "2026-11-10",
+      "equipes": "CCT Europe 2026 Series #14",
+      "tournoi": "jusqu'au 22 novembre"
     },
     {
       "groupe": "À venir",
@@ -369,8 +395,8 @@
       "tournoi": "dès le 17 novembre · Prague Brno"
     }
   ],
-  "maj": "2026-11-09",
-  "collecte": "2026-11-09",
+  "maj": "2026-11-10",
+  "collecte": "2026-11-10",
   "envoi_en_attente": false,
   "chaine": {
     "handle": "@Mexic_Original",
@@ -706,7 +732,7 @@
       "tier": "S"
     }
   },
-  "maj_heure": "00:36",
+  "maj_heure": "08:36",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",

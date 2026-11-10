@@ -1,6 +1,6 @@
 {
-  "maj": "2026-11-09",
-  "maj_heure": "00:36",
+  "maj": "2026-11-10",
+  "maj_heure": "08:36",
   "semaine": "",
   "video": "",
   "articles": [
@@ -17,6 +17,41 @@
         "10:30 · MOUZ vs G2"
       ],
       "rang": 3
+    },
+    {
+      "date": "2026-11-10",
+      "titre": "QUAZAR remporte Fiesta Series 3",
+      "resume": "QUAZAR remporte Fiesta Series 3, face à Honvéd Esport en finale. Victoire 2 à 0, avec Anubis et Mirage pour QUAZAR.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "cartes": [
+        "Anubis 13-5",
+        "Mirage 13-8"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "titre": "RBLS remporte ESL Challenger League Season 52: Europe - Cup #10",
+      "resume": "Du côté de l'édition 10 d'ESL Challenger League Season 52, c'est RBLS qui l'emporte face à WRAITH PCIFIC. Victoire 2 à 1, avec Dust2 et Inferno pour RBLS.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "cartes": [
+        "Dust2 13-4",
+        "Nuke 10-13",
+        "Inferno 13-10"
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "titre": "9INE remporte ESL Challenger League Season 52: Europe - Cup #11",
+      "resume": "9INE gagne l'édition 11 d'ESL Challenger League Season 52, contre FOKUS. Victoire 2 à 1, avec Dust2 et Cache pour 9INE.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "cartes": [
+        "Ancient 7-13",
+        "Dust2 13-7",
+        "Cache 13-2"
+      ]
     },
     {
       "date": "2026-11-09",
@@ -114,30 +149,15 @@
         "Dust2 13-11",
         "Mirage 13-8"
       ]
-    },
-    {
-      "date": "2026-11-07",
-      "titre": "FlyQuest remporte DFRAG Invitational 2026",
-      "resume": "FlyQuest gagne DFRAG Invitational, contre Alter Ego.",
-      "categorie": "resultats",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-07",
-      "titre": "chopper quitte Spirit",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 1"
-    },
-    {
-      "date": "2026-11-07",
-      "titre": "nota dépanne Rune Eaters",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 1"
     }
   ],
   "matchs": [
+    {
+      "groupe": "En cours",
+      "jour": "2026-11-10",
+      "equipes": "NODWIN Clutch Series #14",
+      "tournoi": "jusqu'au 23 novembre"
+    },
     {
       "groupe": "En cours",
       "jour": "2026-11-04",
@@ -146,9 +166,9 @@
     },
     {
       "groupe": "En cours",
-      "jour": "2026-11-03",
-      "equipes": "CCT South America 2026 Series #8",
-      "tournoi": "jusqu'au 15 novembre"
+      "jour": "2026-11-10",
+      "equipes": "CCT Europe 2026 Series #14",
+      "tournoi": "jusqu'au 22 novembre"
     },
     {
       "groupe": "À venir",
@@ -167,12 +187,6 @@
       "jour": "2026-11-17",
       "equipes": "Stake Ranked Episode 6",
       "tournoi": "dès le 17 novembre · Barcelona"
-    },
-    {
-      "groupe": "À venir",
-      "jour": "2026-11-17",
-      "equipes": "RUSH:Brno 2026",
-      "tournoi": "dès le 17 novembre · Prague Brno"
     }
   ]
 }
