@@ -1,17 +1,32 @@
 {
   "articles": [
     {
+      "date": "2026-11-12",
+      "cle": "prog|BLAST Rivals Fall 2026|2026-11-12",
+      "titre": "BLAST Rivals Fall 2026 · jour 2 : les matchs du 12 novembre",
+      "resume": "0 match joué, 4 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "03:00 · Legacy vs Falcons",
+        "05:30 · FURIA vs Vitality",
+        "08:00 · FUT vs MOUZ",
+        "10:30 · Spirit vs G2"
+      ],
+      "rang": 3
+    },
+    {
       "date": "2026-11-11",
       "cle": "prog|BLAST Rivals Fall 2026|2026-11-11",
       "titre": "BLAST Rivals Fall 2026 · jour 1 : les matchs du 11 novembre",
-      "resume": "1 match joué, 3 à venir. Heures de Paris.",
+      "resume": "Vitality bat Falcons 2-0. 4 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
         "Legacy 0-2 FURIA",
-        "05:30 · Vitality vs Falcons",
-        "08:00 · Spirit vs FUT",
-        "10:30 · MOUZ vs G2"
+        "Vitality 2-0 Falcons",
+        "Spirit 2-1 FUT",
+        "MOUZ 1-2 G2"
       ],
       "rang": 3
     },
@@ -345,15 +360,7 @@
     "id": "UCy5wcMtn9uzq_IUt3VgTgqQ"
   },
   "video": "",
-  "erreurs": [
-    "tournois S-Tier : HTTP Error 429: Too Many Requests",
-    "tournois A-Tier : HTTP Error 429: Too Many Requests",
-    "tournois B-Tier : HTTP Error 429: Too Many Requests",
-    "tournois C-Tier : HTTP Error 429: Too Many Requests",
-    "programme des matchs : HTTP Error 429: Too Many Requests",
-    "scène féminine : HTTP Error 429: Too Many Requests",
-    "transferts : HTTP Error 429: Too Many Requests"
-  ],
+  "erreurs": [],
   "programmes": {
     "Intel Extreme Masters Beijing 2026|2026-11-04": {
       "nom": "Intel Extreme Masters Beijing 2026",
@@ -557,22 +564,26 @@
           "s2": 2
         },
         "Team Falcons|Team Vitality": {
-          "ts": 1794371400,
+          "ts": 1794370500,
           "t1": "Team Vitality",
           "t2": "Team Falcons",
           "t1_court": "Vitality",
           "t2_court": "Falcons",
           "bo": 3,
-          "phase": ""
+          "phase": "",
+          "s1": 2,
+          "s2": 0
         },
         "FUT Esports|Team Spirit": {
-          "ts": 1794380400,
+          "ts": 1794378600,
           "t1": "Team Spirit",
           "t2": "FUT Esports",
           "t1_court": "Spirit",
           "t2_court": "FUT",
           "bo": 3,
-          "phase": ""
+          "phase": "",
+          "s1": 2,
+          "s2": 1
         },
         "G2 Esports|MOUZ": {
           "ts": 1794389400,
@@ -581,14 +592,60 @@
           "t1_court": "MOUZ",
           "t2_court": "G2",
           "bo": 3,
-          "phase": ""
+          "phase": "",
+          "s1": 1,
+          "s2": 2
         }
       },
       "etape": "jour 1",
       "tier": "S"
+    },
+    "BLAST Rivals Fall 2026|2026-11-12": {
+      "nom": "BLAST Rivals Fall 2026",
+      "jour": "2026-11-12",
+      "matchs": {
+        "Legacy|Team Falcons": {
+          "ts": 1794448800,
+          "t1": "Legacy",
+          "t2": "Team Falcons",
+          "t1_court": "Legacy",
+          "t2_court": "Falcons",
+          "bo": 3,
+          "phase": ""
+        },
+        "FURIA|Team Vitality": {
+          "ts": 1794457800,
+          "t1": "FURIA",
+          "t2": "Team Vitality",
+          "t1_court": "FURIA",
+          "t2_court": "Vitality",
+          "bo": 3,
+          "phase": ""
+        },
+        "FUT Esports|MOUZ": {
+          "ts": 1794466800,
+          "t1": "FUT Esports",
+          "t2": "MOUZ",
+          "t1_court": "FUT",
+          "t2_court": "MOUZ",
+          "bo": 3,
+          "phase": ""
+        },
+        "G2 Esports|Team Spirit": {
+          "ts": 1794475800,
+          "t1": "Team Spirit",
+          "t2": "G2 Esports",
+          "t1_court": "Spirit",
+          "t2_court": "G2",
+          "bo": 3,
+          "phase": ""
+        }
+      },
+      "etape": "jour 2",
+      "tier": "S"
     }
   },
-  "maj_heure": "10:05",
+  "maj_heure": "18:20",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
@@ -716,6 +773,15 @@
     "a|EYEBALLERS|Esport Academy Copenhagen|2026-11-11",
     "r|FURIA|Legacy|1794362400",
     "a|Natus Vincere Junior|TheChampionGG (page does not exist)|2026-11-12",
-    "a|MOUZ NXT|Natus Vincere Junior|2026-11-12"
+    "a|MOUZ NXT|Natus Vincere Junior|2026-11-12",
+    "r|EYEBALLERS|Esport Academy Copenhagen|1794396600",
+    "r|G2 Esports|MOUZ|1794389400",
+    "r|FUT Esports|Team Spirit|1794378600",
+    "a|FUT Esports|MOUZ|2026-11-12",
+    "a|G2 Esports|Team Spirit|2026-11-12",
+    "r|Team Falcons|Team Vitality|1794370500",
+    "a|Legacy|Team Falcons|2026-11-12",
+    "a|FURIA|Team Vitality|2026-11-12",
+    "a|Alliance|Four Magic (page does not exist)|2026-11-12"
   ]
 }

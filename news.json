@@ -1,20 +1,34 @@
 {
   "maj": "2026-11-11",
-  "maj_heure": "10:05",
+  "maj_heure": "18:20",
   "semaine": "",
   "video": "",
   "articles": [
     {
+      "date": "2026-11-12",
+      "titre": "BLAST Rivals Fall 2026 · jour 2 : les matchs du 12 novembre",
+      "resume": "0 match joué, 4 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "03:00 · Legacy vs Falcons",
+        "05:30 · FURIA vs Vitality",
+        "08:00 · FUT vs MOUZ",
+        "10:30 · Spirit vs G2"
+      ],
+      "rang": 3
+    },
+    {
       "date": "2026-11-11",
       "titre": "BLAST Rivals Fall 2026 · jour 1 : les matchs du 11 novembre",
-      "resume": "1 match joué, 3 à venir. Heures de Paris.",
+      "resume": "Vitality bat Falcons 2-0. 4 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
         "Legacy 0-2 FURIA",
-        "05:30 · Vitality vs Falcons",
-        "08:00 · Spirit vs FUT",
-        "10:30 · MOUZ vs G2"
+        "Vitality 2-0 Falcons",
+        "Spirit 2-1 FUT",
+        "MOUZ 1-2 G2"
       ],
       "rang": 3
     },
@@ -131,12 +145,6 @@
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-08",
-      "titre": "NBK- devient le coach de Phantom",
-      "resume": "",
-      "categorie": "fr"
     }
   ],
   "matchs": [
