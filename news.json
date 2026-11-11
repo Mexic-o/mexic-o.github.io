@@ -1,17 +1,17 @@
 {
-  "maj": "2026-11-10",
-  "maj_heure": "21:56",
+  "maj": "2026-11-11",
+  "maj_heure": "07:50",
   "semaine": "",
   "video": "",
   "articles": [
     {
       "date": "2026-11-11",
       "titre": "BLAST Rivals Fall 2026 · jour 1 : les matchs du 11 novembre",
-      "resume": "0 match joué, 4 à venir. Heures de Paris.",
+      "resume": "1 match joué, 3 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "03:00 · Legacy vs FURIA",
+        "Legacy 0-2 FURIA",
         "05:30 · Vitality vs Falcons",
         "08:00 · Spirit vs FUT",
         "10:30 · MOUZ vs G2"
@@ -19,9 +19,23 @@
       "rang": 3
     },
     {
+      "date": "2026-11-11",
+      "titre": "BLAST Rivals Fall 2026 a commencé",
+      "resume": "Le tournoi se joue à Chek Lap Kok, jusqu'au 15 novembre, 1 000 000 $ en jeu.",
+      "categorie": "resultats",
+      "tier": "Tier 1"
+    },
+    {
+      "date": "2026-11-11",
+      "titre": "Patsi rejoint Virtus.pro",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
       "date": "2026-11-10",
       "titre": "QUAZAR remporte Fiesta Series 3",
-      "resume": "QUAZAR remporte Fiesta Series 3, face à Honvéd Esport en finale. Victoire 2 à 0, avec Anubis et Mirage pour QUAZAR.",
+      "resume": "Fiesta Series 3, c'est terminé : QUAZAR s'impose en finale contre Honvéd Esport. Victoire 2 à 0, avec Anubis et Mirage pour QUAZAR.",
       "categorie": "resultats",
       "tier": "Tier 2",
       "cartes": [
@@ -123,35 +137,15 @@
       "titre": "NBK- devient le coach de Phantom",
       "resume": "",
       "categorie": "fr"
-    },
-    {
-      "date": "2026-11-08",
-      "titre": "Intel Extreme Masters Beijing 2026 · dernier jour : les matchs du 8 novembre",
-      "resume": "2 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "NAVI 2-0 BB",
-        "MongolZ 0-3 MOUZ"
-      ],
-      "rang": 0
-    },
-    {
-      "date": "2026-11-07",
-      "titre": "Eternal Fire remporte Stake Ranked Episode 5",
-      "resume": "Eternal Fire gagne Stake Ranked Episode 5, contre Fnatic. Victoire 3 à 2, avec Cache, Dust2 et Mirage pour Eternal Fire.",
-      "categorie": "resultats",
-      "tier": "Tier 1",
-      "cartes": [
-        "Anubis 8-13",
-        "Ancient 2-13",
-        "Cache 13-9",
-        "Dust2 13-11",
-        "Mirage 13-8"
-      ]
     }
   ],
   "matchs": [
+    {
+      "groupe": "En cours",
+      "jour": "2026-11-11",
+      "equipes": "BLAST Rivals Fall 2026",
+      "tournoi": "jusqu'au 15 novembre · Chek Lap Kok"
+    },
     {
       "groupe": "En cours",
       "jour": "2026-11-10",
@@ -165,18 +159,6 @@
       "tournoi": "jusqu'au 16 novembre"
     },
     {
-      "groupe": "En cours",
-      "jour": "2026-11-10",
-      "equipes": "CCT Europe 2026 Series #14",
-      "tournoi": "jusqu'au 22 novembre"
-    },
-    {
-      "groupe": "À venir",
-      "jour": "2026-11-11",
-      "equipes": "BLAST Rivals Fall 2026",
-      "tournoi": "dès le 11 novembre · Chek Lap Kok"
-    },
-    {
       "groupe": "À venir",
       "jour": "2026-11-16",
       "equipes": "YaLLa Compass UAE 2026",
@@ -187,6 +169,12 @@
       "jour": "2026-11-17",
       "equipes": "Stake Ranked Episode 6",
       "tournoi": "dès le 17 novembre · Barcelona"
+    },
+    {
+      "groupe": "À venir",
+      "jour": "2026-11-17",
+      "equipes": "RUSH:Brno 2026",
+      "tournoi": "dès le 17 novembre · Prague Brno"
     }
   ]
 }

@@ -4,11 +4,11 @@
       "date": "2026-11-11",
       "cle": "prog|BLAST Rivals Fall 2026|2026-11-11",
       "titre": "BLAST Rivals Fall 2026 · jour 1 : les matchs du 11 novembre",
-      "resume": "0 match joué, 4 à venir. Heures de Paris.",
+      "resume": "1 match joué, 3 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "03:00 · Legacy vs FURIA",
+        "Legacy 0-2 FURIA",
         "05:30 · Vitality vs Falcons",
         "08:00 · Spirit vs FUT",
         "10:30 · MOUZ vs G2"
@@ -16,10 +16,26 @@
       "rang": 3
     },
     {
+      "date": "2026-11-11",
+      "cle": "debut|BLAST Rivals Fall 2026",
+      "titre": "BLAST Rivals Fall 2026 a commencé",
+      "resume": "Le tournoi se joue à Chek Lap Kok, jusqu'au 15 novembre, 1 000 000 $ en jeu.",
+      "categorie": "resultats",
+      "tier": "Tier 1"
+    },
+    {
+      "date": "2026-11-11",
+      "cle": "tr|Patsi||Virtus.pro|",
+      "titre": "Patsi rejoint Virtus.pro",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
       "date": "2026-11-10",
       "cle": "res|Fiesta Series 3|QUAZAR",
       "titre": "QUAZAR remporte Fiesta Series 3",
-      "resume": "QUAZAR remporte Fiesta Series 3, face à Honvéd Esport en finale. Victoire 2 à 0, avec Anubis et Mirage pour QUAZAR.",
+      "resume": "Fiesta Series 3, c'est terminé : QUAZAR s'impose en finale contre Honvéd Esport. Victoire 2 à 0, avec Anubis et Mirage pour QUAZAR.",
       "categorie": "resultats",
       "tier": "Tier 2",
       "cartes": [
@@ -275,83 +291,15 @@
       "resume": "Côté jeu, mise à jour de CS2 le 5 novembre, avec 21 changements au total.",
       "categorie": "maj",
       "lien": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848557880481353"
-    },
-    {
-      "date": "2026-11-04",
-      "cle": "tr|ksloks||Legacy|remplaçant",
-      "titre": "ksloks dépanne Legacy",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 1"
-    },
-    {
-      "date": "2026-11-04",
-      "cle": "tr|n1ssim|Legacy|Legacy|banc",
-      "titre": "n1ssim passe sur le banc chez Legacy",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 1"
-    },
-    {
-      "date": "2026-11-04",
-      "cle": "tr|Ciocardau, d1maje +1|HYPERSPIRIT|libre|",
-      "titre": "Ciocardau, d1maje +1 quittent HYPERSPIRIT",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-04",
-      "cle": "tr|ADRON et XELLOW||Aimclub|",
-      "titre": "ADRON et XELLOW rejoignent Aimclub",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-04",
-      "cle": "tr|VENO, grecu +3|Falcons Force|Falcons Force|banc",
-      "titre": "VENO, grecu +3 passent sur le banc chez Falcons Force",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-04",
-      "cle": "tr|NaToSaphiX|Falcons Force|Falcons Force|banc",
-      "titre": "NaToSaphiX passe sur le banc chez Falcons Force",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-04",
-      "cle": "tr|zune|Abyssal|libre|",
-      "titre": "zune quitte Abyssal",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-04",
-      "cle": "prog|Intel Extreme Masters Beijing 2026|2026-11-04",
-      "titre": "Intel Extreme Masters Beijing 2026 · jour 3 : les matchs du 4 novembre",
-      "resume": "8 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "Liquid 2-0 TYLOO",
-        "BB 2-0 Aurora",
-        "NAVI 2-0 B8",
-        "HEROIC 0-2 Falcons",
-        "MOUZ 2-0 PV",
-        "Liquid 1-2 BB",
-        "MongolZ 2-1 FURIA"
-      ],
-      "rang": 0
     }
   ],
   "agenda": [
+    {
+      "groupe": "En cours",
+      "jour": "2026-11-11",
+      "equipes": "BLAST Rivals Fall 2026",
+      "tournoi": "jusqu'au 15 novembre · Chek Lap Kok"
+    },
     {
       "groupe": "En cours",
       "jour": "2026-11-10",
@@ -363,18 +311,6 @@
       "jour": "2026-11-04",
       "equipes": "CCT Europe 2026 Series #13",
       "tournoi": "jusqu'au 16 novembre"
-    },
-    {
-      "groupe": "En cours",
-      "jour": "2026-11-10",
-      "equipes": "CCT Europe 2026 Series #14",
-      "tournoi": "jusqu'au 22 novembre"
-    },
-    {
-      "groupe": "À venir",
-      "jour": "2026-11-11",
-      "equipes": "BLAST Rivals Fall 2026",
-      "tournoi": "dès le 11 novembre · Chek Lap Kok"
     },
     {
       "groupe": "À venir",
@@ -393,122 +329,24 @@
       "jour": "2026-11-17",
       "equipes": "RUSH:Brno 2026",
       "tournoi": "dès le 17 novembre · Prague Brno"
+    },
+    {
+      "groupe": "À venir",
+      "jour": "2026-11-13",
+      "equipes": "Austin LAN 2026",
+      "tournoi": "dès le 13 novembre · Lisle"
     }
   ],
-  "maj": "2026-11-10",
-  "collecte": "2026-11-10",
+  "maj": "2026-11-11",
+  "collecte": "2026-11-11",
   "envoi_en_attente": false,
   "chaine": {
     "handle": "@Mexic_Original",
     "id": "UCy5wcMtn9uzq_IUt3VgTgqQ"
   },
   "video": "",
-  "erreurs": [
-    "tournois S-Tier : HTTP Error 429: Too Many Requests",
-    "tournois A-Tier : HTTP Error 429: Too Many Requests",
-    "tournois B-Tier : HTTP Error 429: Too Many Requests",
-    "tournois C-Tier : HTTP Error 429: Too Many Requests",
-    "programme des matchs : HTTP Error 429: Too Many Requests",
-    "scène féminine : HTTP Error 429: Too Many Requests",
-    "transferts : HTTP Error 429: Too Many Requests"
-  ],
+  "erreurs": [],
   "programmes": {
-    "Intel Extreme Masters Beijing 2026|2026-11-03": {
-      "nom": "Intel Extreme Masters Beijing 2026",
-      "jour": "2026-11-03",
-      "matchs": {
-        "HEROIC|The MongolZ": {
-          "ts": 1793693400,
-          "t1": "The MongolZ",
-          "t2": "HEROIC",
-          "t1_court": "MongolZ",
-          "t2_court": "HEROIC",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        },
-        "FURIA|Natus Vincere": {
-          "ts": 1793700900,
-          "t1": "FURIA",
-          "t2": "Natus Vincere",
-          "t1_court": "FURIA",
-          "t2_court": "NAVI",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 1
-        },
-        "B8|Legacy": {
-          "ts": 1793703600,
-          "t1": "Legacy",
-          "t2": "B8",
-          "t1_court": "Legacy",
-          "t2_court": "B8",
-          "bo": 3,
-          "phase": "",
-          "s1": 1,
-          "s2": 2
-        },
-        "FaZe Clan|Team Falcons": {
-          "ts": 1793689200,
-          "t1": "FaZe Clan",
-          "t2": "Team Falcons",
-          "t1_court": "FaZe",
-          "t2_court": "Falcons",
-          "bo": 3,
-          "phase": "",
-          "s1": 1,
-          "s2": 2
-        },
-        "BetBoom Team|MOUZ": {
-          "ts": 1793685600,
-          "t1": "MOUZ",
-          "t2": "BetBoom Team",
-          "t1_court": "MOUZ",
-          "t2_court": "BB",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        },
-        "PARIVISION|Team Liquid": {
-          "ts": 1793671200,
-          "t1": "Team Liquid",
-          "t2": "PARIVISION",
-          "t1_court": "Liquid",
-          "t2_court": "PV",
-          "bo": 3,
-          "phase": "",
-          "s1": 0,
-          "s2": 2
-        },
-        "9z Team|TYLOO": {
-          "ts": 1793680500,
-          "t1": "TYLOO",
-          "t2": "9z Team",
-          "t1_court": "TYLOO",
-          "t2_court": "9z",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        },
-        "Aurora Gaming|G2 Esports": {
-          "ts": 1793671200,
-          "t1": "Aurora Gaming",
-          "t2": "G2 Esports",
-          "t1_court": "Aurora",
-          "t2_court": "G2",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 1
-        }
-      },
-      "etape": "jour 2",
-      "tier": "S"
-    },
     "Intel Extreme Masters Beijing 2026|2026-11-04": {
       "nom": "Intel Extreme Masters Beijing 2026",
       "jour": "2026-11-04",
@@ -706,7 +544,9 @@
           "t1_court": "Legacy",
           "t2_court": "FURIA",
           "bo": 3,
-          "phase": ""
+          "phase": "",
+          "s1": 0,
+          "s2": 2
         },
         "Team Falcons|Team Vitality": {
           "ts": 1794371400,
@@ -740,7 +580,7 @@
       "tier": "S"
     }
   },
-  "maj_heure": "21:56",
+  "maj_heure": "07:50",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
@@ -865,6 +705,9 @@
     "a|Team Falcons|Team Vitality|2026-11-11",
     "a|FUT Esports|Team Spirit|2026-11-11",
     "a|G2 Esports|MOUZ|2026-11-11",
-    "a|EYEBALLERS|Esport Academy Copenhagen|2026-11-11"
+    "a|EYEBALLERS|Esport Academy Copenhagen|2026-11-11",
+    "r|FURIA|Legacy|1794362400",
+    "a|Natus Vincere Junior|TheChampionGG (page does not exist)|2026-11-12",
+    "a|MOUZ NXT|Natus Vincere Junior|2026-11-12"
   ]
 }
