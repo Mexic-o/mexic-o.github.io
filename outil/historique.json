@@ -4,31 +4,48 @@
       "date": "2026-11-12",
       "cle": "prog|BLAST Rivals Fall 2026|2026-11-12",
       "titre": "BLAST Rivals Fall 2026 · jour 2 : les matchs du 12 novembre",
-      "resume": "0 match joué, 4 à venir. Heures de Paris.",
+      "resume": "1 match joué, 3 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "03:00 · Legacy vs Falcons",
-        "05:30 · FURIA vs Vitality",
+        "Legacy 0-2 Falcons",
+        "05:00 · FURIA vs Vitality",
         "08:00 · FUT vs MOUZ",
         "10:30 · Spirit vs G2"
       ],
       "rang": 3
     },
     {
-      "date": "2026-11-11",
-      "cle": "prog|BLAST Rivals Fall 2026|2026-11-11",
-      "titre": "BLAST Rivals Fall 2026 · jour 1 : les matchs du 11 novembre",
-      "resume": "Vitality bat Falcons 2-0. 4 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "Legacy 0-2 FURIA",
-        "Vitality 2-0 Falcons",
-        "Spirit 2-1 FUT",
-        "MOUZ 1-2 G2"
-      ],
-      "rang": 3
+      "date": "2026-11-12",
+      "cle": "maj|https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144180746",
+      "titre": "Mise à jour CS2 du 11 novembre",
+      "resume": "Côté jeu, Valve a sorti deux mises à jour de CS2 cette semaine, avec 26 changements au total.",
+      "categorie": "maj",
+      "lien": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144180746"
+    },
+    {
+      "date": "2026-11-12",
+      "cle": "tr|KAISER, zock +2|Bounty Hunters|Bounty Hunters|banc",
+      "titre": "KAISER, zock +2 passent sur le banc chez Bounty Hunters",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-12",
+      "cle": "tr|gusihx et GYZER|Bounty Hunters|Bounty Hunters|banc",
+      "titre": "gusihx et GYZER passent sur le banc chez Bounty Hunters",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-12",
+      "cle": "tr|ponter|Bounty Hunters|libre|",
+      "titre": "ponter quitte Bounty Hunters",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
     },
     {
       "date": "2026-11-11",
@@ -45,6 +62,21 @@
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-11",
+      "cle": "prog|BLAST Rivals Fall 2026|2026-11-11",
+      "titre": "BLAST Rivals Fall 2026 · jour 1 : les matchs du 11 novembre",
+      "resume": "Vitality bat Falcons 2-0. 4 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "Legacy 0-2 FURIA",
+        "Vitality 2-0 Falcons",
+        "Spirit 2-1 FUT",
+        "MOUZ 1-2 G2"
+      ],
+      "rang": 0
     },
     {
       "date": "2026-11-10",
@@ -298,14 +330,6 @@
         "FURIA 1-2 BB"
       ],
       "rang": 0
-    },
-    {
-      "date": "2026-11-05",
-      "cle": "maj|https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848557880481353",
-      "titre": "Mise à jour CS2 du 5 novembre",
-      "resume": "Côté jeu, mise à jour de CS2 le 5 novembre, avec 21 changements au total.",
-      "categorie": "maj",
-      "lien": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1848557880481353"
     }
   ],
   "agenda": [
@@ -352,8 +376,8 @@
       "tournoi": "dès le 13 novembre · Lisle"
     }
   ],
-  "maj": "2026-11-11",
-  "collecte": "2026-11-11",
+  "maj": "2026-11-12",
+  "collecte": "2026-11-12",
   "envoi_en_attente": false,
   "chaine": {
     "handle": "@Mexic_Original",
@@ -362,102 +386,6 @@
   "video": "",
   "erreurs": [],
   "programmes": {
-    "Intel Extreme Masters Beijing 2026|2026-11-04": {
-      "nom": "Intel Extreme Masters Beijing 2026",
-      "jour": "2026-11-04",
-      "matchs": {
-        "TYLOO|Team Liquid": {
-          "ts": 1793757600,
-          "t1": "Team Liquid",
-          "t2": "TYLOO",
-          "t1_court": "Liquid",
-          "t2_court": "TYLOO",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        },
-        "Aurora Gaming|BetBoom Team": {
-          "ts": 1793757600,
-          "t1": "BetBoom Team",
-          "t2": "Aurora Gaming",
-          "t1_court": "BB",
-          "t2_court": "Aurora",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        },
-        "B8|Natus Vincere": {
-          "ts": 1793766900,
-          "t1": "Natus Vincere",
-          "t2": "B8",
-          "t1_court": "NAVI",
-          "t2_court": "B8",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        },
-        "HEROIC|Team Falcons": {
-          "ts": 1793766900,
-          "t1": "HEROIC",
-          "t2": "Team Falcons",
-          "t1_court": "HEROIC",
-          "t2_court": "Falcons",
-          "bo": 3,
-          "phase": "",
-          "s1": 0,
-          "s2": 2
-        },
-        "MOUZ|PARIVISION": {
-          "ts": 1793775600,
-          "t1": "MOUZ",
-          "t2": "PARIVISION",
-          "t1_court": "MOUZ",
-          "t2_court": "PV",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        },
-        "FURIA|The MongolZ": {
-          "ts": 1793784600,
-          "t1": "The MongolZ",
-          "t2": "FURIA",
-          "t1_court": "MongolZ",
-          "t2_court": "FURIA",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 1
-        },
-        "BetBoom Team|Team Liquid": {
-          "ts": 1793775600,
-          "t1": "Team Liquid",
-          "t2": "BetBoom Team",
-          "t1_court": "Liquid",
-          "t2_court": "BB",
-          "bo": 3,
-          "phase": "",
-          "s1": 1,
-          "s2": 2
-        },
-        "Natus Vincere|Team Falcons": {
-          "ts": 1793787600,
-          "t1": "Natus Vincere",
-          "t2": "Team Falcons",
-          "t1_court": "NAVI",
-          "t2_court": "Falcons",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 1
-        }
-      },
-      "etape": "jour 3",
-      "tier": "S"
-    },
     "Intel Extreme Masters Beijing 2026|2026-11-06": {
       "nom": "Intel Extreme Masters Beijing 2026",
       "jour": "2026-11-06",
@@ -611,10 +539,12 @@
           "t1_court": "Legacy",
           "t2_court": "Falcons",
           "bo": 3,
-          "phase": ""
+          "phase": "",
+          "s1": 0,
+          "s2": 2
         },
         "FURIA|Team Vitality": {
-          "ts": 1794457800,
+          "ts": 1794456000,
           "t1": "FURIA",
           "t2": "Team Vitality",
           "t1_court": "FURIA",
@@ -645,7 +575,7 @@
       "tier": "S"
     }
   },
-  "maj_heure": "22:40",
+  "maj_heure": "08:31",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
@@ -782,6 +712,7 @@
     "r|Team Falcons|Team Vitality|1794370500",
     "a|Legacy|Team Falcons|2026-11-12",
     "a|FURIA|Team Vitality|2026-11-12",
-    "a|Alliance|Four Magic (page does not exist)|2026-11-12"
+    "a|Alliance|Four Magic (page does not exist)|2026-11-12",
+    "r|Legacy|Team Falcons|1794448800"
   ]
 }

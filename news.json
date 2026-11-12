@@ -1,36 +1,50 @@
 {
-  "maj": "2026-11-11",
-  "maj_heure": "22:40",
+  "maj": "2026-11-12",
+  "maj_heure": "08:31",
   "semaine": "",
   "video": "",
   "articles": [
     {
       "date": "2026-11-12",
       "titre": "BLAST Rivals Fall 2026 · jour 2 : les matchs du 12 novembre",
-      "resume": "0 match joué, 4 à venir. Heures de Paris.",
+      "resume": "1 match joué, 3 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "03:00 · Legacy vs Falcons",
-        "05:30 · FURIA vs Vitality",
+        "Legacy 0-2 Falcons",
+        "05:00 · FURIA vs Vitality",
         "08:00 · FUT vs MOUZ",
         "10:30 · Spirit vs G2"
       ],
       "rang": 3
     },
     {
-      "date": "2026-11-11",
-      "titre": "BLAST Rivals Fall 2026 · jour 1 : les matchs du 11 novembre",
-      "resume": "Vitality bat Falcons 2-0. 4 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "Legacy 0-2 FURIA",
-        "Vitality 2-0 Falcons",
-        "Spirit 2-1 FUT",
-        "MOUZ 1-2 G2"
-      ],
-      "rang": 3
+      "date": "2026-11-12",
+      "titre": "Mise à jour CS2 du 11 novembre",
+      "resume": "Côté jeu, Valve a sorti deux mises à jour de CS2 cette semaine, avec 26 changements au total.",
+      "categorie": "maj",
+      "lien": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144180746"
+    },
+    {
+      "date": "2026-11-12",
+      "titre": "KAISER, zock +2 passent sur le banc chez Bounty Hunters",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-12",
+      "titre": "gusihx et GYZER passent sur le banc chez Bounty Hunters",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-12",
+      "titre": "ponter quitte Bounty Hunters",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
     },
     {
       "date": "2026-11-11",
@@ -45,6 +59,20 @@
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-11",
+      "titre": "BLAST Rivals Fall 2026 · jour 1 : les matchs du 11 novembre",
+      "resume": "Vitality bat Falcons 2-0. 4 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "Legacy 0-2 FURIA",
+        "Vitality 2-0 Falcons",
+        "Spirit 2-1 FUT",
+        "MOUZ 1-2 G2"
+      ],
+      "rang": 0
     },
     {
       "date": "2026-11-10",
@@ -105,46 +133,6 @@
       "resume": "Nouveau classement mondial officiel de Valve, publié le 2 novembre : MOUZ devient numéro 1, devant Vitality et FURIA. Grosse montée pour The MongolZ, qui passe de la 49e à la 17e place.",
       "categorie": "resultats",
       "tier": "Classement"
-    },
-    {
-      "date": "2026-11-09",
-      "titre": "dex passe sur le banc chez EYEBALLERS",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-08",
-      "titre": "FURIA remporte PGL Masters Bucharest 2026",
-      "resume": "FURIA remporte PGL Masters Bucharest à Bucarest, face à Nemiga en finale. Victoire 3 à 2, avec Dust2, Cache et Nuke pour FURIA. C'est son deuxième titre de l'année. Pour Nemiga, c'est une deuxième finale perdue d'affilée.",
-      "categorie": "resultats",
-      "tier": "Tier 1",
-      "cartes": [
-        "Ancient 2-13",
-        "Dust2 13-5",
-        "Cache 13-2",
-        "Mirage 11-13",
-        "Nuke 13-6"
-      ]
-    },
-    {
-      "date": "2026-11-08",
-      "titre": "MOUZ remporte Intel Extreme Masters Beijing 2026",
-      "resume": "On commence par le dernier résultat : MOUZ gagne Intel Extreme Masters Beijing à Pékin, contre The MongolZ en finale. Victoire 3 à 0, avec Mirage, Dust2 et Inferno pour MOUZ. C'est son deuxième titre de l'année.",
-      "categorie": "resultats",
-      "tier": "Tier 1",
-      "cartes": [
-        "Mirage 13-5",
-        "Dust2 13-6",
-        "Inferno 13-4"
-      ]
-    },
-    {
-      "date": "2026-11-08",
-      "titre": "cau devient le coach de HOTU",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
     }
   ],
   "matchs": [
