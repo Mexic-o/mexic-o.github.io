@@ -61,6 +61,14 @@
       "tier": "Tier 2"
     },
     {
+      "date": "2026-11-12",
+      "cle": "tr|k0gaSs|Spirit Academy|libre|",
+      "titre": "k0gaSs quitte Spirit Academy",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
       "date": "2026-11-11",
       "cle": "debut|BLAST Rivals Fall 2026",
       "titre": "BLAST Rivals Fall 2026 a commencé",
@@ -620,7 +628,7 @@
       "tier": "S"
     }
   },
-  "maj_heure": "18:45",
+  "maj_heure": "22:37",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
