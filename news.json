@@ -1,20 +1,32 @@
 {
   "maj": "2026-11-12",
-  "maj_heure": "08:31",
+  "maj_heure": "18:45",
   "semaine": "",
   "video": "",
   "articles": [
     {
+      "date": "2026-11-13",
+      "titre": "BLAST Rivals Fall 2026 · jour 3 · playoffs : les matchs du 13 novembre",
+      "resume": "0 match joué, 2 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "09:00 · Vitality vs MOUZ",
+        "11:30 · G2 vs Falcons"
+      ],
+      "rang": 3
+    },
+    {
       "date": "2026-11-12",
       "titre": "BLAST Rivals Fall 2026 · jour 2 : les matchs du 12 novembre",
-      "resume": "1 match joué, 3 à venir. Heures de Paris.",
+      "resume": "FURIA bat Vitality 2-1. 4 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
         "Legacy 0-2 Falcons",
-        "05:00 · FURIA vs Vitality",
-        "08:00 · FUT vs MOUZ",
-        "10:30 · Spirit vs G2"
+        "FURIA 2-1 Vitality",
+        "FUT 1-2 MOUZ",
+        "Spirit 2-1 G2"
       ],
       "rang": 3
     },
@@ -126,13 +138,6 @@
         "Cache 19-16",
         "Dust2 13-4"
       ]
-    },
-    {
-      "date": "2026-11-09",
-      "titre": "Classement Valve : MOUZ numéro 1",
-      "resume": "Nouveau classement mondial officiel de Valve, publié le 2 novembre : MOUZ devient numéro 1, devant Vitality et FURIA. Grosse montée pour The MongolZ, qui passe de la 49e à la 17e place.",
-      "categorie": "resultats",
-      "tier": "Classement"
     }
   ],
   "matchs": [
