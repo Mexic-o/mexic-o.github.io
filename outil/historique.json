@@ -1,15 +1,28 @@
 {
   "articles": [
     {
-      "date": "2026-11-13",
-      "cle": "prog|BLAST Rivals Fall 2026|2026-11-13",
-      "titre": "BLAST Rivals Fall 2026 · jour 3 · playoffs : les matchs du 13 novembre",
+      "date": "2026-11-14",
+      "cle": "prog|BLAST Rivals Fall 2026|2026-11-14",
+      "titre": "BLAST Rivals Fall 2026 · jour 4 · playoffs : les matchs du 14 novembre",
       "resume": "0 match joué, 2 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "09:00 · Vitality vs MOUZ",
-        "11:30 · G2 vs Falcons"
+        "09:00 · Spirit vs MOUZ",
+        "11:30 · FURIA vs Falcons"
+      ],
+      "rang": 3
+    },
+    {
+      "date": "2026-11-13",
+      "cle": "prog|BLAST Rivals Fall 2026|2026-11-13",
+      "titre": "BLAST Rivals Fall 2026 · jour 3 · playoffs : les matchs du 13 novembre",
+      "resume": "MOUZ bat Vitality 2-0. 2 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "Vitality 0-2 MOUZ",
+        "G2 1-2 Falcons"
       ],
       "rang": 3
     },
@@ -559,23 +572,53 @@
           "t1_court": "Vitality",
           "t2_court": "MOUZ",
           "bo": 3,
-          "phase": "playoffs"
+          "phase": "playoffs",
+          "s1": 0,
+          "s2": 2
         },
         "G2 Esports|Team Falcons": {
-          "ts": 1794565800,
+          "ts": 1794567300,
           "t1": "G2 Esports",
           "t2": "Team Falcons",
           "t1_court": "G2",
           "t2_court": "Falcons",
           "bo": 3,
-          "phase": "playoffs"
+          "phase": "playoffs",
+          "s1": 1,
+          "s2": 2
         }
       },
       "etape": "jour 3",
       "tier": "S"
+    },
+    "BLAST Rivals Fall 2026|2026-11-14": {
+      "nom": "BLAST Rivals Fall 2026",
+      "jour": "2026-11-14",
+      "matchs": {
+        "MOUZ|Team Spirit": {
+          "ts": 1794643200,
+          "t1": "Team Spirit",
+          "t2": "MOUZ",
+          "t1_court": "Spirit",
+          "t2_court": "MOUZ",
+          "bo": 3,
+          "phase": "playoffs"
+        },
+        "FURIA|Team Falcons": {
+          "ts": 1794652200,
+          "t1": "FURIA",
+          "t2": "Team Falcons",
+          "t1_court": "FURIA",
+          "t2_court": "Falcons",
+          "bo": 3,
+          "phase": "playoffs"
+        }
+      },
+      "etape": "jour 4",
+      "tier": "S"
     }
   },
-  "maj_heure": "08:03",
+  "maj_heure": "18:22",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
@@ -722,6 +765,11 @@
     "r|FURIA|Team Vitality|1794456000",
     "a|MOUZ|Team Vitality|2026-11-13",
     "a|G2 Esports|Team Falcons|2026-11-13",
-    "a|Alliance|Four Magic (page does not exist)|2026-11-13"
+    "a|Alliance|Four Magic (page does not exist)|2026-11-13",
+    "r|G2 Esports|Team Falcons|1794567300",
+    "r|MOUZ|Team Vitality|1794556800",
+    "a|MOUZ|Team Spirit|2026-11-14",
+    "a|FURIA|Team Falcons|2026-11-14",
+    "a|BAKS Esports|Virtus.pro|2026-11-14"
   ]
 }

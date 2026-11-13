@@ -1,18 +1,30 @@
 {
   "maj": "2026-11-13",
-  "maj_heure": "08:03",
+  "maj_heure": "18:22",
   "semaine": "",
   "video": "",
   "articles": [
     {
-      "date": "2026-11-13",
-      "titre": "BLAST Rivals Fall 2026 · jour 3 · playoffs : les matchs du 13 novembre",
+      "date": "2026-11-14",
+      "titre": "BLAST Rivals Fall 2026 · jour 4 · playoffs : les matchs du 14 novembre",
       "resume": "0 match joué, 2 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "09:00 · Vitality vs MOUZ",
-        "11:30 · G2 vs Falcons"
+        "09:00 · Spirit vs MOUZ",
+        "11:30 · FURIA vs Falcons"
+      ],
+      "rang": 3
+    },
+    {
+      "date": "2026-11-13",
+      "titre": "BLAST Rivals Fall 2026 · jour 3 · playoffs : les matchs du 13 novembre",
+      "resume": "MOUZ bat Vitality 2-0. 2 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "Vitality 0-2 MOUZ",
+        "G2 1-2 Falcons"
       ],
       "rang": 3
     },
@@ -127,13 +139,6 @@
         "Dust2 13-7",
         "Cache 13-2"
       ]
-    },
-    {
-      "date": "2026-11-09",
-      "titre": "1w Team remporte Moscow Cyber Games 2026",
-      "resume": "1w Team remporte Moscow Cyber Games à Moscou, face à HOTU en finale.",
-      "categorie": "resultats",
-      "tier": "Tier 2"
     }
   ],
   "matchs": [
