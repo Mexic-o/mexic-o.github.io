@@ -1,6 +1,6 @@
 {
-  "maj": "2026-11-12",
-  "maj_heure": "22:37",
+  "maj": "2026-11-13",
+  "maj_heure": "08:03",
   "semaine": "",
   "video": "",
   "articles": [
@@ -13,20 +13,6 @@
       "cartes": [
         "09:00 · Vitality vs MOUZ",
         "11:30 · G2 vs Falcons"
-      ],
-      "rang": 3
-    },
-    {
-      "date": "2026-11-12",
-      "titre": "BLAST Rivals Fall 2026 · jour 2 : les matchs du 12 novembre",
-      "resume": "FURIA bat Vitality 2-1. 4 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "Legacy 0-2 Falcons",
-        "FURIA 2-1 Vitality",
-        "FUT 1-2 MOUZ",
-        "Spirit 2-1 G2"
       ],
       "rang": 3
     },
@@ -64,6 +50,20 @@
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-12",
+      "titre": "BLAST Rivals Fall 2026 · jour 2 : les matchs du 12 novembre",
+      "resume": "FURIA bat Vitality 2-1. 4 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "Legacy 0-2 Falcons",
+        "FURIA 2-1 Vitality",
+        "FUT 1-2 MOUZ",
+        "Spirit 2-1 G2"
+      ],
+      "rang": 0
     },
     {
       "date": "2026-11-11",
@@ -151,9 +151,9 @@
     },
     {
       "groupe": "En cours",
-      "jour": "2026-11-04",
-      "equipes": "CCT Europe 2026 Series #13",
-      "tournoi": "jusqu'au 16 novembre"
+      "jour": "2026-11-13",
+      "equipes": "Austin LAN 2026",
+      "tournoi": "jusqu'au 15 novembre · Lisle"
     },
     {
       "groupe": "À venir",

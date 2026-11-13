@@ -15,21 +15,6 @@
     },
     {
       "date": "2026-11-12",
-      "cle": "prog|BLAST Rivals Fall 2026|2026-11-12",
-      "titre": "BLAST Rivals Fall 2026 · jour 2 : les matchs du 12 novembre",
-      "resume": "FURIA bat Vitality 2-1. 4 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "Legacy 0-2 Falcons",
-        "FURIA 2-1 Vitality",
-        "FUT 1-2 MOUZ",
-        "Spirit 2-1 G2"
-      ],
-      "rang": 3
-    },
-    {
-      "date": "2026-11-12",
       "cle": "maj|https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144180746",
       "titre": "Mise à jour CS2 du 11 novembre",
       "resume": "Côté jeu, Valve a sorti deux mises à jour de CS2 cette semaine, avec 26 changements au total.",
@@ -67,6 +52,21 @@
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-12",
+      "cle": "prog|BLAST Rivals Fall 2026|2026-11-12",
+      "titre": "BLAST Rivals Fall 2026 · jour 2 : les matchs du 12 novembre",
+      "resume": "FURIA bat Vitality 2-1. 4 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "Legacy 0-2 Falcons",
+        "FURIA 2-1 Vitality",
+        "FUT 1-2 MOUZ",
+        "Spirit 2-1 G2"
+      ],
+      "rang": 0
     },
     {
       "date": "2026-11-11",
@@ -304,53 +304,6 @@
         "MOUZ 2-0 BB"
       ],
       "rang": 0
-    },
-    {
-      "date": "2026-11-06",
-      "cle": "res|Tesla Cup 2026|HOTU",
-      "titre": "HOTU remporte Tesla Cup 2026",
-      "resume": "Du côté de Tesla Cup, c'est HOTU qui l'emporte face à GamerLegion. Victoire 2 à 0, avec Dust2 et Nuke pour HOTU.",
-      "categorie": "resultats",
-      "tier": "Tier 2",
-      "cartes": [
-        "Dust2 13-6",
-        "Nuke 13-9"
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "cle": "tr|grecu|Falcons Force|libre|",
-      "titre": "grecu quitte Falcons Force",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-06",
-      "cle": "tr|NeLix, Ziivio +3||HDC LAB|",
-      "titre": "NeLix, Ziivio +3 rejoignent HDC LAB",
-      "resume": "",
-      "categorie": "fr"
-    },
-    {
-      "date": "2026-11-06",
-      "cle": "tr|flex0r||HDC LAB|coach",
-      "titre": "flex0r devient le coach de HDC LAB",
-      "resume": "",
-      "categorie": "fr"
-    },
-    {
-      "date": "2026-11-06",
-      "cle": "prog|Intel Extreme Masters Beijing 2026|2026-11-06",
-      "titre": "Intel Extreme Masters Beijing 2026 · jour 5 : les matchs du 6 novembre",
-      "resume": "2 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "PV 1-2 NAVI",
-        "FURIA 1-2 BB"
-      ],
-      "rang": 0
     }
   ],
   "agenda": [
@@ -368,9 +321,9 @@
     },
     {
       "groupe": "En cours",
-      "jour": "2026-11-04",
-      "equipes": "CCT Europe 2026 Series #13",
-      "tournoi": "jusqu'au 16 novembre"
+      "jour": "2026-11-13",
+      "equipes": "Austin LAN 2026",
+      "tournoi": "jusqu'au 15 novembre · Lisle"
     },
     {
       "groupe": "À venir",
@@ -389,16 +342,10 @@
       "jour": "2026-11-17",
       "equipes": "RUSH:Brno 2026",
       "tournoi": "dès le 17 novembre · Brno"
-    },
-    {
-      "groupe": "À venir",
-      "jour": "2026-11-13",
-      "equipes": "Austin LAN 2026",
-      "tournoi": "dès le 13 novembre · Lisle"
     }
   ],
-  "maj": "2026-11-12",
-  "collecte": "2026-11-12",
+  "maj": "2026-11-13",
+  "collecte": "2026-11-13",
   "envoi_en_attente": false,
   "chaine": {
     "handle": "@Mexic_Original",
@@ -628,7 +575,7 @@
       "tier": "S"
     }
   },
-  "maj_heure": "22:37",
+  "maj_heure": "08:03",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
@@ -774,6 +721,7 @@
     "r|FUT Esports|MOUZ|1794466500",
     "r|FURIA|Team Vitality|1794456000",
     "a|MOUZ|Team Vitality|2026-11-13",
-    "a|G2 Esports|Team Falcons|2026-11-13"
+    "a|G2 Esports|Team Falcons|2026-11-13",
+    "a|Alliance|Four Magic (page does not exist)|2026-11-13"
   ]
 }
