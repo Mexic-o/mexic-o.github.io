@@ -14,6 +14,41 @@
       "rang": 3
     },
     {
+      "date": "2026-11-14",
+      "cle": "res|CCT North America 2026 Challengers #1|Marsborne",
+      "titre": "Marsborne remporte CCT North America 2026 Challengers #1",
+      "resume": "Marsborne gagne l'édition 1 de CCT North America Challengers, contre Feistein. Victoire 2 à 0, avec Anubis et Ancient pour Marsborne.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "cartes": [
+        "Anubis 13-2",
+        "Ancient 13-10"
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "cle": "tr|Jayy2s|SAW Youngsters|SAW|",
+      "titre": "Jayy2s passe de SAW Youngsters à SAW",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-14",
+      "cle": "tr|NOPEEj|SAW|SAW|banc",
+      "titre": "NOPEEj passe sur le banc chez SAW",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-14",
+      "cle": "tr|JaaviiiZen, 7AIZO +2||Izarra|",
+      "titre": "JaaviiiZen, 7AIZO +2 rejoignent Izarra",
+      "resume": "",
+      "categorie": "fr"
+    },
+    {
       "date": "2026-11-13",
       "cle": "prog|BLAST Rivals Fall 2026|2026-11-13",
       "titre": "BLAST Rivals Fall 2026 · jour 3 · playoffs : les matchs du 13 novembre",
@@ -24,13 +59,13 @@
         "Vitality 0-2 MOUZ",
         "G2 1-2 Falcons"
       ],
-      "rang": 3
+      "rang": 0
     },
     {
       "date": "2026-11-12",
       "cle": "maj|https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144180746",
       "titre": "Mise à jour CS2 du 11 novembre",
-      "resume": "Côté jeu, Valve a sorti deux mises à jour de CS2 cette semaine, avec 26 changements au total.",
+      "resume": "Côté jeu, mise à jour de CS2 le 11 novembre, avec 5 changements au total.",
       "categorie": "maj",
       "lien": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144180746"
     },
@@ -141,7 +176,7 @@
       "date": "2026-11-10",
       "cle": "res|ESL Challenger League Season 52: Europe - Cup #11|9INE",
       "titre": "9INE remporte ESL Challenger League Season 52: Europe - Cup #11",
-      "resume": "9INE gagne l'édition 11 d'ESL Challenger League Season 52, contre FOKUS. Victoire 2 à 1, avec Dust2 et Cache pour 9INE.",
+      "resume": "Du côté de l'édition 11 d'ESL Challenger League Season 52, c'est 9INE qui l'emporte face à FOKUS. Victoire 2 à 1, avec Dust2 et Cache pour 9INE.",
       "categorie": "resultats",
       "tier": "Tier 2",
       "cartes": [
@@ -241,82 +276,6 @@
         "MongolZ 0-3 MOUZ"
       ],
       "rang": 0
-    },
-    {
-      "date": "2026-11-07",
-      "cle": "res|Stake Ranked Episode 5|Eternal Fire",
-      "titre": "Eternal Fire remporte Stake Ranked Episode 5",
-      "resume": "Eternal Fire gagne Stake Ranked Episode 5, contre Fnatic. Victoire 3 à 2, avec Cache, Dust2 et Mirage pour Eternal Fire.",
-      "categorie": "resultats",
-      "tier": "Tier 1",
-      "cartes": [
-        "Anubis 8-13",
-        "Ancient 2-13",
-        "Cache 13-9",
-        "Dust2 13-11",
-        "Mirage 13-8"
-      ]
-    },
-    {
-      "date": "2026-11-07",
-      "cle": "res|DFRAG Invitational 2026|FlyQuest",
-      "titre": "FlyQuest remporte DFRAG Invitational 2026",
-      "resume": "FlyQuest gagne DFRAG Invitational, contre Alter Ego.",
-      "categorie": "resultats",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-07",
-      "cle": "tr|chopper|Spirit|libre|",
-      "titre": "chopper quitte Spirit",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 1"
-    },
-    {
-      "date": "2026-11-07",
-      "cle": "tr|nota|PARIVISION|Rune Eaters|prêt",
-      "titre": "nota dépanne Rune Eaters",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 1"
-    },
-    {
-      "date": "2026-11-07",
-      "cle": "tr|ben1337|Marsborne|Marsborne|coach",
-      "titre": "ben1337 devient le coach de Marsborne",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-07",
-      "cle": "tr|Dave||K27|coach",
-      "titre": "Dave devient le coach de K27",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-07",
-      "cle": "tr|noni|Rune Eaters|Rune Eaters|",
-      "titre": "noni passe de Rune Eaters à Rune Eaters",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-07",
-      "cle": "prog|Intel Extreme Masters Beijing 2026|2026-11-07",
-      "titre": "Intel Extreme Masters Beijing 2026 · jour 6 : les matchs du 7 novembre",
-      "resume": "2 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "MongolZ 2-0 NAVI",
-        "MOUZ 2-0 BB"
-      ],
-      "rang": 0
     }
   ],
   "agenda": [
@@ -340,6 +299,12 @@
     },
     {
       "groupe": "À venir",
+      "jour": "2026-11-24",
+      "equipes": "PGL Major Singapore 2026",
+      "tournoi": "dès le 24 novembre · Kallang"
+    },
+    {
+      "groupe": "À venir",
       "jour": "2026-11-16",
       "equipes": "YaLLa Compass UAE 2026",
       "tournoi": "dès le 16 novembre · United Arab Emirates"
@@ -354,11 +319,11 @@
       "groupe": "À venir",
       "jour": "2026-11-17",
       "equipes": "RUSH:Brno 2026",
-      "tournoi": "dès le 17 novembre · Brno"
+      "tournoi": "dès le 17 novembre · Prague Brno"
     }
   ],
-  "maj": "2026-11-13",
-  "collecte": "2026-11-13",
+  "maj": "2026-11-14",
+  "collecte": "2026-11-14",
   "envoi_en_attente": false,
   "chaine": {
     "handle": "@Mexic_Original",
@@ -367,36 +332,6 @@
   "video": "",
   "erreurs": [],
   "programmes": {
-    "Intel Extreme Masters Beijing 2026|2026-11-06": {
-      "nom": "Intel Extreme Masters Beijing 2026",
-      "jour": "2026-11-06",
-      "matchs": {
-        "Natus Vincere|PARIVISION": {
-          "ts": 1793946600,
-          "t1": "PARIVISION",
-          "t2": "Natus Vincere",
-          "t1_court": "PV",
-          "t2_court": "NAVI",
-          "bo": 3,
-          "phase": "",
-          "s1": 1,
-          "s2": 2
-        },
-        "BetBoom Team|FURIA": {
-          "ts": 1793962800,
-          "t1": "FURIA",
-          "t2": "BetBoom Team",
-          "t1_court": "FURIA",
-          "t2_court": "BB",
-          "bo": 3,
-          "phase": "",
-          "s1": 1,
-          "s2": 2
-        }
-      },
-      "etape": "jour 5",
-      "tier": "S"
-    },
     "Intel Extreme Masters Beijing 2026|2026-11-07": {
       "nom": "Intel Extreme Masters Beijing 2026",
       "jour": "2026-11-07",
@@ -618,7 +553,7 @@
       "tier": "S"
     }
   },
-  "maj_heure": "22:03",
+  "maj_heure": "07:50",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
@@ -772,6 +707,7 @@
     "a|FURIA|Team Falcons|2026-11-14",
     "a|BAKS Esports|Virtus.pro|2026-11-14",
     "r|Alliance|Lavked|1794592800",
-    "r|Alliance|Four Magic (page does not exist)|1794578400"
+    "r|Alliance|Four Magic (page does not exist)|1794578400",
+    "a|Alliance|Ex-INOX Division (page does not exist)|2026-11-14"
   ]
 }
