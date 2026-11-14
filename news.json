@@ -1,18 +1,29 @@
 {
   "maj": "2026-11-14",
-  "maj_heure": "07:50",
+  "maj_heure": "16:59",
   "semaine": "",
   "video": "",
   "articles": [
     {
-      "date": "2026-11-14",
-      "titre": "BLAST Rivals Fall 2026 · jour 4 · playoffs : les matchs du 14 novembre",
-      "resume": "0 match joué, 2 à venir. Heures de Paris.",
+      "date": "2026-11-15",
+      "titre": "BLAST Rivals Fall 2026 · dernier jour · playoffs : les matchs du 15 novembre",
+      "resume": "0 match joué, 1 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "09:00 · Spirit vs MOUZ",
-        "11:30 · FURIA vs Falcons"
+        "09:00 · FURIA vs Spirit"
+      ],
+      "rang": 3
+    },
+    {
+      "date": "2026-11-14",
+      "titre": "BLAST Rivals Fall 2026 · jour 4 · playoffs : les matchs du 14 novembre",
+      "resume": "2 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "Spirit 2-0 MOUZ",
+        "FURIA 2-0 Falcons"
       ],
       "rang": 3
     },
@@ -26,6 +37,13 @@
         "Anubis 13-2",
         "Ancient 13-10"
       ]
+    },
+    {
+      "date": "2026-11-14",
+      "titre": "chopper quitte Spirit",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 1"
     },
     {
       "date": "2026-11-14",
@@ -107,20 +125,6 @@
         "Spirit 2-1 G2"
       ],
       "rang": 0
-    },
-    {
-      "date": "2026-11-11",
-      "titre": "BLAST Rivals Fall 2026 a commencé",
-      "resume": "Le tournoi se joue à Chek Lap Kok, jusqu'au 15 novembre, 1 000 000 $ en jeu.",
-      "categorie": "resultats",
-      "tier": "Tier 1"
-    },
-    {
-      "date": "2026-11-11",
-      "titre": "Patsi rejoint Virtus.pro",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
     }
   ],
   "matchs": [
