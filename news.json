@@ -1,6 +1,6 @@
 {
-  "maj": "2026-11-14",
-  "maj_heure": "20:21",
+  "maj": "2026-11-15",
+  "maj_heure": "07:55",
   "semaine": "",
   "video": "",
   "articles": [
@@ -16,16 +16,30 @@
       "rang": 3
     },
     {
-      "date": "2026-11-14",
-      "titre": "BLAST Rivals Fall 2026 · jour 4 · playoffs : les matchs du 14 novembre",
-      "resume": "2 matchs joués, 0 à venir. Heures de Paris.",
+      "date": "2026-11-15",
+      "titre": "Noir Verse remporte ESL Challenger League Season 52: Europe - Cup #12",
+      "resume": "Noir Verse gagne l'édition 12 d'ESL Challenger League Season 52, contre Alliance. Victoire 2 à 1, avec Ancient et Anubis pour Noir Verse.",
       "categorie": "resultats",
-      "tier": "Programme",
+      "tier": "Tier 2",
       "cartes": [
-        "Spirit 2-0 MOUZ",
-        "FURIA 2-0 Falcons"
-      ],
-      "rang": 3
+        "Dust2 11-13",
+        "Ancient 13-10",
+        "Anubis 16-14"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "titre": "brutmonster, Cjoffo +3 passent d'ex-Zero Tenacity à Hype Tech",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-15",
+      "titre": "aVN devient le coach de Hype Tech",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
     },
     {
       "date": "2026-11-14",
@@ -66,6 +80,18 @@
       "categorie": "fr"
     },
     {
+      "date": "2026-11-14",
+      "titre": "BLAST Rivals Fall 2026 · jour 4 · playoffs : les matchs du 14 novembre",
+      "resume": "2 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "Spirit 2-0 MOUZ",
+        "FURIA 2-0 Falcons"
+      ],
+      "rang": 0
+    },
+    {
       "date": "2026-11-13",
       "titre": "BLAST Rivals Fall 2026 · jour 3 · playoffs : les matchs du 13 novembre",
       "resume": "MOUZ bat Vitality 2-0. 2 matchs joués, 0 à venir. Heures de Paris.",
@@ -97,34 +123,6 @@
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-12",
-      "titre": "ponter quitte Bounty Hunters",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-12",
-      "titre": "k0gaSs quitte Spirit Academy",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-12",
-      "titre": "BLAST Rivals Fall 2026 · jour 2 : les matchs du 12 novembre",
-      "resume": "FURIA bat Vitality 2-1. 4 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "Legacy 0-2 Falcons",
-        "FURIA 2-1 Vitality",
-        "FUT 1-2 MOUZ",
-        "Spirit 2-1 G2"
-      ],
-      "rang": 0
     }
   ],
   "matchs": [
