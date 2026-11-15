@@ -3,20 +3,46 @@
     {
       "date": "2026-11-15",
       "cle": "prog|BLAST Rivals Fall 2026|2026-11-15",
-      "titre": "BLAST Rivals Fall 2026 · dernier jour · playoffs : les matchs du 15 novembre",
-      "resume": "0 match joué, 1 à venir. Heures de Paris.",
+      "titre": "BLAST Rivals Fall 2026 · dernier jour : les matchs du 15 novembre",
+      "resume": "1 match joué, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "09:00 · FURIA vs Spirit"
+        "FURIA 3-0 Spirit"
       ],
       "rang": 3
     },
     {
       "date": "2026-11-15",
+      "cle": "res|Intel Extreme Masters Beijing 2026|MOUZ",
+      "titre": "MOUZ remporte Intel Extreme Masters Beijing 2026",
+      "resume": "On commence par le dernier résultat : MOUZ gagne Intel Extreme Masters Beijing à Pékin, contre The MongolZ en finale. Victoire 3 à 0, avec Mirage, Dust2 et Inferno pour MOUZ. C'est son deuxième titre de l'année.",
+      "categorie": "resultats",
+      "tier": "Tier 1",
+      "cartes": [
+        "Mirage 13-5",
+        "Dust2 13-6",
+        "Inferno 13-4"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "cle": "res|BLAST Rivals Fall 2026|FURIA",
+      "titre": "FURIA remporte BLAST Rivals Fall 2026",
+      "resume": "Du côté de BLAST Rivals Fall, c'est FURIA qui l'emporte face à Spirit. Victoire 3 à 0, avec Ancient, Dust2 et Mirage pour FURIA. C'est son troisième titre de l'année.",
+      "categorie": "resultats",
+      "tier": "Tier 1",
+      "cartes": [
+        "Ancient 13-11",
+        "Dust2 13-5",
+        "Mirage 13-8"
+      ]
+    },
+    {
+      "date": "2026-11-15",
       "cle": "res|ESL Challenger League Season 52: Europe - Cup #12|Noir Verse",
       "titre": "Noir Verse remporte ESL Challenger League Season 52: Europe - Cup #12",
-      "resume": "Noir Verse gagne l'édition 12 d'ESL Challenger League Season 52, contre Alliance. Victoire 2 à 1, avec Ancient et Anubis pour Noir Verse.",
+      "resume": "Du côté de l'édition 12 d'ESL Challenger League Season 52, c'est Noir Verse qui l'emporte face à Alliance. Victoire 2 à 1, avec Ancient et Anubis pour Noir Verse.",
       "categorie": "resultats",
       "tier": "Tier 2",
       "cartes": [
@@ -40,6 +66,13 @@
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-15",
+      "cle": "tr|NBK-||Phantom|coach",
+      "titre": "NBK- devient le coach de Phantom",
+      "resume": "",
+      "categorie": "fr"
     },
     {
       "date": "2026-11-14",
@@ -87,7 +120,7 @@
     {
       "date": "2026-11-14",
       "cle": "prog|BLAST Rivals Fall 2026|2026-11-14",
-      "titre": "BLAST Rivals Fall 2026 · jour 4 · playoffs : les matchs du 14 novembre",
+      "titre": "BLAST Rivals Fall 2026 · jour 4 : les matchs du 14 novembre",
       "resume": "2 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
@@ -100,7 +133,7 @@
     {
       "date": "2026-11-13",
       "cle": "prog|BLAST Rivals Fall 2026|2026-11-13",
-      "titre": "BLAST Rivals Fall 2026 · jour 3 · playoffs : les matchs du 13 novembre",
+      "titre": "BLAST Rivals Fall 2026 · jour 3 : les matchs du 13 novembre",
       "resume": "MOUZ bat Vitality 2-0. 2 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
@@ -225,7 +258,7 @@
       "date": "2026-11-10",
       "cle": "res|ESL Challenger League Season 52: Europe - Cup #11|9INE",
       "titre": "9INE remporte ESL Challenger League Season 52: Europe - Cup #11",
-      "resume": "L'édition 11 d'ESL Challenger League Season 52, c'est terminé : 9INE s'impose en finale contre FOKUS. Victoire 2 à 1, avec Dust2 et Cache pour 9INE.",
+      "resume": "9INE remporte l'édition 11 d'ESL Challenger League Season 52, face à FOKUS en finale. Victoire 2 à 1, avec Dust2 et Cache pour 9INE.",
       "categorie": "resultats",
       "tier": "Tier 2",
       "cartes": [
@@ -274,21 +307,21 @@
   "agenda": [
     {
       "groupe": "En cours",
-      "jour": "2026-11-11",
-      "equipes": "BLAST Rivals Fall 2026",
-      "tournoi": "jusqu'au 15 novembre · Chek Lap Kok"
-    },
-    {
-      "groupe": "En cours",
       "jour": "2026-11-10",
       "equipes": "NODWIN Clutch Series #14",
       "tournoi": "jusqu'au 23 novembre"
     },
     {
       "groupe": "En cours",
-      "jour": "2026-11-13",
-      "equipes": "Austin LAN 2026",
-      "tournoi": "jusqu'au 15 novembre · Lisle"
+      "jour": "2026-11-04",
+      "equipes": "CCT Europe 2026 Series #13",
+      "tournoi": "jusqu'au 16 novembre"
+    },
+    {
+      "groupe": "En cours",
+      "jour": "2026-11-10",
+      "equipes": "CCT Europe 2026 Series #14",
+      "tournoi": "jusqu'au 22 novembre"
     },
     {
       "groupe": "À venir",
@@ -470,7 +503,7 @@
           "t1_court": "Vitality",
           "t2_court": "MOUZ",
           "bo": 3,
-          "phase": "playoffs",
+          "phase": "",
           "s1": 0,
           "s2": 2
         },
@@ -481,7 +514,7 @@
           "t1_court": "G2",
           "t2_court": "Falcons",
           "bo": 3,
-          "phase": "playoffs",
+          "phase": "",
           "s1": 1,
           "s2": 2
         }
@@ -500,7 +533,7 @@
           "t1_court": "Spirit",
           "t2_court": "MOUZ",
           "bo": 3,
-          "phase": "playoffs",
+          "phase": "",
           "s1": 2,
           "s2": 0
         },
@@ -511,7 +544,7 @@
           "t1_court": "FURIA",
           "t2_court": "Falcons",
           "bo": 3,
-          "phase": "playoffs",
+          "phase": "",
           "s1": 2,
           "s2": 0
         }
@@ -530,14 +563,16 @@
           "t1_court": "FURIA",
           "t2_court": "Spirit",
           "bo": 5,
-          "phase": "playoffs"
+          "phase": "",
+          "s1": 3,
+          "s2": 0
         }
       },
       "etape": "dernier jour",
       "tier": "S"
     }
   },
-  "maj_heure": "07:55",
+  "maj_heure": "17:32",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
@@ -699,6 +734,10 @@
     "a|FURIA|Team Spirit|2026-11-15",
     "r|Alliance|Ex-INOX Division (page does not exist)|1794664800",
     "a|Alliance|Noir Verse (page does not exist)|2026-11-14",
-    "a|Hype Tech (page does not exist)|Virtus.pro|2026-11-15"
+    "a|Hype Tech (page does not exist)|Virtus.pro|2026-11-15",
+    "r|Hype Tech (page does not exist)|Virtus.pro|1794733200",
+    "r|Natus Vincere Junior|The Chosen Few (page does not exist)|1794733200",
+    "a|EYEBALLERS|Teletubisie (page does not exist)|2026-11-16",
+    "r|FURIA|Team Spirit|1794729600"
   ]
 }

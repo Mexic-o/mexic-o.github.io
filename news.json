@@ -1,24 +1,48 @@
 {
   "maj": "2026-11-15",
-  "maj_heure": "07:55",
+  "maj_heure": "17:32",
   "semaine": "",
   "video": "",
   "articles": [
     {
       "date": "2026-11-15",
-      "titre": "BLAST Rivals Fall 2026 · dernier jour · playoffs : les matchs du 15 novembre",
-      "resume": "0 match joué, 1 à venir. Heures de Paris.",
+      "titre": "BLAST Rivals Fall 2026 · dernier jour : les matchs du 15 novembre",
+      "resume": "1 match joué, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "09:00 · FURIA vs Spirit"
+        "FURIA 3-0 Spirit"
       ],
       "rang": 3
     },
     {
       "date": "2026-11-15",
+      "titre": "MOUZ remporte Intel Extreme Masters Beijing 2026",
+      "resume": "On commence par le dernier résultat : MOUZ gagne Intel Extreme Masters Beijing à Pékin, contre The MongolZ en finale. Victoire 3 à 0, avec Mirage, Dust2 et Inferno pour MOUZ. C'est son deuxième titre de l'année.",
+      "categorie": "resultats",
+      "tier": "Tier 1",
+      "cartes": [
+        "Mirage 13-5",
+        "Dust2 13-6",
+        "Inferno 13-4"
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "titre": "FURIA remporte BLAST Rivals Fall 2026",
+      "resume": "Du côté de BLAST Rivals Fall, c'est FURIA qui l'emporte face à Spirit. Victoire 3 à 0, avec Ancient, Dust2 et Mirage pour FURIA. C'est son troisième titre de l'année.",
+      "categorie": "resultats",
+      "tier": "Tier 1",
+      "cartes": [
+        "Ancient 13-11",
+        "Dust2 13-5",
+        "Mirage 13-8"
+      ]
+    },
+    {
+      "date": "2026-11-15",
       "titre": "Noir Verse remporte ESL Challenger League Season 52: Europe - Cup #12",
-      "resume": "Noir Verse gagne l'édition 12 d'ESL Challenger League Season 52, contre Alliance. Victoire 2 à 1, avec Ancient et Anubis pour Noir Verse.",
+      "resume": "Du côté de l'édition 12 d'ESL Challenger League Season 52, c'est Noir Verse qui l'emporte face à Alliance. Victoire 2 à 1, avec Ancient et Anubis pour Noir Verse.",
       "categorie": "resultats",
       "tier": "Tier 2",
       "cartes": [
@@ -40,6 +64,12 @@
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-15",
+      "titre": "NBK- devient le coach de Phantom",
+      "resume": "",
+      "categorie": "fr"
     },
     {
       "date": "2026-11-14",
@@ -81,7 +111,7 @@
     },
     {
       "date": "2026-11-14",
-      "titre": "BLAST Rivals Fall 2026 · jour 4 · playoffs : les matchs du 14 novembre",
+      "titre": "BLAST Rivals Fall 2026 · jour 4 : les matchs du 14 novembre",
       "resume": "2 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
@@ -93,7 +123,7 @@
     },
     {
       "date": "2026-11-13",
-      "titre": "BLAST Rivals Fall 2026 · jour 3 · playoffs : les matchs du 13 novembre",
+      "titre": "BLAST Rivals Fall 2026 · jour 3 : les matchs du 13 novembre",
       "resume": "MOUZ bat Vitality 2-0. 2 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
@@ -102,36 +132,9 @@
         "G2 1-2 Falcons"
       ],
       "rang": 0
-    },
-    {
-      "date": "2026-11-12",
-      "titre": "Mise à jour CS2 du 11 novembre",
-      "resume": "Côté jeu, mise à jour de CS2 le 11 novembre, avec 5 changements au total.",
-      "categorie": "maj",
-      "lien": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144180746"
-    },
-    {
-      "date": "2026-11-12",
-      "titre": "KAISER, zock +2 passent sur le banc chez Bounty Hunters",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-12",
-      "titre": "gusihx et GYZER passent sur le banc chez Bounty Hunters",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
     }
   ],
   "matchs": [
-    {
-      "groupe": "En cours",
-      "jour": "2026-11-11",
-      "equipes": "BLAST Rivals Fall 2026",
-      "tournoi": "jusqu'au 15 novembre · Chek Lap Kok"
-    },
     {
       "groupe": "En cours",
       "jour": "2026-11-10",
@@ -140,9 +143,15 @@
     },
     {
       "groupe": "En cours",
-      "jour": "2026-11-13",
-      "equipes": "Austin LAN 2026",
-      "tournoi": "jusqu'au 15 novembre · Lisle"
+      "jour": "2026-11-04",
+      "equipes": "CCT Europe 2026 Series #13",
+      "tournoi": "jusqu'au 16 novembre"
+    },
+    {
+      "groupe": "En cours",
+      "jour": "2026-11-10",
+      "equipes": "CCT Europe 2026 Series #14",
+      "tournoi": "jusqu'au 22 novembre"
     },
     {
       "groupe": "À venir",
