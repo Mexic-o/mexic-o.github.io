@@ -1,22 +1,46 @@
 {
   "articles": [
     {
-      "date": "2026-11-15",
-      "cle": "prog|BLAST Rivals Fall 2026|2026-11-15",
-      "titre": "BLAST Rivals Fall 2026 · dernier jour : les matchs du 15 novembre",
-      "resume": "1 match joué, 0 à venir. Heures de Paris.",
+      "date": "2026-11-17",
+      "cle": "prog|Stake Ranked Episode 6|2026-11-17",
+      "titre": "Stake Ranked Episode 6 · jour 1 · playoffs : les matchs du 17 novembre",
+      "resume": "0 match joué, 4 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "FURIA 3-0 Spirit"
+        "12:00 · Apogee vs IC",
+        "14:30 · BIG vs Sangal",
+        "17:00 · NIP vs UNiTY",
+        "19:30 · LG vs GL"
       ],
-      "rang": 3
+      "rang": 2
+    },
+    {
+      "date": "2026-11-16",
+      "cle": "debut|YaLLa Compass UAE 2026",
+      "titre": "YaLLa Compass UAE 2026 a commencé",
+      "resume": "Le tournoi se joue à United Arab Emirates, jusqu'au 22 novembre, 600 000 $ en jeu.",
+      "categorie": "resultats",
+      "tier": "Tier 1"
+    },
+    {
+      "date": "2026-11-16",
+      "cle": "res|Austin LAN 2026|Voca",
+      "titre": "Voca remporte Austin LAN 2026",
+      "resume": "Voca remporte Austin LAN à Lisle, face à Life's A Game en finale. Victoire 3 à 0, avec Anubis, Ancient et Nuke pour Voca.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "cartes": [
+        "Anubis 13-11",
+        "Ancient 13-7",
+        "Nuke 13-5"
+      ]
     },
     {
       "date": "2026-11-15",
       "cle": "res|Intel Extreme Masters Beijing 2026|MOUZ",
       "titre": "MOUZ remporte Intel Extreme Masters Beijing 2026",
-      "resume": "On commence par le dernier résultat : MOUZ gagne Intel Extreme Masters Beijing à Pékin, contre The MongolZ en finale. Victoire 3 à 0, avec Mirage, Dust2 et Inferno pour MOUZ. C'est son deuxième titre de l'année.",
+      "resume": "Intel Extreme Masters Beijing, c'est terminé à Pékin : MOUZ s'impose en finale contre The MongolZ. Victoire 3 à 0, avec Mirage, Dust2 et Inferno pour MOUZ. C'est son deuxième titre de l'année.",
       "categorie": "resultats",
       "tier": "Tier 1",
       "cartes": [
@@ -73,6 +97,18 @@
       "titre": "NBK- devient le coach de Phantom",
       "resume": "",
       "categorie": "fr"
+    },
+    {
+      "date": "2026-11-15",
+      "cle": "prog|BLAST Rivals Fall 2026|2026-11-15",
+      "titre": "BLAST Rivals Fall 2026 · dernier jour : les matchs du 15 novembre",
+      "resume": "1 match joué, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "FURIA 3-0 Spirit"
+      ],
+      "rang": 0
     },
     {
       "date": "2026-11-14",
@@ -258,7 +294,7 @@
       "date": "2026-11-10",
       "cle": "res|ESL Challenger League Season 52: Europe - Cup #11|9INE",
       "titre": "9INE remporte ESL Challenger League Season 52: Europe - Cup #11",
-      "resume": "9INE remporte l'édition 11 d'ESL Challenger League Season 52, face à FOKUS en finale. Victoire 2 à 1, avec Dust2 et Cache pour 9INE.",
+      "resume": "9INE gagne l'édition 11 d'ESL Challenger League Season 52, contre FOKUS. Victoire 2 à 1, avec Dust2 et Cache pour 9INE.",
       "categorie": "resultats",
       "tier": "Tier 2",
       "cartes": [
@@ -266,45 +302,15 @@
         "Dust2 13-7",
         "Cache 13-2"
       ]
-    },
-    {
-      "date": "2026-11-09",
-      "cle": "res|Moscow Cyber Games 2026|1w Team",
-      "titre": "1w Team remporte Moscow Cyber Games 2026",
-      "resume": "1w Team remporte Moscow Cyber Games à Moscou, face à HOTU en finale.",
-      "categorie": "resultats",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-09",
-      "cle": "res|FiReSPORTS Last Chance 2026|100 Thieves",
-      "titre": "100 Thieves remporte FiReSPORTS Last Chance 2026",
-      "resume": "Du côté de FiReSPORTS Last Chance, c'est 100 Thieves qui l'emporte face à Wildcard. Victoire 2 à 0, avec Cache et Dust2 pour 100 Thieves.",
-      "categorie": "resultats",
-      "tier": "Tier 2",
-      "cartes": [
-        "Cache 19-16",
-        "Dust2 13-4"
-      ]
-    },
-    {
-      "date": "2026-11-09",
-      "cle": "vrs|Nouveau classement du 2 novembre",
-      "titre": "Classement Valve : MOUZ numéro 1",
-      "resume": "Nouveau classement mondial officiel de Valve, publié le 2 novembre : MOUZ devient numéro 1, devant Vitality et FURIA. Grosse montée pour The MongolZ, qui passe de la 49e à la 17e place.",
-      "categorie": "resultats",
-      "tier": "Classement"
-    },
-    {
-      "date": "2026-11-09",
-      "cle": "tr|dex|EYEBALLERS|EYEBALLERS|banc",
-      "titre": "dex passe sur le banc chez EYEBALLERS",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
     }
   ],
   "agenda": [
+    {
+      "groupe": "En cours",
+      "jour": "2026-11-16",
+      "equipes": "YaLLa Compass UAE 2026",
+      "tournoi": "jusqu'au 22 novembre · United Arab Emirates"
+    },
     {
       "groupe": "En cours",
       "jour": "2026-11-10",
@@ -318,22 +324,10 @@
       "tournoi": "jusqu'au 16 novembre"
     },
     {
-      "groupe": "En cours",
-      "jour": "2026-11-10",
-      "equipes": "CCT Europe 2026 Series #14",
-      "tournoi": "jusqu'au 22 novembre"
-    },
-    {
       "groupe": "À venir",
       "jour": "2026-11-24",
       "equipes": "PGL Major Singapore 2026",
       "tournoi": "dès le 24 novembre · Kallang"
-    },
-    {
-      "groupe": "À venir",
-      "jour": "2026-11-16",
-      "equipes": "YaLLa Compass UAE 2026",
-      "tournoi": "dès le 16 novembre · United Arab Emirates"
     },
     {
       "groupe": "À venir",
@@ -346,56 +340,24 @@
       "jour": "2026-11-17",
       "equipes": "RUSH:Brno 2026",
       "tournoi": "dès le 17 novembre · Prague Brno"
+    },
+    {
+      "groupe": "À venir",
+      "jour": "2026-11-25",
+      "equipes": "CCT Europe 2026 Series #15",
+      "tournoi": "dès le 25 novembre"
     }
   ],
-  "maj": "2026-11-15",
-  "collecte": "2026-11-15",
+  "maj": "2026-11-16",
+  "collecte": "2026-11-16",
   "envoi_en_attente": false,
   "chaine": {
     "handle": "@Mexic_Original",
     "id": "UCy5wcMtn9uzq_IUt3VgTgqQ"
   },
   "video": "",
-  "erreurs": [
-    "tournois S-Tier : HTTP Error 429: Too Many Requests",
-    "tournois A-Tier : HTTP Error 429: Too Many Requests",
-    "tournois B-Tier : HTTP Error 429: Too Many Requests",
-    "tournois C-Tier : HTTP Error 429: Too Many Requests",
-    "programme des matchs : HTTP Error 429: Too Many Requests",
-    "scène féminine : HTTP Error 429: Too Many Requests",
-    "transferts : HTTP Error 429: Too Many Requests"
-  ],
+  "erreurs": [],
   "programmes": {
-    "Intel Extreme Masters Beijing 2026|2026-11-08": {
-      "nom": "Intel Extreme Masters Beijing 2026",
-      "jour": "2026-11-08",
-      "matchs": {
-        "BetBoom Team|Natus Vincere": {
-          "ts": 1794110400,
-          "t1": "Natus Vincere",
-          "t2": "BetBoom Team",
-          "t1_court": "NAVI",
-          "t2_court": "BB",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        },
-        "MOUZ|The MongolZ": {
-          "ts": 1794123000,
-          "t1": "The MongolZ",
-          "t2": "MOUZ",
-          "t1_court": "MongolZ",
-          "t2_court": "MOUZ",
-          "bo": 5,
-          "phase": "",
-          "s1": 0,
-          "s2": 3
-        }
-      },
-      "etape": "dernier jour",
-      "tier": "S"
-    },
     "BLAST Rivals Fall 2026|2026-11-11": {
       "nom": "BLAST Rivals Fall 2026",
       "jour": "2026-11-11",
@@ -578,9 +540,53 @@
       },
       "etape": "dernier jour",
       "tier": "S"
+    },
+    "Stake Ranked Episode 6|2026-11-17": {
+      "nom": "Stake Ranked Episode 6",
+      "jour": "2026-11-17",
+      "matchs": {
+        "Betclic Apogee Esports|IC Esports": {
+          "ts": 1794913200,
+          "t1": "Betclic Apogee Esports",
+          "t2": "IC Esports",
+          "t1_court": "Apogee",
+          "t2_court": "IC",
+          "bo": 3,
+          "phase": "playoffs"
+        },
+        "BIG|Sangal Esports": {
+          "ts": 1794922200,
+          "t1": "BIG",
+          "t2": "Sangal Esports",
+          "t1_court": "BIG",
+          "t2_court": "Sangal",
+          "bo": 3,
+          "phase": "playoffs"
+        },
+        "Ninjas in Pyjamas|UNiTY esports": {
+          "ts": 1794931200,
+          "t1": "Ninjas in Pyjamas",
+          "t2": "UNiTY esports",
+          "t1_court": "NIP",
+          "t2_court": "UNiTY",
+          "bo": 3,
+          "phase": "playoffs"
+        },
+        "GamerLegion|Luminosity Gaming": {
+          "ts": 1794940200,
+          "t1": "Luminosity Gaming",
+          "t2": "GamerLegion",
+          "t1_court": "LG",
+          "t2_court": "GL",
+          "bo": 3,
+          "phase": "playoffs"
+        }
+      },
+      "etape": "jour 1",
+      "tier": "A"
     }
   },
-  "maj_heure": "20:53",
+  "maj_heure": "07:53",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
@@ -746,6 +752,13 @@
     "r|Hype Tech (page does not exist)|Virtus.pro|1794733200",
     "r|Natus Vincere Junior|The Chosen Few (page does not exist)|1794733200",
     "a|EYEBALLERS|Teletubisie (page does not exist)|2026-11-16",
-    "r|FURIA|Team Spirit|1794729600"
+    "r|FURIA|Team Spirit|1794729600",
+    "a|Team ACES (page does not exist)|Virtus.pro|2026-11-16",
+    "a|Nexus Gaming|SINNERS Esports|2026-11-17",
+    "a|Alliance|Iberian Soul|2026-11-17",
+    "a|Betclic Apogee Esports|IC Esports|2026-11-17",
+    "a|BIG|Sangal Esports|2026-11-17",
+    "a|Ninjas in Pyjamas|UNiTY esports|2026-11-17",
+    "a|GamerLegion|Luminosity Gaming|2026-11-17"
   ]
 }

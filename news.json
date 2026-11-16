@@ -1,24 +1,46 @@
 {
-  "maj": "2026-11-15",
-  "maj_heure": "20:53",
+  "maj": "2026-11-16",
+  "maj_heure": "07:53",
   "semaine": "",
   "video": "",
   "articles": [
     {
-      "date": "2026-11-15",
-      "titre": "BLAST Rivals Fall 2026 · dernier jour : les matchs du 15 novembre",
-      "resume": "1 match joué, 0 à venir. Heures de Paris.",
+      "date": "2026-11-17",
+      "titre": "Stake Ranked Episode 6 · jour 1 · playoffs : les matchs du 17 novembre",
+      "resume": "0 match joué, 4 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "FURIA 3-0 Spirit"
+        "12:00 · Apogee vs IC",
+        "14:30 · BIG vs Sangal",
+        "17:00 · NIP vs UNiTY",
+        "19:30 · LG vs GL"
       ],
-      "rang": 3
+      "rang": 2
+    },
+    {
+      "date": "2026-11-16",
+      "titre": "YaLLa Compass UAE 2026 a commencé",
+      "resume": "Le tournoi se joue à United Arab Emirates, jusqu'au 22 novembre, 600 000 $ en jeu.",
+      "categorie": "resultats",
+      "tier": "Tier 1"
+    },
+    {
+      "date": "2026-11-16",
+      "titre": "Voca remporte Austin LAN 2026",
+      "resume": "Voca remporte Austin LAN à Lisle, face à Life's A Game en finale. Victoire 3 à 0, avec Anubis, Ancient et Nuke pour Voca.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "cartes": [
+        "Anubis 13-11",
+        "Ancient 13-7",
+        "Nuke 13-5"
+      ]
     },
     {
       "date": "2026-11-15",
       "titre": "MOUZ remporte Intel Extreme Masters Beijing 2026",
-      "resume": "On commence par le dernier résultat : MOUZ gagne Intel Extreme Masters Beijing à Pékin, contre The MongolZ en finale. Victoire 3 à 0, avec Mirage, Dust2 et Inferno pour MOUZ. C'est son deuxième titre de l'année.",
+      "resume": "Intel Extreme Masters Beijing, c'est terminé à Pékin : MOUZ s'impose en finale contre The MongolZ. Victoire 3 à 0, avec Mirage, Dust2 et Inferno pour MOUZ. C'est son deuxième titre de l'année.",
       "categorie": "resultats",
       "tier": "Tier 1",
       "cartes": [
@@ -72,6 +94,17 @@
       "categorie": "fr"
     },
     {
+      "date": "2026-11-15",
+      "titre": "BLAST Rivals Fall 2026 · dernier jour : les matchs du 15 novembre",
+      "resume": "1 match joué, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "FURIA 3-0 Spirit"
+      ],
+      "rang": 0
+    },
+    {
       "date": "2026-11-14",
       "titre": "Marsborne remporte CCT North America 2026 Challengers #1",
       "resume": "Marsborne gagne l'édition 1 de CCT North America Challengers, contre Feistein. Victoire 2 à 0, avec Anubis et Ancient pour Marsborne.",
@@ -102,39 +135,15 @@
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-14",
-      "titre": "JaaviiiZen, 7AIZO +2 rejoignent Izarra",
-      "resume": "",
-      "categorie": "fr"
-    },
-    {
-      "date": "2026-11-14",
-      "titre": "BLAST Rivals Fall 2026 · jour 4 : les matchs du 14 novembre",
-      "resume": "2 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "Spirit 2-0 MOUZ",
-        "FURIA 2-0 Falcons"
-      ],
-      "rang": 0
-    },
-    {
-      "date": "2026-11-13",
-      "titre": "BLAST Rivals Fall 2026 · jour 3 : les matchs du 13 novembre",
-      "resume": "MOUZ bat Vitality 2-0. 2 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "Vitality 0-2 MOUZ",
-        "G2 1-2 Falcons"
-      ],
-      "rang": 0
     }
   ],
   "matchs": [
+    {
+      "groupe": "En cours",
+      "jour": "2026-11-16",
+      "equipes": "YaLLa Compass UAE 2026",
+      "tournoi": "jusqu'au 22 novembre · United Arab Emirates"
+    },
     {
       "groupe": "En cours",
       "jour": "2026-11-10",
@@ -148,12 +157,6 @@
       "tournoi": "jusqu'au 16 novembre"
     },
     {
-      "groupe": "En cours",
-      "jour": "2026-11-10",
-      "equipes": "CCT Europe 2026 Series #14",
-      "tournoi": "jusqu'au 22 novembre"
-    },
-    {
       "groupe": "À venir",
       "jour": "2026-11-24",
       "equipes": "PGL Major Singapore 2026",
@@ -161,15 +164,15 @@
     },
     {
       "groupe": "À venir",
-      "jour": "2026-11-16",
-      "equipes": "YaLLa Compass UAE 2026",
-      "tournoi": "dès le 16 novembre · United Arab Emirates"
+      "jour": "2026-11-17",
+      "equipes": "Stake Ranked Episode 6",
+      "tournoi": "dès le 17 novembre · Barcelona"
     },
     {
       "groupe": "À venir",
       "jour": "2026-11-17",
-      "equipes": "Stake Ranked Episode 6",
-      "tournoi": "dès le 17 novembre · Barcelona"
+      "equipes": "RUSH:Brno 2026",
+      "tournoi": "dès le 17 novembre · Prague Brno"
     }
   ]
 }
