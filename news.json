@@ -1,32 +1,34 @@
 {
   "maj": "2026-11-17",
-  "maj_heure": "19:45",
+  "maj_heure": "23:36",
   "semaine": "",
   "video": "",
   "articles": [
     {
       "date": "2026-11-18",
       "titre": "Stake Ranked Episode 6 · jour 2 · playoffs : les matchs du 18 novembre",
-      "resume": "0 match joué, 2 à venir. Heures de Paris.",
+      "resume": "0 match joué, 4 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
         "12:00 · BIG vs Apogee",
-        "17:00 · Sangal vs IC"
+        "14:30 · UNiTY vs GL",
+        "17:00 · Sangal vs IC",
+        "19:30 · NIP vs LG"
       ],
       "rang": 2
     },
     {
       "date": "2026-11-17",
       "titre": "Stake Ranked Episode 6 · jour 1 · playoffs : les matchs du 17 novembre",
-      "resume": "3 matchs joués, 1 à venir. Heures de Paris.",
+      "resume": "4 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
         "Apogee 0-2 IC",
         "BIG 0-2 Sangal",
         "NIP 2-0 UNiTY",
-        "18:30 · LG vs GL"
+        "LG 2-1 GL"
       ],
       "rang": 2
     },

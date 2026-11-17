@@ -4,12 +4,14 @@
       "date": "2026-11-18",
       "cle": "prog|Stake Ranked Episode 6|2026-11-18",
       "titre": "Stake Ranked Episode 6 · jour 2 · playoffs : les matchs du 18 novembre",
-      "resume": "0 match joué, 2 à venir. Heures de Paris.",
+      "resume": "0 match joué, 4 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
         "12:00 · BIG vs Apogee",
-        "17:00 · Sangal vs IC"
+        "14:30 · UNiTY vs GL",
+        "17:00 · Sangal vs IC",
+        "19:30 · NIP vs LG"
       ],
       "rang": 2
     },
@@ -17,14 +19,14 @@
       "date": "2026-11-17",
       "cle": "prog|Stake Ranked Episode 6|2026-11-17",
       "titre": "Stake Ranked Episode 6 · jour 1 · playoffs : les matchs du 17 novembre",
-      "resume": "3 matchs joués, 1 à venir. Heures de Paris.",
+      "resume": "4 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
         "Apogee 0-2 IC",
         "BIG 0-2 Sangal",
         "NIP 2-0 UNiTY",
-        "18:30 · LG vs GL"
+        "LG 2-1 GL"
       ],
       "rang": 2
     },
@@ -597,7 +599,9 @@
           "t1_court": "LG",
           "t2_court": "GL",
           "bo": 3,
-          "phase": "playoffs"
+          "phase": "playoffs",
+          "s1": 2,
+          "s2": 1
         }
       },
       "etape": "jour 1",
@@ -624,13 +628,31 @@
           "t2_court": "IC",
           "bo": 3,
           "phase": "playoffs"
+        },
+        "GamerLegion|UNiTY esports": {
+          "ts": 1795008600,
+          "t1": "UNiTY esports",
+          "t2": "GamerLegion",
+          "t1_court": "UNiTY",
+          "t2_court": "GL",
+          "bo": 3,
+          "phase": "playoffs"
+        },
+        "Luminosity Gaming|Ninjas in Pyjamas": {
+          "ts": 1795026600,
+          "t1": "Ninjas in Pyjamas",
+          "t2": "Luminosity Gaming",
+          "t1_court": "NIP",
+          "t2_court": "LG",
+          "bo": 3,
+          "phase": "playoffs"
         }
       },
       "etape": "jour 2",
       "tier": "A"
     }
   },
-  "maj_heure": "19:45",
+  "maj_heure": "23:36",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
@@ -817,6 +839,9 @@
     "r|Alliance|Iberian Soul|1794923400",
     "r|Nexus Gaming|SINNERS Esports|1794910800",
     "a|Alliance|SINNERS Esports|2026-11-18",
-    "r|Natus Vincere Junior|Teletubisie (page does not exist)|1794906000"
+    "r|Natus Vincere Junior|Teletubisie (page does not exist)|1794906000",
+    "r|GamerLegion|Luminosity Gaming|1794936600",
+    "a|GamerLegion|UNiTY esports|2026-11-18",
+    "a|Luminosity Gaming|Ninjas in Pyjamas|2026-11-18"
   ]
 }
