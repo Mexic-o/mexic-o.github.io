@@ -27,7 +27,7 @@
       "date": "2026-11-16",
       "cle": "res|Austin LAN 2026|Voca",
       "titre": "Voca remporte Austin LAN 2026",
-      "resume": "Voca gagne Austin LAN, contre Life's A Game. Victoire 3 à 0, avec Anubis, Ancient et Nuke pour Voca.",
+      "resume": "Du côté d'Austin LAN, c'est Voca qui l'emporte face à Life's A Game. Victoire 3 à 0, avec Anubis, Ancient et Nuke pour Voca.",
       "categorie": "resultats",
       "tier": "Tier 2",
       "cartes": [
@@ -40,7 +40,7 @@
       "date": "2026-11-16",
       "cle": "res|CCT South America 2026 Series #8|Galorys",
       "titre": "Galorys remporte CCT South America 2026 Series #8",
-      "resume": "Galorys remporte l'édition 8 de CCT South America, face à BARCA esports en finale. Victoire 2 à 1, avec Ancient et Nuke pour Galorys.",
+      "resume": "L'édition 8 de CCT South America, c'est terminé : Galorys s'impose en finale contre BARCA esports. Victoire 2 à 1, avec Ancient et Nuke pour Galorys.",
       "categorie": "resultats",
       "tier": "Tier 2",
       "cartes": [
@@ -90,7 +90,7 @@
       "date": "2026-11-15",
       "cle": "res|BLAST Rivals Fall 2026|FURIA",
       "titre": "FURIA remporte BLAST Rivals Fall 2026",
-      "resume": "Du côté de BLAST Rivals Fall, c'est FURIA qui l'emporte face à Spirit. Victoire 3 à 0, avec Ancient, Dust2 et Mirage pour FURIA. C'est son troisième titre de l'année.",
+      "resume": "BLAST Rivals Fall, c'est terminé à Chek Lap Kok : FURIA s'impose en finale contre Spirit. Victoire 3 à 0, avec Ancient, Dust2 et Mirage pour FURIA. C'est son troisième titre de l'année.",
       "categorie": "resultats",
       "tier": "Tier 1",
       "cartes": [
@@ -301,44 +301,6 @@
         "MOUZ 1-2 G2"
       ],
       "rang": 0
-    },
-    {
-      "date": "2026-11-10",
-      "cle": "res|Fiesta Series 3|QUAZAR",
-      "titre": "QUAZAR remporte Fiesta Series 3",
-      "resume": "Fiesta Series 3, c'est terminé : QUAZAR s'impose en finale contre Honvéd Esport. Victoire 2 à 0, avec Anubis et Mirage pour QUAZAR.",
-      "categorie": "resultats",
-      "tier": "Tier 2",
-      "cartes": [
-        "Anubis 13-5",
-        "Mirage 13-8"
-      ]
-    },
-    {
-      "date": "2026-11-10",
-      "cle": "res|ESL Challenger League Season 52: Europe - Cup #10|RBLS",
-      "titre": "RBLS remporte ESL Challenger League Season 52: Europe - Cup #10",
-      "resume": "Du côté de l'édition 10 d'ESL Challenger League Season 52, c'est RBLS qui l'emporte face à WRAITH PCIFIC. Victoire 2 à 1, avec Dust2 et Inferno pour RBLS.",
-      "categorie": "resultats",
-      "tier": "Tier 2",
-      "cartes": [
-        "Dust2 13-4",
-        "Nuke 10-13",
-        "Inferno 13-10"
-      ]
-    },
-    {
-      "date": "2026-11-10",
-      "cle": "res|ESL Challenger League Season 52: Europe - Cup #11|9INE",
-      "titre": "9INE remporte ESL Challenger League Season 52: Europe - Cup #11",
-      "resume": "Du côté de l'édition 11 d'ESL Challenger League Season 52, c'est 9INE qui l'emporte face à FOKUS. Victoire 2 à 1, avec Dust2 et Cache pour 9INE.",
-      "categorie": "resultats",
-      "tier": "Tier 2",
-      "cartes": [
-        "Ancient 7-13",
-        "Dust2 13-7",
-        "Cache 13-2"
-      ]
     }
   ],
   "agenda": [
@@ -350,15 +312,15 @@
     },
     {
       "groupe": "En cours",
-      "jour": "2026-11-10",
-      "equipes": "NODWIN Clutch Series #14",
-      "tournoi": "jusqu'au 23 novembre"
+      "jour": "2026-11-17",
+      "equipes": "Stake Ranked Episode 6",
+      "tournoi": "jusqu'au 20 novembre · Barcelona"
     },
     {
       "groupe": "En cours",
-      "jour": "2026-11-04",
-      "equipes": "CCT Europe 2026 Series #13",
-      "tournoi": "jusqu'au 16 novembre"
+      "jour": "2026-11-17",
+      "equipes": "RUSH:Brno 2026",
+      "tournoi": "jusqu'au 22 novembre · Prague Brno"
     },
     {
       "groupe": "À venir",
@@ -368,25 +330,13 @@
     },
     {
       "groupe": "À venir",
-      "jour": "2026-11-17",
-      "equipes": "Stake Ranked Episode 6",
-      "tournoi": "dès le 17 novembre · Barcelona"
-    },
-    {
-      "groupe": "À venir",
-      "jour": "2026-11-17",
-      "equipes": "RUSH:Brno 2026",
-      "tournoi": "dès le 17 novembre · Prague Brno"
-    },
-    {
-      "groupe": "À venir",
       "jour": "2026-11-25",
       "equipes": "CCT Europe 2026 Series #15",
       "tournoi": "dès le 25 novembre"
     }
   ],
-  "maj": "2026-11-16",
-  "collecte": "2026-11-16",
+  "maj": "2026-11-17",
+  "collecte": "2026-11-17",
   "envoi_en_attente": false,
   "chaine": {
     "handle": "@Mexic_Original",
@@ -623,7 +573,7 @@
       "tier": "A"
     }
   },
-  "maj_heure": "00:33",
+  "maj_heure": "09:14",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",

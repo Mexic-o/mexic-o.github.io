@@ -1,6 +1,6 @@
 {
-  "maj": "2026-11-16",
-  "maj_heure": "00:33",
+  "maj": "2026-11-17",
+  "maj_heure": "09:14",
   "semaine": "",
   "video": "",
   "articles": [
@@ -28,7 +28,7 @@
     {
       "date": "2026-11-16",
       "titre": "Voca remporte Austin LAN 2026",
-      "resume": "Voca gagne Austin LAN, contre Life's A Game. Victoire 3 à 0, avec Anubis, Ancient et Nuke pour Voca.",
+      "resume": "Du côté d'Austin LAN, c'est Voca qui l'emporte face à Life's A Game. Victoire 3 à 0, avec Anubis, Ancient et Nuke pour Voca.",
       "categorie": "resultats",
       "tier": "Tier 2",
       "cartes": [
@@ -40,7 +40,7 @@
     {
       "date": "2026-11-16",
       "titre": "Galorys remporte CCT South America 2026 Series #8",
-      "resume": "Galorys remporte l'édition 8 de CCT South America, face à BARCA esports en finale. Victoire 2 à 1, avec Ancient et Nuke pour Galorys.",
+      "resume": "L'édition 8 de CCT South America, c'est terminé : Galorys s'impose en finale contre BARCA esports. Victoire 2 à 1, avec Ancient et Nuke pour Galorys.",
       "categorie": "resultats",
       "tier": "Tier 2",
       "cartes": [
@@ -85,7 +85,7 @@
     {
       "date": "2026-11-15",
       "titre": "FURIA remporte BLAST Rivals Fall 2026",
-      "resume": "Du côté de BLAST Rivals Fall, c'est FURIA qui l'emporte face à Spirit. Victoire 3 à 0, avec Ancient, Dust2 et Mirage pour FURIA. C'est son troisième titre de l'année.",
+      "resume": "BLAST Rivals Fall, c'est terminé à Chek Lap Kok : FURIA s'impose en finale contre Spirit. Victoire 3 à 0, avec Ancient, Dust2 et Mirage pour FURIA. C'est son troisième titre de l'année.",
       "categorie": "resultats",
       "tier": "Tier 1",
       "cartes": [
@@ -147,15 +147,15 @@
     },
     {
       "groupe": "En cours",
-      "jour": "2026-11-10",
-      "equipes": "NODWIN Clutch Series #14",
-      "tournoi": "jusqu'au 23 novembre"
+      "jour": "2026-11-17",
+      "equipes": "Stake Ranked Episode 6",
+      "tournoi": "jusqu'au 20 novembre · Barcelona"
     },
     {
       "groupe": "En cours",
-      "jour": "2026-11-04",
-      "equipes": "CCT Europe 2026 Series #13",
-      "tournoi": "jusqu'au 16 novembre"
+      "jour": "2026-11-17",
+      "equipes": "RUSH:Brno 2026",
+      "tournoi": "jusqu'au 22 novembre · Prague Brno"
     },
     {
       "groupe": "À venir",
@@ -165,15 +165,9 @@
     },
     {
       "groupe": "À venir",
-      "jour": "2026-11-17",
-      "equipes": "Stake Ranked Episode 6",
-      "tournoi": "dès le 17 novembre · Barcelona"
-    },
-    {
-      "groupe": "À venir",
-      "jour": "2026-11-17",
-      "equipes": "RUSH:Brno 2026",
-      "tournoi": "dès le 17 novembre · Prague Brno"
+      "jour": "2026-11-25",
+      "equipes": "CCT Europe 2026 Series #15",
+      "tournoi": "dès le 25 novembre"
     }
   ]
 }
