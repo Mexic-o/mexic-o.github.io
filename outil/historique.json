@@ -1,19 +1,44 @@
 {
   "articles": [
     {
-      "date": "2026-11-17",
-      "cle": "prog|Stake Ranked Episode 6|2026-11-17",
-      "titre": "Stake Ranked Episode 6 · jour 1 · playoffs : les matchs du 17 novembre",
-      "resume": "0 match joué, 4 à venir. Heures de Paris.",
+      "date": "2026-11-18",
+      "cle": "prog|Stake Ranked Episode 6|2026-11-18",
+      "titre": "Stake Ranked Episode 6 · jour 2 · playoffs : les matchs du 18 novembre",
+      "resume": "0 match joué, 2 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "12:00 · Apogee vs IC",
-        "14:30 · BIG vs Sangal",
-        "17:00 · NIP vs UNiTY",
-        "19:30 · LG vs GL"
+        "12:00 · BIG vs Apogee",
+        "17:00 · Sangal vs IC"
       ],
       "rang": 2
+    },
+    {
+      "date": "2026-11-17",
+      "cle": "prog|Stake Ranked Episode 6|2026-11-17",
+      "titre": "Stake Ranked Episode 6 · jour 1 · playoffs : les matchs du 17 novembre",
+      "resume": "3 matchs joués, 1 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "Apogee 0-2 IC",
+        "BIG 0-2 Sangal",
+        "NIP 2-0 UNiTY",
+        "18:30 · LG vs GL"
+      ],
+      "rang": 2
+    },
+    {
+      "date": "2026-11-17",
+      "cle": "res|CCT Europe 2026 Series #13|PRIVATE",
+      "titre": "PRIVATE remporte CCT Europe 2026 Series #13",
+      "resume": "L'édition 13 de CCT Europe, c'est terminé : PRIVATE s'impose en finale contre Virtus.pro. Victoire 2 à 0, avec Ancient et Mirage pour PRIVATE.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "cartes": [
+        "Ancient 13-9",
+        "Mirage 13-5"
+      ]
     },
     {
       "date": "2026-11-16",
@@ -27,7 +52,7 @@
       "date": "2026-11-16",
       "cle": "res|Austin LAN 2026|Voca",
       "titre": "Voca remporte Austin LAN 2026",
-      "resume": "Du côté d'Austin LAN, c'est Voca qui l'emporte face à Life's A Game. Victoire 3 à 0, avec Anubis, Ancient et Nuke pour Voca.",
+      "resume": "Voca gagne Austin LAN, contre Life's A Game. Victoire 3 à 0, avec Anubis, Ancient et Nuke pour Voca.",
       "categorie": "resultats",
       "tier": "Tier 2",
       "cartes": [
@@ -40,7 +65,7 @@
       "date": "2026-11-16",
       "cle": "res|CCT South America 2026 Series #8|Galorys",
       "titre": "Galorys remporte CCT South America 2026 Series #8",
-      "resume": "L'édition 8 de CCT South America, c'est terminé : Galorys s'impose en finale contre BARCA esports. Victoire 2 à 1, avec Ancient et Nuke pour Galorys.",
+      "resume": "Du côté de l'édition 8 de CCT South America, c'est Galorys qui l'emporte face à BARCA esports. Victoire 2 à 1, avec Ancient et Nuke pour Galorys.",
       "categorie": "resultats",
       "tier": "Tier 2",
       "cartes": [
@@ -539,28 +564,34 @@
           "t1_court": "Apogee",
           "t2_court": "IC",
           "bo": 3,
-          "phase": "playoffs"
+          "phase": "playoffs",
+          "s1": 0,
+          "s2": 2
         },
         "BIG|Sangal Esports": {
-          "ts": 1794922200,
+          "ts": 1794920400,
           "t1": "BIG",
           "t2": "Sangal Esports",
           "t1_court": "BIG",
           "t2_court": "Sangal",
           "bo": 3,
-          "phase": "playoffs"
+          "phase": "playoffs",
+          "s1": 0,
+          "s2": 2
         },
         "Ninjas in Pyjamas|UNiTY esports": {
-          "ts": 1794931200,
+          "ts": 1794928800,
           "t1": "Ninjas in Pyjamas",
           "t2": "UNiTY esports",
           "t1_court": "NIP",
           "t2_court": "UNiTY",
           "bo": 3,
-          "phase": "playoffs"
+          "phase": "playoffs",
+          "s1": 2,
+          "s2": 0
         },
         "GamerLegion|Luminosity Gaming": {
-          "ts": 1794940200,
+          "ts": 1794936600,
           "t1": "Luminosity Gaming",
           "t2": "GamerLegion",
           "t1_court": "LG",
@@ -571,9 +602,35 @@
       },
       "etape": "jour 1",
       "tier": "A"
+    },
+    "Stake Ranked Episode 6|2026-11-18": {
+      "nom": "Stake Ranked Episode 6",
+      "jour": "2026-11-18",
+      "matchs": {
+        "BIG|Betclic Apogee Esports": {
+          "ts": 1794999600,
+          "t1": "BIG",
+          "t2": "Betclic Apogee Esports",
+          "t1_court": "BIG",
+          "t2_court": "Apogee",
+          "bo": 3,
+          "phase": "playoffs"
+        },
+        "IC Esports|Sangal Esports": {
+          "ts": 1795017600,
+          "t1": "Sangal Esports",
+          "t2": "IC Esports",
+          "t1_court": "Sangal",
+          "t2_court": "IC",
+          "bo": 3,
+          "phase": "playoffs"
+        }
+      },
+      "etape": "jour 2",
+      "tier": "A"
     }
   },
-  "maj_heure": "09:14",
+  "maj_heure": "19:45",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
@@ -751,6 +808,15 @@
     "a|Natus Vincere Junior|Teletubisie (page does not exist)|2026-11-17",
     "r|Team ACES (page does not exist)|Virtus.pro|1794826800",
     "a|PRIVATE (page does not exist)|Virtus.pro|2026-11-16",
-    "a|EYEBALLERS|Gothboiclique (page does not exist)|2026-11-18"
+    "a|EYEBALLERS|Gothboiclique (page does not exist)|2026-11-18",
+    "r|Ninjas in Pyjamas|UNiTY esports|1794928800",
+    "r|BIG|Sangal Esports|1794920400",
+    "r|Betclic Apogee Esports|IC Esports|1794913200",
+    "a|BIG|Betclic Apogee Esports|2026-11-18",
+    "a|IC Esports|Sangal Esports|2026-11-18",
+    "r|Alliance|Iberian Soul|1794923400",
+    "r|Nexus Gaming|SINNERS Esports|1794910800",
+    "a|Alliance|SINNERS Esports|2026-11-18",
+    "r|Natus Vincere Junior|Teletubisie (page does not exist)|1794906000"
   ]
 }

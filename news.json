@@ -1,22 +1,45 @@
 {
   "maj": "2026-11-17",
-  "maj_heure": "09:14",
+  "maj_heure": "19:45",
   "semaine": "",
   "video": "",
   "articles": [
     {
-      "date": "2026-11-17",
-      "titre": "Stake Ranked Episode 6 · jour 1 · playoffs : les matchs du 17 novembre",
-      "resume": "0 match joué, 4 à venir. Heures de Paris.",
+      "date": "2026-11-18",
+      "titre": "Stake Ranked Episode 6 · jour 2 · playoffs : les matchs du 18 novembre",
+      "resume": "0 match joué, 2 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "12:00 · Apogee vs IC",
-        "14:30 · BIG vs Sangal",
-        "17:00 · NIP vs UNiTY",
-        "19:30 · LG vs GL"
+        "12:00 · BIG vs Apogee",
+        "17:00 · Sangal vs IC"
       ],
       "rang": 2
+    },
+    {
+      "date": "2026-11-17",
+      "titre": "Stake Ranked Episode 6 · jour 1 · playoffs : les matchs du 17 novembre",
+      "resume": "3 matchs joués, 1 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "Apogee 0-2 IC",
+        "BIG 0-2 Sangal",
+        "NIP 2-0 UNiTY",
+        "18:30 · LG vs GL"
+      ],
+      "rang": 2
+    },
+    {
+      "date": "2026-11-17",
+      "titre": "PRIVATE remporte CCT Europe 2026 Series #13",
+      "resume": "L'édition 13 de CCT Europe, c'est terminé : PRIVATE s'impose en finale contre Virtus.pro. Victoire 2 à 0, avec Ancient et Mirage pour PRIVATE.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "cartes": [
+        "Ancient 13-9",
+        "Mirage 13-5"
+      ]
     },
     {
       "date": "2026-11-16",
@@ -28,7 +51,7 @@
     {
       "date": "2026-11-16",
       "titre": "Voca remporte Austin LAN 2026",
-      "resume": "Du côté d'Austin LAN, c'est Voca qui l'emporte face à Life's A Game. Victoire 3 à 0, avec Anubis, Ancient et Nuke pour Voca.",
+      "resume": "Voca gagne Austin LAN, contre Life's A Game. Victoire 3 à 0, avec Anubis, Ancient et Nuke pour Voca.",
       "categorie": "resultats",
       "tier": "Tier 2",
       "cartes": [
@@ -40,7 +63,7 @@
     {
       "date": "2026-11-16",
       "titre": "Galorys remporte CCT South America 2026 Series #8",
-      "resume": "L'édition 8 de CCT South America, c'est terminé : Galorys s'impose en finale contre BARCA esports. Victoire 2 à 1, avec Ancient et Nuke pour Galorys.",
+      "resume": "Du côté de l'édition 8 de CCT South America, c'est Galorys qui l'emporte face à BARCA esports. Victoire 2 à 1, avec Ancient et Nuke pour Galorys.",
       "categorie": "resultats",
       "tier": "Tier 2",
       "cartes": [
@@ -119,23 +142,6 @@
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-15",
-      "titre": "NBK- devient le coach de Phantom",
-      "resume": "",
-      "categorie": "fr"
-    },
-    {
-      "date": "2026-11-15",
-      "titre": "BLAST Rivals Fall 2026 · dernier jour : les matchs du 15 novembre",
-      "resume": "1 match joué, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "FURIA 3-0 Spirit"
-      ],
-      "rang": 0
     }
   ],
   "matchs": [
