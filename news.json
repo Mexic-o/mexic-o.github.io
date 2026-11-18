@@ -1,6 +1,6 @@
 {
-  "maj": "2026-11-17",
-  "maj_heure": "23:36",
+  "maj": "2026-11-18",
+  "maj_heure": "08:44",
   "semaine": "",
   "video": "",
   "articles": [
@@ -17,6 +17,13 @@
         "19:30 · NIP vs LG"
       ],
       "rang": 2
+    },
+    {
+      "date": "2026-11-18",
+      "titre": "Mise à jour CS2 du 17 novembre",
+      "resume": "Côté jeu, Valve a sorti deux mises à jour de CS2 cette semaine, avec des retouches sur Cobblestone.",
+      "categorie": "maj",
+      "lien": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110421976"
     },
     {
       "date": "2026-11-17",
@@ -134,13 +141,6 @@
     {
       "date": "2026-11-15",
       "titre": "brutmonster, Cjoffo +3 passent d'ex-Zero Tenacity à Hype Tech",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-15",
-      "titre": "aVN devient le coach de Hype Tech",
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 2"

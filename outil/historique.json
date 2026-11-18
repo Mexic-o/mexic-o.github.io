@@ -16,6 +16,14 @@
       "rang": 2
     },
     {
+      "date": "2026-11-18",
+      "cle": "maj|https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110421976",
+      "titre": "Mise à jour CS2 du 17 novembre",
+      "resume": "Côté jeu, Valve a sorti deux mises à jour de CS2 cette semaine, avec des retouches sur Cobblestone.",
+      "categorie": "maj",
+      "lien": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110421976"
+    },
+    {
       "date": "2026-11-17",
       "cle": "prog|Stake Ranked Episode 6|2026-11-17",
       "titre": "Stake Ranked Episode 6 · jour 1 · playoffs : les matchs du 17 novembre",
@@ -297,37 +305,6 @@
         "Spirit 2-1 G2"
       ],
       "rang": 0
-    },
-    {
-      "date": "2026-11-11",
-      "cle": "debut|BLAST Rivals Fall 2026",
-      "titre": "BLAST Rivals Fall 2026 a commencé",
-      "resume": "Le tournoi se joue à Chek Lap Kok, jusqu'au 15 novembre, 1 000 000 $ en jeu.",
-      "categorie": "resultats",
-      "tier": "Tier 1"
-    },
-    {
-      "date": "2026-11-11",
-      "cle": "tr|Patsi||Virtus.pro|",
-      "titre": "Patsi rejoint Virtus.pro",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-11",
-      "cle": "prog|BLAST Rivals Fall 2026|2026-11-11",
-      "titre": "BLAST Rivals Fall 2026 · jour 1 : les matchs du 11 novembre",
-      "resume": "Vitality bat Falcons 2-0. 4 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "Legacy 0-2 FURIA",
-        "Vitality 2-0 Falcons",
-        "Spirit 2-1 FUT",
-        "MOUZ 1-2 G2"
-      ],
-      "rang": 0
     }
   ],
   "agenda": [
@@ -362,15 +339,23 @@
       "tournoi": "dès le 25 novembre"
     }
   ],
-  "maj": "2026-11-17",
-  "collecte": "2026-11-17",
+  "maj": "2026-11-18",
+  "collecte": "2026-11-18",
   "envoi_en_attente": false,
   "chaine": {
     "handle": "@Mexic_Original",
     "id": "UCy5wcMtn9uzq_IUt3VgTgqQ"
   },
   "video": "",
-  "erreurs": [],
+  "erreurs": [
+    "tournois S-Tier : HTTP Error 429: Too Many Requests",
+    "tournois A-Tier : HTTP Error 429: Too Many Requests",
+    "tournois B-Tier : HTTP Error 429: Too Many Requests",
+    "tournois C-Tier : HTTP Error 429: Too Many Requests",
+    "programme des matchs : HTTP Error 429: Too Many Requests",
+    "scène féminine : HTTP Error 429: Too Many Requests",
+    "transferts : HTTP Error 429: Too Many Requests"
+  ],
   "programmes": {
     "BLAST Rivals Fall 2026|2026-11-11": {
       "nom": "BLAST Rivals Fall 2026",
@@ -652,7 +637,7 @@
       "tier": "A"
     }
   },
-  "maj_heure": "23:36",
+  "maj_heure": "08:44",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
