@@ -1,17 +1,31 @@
 {
   "articles": [
     {
+      "date": "2026-11-19",
+      "cle": "prog|Stake Ranked Episode 6|2026-11-19",
+      "titre": "Stake Ranked Episode 6 · jour 3 · playoffs : les matchs du 19 novembre",
+      "resume": "0 match joué, 3 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "12:00 · IC vs GL",
+        "14:30 · NIP vs BIG",
+        "17:00 · LG vs Sangal"
+      ],
+      "rang": 2
+    },
+    {
       "date": "2026-11-18",
       "cle": "prog|Stake Ranked Episode 6|2026-11-18",
       "titre": "Stake Ranked Episode 6 · jour 2 · playoffs : les matchs du 18 novembre",
-      "resume": "2 matchs joués, 2 à venir. Heures de Paris.",
+      "resume": "4 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
         "BIG 2-0 Apogee",
         "UNiTY 1-2 GL",
-        "17:40 · Sangal vs IC",
-        "19:30 · NIP vs LG"
+        "Sangal 2-0 IC",
+        "NIP 0-2 LG"
       ],
       "rang": 2
     },
@@ -638,7 +652,9 @@
           "t1_court": "Sangal",
           "t2_court": "IC",
           "bo": 3,
-          "phase": "playoffs"
+          "phase": "playoffs",
+          "s1": 2,
+          "s2": 0
         },
         "GamerLegion|UNiTY esports": {
           "ts": 1795010100,
@@ -652,20 +668,57 @@
           "s2": 2
         },
         "Luminosity Gaming|Ninjas in Pyjamas": {
-          "ts": 1795026600,
+          "ts": 1795027800,
           "t1": "Ninjas in Pyjamas",
           "t2": "Luminosity Gaming",
           "t1_court": "NIP",
           "t2_court": "LG",
           "bo": 3,
-          "phase": "playoffs"
+          "phase": "playoffs",
+          "s1": 0,
+          "s2": 2
         }
       },
       "etape": "jour 2",
       "tier": "A"
+    },
+    "Stake Ranked Episode 6|2026-11-19": {
+      "nom": "Stake Ranked Episode 6",
+      "jour": "2026-11-19",
+      "matchs": {
+        "GamerLegion|IC Esports": {
+          "ts": 1795086000,
+          "t1": "IC Esports",
+          "t2": "GamerLegion",
+          "t1_court": "IC",
+          "t2_court": "GL",
+          "bo": 3,
+          "phase": "playoffs"
+        },
+        "BIG|Ninjas in Pyjamas": {
+          "ts": 1795095000,
+          "t1": "Ninjas in Pyjamas",
+          "t2": "BIG",
+          "t1_court": "NIP",
+          "t2_court": "BIG",
+          "bo": 3,
+          "phase": "playoffs"
+        },
+        "Luminosity Gaming|Sangal Esports": {
+          "ts": 1795104000,
+          "t1": "Luminosity Gaming",
+          "t2": "Sangal Esports",
+          "t1_court": "LG",
+          "t2_court": "Sangal",
+          "bo": 3,
+          "phase": "playoffs"
+        }
+      },
+      "etape": "jour 3",
+      "tier": "A"
     }
   },
-  "maj_heure": "19:16",
+  "maj_heure": "23:12",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
@@ -857,6 +910,13 @@
     "a|GamerLegion|UNiTY esports|2026-11-18",
     "a|Luminosity Gaming|Ninjas in Pyjamas|2026-11-18",
     "r|GamerLegion|UNiTY esports|1795010100",
-    "r|BIG|Betclic Apogee Esports|1794999600"
+    "r|BIG|Betclic Apogee Esports|1794999600",
+    "r|Luminosity Gaming|Ninjas in Pyjamas|1795027800",
+    "r|IC Esports|Sangal Esports|1795020000",
+    "a|GamerLegion|IC Esports|2026-11-19",
+    "a|BIG|Ninjas in Pyjamas|2026-11-19",
+    "a|Luminosity Gaming|Sangal Esports|2026-11-19",
+    "r|Alliance|SINNERS Esports|1795017600",
+    "r|EYEBALLERS|Gothboiclique (page does not exist)|1794992400"
   ]
 }

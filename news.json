@@ -1,20 +1,33 @@
 {
   "maj": "2026-11-18",
-  "maj_heure": "19:16",
+  "maj_heure": "23:12",
   "semaine": "",
   "video": "",
   "articles": [
     {
+      "date": "2026-11-19",
+      "titre": "Stake Ranked Episode 6 · jour 3 · playoffs : les matchs du 19 novembre",
+      "resume": "0 match joué, 3 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "12:00 · IC vs GL",
+        "14:30 · NIP vs BIG",
+        "17:00 · LG vs Sangal"
+      ],
+      "rang": 2
+    },
+    {
       "date": "2026-11-18",
       "titre": "Stake Ranked Episode 6 · jour 2 · playoffs : les matchs du 18 novembre",
-      "resume": "2 matchs joués, 2 à venir. Heures de Paris.",
+      "resume": "4 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
         "BIG 2-0 Apogee",
         "UNiTY 1-2 GL",
-        "17:40 · Sangal vs IC",
-        "19:30 · NIP vs LG"
+        "Sangal 2-0 IC",
+        "NIP 0-2 LG"
       ],
       "rang": 2
     },
@@ -119,13 +132,6 @@
     {
       "date": "2026-11-16",
       "titre": "dex passe d'EYEBALLERS à Johnny Speeds",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-16",
-      "titre": "Rack passe sur le banc chez Johnny Speeds",
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 2"
