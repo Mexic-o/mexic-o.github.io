@@ -4,13 +4,14 @@
       "date": "2026-11-19",
       "cle": "prog|Stake Ranked Episode 6|2026-11-19",
       "titre": "Stake Ranked Episode 6 · jour 3 · playoffs : les matchs du 19 novembre",
-      "resume": "0 match joué, 3 à venir. Heures de Paris.",
+      "resume": "2 matchs joués, 2 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "12:00 · IC vs GL",
-        "14:30 · NIP vs BIG",
-        "17:00 · LG vs Sangal"
+        "IC 1-2 GL",
+        "NIP 1-2 BIG",
+        "17:00 · LG vs Sangal",
+        "21:30 · GamerLegion vs BIG"
       ],
       "rang": 2
     },
@@ -23,19 +24,50 @@
       "lien": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110426557"
     },
     {
-      "date": "2026-11-18",
-      "cle": "prog|Stake Ranked Episode 6|2026-11-18",
-      "titre": "Stake Ranked Episode 6 · jour 2 · playoffs : les matchs du 18 novembre",
-      "resume": "4 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "BIG 2-0 Apogee",
-        "UNiTY 1-2 GL",
-        "Sangal 2-0 IC",
-        "NIP 0-2 LG"
-      ],
-      "rang": 2
+      "date": "2026-11-19",
+      "cle": "tr|meowpop, Neqy +1|ASTRAL|ASTRAL|banc",
+      "titre": "meowpop, Neqy +1 passent sur le banc chez ASTRAL",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-19",
+      "cle": "tr|kL1o|ex-6666|WhiteBIT Academy|",
+      "titre": "kL1o passe d'ex-6666 à WhiteBIT Academy",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-19",
+      "cle": "tr|kill||SAW Youngsters|",
+      "titre": "kill rejoint SAW Youngsters",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-19",
+      "cle": "tr|F3M0S||SAW Youngsters|coach",
+      "titre": "F3M0S devient le coach de SAW Youngsters",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-19",
+      "cle": "tr|Katkame, lucaZ +3|Vitality Academy|libre|",
+      "titre": "Katkame, lucaZ +3 quittent Vitality Academy",
+      "resume": "",
+      "categorie": "fr"
+    },
+    {
+      "date": "2026-11-19",
+      "cle": "tr|VdaK1NG|Vitality Academy||coach parti",
+      "titre": "VdaK1NG n'est plus le coach de Vitality Academy",
+      "resume": "",
+      "categorie": "fr"
     },
     {
       "date": "2026-11-18",
@@ -76,6 +108,21 @@
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-18",
+      "cle": "prog|Stake Ranked Episode 6|2026-11-18",
+      "titre": "Stake Ranked Episode 6 · jour 2 · playoffs : les matchs du 18 novembre",
+      "resume": "4 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "BIG 2-0 Apogee",
+        "UNiTY 1-2 GL",
+        "Sangal 2-0 IC",
+        "NIP 0-2 LG"
+      ],
+      "rang": 0
     },
     {
       "date": "2026-11-17",
@@ -346,68 +393,8 @@
     "id": "UCy5wcMtn9uzq_IUt3VgTgqQ"
   },
   "video": "",
-  "erreurs": [
-    "tournois S-Tier : HTTP Error 429: Too Many Requests",
-    "tournois A-Tier : HTTP Error 429: Too Many Requests",
-    "tournois B-Tier : HTTP Error 429: Too Many Requests",
-    "tournois C-Tier : HTTP Error 429: Too Many Requests",
-    "programme des matchs : HTTP Error 429: Too Many Requests",
-    "scène féminine : HTTP Error 429: Too Many Requests",
-    "transferts : HTTP Error 429: Too Many Requests"
-  ],
+  "erreurs": [],
   "programmes": {
-    "BLAST Rivals Fall 2026|2026-11-11": {
-      "nom": "BLAST Rivals Fall 2026",
-      "jour": "2026-11-11",
-      "matchs": {
-        "FURIA|Legacy": {
-          "ts": 1794362400,
-          "t1": "Legacy",
-          "t2": "FURIA",
-          "t1_court": "Legacy",
-          "t2_court": "FURIA",
-          "bo": 3,
-          "phase": "",
-          "s1": 0,
-          "s2": 2
-        },
-        "Team Falcons|Team Vitality": {
-          "ts": 1794370500,
-          "t1": "Team Vitality",
-          "t2": "Team Falcons",
-          "t1_court": "Vitality",
-          "t2_court": "Falcons",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        },
-        "FUT Esports|Team Spirit": {
-          "ts": 1794378600,
-          "t1": "Team Spirit",
-          "t2": "FUT Esports",
-          "t1_court": "Spirit",
-          "t2_court": "FUT",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 1
-        },
-        "G2 Esports|MOUZ": {
-          "ts": 1794389400,
-          "t1": "MOUZ",
-          "t2": "G2 Esports",
-          "t1_court": "MOUZ",
-          "t2_court": "G2",
-          "bo": 3,
-          "phase": "",
-          "s1": 1,
-          "s2": 2
-        }
-      },
-      "etape": "jour 1",
-      "tier": "S"
-    },
     "BLAST Rivals Fall 2026|2026-11-12": {
       "nom": "BLAST Rivals Fall 2026",
       "jour": "2026-11-12",
@@ -654,7 +641,9 @@
           "t1_court": "IC",
           "t2_court": "GL",
           "bo": 3,
-          "phase": "playoffs"
+          "phase": "playoffs",
+          "s1": 1,
+          "s2": 2
         },
         "BIG|Ninjas in Pyjamas": {
           "ts": 1795095000,
@@ -663,7 +652,9 @@
           "t1_court": "NIP",
           "t2_court": "BIG",
           "bo": 3,
-          "phase": "playoffs"
+          "phase": "playoffs",
+          "s1": 1,
+          "s2": 2
         },
         "Luminosity Gaming|Sangal Esports": {
           "ts": 1795104000,
@@ -673,13 +664,22 @@
           "t2_court": "Sangal",
           "bo": 3,
           "phase": "playoffs"
+        },
+        "BIG|GamerLegion": {
+          "ts": 1795120200,
+          "t1": "GamerLegion",
+          "t2": "BIG",
+          "t1_court": "GamerLegion",
+          "t2_court": "BIG",
+          "bo": "",
+          "phase": "playoffs"
         }
       },
       "etape": "jour 3",
       "tier": "A"
     }
   },
-  "maj_heure": "08:41",
+  "maj_heure": "19:28",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
@@ -878,6 +878,9 @@
     "a|BIG|Ninjas in Pyjamas|2026-11-19",
     "a|Luminosity Gaming|Sangal Esports|2026-11-19",
     "r|Alliance|SINNERS Esports|1795017600",
-    "r|EYEBALLERS|Gothboiclique (page does not exist)|1794992400"
+    "r|EYEBALLERS|Gothboiclique (page does not exist)|1794992400",
+    "r|GamerLegion|IC Esports|1795086000",
+    "r|BIG|Ninjas in Pyjamas|1795098300",
+    "a|BIG|GamerLegion|2026-11-19"
   ]
 }
