@@ -15,6 +15,14 @@
       "rang": 2
     },
     {
+      "date": "2026-11-19",
+      "cle": "maj|https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110426557",
+      "titre": "Mise à jour CS2 du 19 novembre",
+      "resume": "Côté jeu, Valve a sorti trois mises à jour de CS2 cette semaine, avec des retouches sur Inferno et Cobblestone et des changements sur l'AWP et le Molotov.",
+      "categorie": "maj",
+      "lien": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110426557"
+    },
+    {
       "date": "2026-11-18",
       "cle": "prog|Stake Ranked Episode 6|2026-11-18",
       "titre": "Stake Ranked Episode 6 · jour 2 · playoffs : les matchs du 18 novembre",
@@ -296,61 +304,6 @@
         "G2 1-2 Falcons"
       ],
       "rang": 0
-    },
-    {
-      "date": "2026-11-12",
-      "cle": "maj|https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144180746",
-      "titre": "Mise à jour CS2 du 11 novembre",
-      "resume": "Côté jeu, mise à jour de CS2 le 11 novembre, avec 5 changements au total.",
-      "categorie": "maj",
-      "lien": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849192144180746"
-    },
-    {
-      "date": "2026-11-12",
-      "cle": "tr|KAISER, zock +2|Bounty Hunters|Bounty Hunters|banc",
-      "titre": "KAISER, zock +2 passent sur le banc chez Bounty Hunters",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-12",
-      "cle": "tr|gusihx et GYZER|Bounty Hunters|Bounty Hunters|banc",
-      "titre": "gusihx et GYZER passent sur le banc chez Bounty Hunters",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-12",
-      "cle": "tr|ponter|Bounty Hunters|libre|",
-      "titre": "ponter quitte Bounty Hunters",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-12",
-      "cle": "tr|k0gaSs|Spirit Academy|libre|",
-      "titre": "k0gaSs quitte Spirit Academy",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-12",
-      "cle": "prog|BLAST Rivals Fall 2026|2026-11-12",
-      "titre": "BLAST Rivals Fall 2026 · jour 2 : les matchs du 12 novembre",
-      "resume": "FURIA bat Vitality 2-1. 4 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "Legacy 0-2 Falcons",
-        "FURIA 2-1 Vitality",
-        "FUT 1-2 MOUZ",
-        "Spirit 2-1 G2"
-      ],
-      "rang": 0
     }
   ],
   "agenda": [
@@ -385,15 +338,23 @@
       "tournoi": "dès le 25 novembre"
     }
   ],
-  "maj": "2026-11-18",
-  "collecte": "2026-11-18",
+  "maj": "2026-11-19",
+  "collecte": "2026-11-19",
   "envoi_en_attente": false,
   "chaine": {
     "handle": "@Mexic_Original",
     "id": "UCy5wcMtn9uzq_IUt3VgTgqQ"
   },
   "video": "",
-  "erreurs": [],
+  "erreurs": [
+    "tournois S-Tier : HTTP Error 429: Too Many Requests",
+    "tournois A-Tier : HTTP Error 429: Too Many Requests",
+    "tournois B-Tier : HTTP Error 429: Too Many Requests",
+    "tournois C-Tier : HTTP Error 429: Too Many Requests",
+    "programme des matchs : HTTP Error 429: Too Many Requests",
+    "scène féminine : HTTP Error 429: Too Many Requests",
+    "transferts : HTTP Error 429: Too Many Requests"
+  ],
   "programmes": {
     "BLAST Rivals Fall 2026|2026-11-11": {
       "nom": "BLAST Rivals Fall 2026",
@@ -718,7 +679,7 @@
       "tier": "A"
     }
   },
-  "maj_heure": "23:12",
+  "maj_heure": "08:41",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
