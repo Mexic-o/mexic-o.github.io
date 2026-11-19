@@ -4,13 +4,13 @@
       "date": "2026-11-19",
       "cle": "prog|Stake Ranked Episode 6|2026-11-19",
       "titre": "Stake Ranked Episode 6 · jour 3 · playoffs : les matchs du 19 novembre",
-      "resume": "2 matchs joués, 2 à venir. Heures de Paris.",
+      "resume": "3 matchs joués, 1 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
         "IC 1-2 GL",
         "NIP 1-2 BIG",
-        "17:00 · LG vs Sangal",
+        "LG 0-2 Sangal",
         "21:30 · GamerLegion vs BIG"
       ],
       "rang": 2
@@ -663,7 +663,9 @@
           "t1_court": "LG",
           "t2_court": "Sangal",
           "bo": 3,
-          "phase": "playoffs"
+          "phase": "playoffs",
+          "s1": 0,
+          "s2": 2
         },
         "BIG|GamerLegion": {
           "ts": 1795120200,
@@ -679,7 +681,7 @@
       "tier": "A"
     }
   },
-  "maj_heure": "19:28",
+  "maj_heure": "23:22",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
@@ -881,6 +883,7 @@
     "r|EYEBALLERS|Gothboiclique (page does not exist)|1794992400",
     "r|GamerLegion|IC Esports|1795086000",
     "r|BIG|Ninjas in Pyjamas|1795098300",
-    "a|BIG|GamerLegion|2026-11-19"
+    "a|BIG|GamerLegion|2026-11-19",
+    "r|Luminosity Gaming|Sangal Esports|1795110300"
   ]
 }
