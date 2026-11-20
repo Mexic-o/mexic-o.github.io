@@ -1,25 +1,29 @@
 {
   "articles": [
     {
-      "date": "2026-11-19",
-      "cle": "prog|Stake Ranked Episode 6|2026-11-19",
-      "titre": "Stake Ranked Episode 6 · jour 3 · playoffs : les matchs du 19 novembre",
-      "resume": "3 matchs joués, 1 à venir. Heures de Paris.",
+      "date": "2026-11-20",
+      "cle": "prog|Stake Ranked Episode 6|2026-11-20",
+      "titre": "Stake Ranked Episode 6 · playoffs : les matchs du 20 novembre",
+      "resume": "0 match joué, 1 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "IC 1-2 GL",
-        "NIP 1-2 BIG",
-        "LG 0-2 Sangal",
-        "21:30 · GamerLegion vs BIG"
+        "14:00 · Luminosity Gaming vs BIG"
       ],
       "rang": 2
+    },
+    {
+      "date": "2026-11-20",
+      "cle": "tr|Dafra1D|Vitality Academy|libre|",
+      "titre": "Dafra1D quitte Vitality Academy",
+      "resume": "",
+      "categorie": "fr"
     },
     {
       "date": "2026-11-19",
       "cle": "maj|https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110426557",
       "titre": "Mise à jour CS2 du 19 novembre",
-      "resume": "Côté jeu, Valve a sorti trois mises à jour de CS2 cette semaine, avec des retouches sur Inferno et Cobblestone et des changements sur l'AWP et le Molotov.",
+      "resume": "Côté jeu, Valve a sorti deux mises à jour de CS2 cette semaine, avec des retouches sur Inferno et Cobblestone et des changements sur l'AWP et le Molotov.",
       "categorie": "maj",
       "lien": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110426557"
     },
@@ -68,6 +72,21 @@
       "titre": "VdaK1NG n'est plus le coach de Vitality Academy",
       "resume": "",
       "categorie": "fr"
+    },
+    {
+      "date": "2026-11-19",
+      "cle": "prog|Stake Ranked Episode 6|2026-11-19",
+      "titre": "Stake Ranked Episode 6 · jour 3 · playoffs : les matchs du 19 novembre",
+      "resume": "4 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "IC 1-2 GL",
+        "NIP 1-2 BIG",
+        "LG 0-2 Sangal",
+        "GamerLegion 1-2 BIG"
+      ],
+      "rang": 0
     },
     {
       "date": "2026-11-18",
@@ -338,19 +357,6 @@
         "FURIA 2-0 Falcons"
       ],
       "rang": 0
-    },
-    {
-      "date": "2026-11-13",
-      "cle": "prog|BLAST Rivals Fall 2026|2026-11-13",
-      "titre": "BLAST Rivals Fall 2026 · jour 3 : les matchs du 13 novembre",
-      "resume": "MOUZ bat Vitality 2-0. 2 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "Vitality 0-2 MOUZ",
-        "G2 1-2 Falcons"
-      ],
-      "rang": 0
     }
   ],
   "agenda": [
@@ -380,13 +386,19 @@
     },
     {
       "groupe": "À venir",
+      "jour": "2026-11-30",
+      "equipes": "Journey Winter 2026",
+      "tournoi": "dès le 30 novembre · Stockholm"
+    },
+    {
+      "groupe": "À venir",
       "jour": "2026-11-25",
       "equipes": "CCT Europe 2026 Series #15",
       "tournoi": "dès le 25 novembre"
     }
   ],
-  "maj": "2026-11-19",
-  "collecte": "2026-11-19",
+  "maj": "2026-11-20",
+  "collecte": "2026-11-20",
   "envoi_en_attente": false,
   "chaine": {
     "handle": "@Mexic_Original",
@@ -395,58 +407,6 @@
   "video": "",
   "erreurs": [],
   "programmes": {
-    "BLAST Rivals Fall 2026|2026-11-12": {
-      "nom": "BLAST Rivals Fall 2026",
-      "jour": "2026-11-12",
-      "matchs": {
-        "Legacy|Team Falcons": {
-          "ts": 1794448800,
-          "t1": "Legacy",
-          "t2": "Team Falcons",
-          "t1_court": "Legacy",
-          "t2_court": "Falcons",
-          "bo": 3,
-          "phase": "",
-          "s1": 0,
-          "s2": 2
-        },
-        "FURIA|Team Vitality": {
-          "ts": 1794456000,
-          "t1": "FURIA",
-          "t2": "Team Vitality",
-          "t1_court": "FURIA",
-          "t2_court": "Vitality",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 1
-        },
-        "FUT Esports|MOUZ": {
-          "ts": 1794466500,
-          "t1": "FUT Esports",
-          "t2": "MOUZ",
-          "t1_court": "FUT",
-          "t2_court": "MOUZ",
-          "bo": 3,
-          "phase": "",
-          "s1": 1,
-          "s2": 2
-        },
-        "G2 Esports|Team Spirit": {
-          "ts": 1794480000,
-          "t1": "Team Spirit",
-          "t2": "G2 Esports",
-          "t1_court": "Spirit",
-          "t2_court": "G2",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 1
-        }
-      },
-      "etape": "jour 2",
-      "tier": "S"
-    },
     "BLAST Rivals Fall 2026|2026-11-13": {
       "nom": "BLAST Rivals Fall 2026",
       "jour": "2026-11-13",
@@ -674,14 +634,31 @@
           "t1_court": "GamerLegion",
           "t2_court": "BIG",
           "bo": "",
-          "phase": "playoffs"
+          "phase": "playoffs",
+          "s1": 1,
+          "s2": 2
         }
       },
       "etape": "jour 3",
       "tier": "A"
+    },
+    "Stake Ranked Episode 6|2026-11-20": {
+      "nom": "Stake Ranked Episode 6",
+      "jour": "2026-11-20",
+      "matchs": {
+        "BIG|Luminosity Gaming": {
+          "ts": 1795179600,
+          "t1": "Luminosity Gaming",
+          "t2": "BIG",
+          "t1_court": "Luminosity Gaming",
+          "t2_court": "BIG",
+          "bo": "",
+          "phase": "playoffs"
+        }
+      }
     }
   },
-  "maj_heure": "23:22",
+  "maj_heure": "08:36",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
@@ -884,6 +861,7 @@
     "r|GamerLegion|IC Esports|1795086000",
     "r|BIG|Ninjas in Pyjamas|1795098300",
     "a|BIG|GamerLegion|2026-11-19",
-    "r|Luminosity Gaming|Sangal Esports|1795110300"
+    "r|Luminosity Gaming|Sangal Esports|1795110300",
+    "a|BIG|Luminosity Gaming|2026-11-20"
   ]
 }

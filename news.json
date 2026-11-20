@@ -1,27 +1,30 @@
 {
-  "maj": "2026-11-19",
-  "maj_heure": "23:22",
+  "maj": "2026-11-20",
+  "maj_heure": "08:36",
   "semaine": "",
   "video": "",
   "articles": [
     {
-      "date": "2026-11-19",
-      "titre": "Stake Ranked Episode 6 · jour 3 · playoffs : les matchs du 19 novembre",
-      "resume": "3 matchs joués, 1 à venir. Heures de Paris.",
+      "date": "2026-11-20",
+      "titre": "Stake Ranked Episode 6 · playoffs : les matchs du 20 novembre",
+      "resume": "0 match joué, 1 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "IC 1-2 GL",
-        "NIP 1-2 BIG",
-        "LG 0-2 Sangal",
-        "21:30 · GamerLegion vs BIG"
+        "14:00 · Luminosity Gaming vs BIG"
       ],
       "rang": 2
     },
     {
+      "date": "2026-11-20",
+      "titre": "Dafra1D quitte Vitality Academy",
+      "resume": "",
+      "categorie": "fr"
+    },
+    {
       "date": "2026-11-19",
       "titre": "Mise à jour CS2 du 19 novembre",
-      "resume": "Côté jeu, Valve a sorti trois mises à jour de CS2 cette semaine, avec des retouches sur Inferno et Cobblestone et des changements sur l'AWP et le Molotov.",
+      "resume": "Côté jeu, Valve a sorti deux mises à jour de CS2 cette semaine, avec des retouches sur Inferno et Cobblestone et des changements sur l'AWP et le Molotov.",
       "categorie": "maj",
       "lien": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110426557"
     },
@@ -66,6 +69,20 @@
       "categorie": "fr"
     },
     {
+      "date": "2026-11-19",
+      "titre": "Stake Ranked Episode 6 · jour 3 · playoffs : les matchs du 19 novembre",
+      "resume": "4 matchs joués, 0 à venir. Heures de Paris.",
+      "categorie": "resultats",
+      "tier": "Programme",
+      "cartes": [
+        "IC 1-2 GL",
+        "NIP 1-2 BIG",
+        "LG 0-2 Sangal",
+        "GamerLegion 1-2 BIG"
+      ],
+      "rang": 0
+    },
+    {
       "date": "2026-11-18",
       "titre": "Mise à jour CS2 du 17 novembre",
       "resume": "Côté jeu, Valve a sorti deux mises à jour de CS2 cette semaine, avec des retouches sur Cobblestone.",
@@ -92,27 +109,6 @@
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-18",
-      "titre": "NMV devient le coach de Lunacy Team",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-18",
-      "titre": "Stake Ranked Episode 6 · jour 2 · playoffs : les matchs du 18 novembre",
-      "resume": "4 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "BIG 2-0 Apogee",
-        "UNiTY 1-2 GL",
-        "Sangal 2-0 IC",
-        "NIP 0-2 LG"
-      ],
-      "rang": 0
     }
   ],
   "matchs": [
@@ -139,6 +135,12 @@
       "jour": "2026-11-24",
       "equipes": "PGL Major Singapore 2026",
       "tournoi": "dès le 24 novembre · Kallang"
+    },
+    {
+      "groupe": "À venir",
+      "jour": "2026-11-30",
+      "equipes": "Journey Winter 2026",
+      "tournoi": "dès le 30 novembre · Stockholm"
     },
     {
       "groupe": "À venir",
