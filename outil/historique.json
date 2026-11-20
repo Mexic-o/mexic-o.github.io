@@ -4,11 +4,12 @@
       "date": "2026-11-20",
       "cle": "prog|Stake Ranked Episode 6|2026-11-20",
       "titre": "Stake Ranked Episode 6 · playoffs : les matchs du 20 novembre",
-      "resume": "0 match joué, 1 à venir. Heures de Paris.",
+      "resume": "2 matchs joués, 0 à venir. Heures de Paris.",
       "categorie": "resultats",
       "tier": "Programme",
       "cartes": [
-        "14:00 · Luminosity Gaming vs BIG"
+        "Luminosity Gaming 2-1 BIG",
+        "Sangal Esports 1-3 Luminosity Gaming"
       ],
       "rang": 2
     },
@@ -405,15 +406,7 @@
     "id": "UCy5wcMtn9uzq_IUt3VgTgqQ"
   },
   "video": "",
-  "erreurs": [
-    "tournois S-Tier : HTTP Error 429: Too Many Requests",
-    "tournois A-Tier : HTTP Error 429: Too Many Requests",
-    "tournois B-Tier : HTTP Error 429: Too Many Requests",
-    "tournois C-Tier : HTTP Error 429: Too Many Requests",
-    "programme des matchs : HTTP Error 429: Too Many Requests",
-    "scène féminine : HTTP Error 429: Too Many Requests",
-    "transferts : HTTP Error 429: Too Many Requests"
-  ],
+  "erreurs": [],
   "programmes": {
     "BLAST Rivals Fall 2026|2026-11-13": {
       "nom": "BLAST Rivals Fall 2026",
@@ -661,12 +654,25 @@
           "t1_court": "Luminosity Gaming",
           "t2_court": "BIG",
           "bo": "",
-          "phase": "playoffs"
+          "phase": "playoffs",
+          "s1": 2,
+          "s2": 1
+        },
+        "Luminosity Gaming|Sangal Esports": {
+          "ts": 1795192200,
+          "t1": "Sangal Esports",
+          "t2": "Luminosity Gaming",
+          "t1_court": "Sangal Esports",
+          "t2_court": "Luminosity Gaming",
+          "bo": "",
+          "phase": "playoffs",
+          "s1": 1,
+          "s2": 3
         }
       }
     }
   },
-  "maj_heure": "18:54",
+  "maj_heure": "22:59",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
@@ -870,6 +876,8 @@
     "r|BIG|Ninjas in Pyjamas|1795098300",
     "a|BIG|GamerLegion|2026-11-19",
     "r|Luminosity Gaming|Sangal Esports|1795110300",
-    "a|BIG|Luminosity Gaming|2026-11-20"
+    "a|BIG|Luminosity Gaming|2026-11-20",
+    "r|BIG|Luminosity Gaming|1795179600",
+    "r|Luminosity Gaming|Sangal Esports|1795192200"
   ]
 }
