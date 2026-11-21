@@ -17,6 +17,29 @@
       "tier": "Tier 2"
     },
     {
+      "date": "2026-11-21",
+      "cle": "tr|sstiNiX, sm3t +3|Just Players|XMETA|",
+      "titre": "sstiNiX, sm3t +3 passent de Just Players à XMETA",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-21",
+      "cle": "tr|kill|The Agency Clan|SAW Youngsters|prêt",
+      "titre": "kill dépanne SAW Youngsters",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-21",
+      "cle": "tr|mhL|Wildcard|libre|",
+      "titre": "mhL quitte Wildcard",
+      "resume": "",
+      "categorie": "fr"
+    },
+    {
       "date": "2026-11-20",
       "cle": "tr|Dafra1D|Vitality Academy|libre|",
       "titre": "Dafra1D quitte Vitality Academy",
@@ -608,7 +631,7 @@
       }
     }
   },
-  "maj_heure": "17:57",
+  "maj_heure": "21:42",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
