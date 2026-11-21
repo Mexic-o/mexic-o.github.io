@@ -1,6 +1,29 @@
 {
   "articles": [
     {
+      "date": "2026-11-21",
+      "cle": "res|Stake Ranked Episode 6|Luminosity",
+      "titre": "Luminosity remporte Stake Ranked Episode 6",
+      "resume": "Du côté de Stake Ranked Episode 6, c'est Luminosity qui l'emporte face à Sangal.",
+      "categorie": "resultats",
+      "tier": "Tier 1"
+    },
+    {
+      "date": "2026-11-21",
+      "cle": "tr|h1te, sstiNiX +3|Just Players|XMETA|",
+      "titre": "h1te, sstiNiX +3 passent de Just Players à XMETA",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-20",
+      "cle": "tr|Dafra1D|Vitality Academy|libre|",
+      "titre": "Dafra1D quitte Vitality Academy",
+      "resume": "",
+      "categorie": "fr"
+    },
+    {
       "date": "2026-11-20",
       "cle": "prog|Stake Ranked Episode 6|2026-11-20",
       "titre": "Stake Ranked Episode 6 · playoffs : les matchs du 20 novembre",
@@ -11,14 +34,7 @@
         "Luminosity Gaming 2-1 BIG",
         "Sangal Esports 1-3 Luminosity Gaming"
       ],
-      "rang": 2
-    },
-    {
-      "date": "2026-11-20",
-      "cle": "tr|Dafra1D|Vitality Academy|libre|",
-      "titre": "Dafra1D quitte Vitality Academy",
-      "resume": "",
-      "categorie": "fr"
+      "rang": 0
     },
     {
       "date": "2026-11-19",
@@ -314,14 +330,14 @@
     {
       "groupe": "En cours",
       "jour": "2026-11-17",
-      "equipes": "Stake Ranked Episode 6",
-      "tournoi": "jusqu'au 20 novembre · Barcelona"
+      "equipes": "RUSH:Brno 2026",
+      "tournoi": "jusqu'au 22 novembre · Prague Brno"
     },
     {
       "groupe": "En cours",
-      "jour": "2026-11-17",
-      "equipes": "RUSH:Brno 2026",
-      "tournoi": "jusqu'au 22 novembre · Prague Brno"
+      "jour": "2026-11-10",
+      "equipes": "NODWIN Clutch Series #14",
+      "tournoi": "jusqu'au 23 novembre"
     },
     {
       "groupe": "À venir",
@@ -340,6 +356,12 @@
       "jour": "2026-11-25",
       "equipes": "CCT Europe 2026 Series #15",
       "tournoi": "dès le 25 novembre"
+    },
+    {
+      "groupe": "À venir",
+      "jour": "2026-12-01",
+      "equipes": "CCT Europe 2026 Series #16",
+      "tournoi": "dès le 1er décembre"
     }
   ],
   "maj": "2026-11-21",
@@ -350,46 +372,8 @@
     "id": "UCy5wcMtn9uzq_IUt3VgTgqQ"
   },
   "video": "",
-  "erreurs": [
-    "tournois S-Tier : HTTP Error 429: Too Many Requests",
-    "tournois A-Tier : HTTP Error 429: Too Many Requests",
-    "tournois B-Tier : HTTP Error 429: Too Many Requests",
-    "tournois C-Tier : HTTP Error 429: Too Many Requests",
-    "programme des matchs : HTTP Error 429: Too Many Requests",
-    "scène féminine : HTTP Error 429: Too Many Requests",
-    "transferts : HTTP Error 429: Too Many Requests"
-  ],
+  "erreurs": [],
   "programmes": {
-    "BLAST Rivals Fall 2026|2026-11-13": {
-      "nom": "BLAST Rivals Fall 2026",
-      "jour": "2026-11-13",
-      "matchs": {
-        "MOUZ|Team Vitality": {
-          "ts": 1794556800,
-          "t1": "Team Vitality",
-          "t2": "MOUZ",
-          "t1_court": "Vitality",
-          "t2_court": "MOUZ",
-          "bo": 3,
-          "phase": "",
-          "s1": 0,
-          "s2": 2
-        },
-        "G2 Esports|Team Falcons": {
-          "ts": 1794567300,
-          "t1": "G2 Esports",
-          "t2": "Team Falcons",
-          "t1_court": "G2",
-          "t2_court": "Falcons",
-          "bo": 3,
-          "phase": "",
-          "s1": 1,
-          "s2": 2
-        }
-      },
-      "etape": "jour 3",
-      "tier": "S"
-    },
     "BLAST Rivals Fall 2026|2026-11-14": {
       "nom": "BLAST Rivals Fall 2026",
       "jour": "2026-11-14",
@@ -624,7 +608,7 @@
       }
     }
   },
-  "maj_heure": "08:26",
+  "maj_heure": "17:57",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",

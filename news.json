@@ -1,9 +1,29 @@
 {
   "maj": "2026-11-21",
-  "maj_heure": "08:26",
+  "maj_heure": "17:57",
   "semaine": "",
   "video": "",
   "articles": [
+    {
+      "date": "2026-11-21",
+      "titre": "Luminosity remporte Stake Ranked Episode 6",
+      "resume": "Du côté de Stake Ranked Episode 6, c'est Luminosity qui l'emporte face à Sangal.",
+      "categorie": "resultats",
+      "tier": "Tier 1"
+    },
+    {
+      "date": "2026-11-21",
+      "titre": "h1te, sstiNiX +3 passent de Just Players à XMETA",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-20",
+      "titre": "Dafra1D quitte Vitality Academy",
+      "resume": "",
+      "categorie": "fr"
+    },
     {
       "date": "2026-11-20",
       "titre": "Stake Ranked Episode 6 · playoffs : les matchs du 20 novembre",
@@ -14,13 +34,7 @@
         "Luminosity Gaming 2-1 BIG",
         "Sangal Esports 1-3 Luminosity Gaming"
       ],
-      "rang": 2
-    },
-    {
-      "date": "2026-11-20",
-      "titre": "Dafra1D quitte Vitality Academy",
-      "resume": "",
-      "categorie": "fr"
+      "rang": 0
     },
     {
       "date": "2026-11-19",
@@ -96,20 +110,6 @@
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 1"
-    },
-    {
-      "date": "2026-11-18",
-      "titre": "jabbi quitte Astralis",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 1"
-    },
-    {
-      "date": "2026-11-18",
-      "titre": "gusihx et GYZER quittent Bounty Hunters",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
     }
   ],
   "matchs": [
@@ -122,14 +122,14 @@
     {
       "groupe": "En cours",
       "jour": "2026-11-17",
-      "equipes": "Stake Ranked Episode 6",
-      "tournoi": "jusqu'au 20 novembre · Barcelona"
+      "equipes": "RUSH:Brno 2026",
+      "tournoi": "jusqu'au 22 novembre · Prague Brno"
     },
     {
       "groupe": "En cours",
-      "jour": "2026-11-17",
-      "equipes": "RUSH:Brno 2026",
-      "tournoi": "jusqu'au 22 novembre · Prague Brno"
+      "jour": "2026-11-10",
+      "equipes": "NODWIN Clutch Series #14",
+      "tournoi": "jusqu'au 23 novembre"
     },
     {
       "groupe": "À venir",
