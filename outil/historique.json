@@ -302,62 +302,6 @@
         "FURIA 3-0 Spirit"
       ],
       "rang": 0
-    },
-    {
-      "date": "2026-11-14",
-      "cle": "res|CCT North America 2026 Challengers #1|Marsborne",
-      "titre": "Marsborne remporte CCT North America 2026 Challengers #1",
-      "resume": "Marsborne gagne l'édition 1 de CCT North America Challengers, contre Feistein. Victoire 2 à 0, avec Anubis et Ancient pour Marsborne.",
-      "categorie": "resultats",
-      "tier": "Tier 2",
-      "cartes": [
-        "Anubis 13-2",
-        "Ancient 13-10"
-      ]
-    },
-    {
-      "date": "2026-11-14",
-      "cle": "tr|chopper|Spirit|libre|",
-      "titre": "chopper quitte Spirit",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 1"
-    },
-    {
-      "date": "2026-11-14",
-      "cle": "tr|Jayy2s|SAW Youngsters|SAW|",
-      "titre": "Jayy2s passe de SAW Youngsters à SAW",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-14",
-      "cle": "tr|NOPEEj|SAW|SAW|banc",
-      "titre": "NOPEEj passe sur le banc chez SAW",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-14",
-      "cle": "tr|JaaviiiZen, 7AIZO +2||Izarra|",
-      "titre": "JaaviiiZen, 7AIZO +2 rejoignent Izarra",
-      "resume": "",
-      "categorie": "fr"
-    },
-    {
-      "date": "2026-11-14",
-      "cle": "prog|BLAST Rivals Fall 2026|2026-11-14",
-      "titre": "BLAST Rivals Fall 2026 · jour 4 : les matchs du 14 novembre",
-      "resume": "2 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "Spirit 2-0 MOUZ",
-        "FURIA 2-0 Falcons"
-      ],
-      "rang": 0
     }
   ],
   "agenda": [
@@ -398,15 +342,23 @@
       "tournoi": "dès le 25 novembre"
     }
   ],
-  "maj": "2026-11-20",
-  "collecte": "2026-11-20",
+  "maj": "2026-11-21",
+  "collecte": "2026-11-21",
   "envoi_en_attente": false,
   "chaine": {
     "handle": "@Mexic_Original",
     "id": "UCy5wcMtn9uzq_IUt3VgTgqQ"
   },
   "video": "",
-  "erreurs": [],
+  "erreurs": [
+    "tournois S-Tier : HTTP Error 429: Too Many Requests",
+    "tournois A-Tier : HTTP Error 429: Too Many Requests",
+    "tournois B-Tier : HTTP Error 429: Too Many Requests",
+    "tournois C-Tier : HTTP Error 429: Too Many Requests",
+    "programme des matchs : HTTP Error 429: Too Many Requests",
+    "scène féminine : HTTP Error 429: Too Many Requests",
+    "transferts : HTTP Error 429: Too Many Requests"
+  ],
   "programmes": {
     "BLAST Rivals Fall 2026|2026-11-13": {
       "nom": "BLAST Rivals Fall 2026",
@@ -672,7 +624,7 @@
       }
     }
   },
-  "maj_heure": "22:59",
+  "maj_heure": "08:26",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
