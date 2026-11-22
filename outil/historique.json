@@ -321,7 +321,15 @@
     "id": "UCy5wcMtn9uzq_IUt3VgTgqQ"
   },
   "video": "",
-  "erreurs": [],
+  "erreurs": [
+    "tournois S-Tier : HTTP Error 429: Too Many Requests",
+    "tournois A-Tier : HTTP Error 429: Too Many Requests",
+    "tournois B-Tier : HTTP Error 429: Too Many Requests",
+    "tournois C-Tier : HTTP Error 429: Too Many Requests",
+    "programme des matchs : HTTP Error 429: Too Many Requests",
+    "scène féminine : HTTP Error 429: Too Many Requests",
+    "transferts : HTTP Error 429: Too Many Requests"
+  ],
   "programmes": {
     "BLAST Rivals Fall 2026|2026-11-15": {
       "nom": "BLAST Rivals Fall 2026",
@@ -527,7 +535,7 @@
       }
     }
   },
-  "maj_heure": "08:11",
+  "maj_heure": "18:15",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
