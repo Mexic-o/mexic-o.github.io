@@ -267,80 +267,6 @@
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-15",
-      "cle": "res|Intel Extreme Masters Beijing 2026|MOUZ",
-      "titre": "MOUZ remporte Intel Extreme Masters Beijing 2026",
-      "resume": "Intel Extreme Masters Beijing, c'est terminé à Pékin : MOUZ s'impose en finale contre The MongolZ. Victoire 3 à 0, avec Mirage, Dust2 et Inferno pour MOUZ. C'est son deuxième titre de l'année.",
-      "categorie": "resultats",
-      "tier": "Tier 1",
-      "cartes": [
-        "Mirage 13-5",
-        "Dust2 13-6",
-        "Inferno 13-4"
-      ]
-    },
-    {
-      "date": "2026-11-15",
-      "cle": "res|BLAST Rivals Fall 2026|FURIA",
-      "titre": "FURIA remporte BLAST Rivals Fall 2026",
-      "resume": "BLAST Rivals Fall, c'est terminé à Chek Lap Kok : FURIA s'impose en finale contre Spirit. Victoire 3 à 0, avec Ancient, Dust2 et Mirage pour FURIA. C'est son troisième titre de l'année.",
-      "categorie": "resultats",
-      "tier": "Tier 1",
-      "cartes": [
-        "Ancient 13-11",
-        "Dust2 13-5",
-        "Mirage 13-8"
-      ]
-    },
-    {
-      "date": "2026-11-15",
-      "cle": "res|ESL Challenger League Season 52: Europe - Cup #12|Noir Verse",
-      "titre": "Noir Verse remporte ESL Challenger League Season 52: Europe - Cup #12",
-      "resume": "Du côté de l'édition 12 d'ESL Challenger League Season 52, c'est Noir Verse qui l'emporte face à Alliance. Victoire 2 à 1, avec Ancient et Anubis pour Noir Verse.",
-      "categorie": "resultats",
-      "tier": "Tier 2",
-      "cartes": [
-        "Dust2 11-13",
-        "Ancient 13-10",
-        "Anubis 16-14"
-      ]
-    },
-    {
-      "date": "2026-11-15",
-      "cle": "tr|brutmonster, Cjoffo +3|ex-Zero Tenacity|Hype Tech|",
-      "titre": "brutmonster, Cjoffo +3 passent d'ex-Zero Tenacity à Hype Tech",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-15",
-      "cle": "tr|aVN|ex-Zero Tenacity|Hype Tech|coach",
-      "titre": "aVN devient le coach de Hype Tech",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-15",
-      "cle": "tr|NBK-||Phantom|coach",
-      "titre": "NBK- devient le coach de Phantom",
-      "resume": "",
-      "categorie": "fr"
-    },
-    {
-      "date": "2026-11-15",
-      "cle": "prog|BLAST Rivals Fall 2026|2026-11-15",
-      "titre": "BLAST Rivals Fall 2026 · dernier jour : les matchs du 15 novembre",
-      "resume": "1 match joué, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "FURIA 3-0 Spirit"
-      ],
-      "rang": 0
     }
   ],
   "agenda": [
@@ -387,8 +313,8 @@
       "tournoi": "dès le 1er décembre"
     }
   ],
-  "maj": "2026-11-21",
-  "collecte": "2026-11-21",
+  "maj": "2026-11-22",
+  "collecte": "2026-11-22",
   "envoi_en_attente": false,
   "chaine": {
     "handle": "@Mexic_Original",
@@ -397,36 +323,6 @@
   "video": "",
   "erreurs": [],
   "programmes": {
-    "BLAST Rivals Fall 2026|2026-11-14": {
-      "nom": "BLAST Rivals Fall 2026",
-      "jour": "2026-11-14",
-      "matchs": {
-        "MOUZ|Team Spirit": {
-          "ts": 1794643200,
-          "t1": "Team Spirit",
-          "t2": "MOUZ",
-          "t1_court": "Spirit",
-          "t2_court": "MOUZ",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        },
-        "FURIA|Team Falcons": {
-          "ts": 1794652500,
-          "t1": "FURIA",
-          "t2": "Team Falcons",
-          "t1_court": "FURIA",
-          "t2_court": "Falcons",
-          "bo": 3,
-          "phase": "",
-          "s1": 2,
-          "s2": 0
-        }
-      },
-      "etape": "jour 4",
-      "tier": "S"
-    },
     "BLAST Rivals Fall 2026|2026-11-15": {
       "nom": "BLAST Rivals Fall 2026",
       "jour": "2026-11-15",
@@ -631,7 +527,7 @@
       }
     }
   },
-  "maj_heure": "21:42",
+  "maj_heure": "08:11",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
