@@ -1,6 +1,19 @@
 {
   "articles": [
     {
+      "date": "2026-11-22",
+      "cle": "res|BLAST Rivals Fall 2026|FURIA",
+      "titre": "FURIA remporte BLAST Rivals Fall 2026",
+      "resume": "BLAST Rivals Fall, c'est terminé à Chek Lap Kok : FURIA s'impose en finale contre Spirit. Victoire 3 à 0, avec Ancient, Dust2 et Mirage pour FURIA. C'est son troisième titre de l'année.",
+      "categorie": "resultats",
+      "tier": "Tier 1",
+      "cartes": [
+        "Ancient 13-11",
+        "Dust2 13-5",
+        "Mirage 13-8"
+      ]
+    },
+    {
       "date": "2026-11-21",
       "cle": "res|Stake Ranked Episode 6|Luminosity",
       "titre": "Luminosity remporte Stake Ranked Episode 6",
@@ -321,15 +334,7 @@
     "id": "UCy5wcMtn9uzq_IUt3VgTgqQ"
   },
   "video": "",
-  "erreurs": [
-    "tournois S-Tier : HTTP Error 429: Too Many Requests",
-    "tournois A-Tier : HTTP Error 429: Too Many Requests",
-    "tournois B-Tier : HTTP Error 429: Too Many Requests",
-    "tournois C-Tier : HTTP Error 429: Too Many Requests",
-    "programme des matchs : HTTP Error 429: Too Many Requests",
-    "scène féminine : HTTP Error 429: Too Many Requests",
-    "transferts : HTTP Error 429: Too Many Requests"
-  ],
+  "erreurs": [],
   "programmes": {
     "BLAST Rivals Fall 2026|2026-11-15": {
       "nom": "BLAST Rivals Fall 2026",
@@ -535,7 +540,7 @@
       }
     }
   },
-  "maj_heure": "18:15",
+  "maj_heure": "21:53",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
