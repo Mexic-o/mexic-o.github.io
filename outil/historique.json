@@ -26,6 +26,22 @@
       ]
     },
     {
+      "date": "2026-11-23",
+      "cle": "tr|rim3|9INE|WRAITH PCIFIC|prêt",
+      "titre": "rim3 dépanne WRAITH PCIFIC",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-23",
+      "cle": "tr|Scr0b|HYPERSPIRIT|HYPERSPIRIT|banc",
+      "titre": "Scr0b passe sur le banc chez HYPERSPIRIT",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
       "date": "2026-11-22",
       "cle": "res|BLAST Rivals Fall 2026|FURIA",
       "titre": "FURIA remporte BLAST Rivals Fall 2026",
@@ -476,7 +492,7 @@
       }
     }
   },
-  "maj_heure": "08:59",
+  "maj_heure": "22:36",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
