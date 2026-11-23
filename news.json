@@ -1,9 +1,32 @@
 {
-  "maj": "2026-11-22",
-  "maj_heure": "21:53",
+  "maj": "2026-11-23",
+  "maj_heure": "08:59",
   "semaine": "",
   "video": "",
   "articles": [
+    {
+      "date": "2026-11-23",
+      "titre": "SINNERS remporte RUSH:Brno 2026",
+      "resume": "On commence par le dernier résultat : SINNERS gagne RUSH à Prague Brno, contre ENVY en finale. Victoire 2 à 1, avec Nuke et Dust2 pour SINNERS.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "cartes": [
+        "Ancient 8-13",
+        "Nuke 13-2",
+        "Dust2 13-11"
+      ]
+    },
+    {
+      "date": "2026-11-23",
+      "titre": "ACES remporte CCT Europe 2026 Series #14",
+      "resume": "Du côté de l'édition 14 de CCT Europe, c'est ACES qui l'emporte face à Butterfly. Victoire 2 à 0, avec Dust2 et Inferno pour ACES.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "cartes": [
+        "Dust2 13-1",
+        "Inferno 13-11"
+      ]
+    },
     {
       "date": "2026-11-22",
       "titre": "FURIA remporte BLAST Rivals Fall 2026",
@@ -95,34 +118,9 @@
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-19",
-      "titre": "F3M0S devient le coach de SAW Youngsters",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-19",
-      "titre": "Katkame, lucaZ +3 quittent Vitality Academy",
-      "resume": "",
-      "categorie": "fr"
     }
   ],
   "matchs": [
-    {
-      "groupe": "En cours",
-      "jour": "2026-11-16",
-      "equipes": "YaLLa Compass UAE 2026",
-      "tournoi": "jusqu'au 22 novembre · United Arab Emirates"
-    },
-    {
-      "groupe": "En cours",
-      "jour": "2026-11-17",
-      "equipes": "RUSH:Brno 2026",
-      "tournoi": "jusqu'au 22 novembre · Prague Brno"
-    },
     {
       "groupe": "En cours",
       "jour": "2026-11-10",
@@ -146,6 +144,12 @@
       "jour": "2026-11-25",
       "equipes": "CCT Europe 2026 Series #15",
       "tournoi": "dès le 25 novembre"
+    },
+    {
+      "groupe": "À venir",
+      "jour": "2026-12-01",
+      "equipes": "CCT Europe 2026 Series #16",
+      "tournoi": "dès le 1er décembre"
     }
   ]
 }
