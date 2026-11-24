@@ -1,6 +1,6 @@
 {
   "maj": "2026-11-24",
-  "maj_heure": "02:50",
+  "maj_heure": "09:02",
   "semaine": "",
   "video": "",
   "articles": [
@@ -13,10 +13,42 @@
     },
     {
       "date": "2026-11-24",
+      "titre": "PRIVATE remporte CCT Europe 2026 Series #13",
+      "resume": "Du côté de l'édition 13 de CCT Europe, c'est PRIVATE qui l'emporte face à Virtus.pro. Victoire 2 à 0, avec Ancient et Mirage pour PRIVATE.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "cartes": [
+        "Ancient 13-9",
+        "Mirage 13-5"
+      ]
+    },
+    {
+      "date": "2026-11-24",
       "titre": "Mise à jour CS2 du 23 novembre",
       "resume": "Côté jeu, Valve a sorti trois mises à jour de CS2 cette semaine, avec des retouches sur Cobblestone et Inferno et des changements sur l'AWP et le Molotov.",
       "categorie": "maj",
       "lien": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110444052"
+    },
+    {
+      "date": "2026-11-24",
+      "titre": "oSee rejoint Without a Roof",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-24",
+      "titre": "CeRq quitte Without a Roof",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-24",
+      "titre": "ztr passe sur le banc chez FOKUS",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
     },
     {
       "date": "2026-11-23",
@@ -87,37 +119,6 @@
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-21",
-      "titre": "kill dépanne SAW Youngsters",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-21",
-      "titre": "mhL quitte Wildcard",
-      "resume": "",
-      "categorie": "fr"
-    },
-    {
-      "date": "2026-11-20",
-      "titre": "Dafra1D quitte Vitality Academy",
-      "resume": "",
-      "categorie": "fr"
-    },
-    {
-      "date": "2026-11-20",
-      "titre": "Stake Ranked Episode 6 · playoffs : les matchs du 20 novembre",
-      "resume": "2 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "Luminosity Gaming 2-1 BIG",
-        "Sangal Esports 1-3 Luminosity Gaming"
-      ],
-      "rang": 0
     }
   ],
   "matchs": [
