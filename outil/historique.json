@@ -22,6 +22,18 @@
     },
     {
       "date": "2026-11-24",
+      "cle": "res|NODWIN Clutch Series #14|Virtus.pro",
+      "titre": "Virtus.pro remporte NODWIN Clutch Series #14",
+      "resume": "Du côté de l'édition 14 de NODWIN Clutch, c'est Virtus.pro qui l'emporte face à Betclic Apogee. Victoire 2 à 0, avec Cache et Mirage pour Virtus.pro.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "cartes": [
+        "Cache 13-10",
+        "Mirage 22-20"
+      ]
+    },
+    {
+      "date": "2026-11-24",
       "cle": "maj|https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110444052",
       "titre": "Mise à jour CS2 du 23 novembre",
       "resume": "Côté jeu, Valve a sorti trois mises à jour de CS2 cette semaine, avec des retouches sur Cobblestone et Inferno et des changements sur l'AWP et le Molotov.",
@@ -517,7 +529,7 @@
       }
     }
   },
-  "maj_heure": "11:11",
+  "maj_heure": "21:19",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",

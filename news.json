@@ -1,6 +1,6 @@
 {
   "maj": "2026-11-24",
-  "maj_heure": "11:11",
+  "maj_heure": "21:19",
   "semaine": "",
   "video": "",
   "articles": [
@@ -20,6 +20,17 @@
       "cartes": [
         "Ancient 13-9",
         "Mirage 13-5"
+      ]
+    },
+    {
+      "date": "2026-11-24",
+      "titre": "Virtus.pro remporte NODWIN Clutch Series #14",
+      "resume": "Du côté de l'édition 14 de NODWIN Clutch, c'est Virtus.pro qui l'emporte face à Betclic Apogee. Victoire 2 à 0, avec Cache et Mirage pour Virtus.pro.",
+      "categorie": "resultats",
+      "tier": "Tier 2",
+      "cartes": [
+        "Cache 13-10",
+        "Mirage 22-20"
       ]
     },
     {
@@ -109,13 +120,6 @@
     {
       "date": "2026-11-21",
       "titre": "h1te, sstiNiX +3 passent de Just Players à XMETA",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-21",
-      "titre": "sstiNiX, sm3t +3 passent de Just Players à XMETA",
       "resume": "",
       "categorie": "mercato",
       "tier": "Tier 2"
