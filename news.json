@@ -1,13 +1,27 @@
 {
-  "maj": "2026-11-23",
-  "maj_heure": "22:36",
+  "maj": "2026-11-24",
+  "maj_heure": "02:50",
   "semaine": "",
   "video": "",
   "articles": [
     {
+      "date": "2026-11-24",
+      "titre": "PGL Major Singapore 2026 a commencé",
+      "resume": "Le tournoi se joue à Kallang, jusqu'au 13 décembre, 1 250 000 $ en jeu.",
+      "categorie": "resultats",
+      "tier": "Tier 1"
+    },
+    {
+      "date": "2026-11-24",
+      "titre": "Mise à jour CS2 du 23 novembre",
+      "resume": "Côté jeu, Valve a sorti trois mises à jour de CS2 cette semaine, avec des retouches sur Cobblestone et Inferno et des changements sur l'AWP et le Molotov.",
+      "categorie": "maj",
+      "lien": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110444052"
+    },
+    {
       "date": "2026-11-23",
       "titre": "SINNERS remporte RUSH:Brno 2026",
-      "resume": "On commence par le dernier résultat : SINNERS gagne RUSH à Prague Brno, contre ENVY en finale. Victoire 2 à 1, avec Nuke et Dust2 pour SINNERS.",
+      "resume": "SINNERS remporte RUSH à Prague Brno, face à ENVY en finale. Victoire 2 à 1, avec Nuke et Dust2 pour SINNERS.",
       "categorie": "resultats",
       "tier": "Tier 2",
       "cartes": [
@@ -56,7 +70,7 @@
     {
       "date": "2026-11-21",
       "titre": "Luminosity remporte Stake Ranked Episode 6",
-      "resume": "Du côté de Stake Ranked Episode 6, c'est Luminosity qui l'emporte face à Sangal.",
+      "resume": "Stake Ranked Episode 6, c'est terminé à Barcelona : Luminosity s'impose en finale contre Sangal.",
       "categorie": "resultats",
       "tier": "Tier 1"
     },
@@ -104,34 +118,14 @@
         "Sangal Esports 1-3 Luminosity Gaming"
       ],
       "rang": 0
-    },
-    {
-      "date": "2026-11-19",
-      "titre": "Mise à jour CS2 du 19 novembre",
-      "resume": "Côté jeu, Valve a sorti deux mises à jour de CS2 cette semaine, avec des retouches sur Inferno et Cobblestone et des changements sur l'AWP et le Molotov.",
-      "categorie": "maj",
-      "lien": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110426557"
-    },
-    {
-      "date": "2026-11-19",
-      "titre": "meowpop, Neqy +1 passent sur le banc chez ASTRAL",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
     }
   ],
   "matchs": [
     {
       "groupe": "En cours",
-      "jour": "2026-11-10",
-      "equipes": "NODWIN Clutch Series #14",
-      "tournoi": "jusqu'au 23 novembre"
-    },
-    {
-      "groupe": "À venir",
       "jour": "2026-11-24",
       "equipes": "PGL Major Singapore 2026",
-      "tournoi": "dès le 24 novembre · Kallang"
+      "tournoi": "jusqu'au 13 décembre · Kallang"
     },
     {
       "groupe": "À venir",
@@ -150,6 +144,12 @@
       "jour": "2026-12-01",
       "equipes": "CCT Europe 2026 Series #16",
       "tournoi": "dès le 1er décembre"
+    },
+    {
+      "groupe": "À venir",
+      "jour": "2026-12-03",
+      "equipes": "ESL Challenger League Season 52: South America - Cup #4",
+      "tournoi": "dès le 3 décembre"
     }
   ]
 }
