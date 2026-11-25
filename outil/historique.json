@@ -311,58 +311,6 @@
   "video": "",
   "erreurs": [],
   "programmes": {
-    "Stake Ranked Episode 6|2026-11-18": {
-      "nom": "Stake Ranked Episode 6",
-      "jour": "2026-11-18",
-      "matchs": {
-        "BIG|Betclic Apogee Esports": {
-          "ts": 1794999600,
-          "t1": "BIG",
-          "t2": "Betclic Apogee Esports",
-          "t1_court": "BIG",
-          "t2_court": "Apogee",
-          "bo": 3,
-          "phase": "playoffs",
-          "s1": 2,
-          "s2": 0
-        },
-        "IC Esports|Sangal Esports": {
-          "ts": 1795020000,
-          "t1": "Sangal Esports",
-          "t2": "IC Esports",
-          "t1_court": "Sangal",
-          "t2_court": "IC",
-          "bo": 3,
-          "phase": "playoffs",
-          "s1": 2,
-          "s2": 0
-        },
-        "GamerLegion|UNiTY esports": {
-          "ts": 1795010100,
-          "t1": "UNiTY esports",
-          "t2": "GamerLegion",
-          "t1_court": "UNiTY",
-          "t2_court": "GL",
-          "bo": 3,
-          "phase": "playoffs",
-          "s1": 1,
-          "s2": 2
-        },
-        "Luminosity Gaming|Ninjas in Pyjamas": {
-          "ts": 1795027800,
-          "t1": "Ninjas in Pyjamas",
-          "t2": "Luminosity Gaming",
-          "t1_court": "NIP",
-          "t2_court": "LG",
-          "bo": 3,
-          "phase": "playoffs",
-          "s1": 0,
-          "s2": 2
-        }
-      },
-      "etape": "jour 2",
-      "tier": "A"
-    },
     "Stake Ranked Episode 6|2026-11-19": {
       "nom": "Stake Ranked Episode 6",
       "jour": "2026-11-19",
@@ -444,7 +392,7 @@
       }
     }
   },
-  "maj_heure": "20:28",
+  "maj_heure": "00:15",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
