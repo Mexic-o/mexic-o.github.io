@@ -1,9 +1,23 @@
 {
   "maj": "2026-11-25",
-  "maj_heure": "09:57",
+  "maj_heure": "20:28",
   "semaine": "",
   "video": "",
   "articles": [
+    {
+      "date": "2026-11-25",
+      "titre": "cmtry passe sur le banc chez Astralis",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 1"
+    },
+    {
+      "date": "2026-11-25",
+      "titre": "Moseyuh passe sur le banc chez TYLOO",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
     {
       "date": "2026-11-24",
       "titre": "PGL Major Singapore 2026 a commencé",
@@ -109,20 +123,6 @@
         "Dust2 13-5",
         "Mirage 13-8"
       ]
-    },
-    {
-      "date": "2026-11-21",
-      "titre": "Luminosity remporte Stake Ranked Episode 6",
-      "resume": "Stake Ranked Episode 6, c'est terminé à Barcelona : Luminosity s'impose en finale contre Sangal.",
-      "categorie": "resultats",
-      "tier": "Tier 1"
-    },
-    {
-      "date": "2026-11-21",
-      "titre": "h1te, sstiNiX +3 passent de Just Players à XMETA",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
     }
   ],
   "matchs": [

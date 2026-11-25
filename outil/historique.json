@@ -1,6 +1,22 @@
 {
   "articles": [
     {
+      "date": "2026-11-25",
+      "cle": "tr|cmtry|Astralis|FUT|banc",
+      "titre": "cmtry passe sur le banc chez Astralis",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 1"
+    },
+    {
+      "date": "2026-11-25",
+      "cle": "tr|Moseyuh|TYLOO|TYLOO|banc",
+      "titre": "Moseyuh passe sur le banc chez TYLOO",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
       "date": "2026-11-24",
       "cle": "debut|PGL Major Singapore 2026",
       "titre": "PGL Major Singapore 2026 a commencé",
@@ -428,7 +444,7 @@
       }
     }
   },
-  "maj_heure": "09:57",
+  "maj_heure": "20:28",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
