@@ -245,61 +245,6 @@
         "GamerLegion 1-2 BIG"
       ],
       "rang": 0
-    },
-    {
-      "date": "2026-11-18",
-      "cle": "maj|https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110421976",
-      "titre": "Mise à jour CS2 du 17 novembre",
-      "resume": "Côté jeu, Valve a sorti deux mises à jour de CS2 cette semaine, avec des retouches sur Cobblestone.",
-      "categorie": "maj",
-      "lien": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110421976"
-    },
-    {
-      "date": "2026-11-18",
-      "cle": "tr|cmtry|Astralis|FUT|banc",
-      "titre": "cmtry passe sur le banc chez Astralis",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 1"
-    },
-    {
-      "date": "2026-11-18",
-      "cle": "tr|jabbi|Astralis|libre|",
-      "titre": "jabbi quitte Astralis",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 1"
-    },
-    {
-      "date": "2026-11-18",
-      "cle": "tr|gusihx et GYZER|Bounty Hunters|libre|",
-      "titre": "gusihx et GYZER quittent Bounty Hunters",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-18",
-      "cle": "tr|NMV|Nemesis|Lunacy Team|coach",
-      "titre": "NMV devient le coach de Lunacy Team",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-18",
-      "cle": "prog|Stake Ranked Episode 6|2026-11-18",
-      "titre": "Stake Ranked Episode 6 · jour 2 · playoffs : les matchs du 18 novembre",
-      "resume": "4 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "BIG 2-0 Apogee",
-        "UNiTY 1-2 GL",
-        "Sangal 2-0 IC",
-        "NIP 0-2 LG"
-      ],
-      "rang": 0
     }
   ],
   "agenda": [
@@ -310,16 +255,16 @@
       "tournoi": "jusqu'au 13 décembre · Kallang"
     },
     {
+      "groupe": "En cours",
+      "jour": "2026-11-25",
+      "equipes": "CCT Europe 2026 Series #15",
+      "tournoi": "jusqu'au 7 décembre"
+    },
+    {
       "groupe": "À venir",
       "jour": "2026-11-30",
       "equipes": "Journey Winter 2026",
       "tournoi": "dès le 30 novembre · Stockholm"
-    },
-    {
-      "groupe": "À venir",
-      "jour": "2026-11-25",
-      "equipes": "CCT Europe 2026 Series #15",
-      "tournoi": "dès le 25 novembre"
     },
     {
       "groupe": "À venir",
@@ -332,10 +277,16 @@
       "jour": "2026-12-03",
       "equipes": "ESL Challenger League Season 52: South America - Cup #4",
       "tournoi": "dès le 3 décembre"
+    },
+    {
+      "groupe": "À venir",
+      "jour": "2026-12-03",
+      "equipes": "ESL Challenger League Season 52: North America - Cup #4",
+      "tournoi": "dès le 3 décembre"
     }
   ],
-  "maj": "2026-11-24",
-  "collecte": "2026-11-24",
+  "maj": "2026-11-25",
+  "collecte": "2026-11-25",
   "envoi_en_attente": false,
   "chaine": {
     "handle": "@Mexic_Original",
@@ -477,7 +428,7 @@
       }
     }
   },
-  "maj_heure": "00:37",
+  "maj_heure": "09:57",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",

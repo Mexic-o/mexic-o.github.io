@@ -1,6 +1,6 @@
 {
-  "maj": "2026-11-24",
-  "maj_heure": "00:37",
+  "maj": "2026-11-25",
+  "maj_heure": "09:57",
   "semaine": "",
   "video": "",
   "articles": [
@@ -133,16 +133,16 @@
       "tournoi": "jusqu'au 13 décembre · Kallang"
     },
     {
+      "groupe": "En cours",
+      "jour": "2026-11-25",
+      "equipes": "CCT Europe 2026 Series #15",
+      "tournoi": "jusqu'au 7 décembre"
+    },
+    {
       "groupe": "À venir",
       "jour": "2026-11-30",
       "equipes": "Journey Winter 2026",
       "tournoi": "dès le 30 novembre · Stockholm"
-    },
-    {
-      "groupe": "À venir",
-      "jour": "2026-11-25",
-      "equipes": "CCT Europe 2026 Series #15",
-      "tournoi": "dès le 25 novembre"
     },
     {
       "groupe": "À venir",
@@ -154,6 +154,12 @@
       "groupe": "À venir",
       "jour": "2026-12-03",
       "equipes": "ESL Challenger League Season 52: South America - Cup #4",
+      "tournoi": "dès le 3 décembre"
+    },
+    {
+      "groupe": "À venir",
+      "jour": "2026-12-03",
+      "equipes": "ESL Challenger League Season 52: North America - Cup #4",
       "tournoi": "dès le 3 décembre"
     }
   ]
