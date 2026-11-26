@@ -52,7 +52,7 @@
       "date": "2026-11-24",
       "cle": "maj|https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110444052",
       "titre": "Mise à jour CS2 du 23 novembre",
-      "resume": "Côté jeu, Valve a sorti trois mises à jour de CS2 cette semaine, avec des retouches sur Cobblestone et Inferno et des changements sur l'AWP et le Molotov.",
+      "resume": "Côté jeu, Valve a sorti deux mises à jour de CS2 cette semaine, avec des retouches sur Cobblestone et Inferno et des changements sur l'AWP et le Molotov.",
       "categorie": "maj",
       "lien": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110444052"
     },
@@ -192,75 +192,6 @@
         "Sangal Esports 1-3 Luminosity Gaming"
       ],
       "rang": 0
-    },
-    {
-      "date": "2026-11-19",
-      "cle": "maj|https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110426557",
-      "titre": "Mise à jour CS2 du 19 novembre",
-      "resume": "Côté jeu, Valve a sorti deux mises à jour de CS2 cette semaine, avec des retouches sur Inferno et Cobblestone et des changements sur l'AWP et le Molotov.",
-      "categorie": "maj",
-      "lien": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110426557"
-    },
-    {
-      "date": "2026-11-19",
-      "cle": "tr|meowpop, Neqy +1|ASTRAL|ASTRAL|banc",
-      "titre": "meowpop, Neqy +1 passent sur le banc chez ASTRAL",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-19",
-      "cle": "tr|kL1o|ex-6666|WhiteBIT Academy|",
-      "titre": "kL1o passe d'ex-6666 à WhiteBIT Academy",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-19",
-      "cle": "tr|kill||SAW Youngsters|",
-      "titre": "kill rejoint SAW Youngsters",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-19",
-      "cle": "tr|F3M0S||SAW Youngsters|coach",
-      "titre": "F3M0S devient le coach de SAW Youngsters",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-19",
-      "cle": "tr|Katkame, lucaZ +3|Vitality Academy|libre|",
-      "titre": "Katkame, lucaZ +3 quittent Vitality Academy",
-      "resume": "",
-      "categorie": "fr"
-    },
-    {
-      "date": "2026-11-19",
-      "cle": "tr|VdaK1NG|Vitality Academy||coach parti",
-      "titre": "VdaK1NG n'est plus le coach de Vitality Academy",
-      "resume": "",
-      "categorie": "fr"
-    },
-    {
-      "date": "2026-11-19",
-      "cle": "prog|Stake Ranked Episode 6|2026-11-19",
-      "titre": "Stake Ranked Episode 6 · jour 3 · playoffs : les matchs du 19 novembre",
-      "resume": "4 matchs joués, 0 à venir. Heures de Paris.",
-      "categorie": "resultats",
-      "tier": "Programme",
-      "cartes": [
-        "IC 1-2 GL",
-        "NIP 1-2 BIG",
-        "LG 0-2 Sangal",
-        "GamerLegion 1-2 BIG"
-      ],
-      "rang": 0
     }
   ],
   "agenda": [
@@ -301,15 +232,23 @@
       "tournoi": "dès le 3 décembre"
     }
   ],
-  "maj": "2026-11-25",
-  "collecte": "2026-11-25",
+  "maj": "2026-11-26",
+  "collecte": "2026-11-26",
   "envoi_en_attente": false,
   "chaine": {
     "handle": "@Mexic_Original",
     "id": "UCy5wcMtn9uzq_IUt3VgTgqQ"
   },
   "video": "",
-  "erreurs": [],
+  "erreurs": [
+    "tournois S-Tier : HTTP Error 429: Too Many Requests",
+    "tournois A-Tier : HTTP Error 429: Too Many Requests",
+    "tournois B-Tier : HTTP Error 429: Too Many Requests",
+    "tournois C-Tier : HTTP Error 429: Too Many Requests",
+    "programme des matchs : HTTP Error 429: Too Many Requests",
+    "scène féminine : HTTP Error 429: Too Many Requests",
+    "transferts : HTTP Error 429: Too Many Requests"
+  ],
   "programmes": {
     "Stake Ranked Episode 6|2026-11-19": {
       "nom": "Stake Ranked Episode 6",
@@ -392,7 +331,7 @@
       }
     }
   },
-  "maj_heure": "00:15",
+  "maj_heure": "09:38",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
