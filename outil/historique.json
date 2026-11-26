@@ -84,7 +84,7 @@
       "date": "2026-11-23",
       "cle": "res|RUSH:Brno 2026|SINNERS",
       "titre": "SINNERS remporte RUSH:Brno 2026",
-      "resume": "SINNERS remporte RUSH à Prague Brno, face à ENVY en finale. Victoire 2 à 1, avec Nuke et Dust2 pour SINNERS.",
+      "resume": "RUSH, c'est terminé à Prague Brno : SINNERS s'impose en finale contre ENVY. Victoire 2 à 1, avec Nuke et Dust2 pour SINNERS.",
       "categorie": "resultats",
       "tier": "Tier 2",
       "cartes": [
@@ -97,7 +97,7 @@
       "date": "2026-11-23",
       "cle": "res|CCT Europe 2026 Series #14|ACES",
       "titre": "ACES remporte CCT Europe 2026 Series #14",
-      "resume": "Du côté de l'édition 14 de CCT Europe, c'est ACES qui l'emporte face à Butterfly. Victoire 2 à 0, avec Dust2 et Inferno pour ACES.",
+      "resume": "ACES gagne l'édition 14 de CCT Europe, contre Butterfly. Victoire 2 à 0, avec Dust2 et Inferno pour ACES.",
       "categorie": "resultats",
       "tier": "Tier 2",
       "cartes": [
@@ -240,15 +240,7 @@
     "id": "UCy5wcMtn9uzq_IUt3VgTgqQ"
   },
   "video": "",
-  "erreurs": [
-    "tournois S-Tier : HTTP Error 429: Too Many Requests",
-    "tournois A-Tier : HTTP Error 429: Too Many Requests",
-    "tournois B-Tier : HTTP Error 429: Too Many Requests",
-    "tournois C-Tier : HTTP Error 429: Too Many Requests",
-    "programme des matchs : HTTP Error 429: Too Many Requests",
-    "scène féminine : HTTP Error 429: Too Many Requests",
-    "transferts : HTTP Error 429: Too Many Requests"
-  ],
+  "erreurs": [],
   "programmes": {
     "Stake Ranked Episode 6|2026-11-19": {
       "nom": "Stake Ranked Episode 6",
@@ -331,7 +323,7 @@
       }
     }
   },
-  "maj_heure": "09:38",
+  "maj_heure": "20:12",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
