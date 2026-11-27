@@ -1,6 +1,46 @@
 {
   "articles": [
     {
+      "date": "2026-11-27",
+      "cle": "tr|kraghen|9INE|9INE|banc",
+      "titre": "kraghen passe sur le banc chez 9INE",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-27",
+      "cle": "tr|Krad||ASTRAL|",
+      "titre": "Krad rejoint ASTRAL",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-27",
+      "cle": "tr|Boye|BBL|ASTRAL|",
+      "titre": "Boye passe de BBL à ASTRAL",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-27",
+      "cle": "tr|cej0t|Phantom|ASTRAL|",
+      "titre": "cej0t passe de Phantom à ASTRAL",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
+      "date": "2026-11-27",
+      "cle": "tr|L1haNg|Rare Atom|TYLOO|",
+      "titre": "L1haNg passe de Rare Atom à TYLOO",
+      "resume": "",
+      "categorie": "mercato",
+      "tier": "Tier 2"
+    },
+    {
       "date": "2026-11-25",
       "cle": "tr|cmtry|Astralis|FUT|banc",
       "titre": "cmtry passe sur le banc chez Astralis",
@@ -251,7 +291,7 @@
       }
     }
   },
-  "maj_heure": "09:54",
+  "maj_heure": "20:08",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
