@@ -92,7 +92,7 @@
       "date": "2026-11-24",
       "cle": "maj|https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110444052",
       "titre": "Mise à jour CS2 du 23 novembre",
-      "resume": "Côté jeu, Valve a sorti deux mises à jour de CS2 cette semaine, avec des retouches sur Cobblestone et Inferno et des changements sur l'AWP et le Molotov.",
+      "resume": "Côté jeu, mise à jour de CS2 le 23 novembre, avec des retouches sur Cobblestone.",
       "categorie": "maj",
       "lien": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1849827110444052"
     },
@@ -173,45 +173,6 @@
         "Dust2 13-5",
         "Mirage 13-8"
       ]
-    },
-    {
-      "date": "2026-11-21",
-      "cle": "res|Stake Ranked Episode 6|Luminosity",
-      "titre": "Luminosity remporte Stake Ranked Episode 6",
-      "resume": "Stake Ranked Episode 6, c'est terminé à Barcelona : Luminosity s'impose en finale contre Sangal.",
-      "categorie": "resultats",
-      "tier": "Tier 1"
-    },
-    {
-      "date": "2026-11-21",
-      "cle": "tr|h1te, sstiNiX +3|Just Players|XMETA|",
-      "titre": "h1te, sstiNiX +3 passent de Just Players à XMETA",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-21",
-      "cle": "tr|sstiNiX, sm3t +3|Just Players|XMETA|",
-      "titre": "sstiNiX, sm3t +3 passent de Just Players à XMETA",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-21",
-      "cle": "tr|kill|The Agency Clan|SAW Youngsters|prêt",
-      "titre": "kill dépanne SAW Youngsters",
-      "resume": "",
-      "categorie": "mercato",
-      "tier": "Tier 2"
-    },
-    {
-      "date": "2026-11-21",
-      "cle": "tr|mhL|Wildcard|libre|",
-      "titre": "mhL quitte Wildcard",
-      "resume": "",
-      "categorie": "fr"
     }
   ],
   "agenda": [
@@ -252,8 +213,8 @@
       "tournoi": "dès le 3 décembre"
     }
   ],
-  "maj": "2026-11-27",
-  "collecte": "2026-11-27",
+  "maj": "2026-11-28",
+  "collecte": "2026-11-28",
   "envoi_en_attente": false,
   "chaine": {
     "handle": "@Mexic_Original",
@@ -261,37 +222,8 @@
   },
   "video": "",
   "erreurs": [],
-  "programmes": {
-    "Stake Ranked Episode 6|2026-11-20": {
-      "nom": "Stake Ranked Episode 6",
-      "jour": "2026-11-20",
-      "matchs": {
-        "BIG|Luminosity Gaming": {
-          "ts": 1795179600,
-          "t1": "Luminosity Gaming",
-          "t2": "BIG",
-          "t1_court": "Luminosity Gaming",
-          "t2_court": "BIG",
-          "bo": "",
-          "phase": "playoffs",
-          "s1": 2,
-          "s2": 1
-        },
-        "Luminosity Gaming|Sangal Esports": {
-          "ts": 1795192200,
-          "t1": "Sangal Esports",
-          "t2": "Luminosity Gaming",
-          "t1_court": "Sangal Esports",
-          "t2_court": "Luminosity Gaming",
-          "bo": "",
-          "phase": "playoffs",
-          "s1": 1,
-          "s2": 3
-        }
-      }
-    }
-  },
-  "maj_heure": "23:52",
+  "programmes": {},
+  "maj_heure": "09:09",
   "discord": [
     "res|Team Vitality|Natus Vincere|1793123400",
     "quali|PGL/2026/Masters",
